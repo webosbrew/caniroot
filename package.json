@@ -1,0 +1,20 @@
+{
+  "name": "caniroot",
+  "version": "1.0.0",
+  "description": "Can I root this webOS device?",
+  "scripts": {
+    "test": "node --test",
+    "gen-exploits": "node tools/gen-exploits.js",
+    "gen-models": "node tools/gen-models.js"
+  },
+  "type": "module",
+  "main": "src/library.js",
+  "types": "src/library.d.ts",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "lodash-es": "^4.17.21",
+    "semver": "^7.6.2"
+  }
+}
