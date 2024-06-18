@@ -26,6 +26,12 @@ describe('DeviceModel', () => {
   it('should find the model', () => {
     assert.strictEqual(DeviceModel.findModel('55SM8100PJB').broadcast, 'arib');
     assert.strictEqual(DeviceModel.findModel('SM8100PJB').machine, 'm16p3');
-    assert.strictEqual(DeviceModel.findModel('SM8100'), undefined);
+    assert.strictEqual(DeviceModel.findModel('43UN7340PVC').region, 'NZ');
+    assert.strictEqual(DeviceModel.findModel('50NANO766QA').otaId, 'HE_DTV_W22P_AFADATAA');
+    assert.ok(DeviceModel.findModel('43UJ750V'));
+    assert.ok(DeviceModel.findModel('55LB7200'));
+    assert.ok(DeviceModel.findModel('55SK7900PLA'));
+    assert.ok(DeviceModel.findModel('43UH668V-ZA'));
+    assert.ok(!DeviceModel.findModel('SM8100'));
   });
 });

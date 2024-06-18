@@ -1,6 +1,7 @@
 /**
  * @typedef {Object} ModelItem
  * @property {string} model
+ * @property {string} region
  * @property {string} epk
  */
 
@@ -18,24 +19,30 @@ let output = {};
 
 /**
  * @param name {string}
+ * @param region {string}
  * @returns {DeviceModel | undefined}
  */
-export function parseEpkName(name) {
-  const match = name.match(/(?:lib32-)?starfish-(?<broadcast>\w+)-secured-(?<machine>\w+)-(?:\d+\.)?(?<minor>\w+)/);
+export function parseDeviceModel(name, region) {
+  const match = name.match([
+    /(?:lib32-)?starfish-(?<broadcast>\w+)-secured-(?<machine2>\w+)-/,
+    /(?:\d+\.)?(?<minor>\w+)(?:\.(?<machine>\w+)|-(\d+))/
+  ].map(r => r.source).join(''));
   if (!match) {
     return undefined;
   }
-  let otaIds = machineOtaIdPrefix[match.groups.machine];
+  const machine = match.groups.machine || match.groups.machine2;
+  let otaIds = machineOtaIdPrefix[machine];
   if (!otaIds) {
     return undefined;
   }
 
-  const major = minorMajor[match.groups.minor];
+  const broadcast = match.groups.broadcast;
+  const codename = minorMajor[match.groups.minor];
   const otaIdPrefix = otaIds.map(otaId => {
     if (typeof otaId === 'string') {
       return otaId;
     }
-    if (otaId.codename === major) {
+    if (otaId.codename === codename) {
       return otaId.otaId;
     }
     return null;
@@ -68,15 +75,13 @@ export function parseEpkName(name) {
   }
 
   return {
-    broadcast: match.groups.broadcast,
-    machine: match.groups.machine,
-    codename: major,
+    region, broadcast, machine, codename,
     otaId: otaIdPrefix + otaBroadcast(match.groups.broadcast),
   }
 }
 
-for (const {model, epk} of dump) {
-  const parsed = parseEpkName(epk);
+for (const {region, model, epk} of dump) {
+  const parsed = parseDeviceModel(epk, region);
   if (!parsed) {
     console.error(`Failed to parse EPK for model ${model}: ${epk}`);
     continue;

@@ -25,6 +25,7 @@ export class DeviceExploitAvailabilities {
 }
 
 export class DeviceModel {
+    readonly region: string;
     readonly broadcast: string;
     readonly machine: string;
     readonly codename: string;

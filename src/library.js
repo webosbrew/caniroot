@@ -45,9 +45,9 @@ export class DeviceModel {
     let match = models[find];
     if (!match && !exact) {
       // Find first match ignoring model suffix (.ABC)
-      const prefix = find.replace(/\.\w+$/, "");
+      const prefix = find.replace(/[.-]\w+$/, "");
       for (let [key, value] of Object.entries(models)) {
-        if (key.replace(/\.\w+$/, "") === prefix) {
+        if (key.replace(/[.-]\w+$/, "") === prefix) {
           match = value;
           break;
         }
