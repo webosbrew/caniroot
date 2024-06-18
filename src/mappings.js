@@ -15,6 +15,7 @@ export const minorMajor = {
   'digya': 'dreadlocks',
   'dharug': 'dreadlocks',
   'dorrigo': 'dreadlocks2',
+  'dixie': 'dreadlocks2',
   'drto': 'dreadlocks2',
   'dunggir': 'dreadlocks2',
   'dudhwa': 'dreadlocks2',

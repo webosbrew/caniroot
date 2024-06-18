@@ -31,11 +31,28 @@ export class DeviceModel {
    */
   static modelNameSimplified(model) {
     return model
-      .replace(/^((OLED)\d{2}|\d{2})([A-Z0-9-]+)(\.[A-Z0-9]+)?$/i, (_match, _g1, g2, g3) => (g2 || '') + g3)
+      .replace(/^((OLED)\d{2}|\d{2})([A-Z0-9-]+)(\.[A-Z0-9]+)?$/i, "$2$3")
       .toUpperCase();
   }
 
-  static findModel(model) {
-    return models[this.modelNameSimplified(model)];
+  /**
+   * @param {string} model
+   * @param {boolean} [exact]
+   * @returns {DeviceModel | undefined}
+   */
+  static findModel(model, exact) {
+    const find = this.modelNameSimplified(model);
+    let match = models[find];
+    if (!match && !exact) {
+      // Find first match ignoring model suffix (.ABC)
+      const prefix = find.replace(/\.\w+$/, "");
+      for (let [key, value] of Object.entries(models)) {
+        if (key.startsWith(prefix)) {
+          match = value;
+          break;
+        }
+      }
+    }
+    return match;
   }
 }

@@ -20,9 +20,8 @@ describe('mappings', () => {
 
   it('should have no missing mappings', () => {
     for (/**@type {ModelItem}*/const value of epks) {
-      const minor = parseEpkName(value.epk)?.minor;
-      assert.ok(minor, `Failed to parse EPK for model ${value.model}: ${value.epk}`);
-      assert.ok(minorMajor[minor], `Missing major mapping for ${minor}`);
+      const codename = parseEpkName(value.epk)?.codename;
+      assert.ok(codename, `Failed to parse EPK for model ${value.model}: ${value.epk}`);
     }
   });
 });

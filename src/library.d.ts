@@ -5,11 +5,12 @@ export declare interface FirmwareVersion {
 }
 
 export declare interface ExploitAvailability {
-    latest: FirmwareVersion;
-    patched: FirmwareVersion | undefined;
+    latest?: FirmwareVersion;
+    patched?: FirmwareVersion;
 }
 
 export class DeviceExploitAvailabilities {
+    readonly nvm?: ExploitAvailability;
     readonly rootmytv?: ExploitAvailability;
     readonly crashd?: ExploitAvailability;
     readonly wta?: ExploitAvailability;
@@ -31,5 +32,10 @@ export class DeviceModel {
 
     public static modelNameSimplified(model: string): string | undefined;
 
-    public static findModel(model: string): DeviceModel | undefined;
+    /**
+     * Find a model by its name
+     * @param model Model name like "55OLEDC3PJA"
+     * @param exact If true, only return the exact match. If false, return the closest match.
+     */
+    public static findModel(model: string, exact?: boolean): DeviceModel | undefined;
 }
