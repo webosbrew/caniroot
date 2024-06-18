@@ -20,7 +20,7 @@ describe('mappings', () => {
 
   it('should have no missing mappings', () => {
     for (/**@type {ModelItem}*/const value of epks) {
-      const codename = parseDeviceModel(value.epk)?.codename;
+      const codename = parseDeviceModel(value.epk, value.region)?.codename;
       assert.ok(codename, `Failed to parse EPK for model ${value.model}: ${value.epk}`);
     }
   });

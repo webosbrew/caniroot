@@ -32,6 +32,9 @@ describe('DeviceModel', () => {
     assert.ok(DeviceModel.findModel('55LB7200'));
     assert.ok(DeviceModel.findModel('55SK7900PLA'));
     assert.ok(DeviceModel.findModel('43UH668V-ZA'));
+    assert.ok(DeviceModel.findModel('105UC9.AHK'));
+    assert.ok(DeviceModel.findModel('UC9700'));
+    // Needs region
     assert.ok(!DeviceModel.findModel('SM8100'));
   });
 });

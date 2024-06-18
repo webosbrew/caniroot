@@ -31,7 +31,7 @@ export class DeviceModel {
    */
   static modelNameSimplified(model) {
     return model
-      .replace(/^((OLED)\d{2}|\d{2})([A-Z0-9-]+)(\.[A-Z0-9]+)?$/i, "$2$3")
+      .replace(/^((OLED)\d{2,3}|\d{2,3})([A-Z0-9-]+)(\.[A-Z0-9]+)?$/i, "$2$3")
       .toUpperCase();
   }
 
