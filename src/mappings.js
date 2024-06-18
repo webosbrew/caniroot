@@ -56,10 +56,12 @@ export const minorMajor = {
   'oeta': 'ombre',
   'okapi': 'ombre',
 }
-
+/**
+ * @type {Record<string, [string|{codename: string, otaId: string}]>}
+ */
 export const machineOtaIdPrefix = {
   'goldfinger': ['HE_DTV_WT1H_AFAA'],
-  'm14tv': ['HE_DTV_WT1M_AFAA', 'HE_DTV_W15M_AFAA'],
+  'm14tv': [{codename: 'afro', otaId: 'HE_DTV_WT1M_AFAA'}, {codename: 'beehive', otaId: 'HE_DTV_W15M_AFAA'}],
   'h15': ['HE_DTV_W15H_AFAD'],
   'lm15u': ['HE_DTV_W15U_AFAD'],
   'lm14a': ['HE_DTV_W15A_AFAD'],
@@ -101,7 +103,7 @@ export const machineOtaIdPrefix = {
   'lm21an': ['HE_DTV_W22A_AFAD'],
   'k8ap': ['HE_DTV_W22L_AFAA'],
   'k8lp': ['HE_DTV_W22P_AFAD'],
-  'k8hp': ['HE_DTV_W22H_AFAB'/*webOS 8*/, 'HE_DTV_W22H_AFAD' /*webOS 7*/],
+  'k8hp': ['HE_DTV_W22H_AFAB'/* Upgraded to webOS 8 */, 'HE_DTV_W22H_AFAD' /* Still on webOS 7 */],
   'k8hpt': ['HE_DTV_N22D_AFAA'],
   'k8apwee': ['HE_DTV_C22L_AFAA'],
   'k8lpwee': ['HE_DTV_C22P_AFAD'],
@@ -117,5 +119,5 @@ export const machineOtaIdPrefix = {
   'o24': ['HE_DTV_W24O_AFAB'],
   'k8lpn2': ['HE_DTV_W24P_AFAD'],
   'o22n2': ['HE_DTV_W24G_AFAB'],
-  'k24': ['HE_DTV_WT1H_AFAA'],
+  'k24': ['HE_DTV_W24H_AFAD'],
 };

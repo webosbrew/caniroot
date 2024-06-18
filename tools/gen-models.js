@@ -30,10 +30,20 @@ export function parseEpkName(name) {
     return undefined;
   }
 
-  /**
-   * @type {string}
-   */
-  const otaIdPrefix = otaIds[0];
+  const major = minorMajor[match.groups.minor];
+  const otaIdPrefix = otaIds.map(otaId => {
+    if (typeof otaId === 'string') {
+      return otaId;
+    }
+    if (otaId.codename === major) {
+      return otaId.otaId;
+    }
+    return null;
+  }).filter((x) => x)[0];
+
+  if (!otaIdPrefix) {
+    return undefined;
+  }
 
   function otaBroadcast(broadcast) {
     switch (broadcast) {
@@ -60,7 +70,7 @@ export function parseEpkName(name) {
   return {
     broadcast: match.groups.broadcast,
     machine: match.groups.machine,
-    codename: minorMajor[match.groups.minor],
+    codename: major,
     otaId: otaIdPrefix + otaBroadcast(match.groups.broadcast),
   }
 }

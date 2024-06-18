@@ -5,10 +5,22 @@ export class DeviceExploitAvailabilities {
 
   /**
    * @param {string} otaId
+   * @param {boolean} [exact]
    * @returns {DeviceExploitAvailabilities | undefined}
    */
-  static byOTAID(otaId) {
-    return exploits[otaId];
+  static byOTAID(otaId, exact) {
+    let match = exploits[otaId];
+    if (!match && !exact) {
+      // Find first match ignoring broadcast region
+      const prefix = otaId.substring(0, 16);
+      for (let [key, value] of Object.entries(exploits)) {
+        if (key.startsWith(prefix)) {
+          match = value;
+          break;
+        }
+      }
+    }
+    return match;
   }
 }
 

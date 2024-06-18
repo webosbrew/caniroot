@@ -15,7 +15,12 @@ export class DeviceExploitAvailabilities {
     readonly wta?: ExploitAvailability;
     readonly dejavuln?: ExploitAvailability;
 
-    public static byOTAID(otaId: string): DeviceExploitAvailabilities | undefined;
+    /**
+     * Find exploit availabilities for a specific OTA ID
+     * @param otaId OTA ID
+     * @param exact If true, only return the exact match. If false, return the closest match.
+     */
+    public static byOTAID(otaId: string, exact?: boolean): DeviceExploitAvailabilities | undefined;
 }
 
 export class DeviceModel {

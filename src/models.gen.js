@@ -16,7 +16,7 @@ export default {
     "broadcast": "atsc",
     "machine": "m14tv",
     "codename": "beehive",
-    "otaId": "HE_DTV_WT1M_AFAAATAA"
+    "otaId": "HE_DTV_W15M_AFAAATAA"
   },
   "EG9600": {
     "broadcast": "atsc",
@@ -70,7 +70,7 @@ export default {
     "broadcast": "arib",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_WT1H_AFAAJAAA"
+    "otaId": "HE_DTV_W24H_AFADJAAA"
   },
   "OLEDC1PJB": {
     "broadcast": "arib",
@@ -280,7 +280,7 @@ export default {
     "broadcast": "arib",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_WT1H_AFAAJAAA"
+    "otaId": "HE_DTV_W24H_AFADJAAA"
   },
   "QNED90JPA": {
     "broadcast": "arib",
@@ -328,7 +328,7 @@ export default {
     "broadcast": "dvb",
     "machine": "m14tv",
     "codename": "beehive",
-    "otaId": "HE_DTV_WT1M_AFAAABAA"
+    "otaId": "HE_DTV_W15M_AFAAABAA"
   },
   "EG920V": {
     "broadcast": "dvb",
@@ -346,7 +346,7 @@ export default {
     "broadcast": "dvb",
     "machine": "m14tv",
     "codename": "beehive",
-    "otaId": "HE_DTV_WT1M_AFAAABAA"
+    "otaId": "HE_DTV_W15M_AFAAABAA"
   },
   "ART90E6QA": {
     "broadcast": "global",
@@ -496,13 +496,13 @@ export default {
     "broadcast": "global",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_WT1H_AFAAATAA"
+    "otaId": "HE_DTV_W24H_AFADATAA"
   },
   "OLEDB46LA": {
     "broadcast": "global",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_WT1H_AFAAATAA"
+    "otaId": "HE_DTV_W24H_AFADATAA"
   },
   "OLEDB6V": {
     "broadcast": "dvb",
@@ -790,7 +790,7 @@ export default {
     "broadcast": "dvb",
     "machine": "m14tv",
     "codename": "beehive",
-    "otaId": "HE_DTV_WT1M_AFAAABAA"
+    "otaId": "HE_DTV_W15M_AFAAABAA"
   },
   "LH560V": {
     "broadcast": "dvb",
@@ -1426,7 +1426,7 @@ export default {
     "broadcast": "dvb",
     "machine": "m14tv",
     "codename": "beehive",
-    "otaId": "HE_DTV_WT1M_AFAAABAA"
+    "otaId": "HE_DTV_W15M_AFAAABAA"
   },
   "LJ615V": {
     "broadcast": "dvb",
@@ -1528,7 +1528,7 @@ export default {
     "broadcast": "global",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_WT1H_AFAAATAA"
+    "otaId": "HE_DTV_W24H_AFADATAA"
   },
   "SJ850V": {
     "broadcast": "dvb",
@@ -1846,7 +1846,7 @@ export default {
     "broadcast": "dvb",
     "machine": "m14tv",
     "codename": "beehive",
-    "otaId": "HE_DTV_WT1M_AFAAABAA"
+    "otaId": "HE_DTV_W15M_AFAAABAA"
   },
   "LH590U": {
     "broadcast": "dvb",
@@ -1930,7 +1930,7 @@ export default {
     "broadcast": "dvb",
     "machine": "m14tv",
     "codename": "beehive",
-    "otaId": "HE_DTV_WT1M_AFAAABAA"
+    "otaId": "HE_DTV_W15M_AFAAABAA"
   },
   "EC9700": {
     "broadcast": "atsc",
@@ -1996,7 +1996,7 @@ export default {
     "broadcast": "global",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_WT1H_AFAAATAA"
+    "otaId": "HE_DTV_W24H_AFADATAA"
   },
   "OLEDB8PCA": {
     "broadcast": "dvb",
@@ -2134,7 +2134,7 @@ export default {
     "broadcast": "dvb",
     "machine": "m14tv",
     "codename": "beehive",
-    "otaId": "HE_DTV_WT1M_AFAAABAA"
+    "otaId": "HE_DTV_W15M_AFAAABAA"
   },
   "NANO86CNA": {
     "broadcast": "dvb",
@@ -2440,7 +2440,7 @@ export default {
     "broadcast": "global",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_WT1H_AFAAATAA"
+    "otaId": "HE_DTV_W24H_AFADATAA"
   },
   "UQ9100PCD": {
     "broadcast": "global",
@@ -2644,7 +2644,7 @@ export default {
     "broadcast": "global",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_WT1H_AFAAATAA"
+    "otaId": "HE_DTV_W24H_AFADATAA"
   },
   "OLEDC1AUB": {
     "broadcast": "global",
@@ -2824,13 +2824,13 @@ export default {
     "broadcast": "arib",
     "machine": "m14tv",
     "codename": "beehive",
-    "otaId": "HE_DTV_WT1M_AFAAJAAA"
+    "otaId": "HE_DTV_W15M_AFAAJAAA"
   },
   "LF6390": {
     "broadcast": "atsc",
     "machine": "m14tv",
     "codename": "beehive",
-    "otaId": "HE_DTV_WT1M_AFAAATAA"
+    "otaId": "HE_DTV_W15M_AFAAATAA"
   },
   "UF7650": {
     "broadcast": "atsc",
@@ -2860,7 +2860,7 @@ export default {
     "broadcast": "atsc",
     "machine": "m14tv",
     "codename": "beehive",
-    "otaId": "HE_DTV_WT1M_AFAAATAA"
+    "otaId": "HE_DTV_W15M_AFAAATAA"
   },
   "NANO75UPA": {
     "broadcast": "global",
@@ -2962,7 +2962,7 @@ export default {
     "broadcast": "global",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_WT1H_AFAAATAA"
+    "otaId": "HE_DTV_W24H_AFADATAA"
   },
   "QNED85UQA": {
     "broadcast": "global",
@@ -3472,7 +3472,7 @@ export default {
     "broadcast": "dvb",
     "machine": "m14tv",
     "codename": "beehive",
-    "otaId": "HE_DTV_WT1M_AFAAABAA"
+    "otaId": "HE_DTV_W15M_AFAAABAA"
   },
   "UJ6300-CA": {
     "broadcast": "dvb",
