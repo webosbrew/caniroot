@@ -24,7 +24,8 @@ describe('DeviceModel', () => {
   });
 
   it('should find the model', () => {
-    assert.deepStrictEqual(DeviceModel.findModel('55SM8100PJB').broadcast, 'arib');
-    assert.deepStrictEqual(DeviceModel.findModel('SM8100PJB').machine, 'm16p3');
+    assert.strictEqual(DeviceModel.findModel('55SM8100PJB').broadcast, 'arib');
+    assert.strictEqual(DeviceModel.findModel('SM8100PJB').machine, 'm16p3');
+    assert.strictEqual(DeviceModel.findModel('SM8100'), undefined);
   });
 });
