@@ -18,11 +18,12 @@ import {machineOtaIdPrefix, minorMajor} from "../src/mappings.js";
 let output = {};
 
 /**
+ * @param model {string}
  * @param name {string}
  * @param region {string}
  * @returns {DeviceModel | undefined}
  */
-export function parseDeviceModel(name, region) {
+export function parseDeviceModel(model, name, region) {
   const match = name.match([
     /(?:lib32-)?starfish-(?<broadcast>\w+)-secured-(?<machine2>\w+)-/,
     /(?:\d+\.)?(?<minor>\w+)(?:\.(?<machine>\w+)|-(\d+))/
@@ -74,14 +75,20 @@ export function parseDeviceModel(name, region) {
     }
   }
 
+  let series = model.match(/^(ART\w{2}|OLED\w{2}|NANO\w{2}|QNED\w{2}|[A-Z]{2}\w{4}|UC\w{1,2})/)?.[0];
+
+  if (!series) {
+    return undefined;
+  }
+
   return {
-    region, broadcast, machine, codename,
+    series, region, broadcast, machine, codename,
     otaId: otaIdPrefix + otaBroadcast(match.groups.broadcast),
   }
 }
 
 for (const {region, model, epk} of dump) {
-  const parsed = parseDeviceModel(epk, region);
+  const parsed = parseDeviceModel(model, epk, region);
   if (!parsed) {
     console.error(`Failed to parse EPK for model ${model}: ${epk}`);
     continue;

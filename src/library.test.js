@@ -28,13 +28,12 @@ describe('DeviceModel', () => {
     assert.strictEqual(DeviceModel.findModel('SM8100PJB').machine, 'm16p3');
     assert.strictEqual(DeviceModel.findModel('43UN7340PVC').region, 'NZ');
     assert.strictEqual(DeviceModel.findModel('50NANO766QA').otaId, 'HE_DTV_W22P_AFADATAA');
-    assert.ok(DeviceModel.findModel('43UJ750V'));
-    assert.ok(DeviceModel.findModel('55LB7200'));
-    assert.ok(DeviceModel.findModel('55SK7900PLA'));
-    assert.ok(DeviceModel.findModel('43UH668V-ZA'));
-    assert.ok(DeviceModel.findModel('105UC9.AHK'));
+    assert.strictEqual(DeviceModel.findModel('43UJ750V').series, 'UJ750V');
+    assert.strictEqual(DeviceModel.findModel('55LB7200').series, 'LB7200');
+    assert.strictEqual(DeviceModel.findModel('55SK7900PLA').series, 'SK7900');
+    assert.strictEqual(DeviceModel.findModel('43UH668V-ZA').series, 'UH668V');
+    assert.strictEqual(DeviceModel.findModel('105UC9.AHK').series, 'UC9');
     assert.ok(DeviceModel.findModel('UC9700'));
-    // Needs region
-    assert.ok(!DeviceModel.findModel('SM8100'));
+    assert.ok(DeviceModel.findModel('SM8100'));
   });
 });
