@@ -1,6 +1,6 @@
 {
   "name": "@webosbrew/caniroot",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Can I root this webOS device?",
   "scripts": {
     "test": "node --test",
