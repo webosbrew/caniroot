@@ -1,0 +1,75 @@
+@import "@fontsource/orbitron/900";
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 15pt; /* 15pt / 22pt */
+  transform: translate3d(0, 0, 0); /* Hack to disable drag scrolling in WebOS */
+  overflow-x: hidden;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+input {
+  width: 100%;
+
+  background-color: black;
+  color: #d4ffff;
+  font-size: 2em;
+
+  padding: 0.3em 0.5em;
+
+  margin: 1em auto;
+  border: 1px solid #fff;
+  border-radius: 0.3em;
+
+  box-shadow: 0 0 1px 1px #fff, 0 0 0.5em 0.2em #731178, inset 0 0 0.5em 0.2em #731178, inset 0 0 1px 1px #fff;
+}
+
+.content-center {
+  max-width: 40em;
+  margin: auto;
+}
+
+hr {
+  height: 0;
+  border: 0;
+  margin: 2em auto;
+  box-shadow: 0 0 1px 1px #fff, 0 0 1em 0.5em #731178;
+}
+
+hr:after { /* https://css-tricks.com/examples/hrs/ */
+  content: "\00a0"; /* Prevent margin collapse */
+}
+
+header > h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 900;
+  text-align: center;
+  color: #000;
+  font-size: 3.5em;
+  text-shadow: 0 0 3px #d4ffff, 0 0 3px #d4ffff, 0 0 3px #d4ffff, 0 0 1em #0bb6be, 0 0 0.2em #0bb6be;
+}
+
+header > h1 > small {
+  text-shadow: 0 0px 2px white, 0 0px 2px white, 0 0 0.4em #731178, 0 2px 0.2em pink, 0 -3px 0.2em #aa0000;
+}
+
+article {
+  line-height: 1.5;
+  color: #c4f0fd;
+  font-family: 'Cantarell', sans-serif;
+}
+
+article > p {
+  text-align: justify;
+  margin: 1em;
+}
+
+article a, article a:visited {
+  color: #d653dd;
+}

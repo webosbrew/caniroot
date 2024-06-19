@@ -5,7 +5,8 @@
   "scripts": {
     "test": "node --test",
     "gen-exploits": "node tools/gen-exploits.js",
-    "gen-models": "node tools/gen-models.js"
+    "gen-models": "node tools/gen-models.js",
+    "website:build": "npm run build --prefix website"
   },
   "type": "module",
   "main": "src/library.js",

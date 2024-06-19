@@ -1,5 +1,7 @@
 .idea/
 .vscode/
+.github/
 
 tools/
+website/
 *.test.js
