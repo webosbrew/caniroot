@@ -4,6 +4,7 @@ import debounce from 'lodash-es/debounce';
 import {JSXInternal} from "preact/src/jsx";
 import {RenderableProps} from "preact";
 import TargetedInputEvent = JSXInternal.TargetedInputEvent;
+import {ExploitCard} from "./exploit-card";
 
 interface AppProps {
     q?: string;
@@ -29,7 +30,7 @@ function parseSearchTerm(q?: string): SearchTerm | undefined {
     return {q, model, firmware};
 }
 
-interface ExploitMethod {
+export declare interface ExploitMethod {
     name: string;
     key: keyof DeviceExploitAvailabilities;
     url: string;
@@ -124,36 +125,7 @@ class App extends Component<AppProps, AppState> {
 
             ${this.exploits.map(exploit => {
               const avail = state.availability?.[exploit.key];
-              const firmware = state.term?.firmware ?? avail?.patched?.version;
-              const patched = (avail?.patched && firmware && firmware >= avail.patched.version) || false;
-              const mayPatched = !patched && (avail?.latest && firmware && firmware > avail.latest.version) || false;
-              const bgClass = patched ? 'bg-danger-subtle' : mayPatched ? 'bg-warning-subtle' : 'bg-success-subtle';
-              const iconClass = patched ? 'bi-exclamation-octagon-fill' : mayPatched ?
-                  'bi-question-octagon-fill' : 'bi-hand-thumbs-up-fill';
-              return avail && html`
-                <div class=${`card p-3 mt-3 ${bgClass}`}>
-                  <h3>
-                    <i class="bi ${iconClass} me-2"/>
-                    <a class="stretched-link text-decoration-none" href=${exploit.url}
-                       target="_blank">${exploit.name}</a>
-                  </h3>
-                  ${avail.latest && html`
-                    <div>
-                      <i class="bi bi-info-circle-fill me-2"/>Latest known working firmware: <b>${avail.latest?.version}
-                    </b>${mayPatched && state.term?.firmware && html` (you have <b>${state.term.firmware}</b>)`}
-                    </div>
-                  `}
-                  ${avail.patched && html`
-                    <div><i class="bi bi-bandaid-fill me-2"/>Patched in: <b>${avail.patched?.version}</b>
-                      ${state.term?.firmware && html` (you have <b>${state.term.firmware}</b>)`}
-                    </div>
-                  `}
-                  ${exploit.expert && html`
-                    <div>
-                      <i class="bi bi-exclamation-triangle-fill me-2"/>Requires expert knowledge.
-                    </div>
-                  `}
-                </div>`;
+              return avail && ExploitCard({exploit, avail, firmware: state.term?.firmware});
             })}
 
             ${getMeIn && html`

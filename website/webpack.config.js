@@ -70,6 +70,9 @@ module.exports = (env, argv) => ({
       },
     ],
   },
+  resolve: {
+    extensions: ['.ts', '.js'],
+  },
   optimization: {
     minimizer: [
       `...`,
