@@ -1,7 +1,9 @@
 'use strict'
 
+const fs = require('fs');
 const path = require('path');
 const HtmlBundlerPlugin = require('html-bundler-webpack-plugin');
+const {PurgeCSSPlugin} = require("purgecss-webpack-plugin");
 
 /**
  * @type {import('webpack').Configuration}
@@ -22,39 +24,33 @@ module.exports = {
       },
       hotUpdate: true,
       js: {
-        // JS output filename, used if `inline` option is false (defaults)
         filename: 'js/[name].[contenthash:8].js',
-        //inline: true, // inlines JS into HTML
       },
       css: {
-        // CSS output filename, used if `inline` option is false (defaults)
         filename: 'css/[name].[contenthash:8].css',
-        //inline: true, // inlines CSS into HTML
       },
+    }),
+    new PurgeCSSPlugin({
+      paths: () => fs.readdirSync(path.resolve(__dirname, 'src'), {recursive: true})
+        .map((name) => path.join('src', name)),
     }),
   ],
   module: {
     rules: [
       {
-        test: /.m?js$/,
-        use: {
+        test: /.m?js$/, use: {
           loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env'],
           }
         }
       },
-      {
-        test: /\.ts$/,
-        use: 'ts-loader',
-      },
-      {
-        test: /\.(css|sass|scss)$/,
-        use: ['css-loader', 'sass-loader'],
-      },
+      {test: /\.ts$/, use: 'ts-loader'},
+      {test: /\.css$/, use: ['css-loader']},
+      {test: /\.scss$/, use: ['css-loader', 'sass-loader']},
       // fonts
       {
-        test: /\.woff2?$/,
+        test: /\.woff2?(\?v=.+)?$/,
         type: "asset/resource",
         generator: {
           filename: 'fonts/[name].[hash:8][ext]',
@@ -62,5 +58,8 @@ module.exports = {
       },
     ],
   },
-  target: ["web", "es5"]
+  target: ["web", "es5"],
+  output: {
+    clean: true,
+  }
 };

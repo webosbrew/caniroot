@@ -9,6 +9,15 @@
   },
   "author": "",
   "license": "MIT",
+  "dependencies": {
+    "@fontsource/orbitron": "^5.0.19",
+    "@webosbrew/caniroot": "file:../",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "htm": "^3.1.1",
+    "lodash-es": "^4.17.21",
+    "preact": "^10.22.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.24.7",
     "@babel/preset-env": "^7.24.7",
@@ -16,6 +25,7 @@
     "babel-loader": "^9.1.3",
     "css-loader": "^7.1.2",
     "html-bundler-webpack-plugin": "^3.14.0",
+    "purgecss-webpack-plugin": "^6.0.0",
     "sass": "^1.77.6",
     "sass-loader": "^14.2.1",
     "ts-loader": "^9.5.1",
@@ -24,11 +34,7 @@
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.4"
   },
-  "dependencies": {
-    "@fontsource/orbitron": "^5.0.19",
-    "@webosbrew/caniroot": "file:../",
-    "htm": "^3.1.1",
-    "lodash-es": "^4.17.21",
-    "preact": "^10.22.0"
+  "engines": {
+    "node": ">=20"
   }
 }

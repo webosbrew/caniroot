@@ -89,7 +89,7 @@ class App extends Component<AppProps, AppState> {
             <input class="form-control form-control-lg" type="search" value="${state.term?.q ?? ''}"
                    placeholder="Type model & firmware version here..."
                    onInput=${(e: TargetedInputEvent<HTMLInputElement>) => this.searchChanged(e.currentTarget.value)}/>
-            ${state.term && (state.model ?
+            ${state.term ? (state.model ?
                     html`
                       <div class="alert alert-info mt-3" role="alert">Found <code>${state.model.series}</code>
                         , running <code>${this.osVersionMap[state.model.codename]}</code>
@@ -105,7 +105,10 @@ class App extends Component<AppProps, AppState> {
                         <i class="bi bi-exclamation-circle-fill me-2"></i>Root availability may vary across different
                         models/regions of the same series.
                       </div>`
-            )}
+            ) : html`
+              <div>
+                Search for your device model and firmware version to check available rooting methods.
+              </div>`}
 
             ${this.exploits.map(exploit => {
               const avail = state.availability?.[exploit.key];
@@ -119,7 +122,8 @@ class App extends Component<AppProps, AppState> {
                 <div class=${`card p-3 mt-3 ${bgClass}`}>
                   <h3>
                     <i class="bi ${iconClass} me-2"/>
-                    <a class="stretched-link text-decoration-none" href="${exploit.url}" target="_blank">${exploit.name}</a>
+                    <a class="stretched-link text-decoration-none" href="${exploit.url}"
+                       target="_blank">${exploit.name}</a>
                   </h3>
                   ${avail.latest && html`
                     <div>
