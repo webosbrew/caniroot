@@ -1,7 +1,7 @@
 /** @type {Record<string, DeviceModel>} */
 export default {
   "ART90E6QA.AEK": {
-    "series": "ART90",
+    "series": "ART90E",
     "region": "UK",
     "broadcast": "global",
     "machine": "o22",
@@ -9,7 +9,7 @@ export default {
     "otaId": "HE_DTV_W22O_AFABATAA"
   },
   "ART90EJQA.AJL": {
-    "series": "ART90",
+    "series": "ART90E",
     "region": "JP",
     "broadcast": "arib",
     "machine": "o22",
@@ -17,7 +17,7 @@ export default {
     "otaId": "HE_DTV_W22O_AFABJAAA"
   },
   "ART90ESQA.AAU": {
-    "series": "ART90",
+    "series": "ART90E",
     "region": "NZ",
     "broadcast": "global",
     "machine": "o22",

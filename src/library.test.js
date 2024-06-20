@@ -15,7 +15,7 @@ describe('DeviceExploitAvailabilities', {only: true}, () => {
 });
 
 describe('DeviceModel', {only: true}, () => {
-  it('should remove the size from the model name', () => {
+  it('should parse LG TV models', () => {
     assert.strictEqual(DeviceModelName.parse('65NANO86VPA').series, 'NANO86');
     assert.strictEqual(DeviceModelName.parse('OLED65A1PUA').series, 'OLEDA1');
     assert.strictEqual(DeviceModelName.parse('43LF6300-UA').series, 'LF6300');
@@ -25,6 +25,10 @@ describe('DeviceModel', {only: true}, () => {
     assert.strictEqual(DeviceModelName.parse('55OLEDC3PJA.AJLG').suffix, '.AJLG');
     assert.strictEqual(DeviceModelName.parse('55OLEDC3PJA.AJLG').series, 'OLEDC3');
     assert.strictEqual(DeviceModelName.parse('105UC9.AHK').size, 105);
+  });
+
+  it('should fail on non-LG TV models', () => {
+    assert.strictEqual(DeviceModelName.parse('UA43AU7000KXXM'), undefined);
   });
 
   it('should find the model', {only: true}, () => {

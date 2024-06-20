@@ -1,10 +1,9 @@
 import {Component, html, render} from 'htm/preact';
-import {DeviceExploitAvailabilities, DeviceModel} from "@webosbrew/caniroot";
+import {DeviceExploitAvailabilities, DeviceModel, DeviceModelName} from "@webosbrew/caniroot";
 import debounce from 'lodash-es/debounce';
-import {JSXInternal} from "preact/src/jsx";
 import {RenderableProps} from "preact";
-import TargetedInputEvent = JSXInternal.TargetedInputEvent;
-import {ExploitCard} from "./exploit-card";
+import {ExploitCard} from "./exploit";
+import {SearchHint} from "./hint";
 
 interface AppProps {
     q?: string;
@@ -17,15 +16,16 @@ interface AppState {
     availability?: DeviceExploitAvailabilities;
 }
 
-interface SearchTerm {
+export interface SearchTerm {
     q: string;
-    model?: string;
+    model?: DeviceModelName;
     firmware?: string;
 }
 
 function parseSearchTerm(q?: string): SearchTerm | undefined {
     if (!q) return undefined;
-    const model = q.match(/[A-Z0-9-]{4,12}(?:\.[A-Z0-9]{2,4})?/i)?.[0]?.toUpperCase();
+    const modelQ = q.match(/[A-Z0-9-]{4,12}(?:\.[A-Z0-9]{2,4})?/i)?.[0]?.toUpperCase();
+    const model = modelQ ? DeviceModelName.parse(modelQ) : undefined;
     const firmware = q.match(/\d{2}\.\d{2}\.\d{2}/)?.[0];
     return {q, model, firmware};
 }
@@ -49,7 +49,7 @@ class App extends Component<AppProps, AppState> {
     constructor(props: AppProps) {
         super(props);
         const term = parseSearchTerm(props.q);
-        let model = term && DeviceModel.find(term.model ?? '');
+        let model = term?.model && DeviceModel.find(term.model.series + (term.model.tdd || ''));
         let availability = model && DeviceExploitAvailabilities.byOTAID(model.otaId);
         this.state = {term, model, availability};
     }
@@ -71,19 +71,6 @@ class App extends Component<AppProps, AppState> {
         this.searchImmediate(url.searchParams.get('q') ?? '');
     };
 
-    osVersionMap: Record<string, string> = {
-        'afro': 'webOS 1.x',
-        'beehive': 'webOS 2.x',
-        'dreadlocks': 'webOS 3.0~3.4',
-        'dreadlocks2': 'webOS 3.5~3.9',
-        'goldilocks': 'webOS 4.0~4.4',
-        'goldilocks2': 'webOS 4.5~4.10',
-        'jhericurl': 'webOS 5.x',
-        'kisscurl': 'webOS 6.x',
-        'mullet': 'webOS 7.x',
-        'number1': 'webOS 8.x',
-        'ombre': 'webOS 9.x',
-    };
 
     componentDidMount(): void {
         addEventListener('popstate', this.locationChanged);
@@ -100,28 +87,9 @@ class App extends Component<AppProps, AppState> {
           <div class="app">
             <input class="form-control form-control-lg" type="search" value=${state.term?.q ?? ''} autofocus
                    placeholder=${props.sample}
-                   onInput=${(e: TargetedInputEvent<HTMLInputElement>) => this.searchChanged(e.currentTarget.value)}/>
-            ${state.term ? (state.model ?
-                    html`
-                      <div class="alert alert-info mt-3" role="alert">Found <code>${state.model.series}</code>
-                        , running <code>${this.osVersionMap[state.model.codename]}</code>
-                        , region <code>${state.model.region} (${state.model.broadcast})</code>
-                        , machine <code>${state.model.machine}</code>
-                        , otaId <code>${state.model.otaId}</code>
-                      </div>
-                      <hr/>` :
-                    html`
-                      <div class="alert alert-warning mt-3" role="alert">
-                        Unable to find this model number <code>${state.term.model}</code>. Try searching by the series
-                        name (e.g. <code>OLEDC3</code> instead of <code>OLEDC3PJA</code>).<br/>
-                        <i class="bi bi-exclamation-circle-fill me-2"/>Root availability may vary across different
-                        models/regions of the same series.
-                      </div>`
-            ) : html`
-              <div class="alert alert-primary mt-3">
-                <i class="bi bi-lightbulb-fill me-2"/>Search for your device model and firmware version (optional)
-                to check available rooting methods.
-              </div>`}
+                   onInput=${(e: Event) => this.searchChanged((e.currentTarget as HTMLInputElement).value)}/>
+            ${SearchHint(state.term, state.model)}
+
 
             ${this.exploits.map(exploit => {
               const avail = state.availability?.[exploit.key];
@@ -165,12 +133,12 @@ class App extends Component<AppProps, AppState> {
 
     private searchImmediate(q: string): void {
         const term = parseSearchTerm(q);
-        let model = term && DeviceModel.find(term.model ?? '');
+        let model = term?.model && DeviceModel.find(term.model.series + (term.model.tdd || ''));
         let availability = model && DeviceExploitAvailabilities.byOTAID(model.otaId);
         this.setState({term, model, availability});
     }
 }
 
 render(html`
-      <${App} q=${new URLSearchParams(location.search).get('q')} sample="OLED65G2PUA"/>`,
+      <${App} q=${new URLSearchParams(location.search).get('q')} sample="OLED65G2PUA 04.40.75"/>`,
     document.getElementById('app-container')!);
