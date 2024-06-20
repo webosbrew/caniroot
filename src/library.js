@@ -111,7 +111,10 @@ export class DeviceModel {
         break;
       }
     }
-    const exactModel = parsed.simple + (match.suffix || '');
+    if (exact && match.suffix !== parsed.suffix) {
+      return undefined;
+    }
+    const exactModel = matchKey + (match.suffix || '');
     return new DeviceModel({model: exactModel, ...match});
   }
 

@@ -44,8 +44,20 @@ describe('DeviceModel', {only: true}, () => {
     assert.strictEqual(DeviceModel.find('105UC9.AHK').series, 'UC9');
     assert.strictEqual(DeviceModel.find('NANO75SQA.ATRG').region, 'IN');
     assert.strictEqual(DeviceModel.find('NANO75SQA.ATRG').model, 'NANO75SQA.ATRG');
+    assert.strictEqual(DeviceModel.find('UM7380PJA').model, 'UM7380PJE.AJL');
+    assert.strictEqual(DeviceModel.find('UM7380PJ').model, 'UM7380PJE.AJL');
+
+  });
+
+  it('should find by series', () => {
     assert.ok(DeviceModel.find('UC9700'));
     assert.ok(DeviceModel.find('SM8100'));
+  });
+
+  it('should find by strict match', () => {
+    assert.strictEqual(DeviceModel.find('UM7340PVA.ANR', true).model, 'UM7340PVA.ANR');
+    assert.strictEqual(DeviceModel.find('UM7340PVA.ATR', true), undefined);
+    assert.strictEqual(DeviceModel.find('UM7340PVA', true), undefined);
   });
 
   it('should return record for known models', {only: true}, () => {
