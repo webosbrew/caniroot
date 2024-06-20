@@ -3,7 +3,7 @@
   "version": "1.0.5",
   "description": "Can I root this webOS device?",
   "scripts": {
-    "test": "node --test",
+    "test": "node --test-only",
     "gen-exploits": "node tools/gen-exploits.js",
     "gen-models": "node tools/gen-models.js",
     "website:build": "npm run build --prefix website"

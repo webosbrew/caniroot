@@ -1,8 +1,8 @@
 import {describe, it} from 'node:test';
-import {DeviceExploitAvailabilities, DeviceModel} from "./library.js";
+import {DeviceExploitAvailabilities, DeviceModel, DeviceModelName} from "./library.js";
 import * as assert from "node:assert";
 
-describe('DeviceExploitAvailabilities', () => {
+describe('DeviceExploitAvailabilities', {only: true}, () => {
   it('should find for a valid OTA ID', () => {
     assert.ok(DeviceExploitAvailabilities.byOTAID('HE_DTV_W20L_AFAAJAAA'));
     assert.ok(DeviceExploitAvailabilities.byOTAID('HE_DTV_W12L_AFAAJAAA') === undefined);
@@ -14,26 +14,34 @@ describe('DeviceExploitAvailabilities', () => {
   });
 });
 
-describe('DeviceModel', () => {
+describe('DeviceModel', {only: true}, () => {
   it('should remove the size from the model name', () => {
-    assert.strictEqual(DeviceModel.modelNameSimplified('65NANO86VPA'), 'NANO86VPA');
-    assert.strictEqual(DeviceModel.modelNameSimplified('OLED65A1PUA'), 'OLEDA1PUA');
-    assert.strictEqual(DeviceModel.modelNameSimplified('43LF6300-UA'), 'LF6300-UA');
-    assert.strictEqual(DeviceModel.modelNameSimplified('OLED65W7V-T'), 'OLEDW7V-T');
-    assert.strictEqual(DeviceModel.modelNameSimplified('55SM8100PJB'), 'SM8100PJB');
+    assert.strictEqual(DeviceModelName.parse('65NANO86VPA').series, 'NANO86');
+    assert.strictEqual(DeviceModelName.parse('OLED65A1PUA').series, 'OLEDA1');
+    assert.strictEqual(DeviceModelName.parse('43LF6300-UA').series, 'LF6300');
+    assert.strictEqual(DeviceModelName.parse('OLED65W7V-T').series, 'OLEDW7');
+    assert.strictEqual(DeviceModelName.parse('OLED65W7V-T').suffix, '-T');
+    assert.strictEqual(DeviceModelName.parse('55SM8100PJB').tdd, 'PJB');
+    assert.strictEqual(DeviceModelName.parse('55OLEDC3PJA.AJLG').suffix, '.AJLG');
+    assert.strictEqual(DeviceModelName.parse('55OLEDC3PJA.AJLG').series, 'OLEDC3');
+    assert.strictEqual(DeviceModelName.parse('105UC9.AHK').size, 105);
   });
 
-  it('should find the model', () => {
-    assert.strictEqual(DeviceModel.findModel('55SM8100PJB').broadcast, 'arib');
-    assert.strictEqual(DeviceModel.findModel('SM8100PJB').machine, 'm16p3');
-    assert.strictEqual(DeviceModel.findModel('43UN7340PVC').region, 'NZ');
-    assert.strictEqual(DeviceModel.findModel('50NANO766QA').otaId, 'HE_DTV_W22P_AFADATAA');
-    assert.strictEqual(DeviceModel.findModel('43UJ750V').series, 'UJ750V');
-    assert.strictEqual(DeviceModel.findModel('55LB7200').series, 'LB7200');
-    assert.strictEqual(DeviceModel.findModel('55SK7900PLA').series, 'SK7900');
-    assert.strictEqual(DeviceModel.findModel('43UH668V-ZA').series, 'UH668V');
-    assert.strictEqual(DeviceModel.findModel('105UC9.AHK').series, 'UC9');
-    assert.ok(DeviceModel.findModel('UC9700'));
-    assert.ok(DeviceModel.findModel('SM8100'));
+  it('should find the model', {only: true}, () => {
+    assert.strictEqual(DeviceModel.find('55SM8100PJB').broadcast, 'arib');
+    assert.strictEqual(DeviceModel.find('SM8100PJB').machine, 'm16p3');
+    assert.strictEqual(DeviceModel.find('43UN7340PVC').region, 'NZ');
+    assert.strictEqual(DeviceModel.find('50NANO766QA').otaId, 'HE_DTV_W22P_AFADATAA');
+    assert.strictEqual(DeviceModel.find('43UJ750V').series, 'UJ750V');
+    assert.strictEqual(DeviceModel.find('55LB7200').series, 'LB7200');
+    assert.strictEqual(DeviceModel.find('55SK7900PLA').series, 'SK7900');
+    assert.strictEqual(DeviceModel.find('43UH668V-ZA').series, 'UH668V');
+    assert.strictEqual(DeviceModel.find('105UC9.AHK').series, 'UC9');
+    assert.ok(DeviceModel.find('UC9700'));
+    assert.ok(DeviceModel.find('SM8100'));
+  });
+
+  it('should return record for known models', {only: true}, () => {
+    assert.ok(DeviceModel.all);
   });
 });

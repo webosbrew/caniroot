@@ -11,6 +11,7 @@
 import dump from "./data/model-epks.json" assert {type: "json"};
 import fs from "node:fs";
 import {machineOtaIdPrefix, minorMajor} from "../src/mappings.js";
+import {DeviceModelName} from "../src/library.js";
 
 /**
  * @type {Record<string, DeviceModel>}
@@ -47,7 +48,7 @@ export function parseDeviceModel(model, name, region) {
       return otaId.otaId;
     }
     return null;
-  }).filter((x) => x)[0];
+  }).filter((x) => !!x)[0];
 
   if (!otaIdPrefix) {
     return undefined;
@@ -75,14 +76,14 @@ export function parseDeviceModel(model, name, region) {
     }
   }
 
-  let series = model.match(/^(ART\w{2}|OLED\w{2}|NANO\w{2}|QNED\w{2}|[A-Z]{2}\w{4}|UC\w{1,2})/)?.[0];
+  let parsed = DeviceModelName.parse(model);
 
-  if (!series) {
+  if (!parsed) {
     return undefined;
   }
 
   return {
-    series, region, broadcast, machine, codename,
+    series: parsed.series, region, broadcast, machine, codename,
     otaId: otaIdPrefix + otaBroadcast(match.groups.broadcast),
   }
 }

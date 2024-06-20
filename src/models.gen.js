@@ -12720,14 +12720,6 @@ export default {
     "codename": "dreadlocks2",
     "otaId": "HE_DTV_W17P_AFADABAA"
   },
-  "UJ6300-CA.KCNYLJQ": {
-    "series": "UJ6300",
-    "region": "HK",
-    "broadcast": "dvb",
-    "machine": "k3lp",
-    "codename": "dreadlocks2",
-    "otaId": "HE_DTV_W17P_AFADABAA"
-  },
   "UJ6300.ACC": {
     "series": "UJ6300",
     "region": "CA",

@@ -16,12 +16,42 @@ export class DeviceExploitAvailabilities {
     readonly wta?: ExploitAvailability;
     readonly dejavuln?: ExploitAvailability;
 
+    private constructor();
+
     /**
      * Find exploit availabilities for a specific OTA ID
      * @param otaId OTA ID
      * @param exact If true, only return the exact match. If false, return the closest match.
      */
     public static byOTAID(otaId: string, exact?: boolean): DeviceExploitAvailabilities | undefined;
+}
+
+export class DeviceModelName {
+    /**
+     * Model series (e.g. "OLEDC3")
+     */
+    readonly series: string;
+    /**
+     * Model size in inches (e.g. 55)
+     */
+    readonly size?: number;
+    /**
+     * Technical features, tuner type and design (e.g. "PJA")
+     */
+    readonly tdd?: string;
+    /**
+     * Extra model suffix (e.g. ".AJL")
+     */
+    readonly suffix?: string;
+
+    private constructor();
+
+    /**
+     * Parse a model name into its components
+     * @param model Model name like "55OLEDC3PJA"
+     * @returns Parsed model name or undefined if the model is not recognized
+     */
+    public static parse(model: string): DeviceModelName | undefined;
 }
 
 export class DeviceModel {
@@ -32,12 +62,17 @@ export class DeviceModel {
     readonly codename: string;
     readonly otaId: string;
 
-    public static modelNameSimplified(model: string): string | undefined;
+    private constructor();
 
     /**
      * Find a model by its name
      * @param model Model name like "55OLEDC3PJA"
      * @param exact If true, only return the exact match. If false, return the closest match.
      */
-    public static findModel(model: string, exact?: boolean): DeviceModel | undefined;
+    public static find(model: string, exact?: boolean): DeviceModel | undefined;
+
+    /**
+     * Map of all known models
+     */
+    public static get all(): Readonly<Record<string, Readonly<DeviceModel>>>;
 }

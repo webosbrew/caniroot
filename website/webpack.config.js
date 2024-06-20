@@ -16,7 +16,6 @@ module.exports = (env, argv) => ({
   devServer: {
     static: path.resolve(__dirname, 'dist'),
     port: 8080,
-    hot: true
   },
   devtool: argv.mode === 'production' && 'source-map',
   plugins: [
@@ -26,7 +25,6 @@ module.exports = (env, argv) => ({
       loaderOptions: {
         root: path.join(__dirname, 'src'),
       },
-      hotUpdate: true,
       js: {
         filename: 'js/[name].[contenthash:8].js',
       },
