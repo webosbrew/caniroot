@@ -4,17 +4,21 @@ const fs = require('fs');
 const path = require('path');
 const HtmlBundlerPlugin = require('html-bundler-webpack-plugin');
 const {PurgeCSSPlugin} = require("purgecss-webpack-plugin");
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 /**
- * @type {import('webpack').Configuration}
+ * @param {Record<string, unknown>} env
+ * @param {Record<string, unknown>} argv
+ * @returns {import('webpack').Configuration | import('webpack').Configuration[]}
  */
-module.exports = {
+module.exports = (env, argv) => ({
   mode: 'development',
   devServer: {
     static: path.resolve(__dirname, 'dist'),
     port: 8080,
     hot: true
   },
+  devtool: argv.mode === 'production' && 'source-map',
   plugins: [
     new HtmlBundlerPlugin({
       entry: 'src',
@@ -40,14 +44,24 @@ module.exports = {
       {
         test: /.m?js$/, use: {
           loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-env'],
-          }
+          options: {presets: ['@babel/preset-env']}
         }
       },
       {test: /\.ts$/, use: 'ts-loader'},
-      {test: /\.css$/, use: ['css-loader']},
-      {test: /\.scss$/, use: ['css-loader', 'sass-loader']},
+      {
+        test: /\.(c|sa|sc)ss$/, use: [
+          'css-loader',
+          {
+            loader: 'sass-loader',
+            options: {
+              api: 'modern',
+              sassOptions: {
+                style: 'expanded',
+              }
+            }
+          }
+        ]
+      },
       // fonts
       {
         test: /\.woff2?(\?v=.+)?$/,
@@ -58,8 +72,14 @@ module.exports = {
       },
     ],
   },
+  optimization: {
+    minimizer: [
+      `...`,
+      new CssMinimizerPlugin(),
+    ]
+  },
   target: ["web", "es5"],
   output: {
     clean: true,
   }
-};
+});
