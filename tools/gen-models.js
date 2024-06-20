@@ -14,18 +14,18 @@ import {machineOtaIdPrefix, minorMajor} from "../src/mappings.js";
 import {DeviceModelName} from "../src/library.js";
 
 /**
- * @type {Record<string, DeviceModel>}
+ * @type {Record<string, Omit<DeviceModel, "model">>}
  */
 let output = {};
 
 /**
- * @param model {string}
- * @param name {string}
+ * @param model {DeviceModelName}
+ * @param epk {string}
  * @param region {string}
- * @returns {DeviceModel | undefined}
+ * @returns {Omit<DeviceModel, "model"> | undefined}
  */
-export function parseDeviceModel(model, name, region) {
-  const match = name.match([
+export function parseDeviceModel(model, epk, region) {
+  const match = epk.match([
     /(?:lib32-)?starfish-(?<broadcast>\w+)-secured-(?<machine2>\w+)-/,
     /(?:\d+\.)?(?<minor>\w+)(?:\.(?<machine>\w+)|-(\d+))/
   ].map(r => r.source).join(''));
@@ -76,27 +76,43 @@ export function parseDeviceModel(model, name, region) {
     }
   }
 
-  let parsed = DeviceModelName.parse(model);
-
-  if (!parsed) {
-    return undefined;
-  }
-
   return {
-    series: parsed.series, region, broadcast, machine, codename,
+    series: model.series, region, broadcast, machine, codename,
     otaId: otaIdPrefix + otaBroadcast(match.groups.broadcast),
+    suffix: model.suffix, variants: [],
   }
 }
 
 for (const {region, model, epk} of dump) {
-  const parsed = parseDeviceModel(model, epk, region);
-  if (!parsed) {
+  const parsedName = DeviceModelName.parse(model);
+  if (!parsedName) {
+    console.error(`Failed to parse model name: ${model}`);
+    continue;
+  }
+
+  const parsedModel = parseDeviceModel(parsedName, epk, region);
+  if (!parsedModel) {
     console.error(`Failed to parse EPK for model ${model}: ${epk}`);
     continue;
   }
-  output[model] = parsed;
+  if (output[parsedName.simple]) {
+    const variants = output[parsedName.simple].variants;
+    if (parsedName.suffix !== output[parsedName.simple].suffix &&
+      !variants.find(x => x.suffix === parsedName.suffix)) {
+      delete parsedModel.variants;
+      for (const [k, v] of Object.entries(output[parsedName.simple])) {
+        if (parsedModel[k] === v) {
+          delete parsedModel[k];
+        }
+      }
+      variants.push(parsedModel);
+    }
+    variants.sort((a, b) => a.suffix.localeCompare(b.suffix));
+    continue;
+  }
+  output[parsedName.simple] = parsedModel;
 }
 
 // language=JavaScript
-const header = '/** @type {Record<string, DeviceModel>} */\nexport default ';
+const header = '/** @type {Record<string, DeviceModelData>} */\nexport default ';
 fs.writeFileSync("src/models.gen.js", header + JSON.stringify(output, null, 2));

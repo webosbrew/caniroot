@@ -41,6 +41,7 @@ class App extends Component<AppProps, AppState> {
 
     readonly exploits: ExploitMethod[] = [
         {name: 'DejaVuln', key: 'dejavuln', url: 'https://github.com/throwaway96/dejavuln-autoroot'},
+        {name: 'ASM', key: 'asm', url: 'https://github.com/illixion/root-my-webos-tv'},
         {name: 'crashd', key: 'crashd', url: 'https://gist.github.com/throwaway96/e811b0f7cc2a705a5a476a8dfa45e09f'},
         {name: 'WTA', key: 'wta', url: 'https://gist.github.com/throwaway96/b171240ef59d7f5fd6fb48fc6dfd2941'},
         {name: 'RootMy.TV', key: 'rootmytv', url: 'https://rootmy.tv/'},
@@ -61,7 +62,11 @@ class App extends Component<AppProps, AppState> {
         this.searchImmediate(q);
         const url = new URL(location.href);
         if (url.searchParams && url.searchParams?.get('q') !== q) {
-            url.searchParams.set('q', q);
+            if (q) {
+                url.searchParams.set('q', q);
+            } else {
+                url.searchParams.delete('q');
+            }
             history.pushState(null, '', url);
         }
     }, 300);
@@ -86,14 +91,14 @@ class App extends Component<AppProps, AppState> {
         return html`
           <div class="app">
             <input class="form-control form-control-lg" type="search" value=${state.term?.q ?? ''} autofocus
-                   placeholder=${props.sample}
+                   placeholder=${props.sample} autocapitalize="characters"
                    onInput=${(e: Event) => this.searchChanged((e.currentTarget as HTMLInputElement).value)}/>
             ${SearchHint(state.term, state.model)}
 
 
             ${this.exploits.map(exploit => {
               const avail = state.availability?.[exploit.key];
-              return avail && ExploitCard({exploit, avail, firmware: state.term?.firmware});
+              return avail && ExploitCard(exploit, avail, state.term?.firmware ?? avail.patched?.version);
             })}
 
             ${getMeIn && html`

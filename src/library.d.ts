@@ -14,6 +14,7 @@ export class DeviceExploitAvailabilities {
     readonly rootmytv?: ExploitAvailability;
     readonly crashd?: ExploitAvailability;
     readonly wta?: ExploitAvailability;
+    readonly asm?: ExploitAvailability;
     readonly dejavuln?: ExploitAvailability;
 
     private constructor();
@@ -46,6 +47,8 @@ export class DeviceModelName {
 
     private constructor();
 
+    get simple(): string;
+
     /**
      * Parse a model name into its components
      * @param model Model name like "55OLEDC3PJA"
@@ -54,13 +57,27 @@ export class DeviceModelName {
     public static parse(model: string): DeviceModelName | undefined;
 }
 
-export class DeviceModel {
+export declare interface DeviceModelData {
+    series: string;
+    region: string;
+    broadcast: string;
+    machine: string;
+    codename: string;
+    otaId: string;
+    suffix?: string;
+    variants?: Partial<Omit<DeviceModelData, 'variants'>>[];
+}
+
+export class DeviceModel implements DeviceModelData {
+    readonly model: string;
     readonly series: string;
     readonly region: string;
     readonly broadcast: string;
     readonly machine: string;
     readonly codename: string;
     readonly otaId: string;
+    readonly suffix?: string;
+    readonly variants?: Partial<Omit<DeviceModelData, 'variants'>>[];
 
     private constructor();
 
@@ -74,5 +91,5 @@ export class DeviceModel {
     /**
      * Map of all known models
      */
-    public static get all(): Readonly<Record<string, Readonly<DeviceModel>>>;
+    public static get all(): Readonly<Record<string, Readonly<DeviceModelData>>>;
 }

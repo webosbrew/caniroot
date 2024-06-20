@@ -16,6 +16,7 @@ describe('DeviceExploitAvailabilities', {only: true}, () => {
 
 describe('DeviceModel', {only: true}, () => {
   it('should parse LG TV models', () => {
+    assert.strictEqual(DeviceModelName.parse('ART90E6QA').series, 'ART90');
     assert.strictEqual(DeviceModelName.parse('65NANO86VPA').series, 'NANO86');
     assert.strictEqual(DeviceModelName.parse('OLED65A1PUA').series, 'OLEDA1');
     assert.strictEqual(DeviceModelName.parse('43LF6300-UA').series, 'LF6300');
@@ -41,6 +42,8 @@ describe('DeviceModel', {only: true}, () => {
     assert.strictEqual(DeviceModel.find('55SK7900PLA').series, 'SK7900');
     assert.strictEqual(DeviceModel.find('43UH668V-ZA').series, 'UH668V');
     assert.strictEqual(DeviceModel.find('105UC9.AHK').series, 'UC9');
+    assert.strictEqual(DeviceModel.find('NANO75SQA.ATRG').region, 'IN');
+    assert.strictEqual(DeviceModel.find('NANO75SQA.ATRG').model, 'NANO75SQA.ATRG');
     assert.ok(DeviceModel.find('UC9700'));
     assert.ok(DeviceModel.find('SM8100'));
   });

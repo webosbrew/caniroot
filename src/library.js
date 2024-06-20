@@ -39,13 +39,20 @@ export class DeviceModelName {
   }
 
   /**
+   * @return {string}
+   */
+  get simple() {
+    return this.series + (this.tdd || this.suffix || '');
+  }
+
+  /**
    * @param {string} model
    * @returns {DeviceModelName | undefined}
    */
   static parse(model) {
     const devicePatterns = [
       '(OLED(?<osize>\\d{2,3})?(?<oled>\\w{2}))',
-      '((?<size>\\d{2,3})?(?<series>(?:ART|NANO|QNED)\d{2}|[A-Z]{2}\\w{4}|UC\\w{1,2}))',
+      '((?<size>\\d{2,3})?(?<series>(?:ART|NANO|QNED)\\d{2}|[A-Z]{2}\\w{4}|UC\\w{1,2}))',
     ];
     const pattern = `^(?:${devicePatterns.join('|')})(?<tdd>\\w{1,4})?(?<suffix>[.-]\\w+)?$`;
     const match = model.match(pattern);
@@ -64,7 +71,7 @@ export class DeviceModelName {
 
 export class DeviceModel {
   /**
-   * @param props {Readonly<DeviceModel>}
+   * @param props {DeviceModelData & {model: string}}
    */
   constructor(props) {
     Object.assign(this, props);
@@ -80,24 +87,36 @@ export class DeviceModel {
     if (!parsed) {
       return undefined;
     }
-    let find = parsed.series + (parsed.tdd || "") + (parsed.suffix || "");
+    let find = parsed.simple;
+    /** @type {DeviceModelData} */
     let match = models[find];
+    let matchKey = find;
     if (!match && !exact) {
       // Find first match ignoring model suffix (.ABC)
-      find = parsed.series + (parsed.tdd || "");
+      find = parsed.series;
       for (let [key, value] of Object.entries(models)) {
-        if (value.series === find || key.replace(/[.-]\w+$/, "") === find) {
+        if (value.series === find) {
           match = value;
+          matchKey = key;
           break;
         }
       }
     }
-    return match && new DeviceModel(match);
+    if (!match) {
+      return undefined;
+    }
+    for (const variant of match.variants) {
+      if (variant.suffix === parsed.suffix) {
+        match = Object.assign({...match}, variant);
+        break;
+      }
+    }
+    const exactModel = parsed.simple + (match.suffix || '');
+    return new DeviceModel({model: exactModel, ...match});
   }
 
   /**
-   *
-   * @return {Readonly<Record<string, Readonly<DeviceModel>>>}
+   * @return {Readonly<Record<string, DeviceModelData>>}
    */
   static get all() {
     return models;
