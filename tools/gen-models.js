@@ -14,7 +14,7 @@ import {machineOtaIdPrefix, minorMajor} from "../src/mappings.js";
 import {DeviceModelName} from "../src/library.js";
 
 /**
- * @type {Record<string, Omit<DeviceModel, "model">>}
+ * @type {Record<string, DeviceModelData>}
  */
 let output = {};
 
@@ -22,7 +22,7 @@ let output = {};
  * @param model {DeviceModelName}
  * @param epk {string}
  * @param region {string}
- * @returns {Omit<DeviceModel, "model"> | undefined}
+ * @returns {DeviceModelData | undefined}
  */
 export function parseDeviceModel(model, epk, region) {
   const match = epk.match([

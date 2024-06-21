@@ -86,14 +86,16 @@ class App extends Component<AppProps, AppState> {
     }
 
     render(props: RenderableProps<AppProps>, state: Readonly<AppState>) {
-        const codename = state.term && state.model?.codename;
-        const getMeIn = codename && ['afro', 'beehive', 'dreadlocks', 'dreadlocks2'].includes(codename) || false;
+        const model = state.model;
+        const codename = state.term && model?.codename;
+        const legacy = model && codename && ['afro', 'beehive', 'dreadlocks', 'dreadlocks2'].includes(codename) || false;
+        const unrootable = model && !state.availability && !legacy;
         return html`
           <div class="app">
             <input class="form-control form-control-lg" type="search" value=${state.term?.q ?? ''} autofocus
                    placeholder=${props.sample} autocapitalize="characters"
                    onInput=${(e: Event) => this.searchChanged((e.currentTarget as HTMLInputElement).value)}/>
-            ${SearchHint(state.term, state.model)}
+            ${SearchHint(state.term, model)}
 
 
             ${this.exploits.map(exploit => {
@@ -101,7 +103,19 @@ class App extends Component<AppProps, AppState> {
               return avail && ExploitCard(exploit, avail, state.term?.firmware ?? avail.patched?.version);
             })}
 
-            ${getMeIn && html`
+            ${unrootable && html`
+              <div class="card p-3 mt-3 bg-secondary-subtle">
+                <h3>
+                  <i class="bi bi-x-circle-fill me-2"></i>Unrootable (yet)
+                </h3>
+                <div>
+                  No known rooting methods are available for this model. <br/>
+                  <a href="https://discord.gg/xWqRVEm">Contact us</a> to help us find a way to root!
+                </div>
+              </div>
+            `}
+
+            ${legacy && html`
               <div class="card p-3 mt-3 bg-secondary-subtle">
                 <h3>
                   <i class="bi bi-question-octagon-fill me-2"></i>
@@ -112,12 +126,9 @@ class App extends Component<AppProps, AppState> {
                   GetMeNow method may work on some models running webOS 1~3.<br/>
                   <i class="bi bi-exclamation-triangle-fill me-2"/>Latest Dev Mode updates may have patched this method.
                   <br/>
-
                 </div>
               </div>
-            `}
 
-            ${state.availability?.nvm && html`
               <div class="card p-3 mt-3 bg-info-subtle">
                 <h3>
                   <i class="bi bi-tools me-2"></i>

@@ -36,13 +36,12 @@ export function SearchHint(term?: SearchTerm, model?: DeviceModel) {
         return html`
           <div class="alert alert-info mt-3" role="alert">Found <code>${model.model}</code>
             , running <code>${osVersionMap[model.codename]}</code>
-            , region <code>${model.region} (${model.broadcast})</code>
             , machine <code>${model.machine}</code>
             , otaId <code>${model.otaId}</code>
           </div>
           <hr/>`
     } else {
-        html`
+        return html`
           <div class="alert alert-warning mt-3" role="alert">
             Unable to find this model number <code>${term.model}</code>. Try searching by the series
             name (e.g. <code>OLEDC3</code> instead of <code>OLEDC3PJA</code>).<br/>
