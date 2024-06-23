@@ -104,7 +104,7 @@ export const machineOtaIdPrefix = {
   'lm21an': ['HE_DTV_W22A_AFAD'],
   'k8ap': ['HE_DTV_W22L_AFAA'],
   'k8lp': ['HE_DTV_W22P_AFAD'],
-  'k8hp': ['HE_DTV_W22H_AFAB'/* Upgraded to webOS 8 */, 'HE_DTV_W22H_AFAD' /* Still on webOS 7 */],
+  'k8hp': [{codename: 'mullet', otaId: 'HE_DTV_W22H_AFAD'}, {codename: 'number1', otaId: 'HE_DTV_W22H_AFAB'}],
   'k8hpt': ['HE_DTV_N22D_AFAA'],
   'k8apwee': ['HE_DTV_C22L_AFAA'],
   'k8lpwee': ['HE_DTV_C22P_AFAD'],

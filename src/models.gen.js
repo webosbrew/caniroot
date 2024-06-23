@@ -6,7 +6,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -26,7 +26,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -2907,7 +2907,7 @@ export default {
     "broadcast": "global",
     "machine": "k8ap",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22L_AFAAATAA",
+    "otaId": "HE_DTV_W22L_AFAAABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -2917,7 +2917,7 @@ export default {
     "broadcast": "global",
     "machine": "k8ap",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22L_AFAAATAA",
+    "otaId": "HE_DTV_W22L_AFAAABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -2927,7 +2927,7 @@ export default {
     "broadcast": "global",
     "machine": "k8ap",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22L_AFAAATAA",
+    "otaId": "HE_DTV_W22L_AFAAABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -2942,7 +2942,7 @@ export default {
     "broadcast": "global",
     "machine": "k8ap",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22L_AFAAATAA",
+    "otaId": "HE_DTV_W22L_AFAAABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -2970,7 +2970,7 @@ export default {
     "broadcast": "global",
     "machine": "k8ap",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22L_AFAAATAA",
+    "otaId": "HE_DTV_W22L_AFAAABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -2980,7 +2980,7 @@ export default {
     "broadcast": "global",
     "machine": "k8ap",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22L_AFAAATAA",
+    "otaId": "HE_DTV_W22L_AFAAABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -2990,7 +2990,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -3009,7 +3009,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -3023,7 +3023,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -3033,7 +3033,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -3053,7 +3053,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -3067,7 +3067,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -3081,7 +3081,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AHK",
     "variants": []
   },
@@ -3101,7 +3101,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -3121,7 +3121,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hpt",
     "codename": "mullet",
-    "otaId": "HE_DTV_N22D_AFAAATAA",
+    "otaId": "HE_DTV_N22D_AFAAABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -3155,7 +3155,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADATAA",
+    "otaId": "HE_DTV_W22P_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -3165,7 +3165,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -3175,7 +3175,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -3197,7 +3197,7 @@ export default {
     "broadcast": "global",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADATAA",
+    "otaId": "HE_DTV_W21P_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -3215,7 +3215,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -3229,7 +3229,7 @@ export default {
     "broadcast": "global",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADATAA",
+    "otaId": "HE_DTV_W21P_AFADABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -3249,7 +3249,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADATAA",
+    "otaId": "HE_DTV_W22P_AFADABAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -3259,7 +3259,7 @@ export default {
       {
         "region": "IN",
         "machine": "k8hp",
-        "otaId": "HE_DTV_W22H_AFABATAA",
+        "otaId": "HE_DTV_W22H_AFADABAA",
         "suffix": ".ATRG"
       }
     ]
@@ -3270,7 +3270,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -3280,12 +3280,12 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".ATR",
     "variants": [
       {
         "machine": "lm21u",
-        "otaId": "HE_DTV_W21U_AFADATAA",
+        "otaId": "HE_DTV_W21U_AFADABAA",
         "suffix": ".ATRG"
       }
     ]
@@ -3320,7 +3320,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -3330,7 +3330,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADATAA",
+    "otaId": "HE_DTV_W22P_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -3349,7 +3349,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADATAA",
+    "otaId": "HE_DTV_W22P_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -3367,7 +3367,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -3377,7 +3377,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADATAA",
+    "otaId": "HE_DTV_W22P_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -3397,7 +3397,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -3407,7 +3407,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -3417,7 +3417,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADATAA",
+    "otaId": "HE_DTV_W22P_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -3427,7 +3427,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn",
     "codename": "number1",
-    "otaId": "HE_DTV_W23P_AFADATAA",
+    "otaId": "HE_DTV_W23P_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -3437,7 +3437,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -3447,7 +3447,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADATAA",
+    "otaId": "HE_DTV_W22P_AFADABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -3526,7 +3526,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -3544,7 +3544,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -3568,7 +3568,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADATAA",
+    "otaId": "HE_DTV_W22P_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -3578,7 +3578,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADATAA",
+    "otaId": "HE_DTV_W24P_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -3603,7 +3603,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -3643,7 +3643,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".AMAG",
     "variants": [
       {
@@ -3673,7 +3673,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -3688,7 +3688,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADATAA",
+    "otaId": "HE_DTV_W22P_AFADABAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -3698,7 +3698,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -3708,7 +3708,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADATAA",
+    "otaId": "HE_DTV_W22P_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -3722,7 +3722,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADATAA",
+    "otaId": "HE_DTV_W24P_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -3752,7 +3752,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADATAA",
+    "otaId": "HE_DTV_W24P_AFADABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -3762,7 +3762,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADATAA",
+    "otaId": "HE_DTV_W22P_AFADABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -3772,7 +3772,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADATAA",
+    "otaId": "HE_DTV_W24P_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -3795,7 +3795,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -3855,7 +3855,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -3887,7 +3887,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -3919,7 +3919,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -3950,7 +3950,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -3985,7 +3985,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -3995,7 +3995,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -4025,7 +4025,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -4035,7 +4035,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -4045,7 +4045,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -4133,7 +4133,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -4158,7 +4158,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -4219,7 +4219,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -4229,7 +4229,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".ATR",
     "variants": [
       {
@@ -4253,7 +4253,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -4334,7 +4334,7 @@ export default {
     "broadcast": "global",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADATAA",
+    "otaId": "HE_DTV_W21K_AFADABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -4364,7 +4364,7 @@ export default {
     "broadcast": "global",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADATAA",
+    "otaId": "HE_DTV_W21K_AFADABAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -4374,7 +4374,7 @@ export default {
     "broadcast": "global",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADATAA",
+    "otaId": "HE_DTV_W21K_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -4389,7 +4389,7 @@ export default {
     "broadcast": "global",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADATAA",
+    "otaId": "HE_DTV_W21K_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -4489,7 +4489,7 @@ export default {
     "broadcast": "global",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADATAA",
+    "otaId": "HE_DTV_W21K_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -4509,7 +4509,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -4535,7 +4535,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -4552,7 +4552,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -4572,7 +4572,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -4582,7 +4582,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -4602,7 +4602,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -4612,7 +4612,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -4638,7 +4638,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -4655,7 +4655,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -4665,7 +4665,7 @@ export default {
     "broadcast": "arib",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABJAAA",
+    "otaId": "HE_DTV_W22H_AFADJAAA",
     "suffix": ".AJLG",
     "variants": []
   },
@@ -4675,7 +4675,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADABAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -4690,7 +4690,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".ACC",
     "variants": []
   },
@@ -4700,7 +4700,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADATAA",
+    "otaId": "HE_DTV_W23H_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -4720,7 +4720,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADATAA",
+    "otaId": "HE_DTV_W23H_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -4730,7 +4730,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -4744,7 +4744,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -4771,7 +4771,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -4781,7 +4781,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -4791,7 +4791,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -4801,7 +4801,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -4811,7 +4811,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -4830,7 +4830,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -4847,7 +4847,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -4857,7 +4857,7 @@ export default {
     "broadcast": "arib",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABJAAA",
+    "otaId": "HE_DTV_W22H_AFADJAAA",
     "suffix": ".AJLG",
     "variants": []
   },
@@ -4867,7 +4867,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADABAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -4882,7 +4882,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".ACC",
     "variants": [
       {
@@ -4896,7 +4896,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADATAA",
+    "otaId": "HE_DTV_W23H_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -4914,7 +4914,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADATAA",
+    "otaId": "HE_DTV_W23H_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -4933,7 +4933,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADATAA",
+    "otaId": "HE_DTV_W23H_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -4953,7 +4953,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADATAA",
+    "otaId": "HE_DTV_W23H_AFADABAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -4982,7 +4982,7 @@ export default {
     "broadcast": "global",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24H_AFADATAA",
+    "otaId": "HE_DTV_W24H_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -5001,7 +5001,7 @@ export default {
     "broadcast": "global",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24H_AFADATAA",
+    "otaId": "HE_DTV_W24H_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -5015,7 +5015,7 @@ export default {
     "broadcast": "global",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24H_AFADATAA",
+    "otaId": "HE_DTV_W24H_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -5032,7 +5032,7 @@ export default {
     "broadcast": "global",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24H_AFADATAA",
+    "otaId": "HE_DTV_W24H_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -5052,7 +5052,7 @@ export default {
     "broadcast": "global",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24H_AFADATAA",
+    "otaId": "HE_DTV_W24H_AFADABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -5551,7 +5551,7 @@ export default {
     "broadcast": "global",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABATAA",
+    "otaId": "HE_DTV_W21O_AFABABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -5561,7 +5561,7 @@ export default {
     "broadcast": "global",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABATAA",
+    "otaId": "HE_DTV_W21O_AFABABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -5583,7 +5583,7 @@ export default {
     "broadcast": "global",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABATAA",
+    "otaId": "HE_DTV_W21O_AFABABAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -5593,7 +5593,7 @@ export default {
     "broadcast": "global",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABATAA",
+    "otaId": "HE_DTV_W21O_AFABABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -5608,7 +5608,7 @@ export default {
     "broadcast": "global",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABATAA",
+    "otaId": "HE_DTV_W21O_AFABABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -5625,7 +5625,7 @@ export default {
     "broadcast": "global",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABATAA",
+    "otaId": "HE_DTV_W21O_AFABABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -5639,7 +5639,7 @@ export default {
     "broadcast": "global",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABATAA",
+    "otaId": "HE_DTV_W21O_AFABABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -5674,7 +5674,7 @@ export default {
     "broadcast": "global",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABATAA",
+    "otaId": "HE_DTV_W21O_AFABABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -5694,7 +5694,7 @@ export default {
     "broadcast": "global",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABATAA",
+    "otaId": "HE_DTV_W21O_AFABABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -5704,7 +5704,7 @@ export default {
     "broadcast": "global",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABATAA",
+    "otaId": "HE_DTV_W21O_AFABABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -5714,7 +5714,7 @@ export default {
     "broadcast": "global",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABATAA",
+    "otaId": "HE_DTV_W21O_AFABABAA",
     "suffix": ".ATR",
     "variants": [
       {
@@ -5728,7 +5728,7 @@ export default {
     "broadcast": "global",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABATAA",
+    "otaId": "HE_DTV_W21O_AFABABAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -5738,7 +5738,7 @@ export default {
     "broadcast": "global",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABATAA",
+    "otaId": "HE_DTV_W21O_AFABABAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -5748,7 +5748,7 @@ export default {
     "broadcast": "global",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABATAA",
+    "otaId": "HE_DTV_W21O_AFABABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -5758,7 +5758,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -5768,7 +5768,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -5778,7 +5778,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -5801,7 +5801,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -5811,7 +5811,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -5826,7 +5826,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -5845,7 +5845,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -5863,7 +5863,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -5877,7 +5877,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -5891,7 +5891,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -5905,7 +5905,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -5915,7 +5915,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -5935,7 +5935,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -5954,7 +5954,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -5987,7 +5987,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -5997,7 +5997,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -6007,7 +6007,7 @@ export default {
     "broadcast": "global",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABATAA",
+    "otaId": "HE_DTV_W23O_AFABABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -6017,7 +6017,7 @@ export default {
     "broadcast": "global",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABATAA",
+    "otaId": "HE_DTV_W23O_AFABABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -6031,7 +6031,7 @@ export default {
     "broadcast": "global",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABATAA",
+    "otaId": "HE_DTV_W23O_AFABABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -6045,7 +6045,7 @@ export default {
     "broadcast": "global",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABATAA",
+    "otaId": "HE_DTV_W23O_AFABABAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -6055,7 +6055,7 @@ export default {
     "broadcast": "global",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABATAA",
+    "otaId": "HE_DTV_W23O_AFABABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -6074,7 +6074,7 @@ export default {
     "broadcast": "global",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABATAA",
+    "otaId": "HE_DTV_W23O_AFABABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -6088,7 +6088,7 @@ export default {
     "broadcast": "global",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABATAA",
+    "otaId": "HE_DTV_W23O_AFABABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -6102,7 +6102,7 @@ export default {
     "broadcast": "global",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABATAA",
+    "otaId": "HE_DTV_W23O_AFABABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -6122,7 +6122,7 @@ export default {
     "broadcast": "global",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABATAA",
+    "otaId": "HE_DTV_W23O_AFABABAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -6151,7 +6151,7 @@ export default {
     "broadcast": "global",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABATAA",
+    "otaId": "HE_DTV_W23O_AFABABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -6161,7 +6161,7 @@ export default {
     "broadcast": "global",
     "machine": "o22n2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24G_AFABATAA",
+    "otaId": "HE_DTV_W24G_AFABABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -6175,7 +6175,7 @@ export default {
     "broadcast": "global",
     "machine": "o22n2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24G_AFABATAA",
+    "otaId": "HE_DTV_W24G_AFABABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -6189,7 +6189,7 @@ export default {
     "broadcast": "global",
     "machine": "o22n2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24G_AFABATAA",
+    "otaId": "HE_DTV_W24G_AFABABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -6203,7 +6203,7 @@ export default {
     "broadcast": "global",
     "machine": "o22n2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24G_AFABATAA",
+    "otaId": "HE_DTV_W24G_AFABABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -6222,7 +6222,7 @@ export default {
     "broadcast": "global",
     "machine": "o22n2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24G_AFABATAA",
+    "otaId": "HE_DTV_W24G_AFABABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -6237,7 +6237,7 @@ export default {
     "broadcast": "global",
     "machine": "o22n2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24G_AFABATAA",
+    "otaId": "HE_DTV_W24G_AFABABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -6251,7 +6251,7 @@ export default {
     "broadcast": "global",
     "machine": "o22n2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24G_AFABATAA",
+    "otaId": "HE_DTV_W24G_AFABABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -6271,7 +6271,7 @@ export default {
     "broadcast": "global",
     "machine": "o22n2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24G_AFABATAA",
+    "otaId": "HE_DTV_W24G_AFABABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -6672,7 +6672,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -6691,7 +6691,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -6706,7 +6706,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -7247,7 +7247,7 @@ export default {
     "broadcast": "global",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABATAA",
+    "otaId": "HE_DTV_W21O_AFABABAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -7257,7 +7257,7 @@ export default {
     "broadcast": "global",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABATAA",
+    "otaId": "HE_DTV_W21O_AFABABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -7271,7 +7271,7 @@ export default {
     "broadcast": "global",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABATAA",
+    "otaId": "HE_DTV_W21O_AFABABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -7291,7 +7291,7 @@ export default {
     "broadcast": "global",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABATAA",
+    "otaId": "HE_DTV_W21O_AFABABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -7301,7 +7301,7 @@ export default {
     "broadcast": "global",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABATAA",
+    "otaId": "HE_DTV_W21O_AFABABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -7321,7 +7321,7 @@ export default {
     "broadcast": "global",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABATAA",
+    "otaId": "HE_DTV_W21O_AFABABAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -7331,7 +7331,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -7341,7 +7341,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -7355,7 +7355,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -7375,7 +7375,7 @@ export default {
     "broadcast": "global",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABATAA",
+    "otaId": "HE_DTV_W22O_AFABABAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -7404,7 +7404,7 @@ export default {
     "broadcast": "global",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABATAA",
+    "otaId": "HE_DTV_W23O_AFABABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -7418,7 +7418,7 @@ export default {
     "broadcast": "global",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABATAA",
+    "otaId": "HE_DTV_W23O_AFABABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -7437,7 +7437,7 @@ export default {
     "broadcast": "global",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABATAA",
+    "otaId": "HE_DTV_W23O_AFABABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -7457,7 +7457,7 @@ export default {
     "broadcast": "global",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABATAA",
+    "otaId": "HE_DTV_W23O_AFABABAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -7486,7 +7486,7 @@ export default {
     "broadcast": "global",
     "machine": "o24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24O_AFABATAA",
+    "otaId": "HE_DTV_W24O_AFABABAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -7496,7 +7496,7 @@ export default {
     "broadcast": "global",
     "machine": "o24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24O_AFABATAA",
+    "otaId": "HE_DTV_W24O_AFABABAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -7506,7 +7506,7 @@ export default {
     "broadcast": "global",
     "machine": "o24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24O_AFABATAA",
+    "otaId": "HE_DTV_W24O_AFABABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -7523,7 +7523,7 @@ export default {
     "broadcast": "global",
     "machine": "o24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24O_AFABATAA",
+    "otaId": "HE_DTV_W24O_AFABABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -7537,7 +7537,7 @@ export default {
     "broadcast": "global",
     "machine": "o24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24O_AFABATAA",
+    "otaId": "HE_DTV_W24O_AFABABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -7557,7 +7557,7 @@ export default {
     "broadcast": "global",
     "machine": "o24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24O_AFABATAA",
+    "otaId": "HE_DTV_W24O_AFABABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -7804,7 +7804,7 @@ export default {
     "broadcast": "global",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABATAA",
+    "otaId": "HE_DTV_W21O_AFABABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -7823,7 +7823,7 @@ export default {
     "broadcast": "global",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABATAA",
+    "otaId": "HE_DTV_W21O_AFABABAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -8097,7 +8097,7 @@ export default {
     "broadcast": "global",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADATAA",
+    "otaId": "HE_DTV_W21K_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -8116,7 +8116,7 @@ export default {
     "broadcast": "global",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADATAA",
+    "otaId": "HE_DTV_W21K_AFADABAA",
     "suffix": ".AHK",
     "variants": []
   },
@@ -8126,7 +8126,7 @@ export default {
     "broadcast": "global",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADATAA",
+    "otaId": "HE_DTV_W21K_AFADABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -8136,7 +8136,7 @@ export default {
     "broadcast": "global",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADATAA",
+    "otaId": "HE_DTV_W21K_AFADABAA",
     "suffix": ".ATRZ",
     "variants": []
   },
@@ -8146,7 +8146,7 @@ export default {
     "broadcast": "global",
     "machine": "o228k",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22K_AFADATAA",
+    "otaId": "HE_DTV_W22K_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -8165,7 +8165,7 @@ export default {
     "broadcast": "global",
     "machine": "o228k",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22K_AFADATAA",
+    "otaId": "HE_DTV_W22K_AFADABAA",
     "suffix": ".AHK",
     "variants": []
   },
@@ -8175,7 +8175,7 @@ export default {
     "broadcast": "global",
     "machine": "o228k",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22K_AFADATAA",
+    "otaId": "HE_DTV_W22K_AFADABAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -8200,7 +8200,7 @@ export default {
     "broadcast": "global",
     "machine": "o22n8k",
     "codename": "number1",
-    "otaId": "HE_DTV_W23K_AFADATAA",
+    "otaId": "HE_DTV_W23K_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -8299,7 +8299,7 @@ export default {
     "broadcast": "global",
     "machine": "m23",
     "codename": "number1",
-    "otaId": "HE_DTV_W23U_AFADATAA",
+    "otaId": "HE_DTV_W23U_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -8317,7 +8317,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn",
     "codename": "number1",
-    "otaId": "HE_DTV_W23P_AFADATAA",
+    "otaId": "HE_DTV_W23P_AFADABAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -8342,7 +8342,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADATAA",
+    "otaId": "HE_DTV_W22P_AFADABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -8352,7 +8352,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADATAA",
+    "otaId": "HE_DTV_W22P_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -8362,7 +8362,7 @@ export default {
     "broadcast": "arib",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABJAAA",
+    "otaId": "HE_DTV_W22H_AFADJAAA",
     "suffix": ".AJLG",
     "variants": []
   },
@@ -8382,7 +8382,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -8392,7 +8392,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADATAA",
+    "otaId": "HE_DTV_W23H_AFADABAA",
     "suffix": ".ATR",
     "variants": [
       {
@@ -8406,7 +8406,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADATAA",
+    "otaId": "HE_DTV_W24P_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -8428,7 +8428,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADATAA",
+    "otaId": "HE_DTV_W24P_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -8458,7 +8458,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".ACC",
     "variants": [
       {
@@ -8482,7 +8482,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -8492,7 +8492,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -8513,7 +8513,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADATAA",
+    "otaId": "HE_DTV_W23H_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -8536,7 +8536,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -8553,7 +8553,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -8563,7 +8563,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADATAA",
+    "otaId": "HE_DTV_W23H_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -8573,7 +8573,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -8583,7 +8583,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADATAA",
+    "otaId": "HE_DTV_W23H_AFADABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -8593,7 +8593,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADATAA",
+    "otaId": "HE_DTV_W24P_AFADABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -8603,7 +8603,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADATAA",
+    "otaId": "HE_DTV_W23H_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -8622,7 +8622,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -8632,7 +8632,7 @@ export default {
     "broadcast": "arib",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABJAAA",
+    "otaId": "HE_DTV_W22H_AFADJAAA",
     "suffix": ".AJLG",
     "variants": []
   },
@@ -8642,7 +8642,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -8652,7 +8652,7 @@ export default {
     "broadcast": "global",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24H_AFADATAA",
+    "otaId": "HE_DTV_W24H_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -8686,7 +8686,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".ACC",
     "variants": [
       {
@@ -8700,7 +8700,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -8719,7 +8719,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADATAA",
+    "otaId": "HE_DTV_W23H_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -8741,7 +8741,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -8755,7 +8755,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADATAA",
+    "otaId": "HE_DTV_W23H_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -8765,7 +8765,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADABAA",
     "suffix": ".ATRG",
     "variants": []
   },
@@ -8775,7 +8775,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADATAA",
+    "otaId": "HE_DTV_W23H_AFADABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -8785,7 +8785,7 @@ export default {
     "broadcast": "global",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24H_AFADATAA",
+    "otaId": "HE_DTV_W24H_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -8804,7 +8804,7 @@ export default {
     "broadcast": "global",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24H_AFADATAA",
+    "otaId": "HE_DTV_W24H_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -8814,7 +8814,7 @@ export default {
     "broadcast": "global",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24H_AFADATAA",
+    "otaId": "HE_DTV_W24H_AFADABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -8824,7 +8824,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -8838,7 +8838,7 @@ export default {
     "broadcast": "global",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24H_AFADATAA",
+    "otaId": "HE_DTV_W24H_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -8866,7 +8866,7 @@ export default {
     "broadcast": "arib",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABJAAA",
+    "otaId": "HE_DTV_W22H_AFADJAAA",
     "suffix": ".AJLG",
     "variants": []
   },
@@ -8886,7 +8886,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -8901,7 +8901,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -8915,7 +8915,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21U_AFADABAA",
     "suffix": ".AHK",
     "variants": [
       {
@@ -8929,7 +8929,7 @@ export default {
     "broadcast": "global",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFABATAA",
+    "otaId": "HE_DTV_W22H_AFADABAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -8948,7 +8948,7 @@ export default {
     "broadcast": "global",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24H_AFADATAA",
+    "otaId": "HE_DTV_W24H_AFADABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -8958,7 +8958,7 @@ export default {
     "broadcast": "global",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADATAA",
+    "otaId": "HE_DTV_W21K_AFADABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -8968,7 +8968,7 @@ export default {
     "broadcast": "global",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADATAA",
+    "otaId": "HE_DTV_W21K_AFADABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -8978,7 +8978,7 @@ export default {
     "broadcast": "global",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADATAA",
+    "otaId": "HE_DTV_W21K_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -8993,7 +8993,7 @@ export default {
     "broadcast": "global",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADATAA",
+    "otaId": "HE_DTV_W21K_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -9007,7 +9007,7 @@ export default {
     "broadcast": "global",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADATAA",
+    "otaId": "HE_DTV_W21K_AFADABAA",
     "suffix": ".AHK",
     "variants": [
       {
@@ -9031,7 +9031,7 @@ export default {
     "broadcast": "global",
     "machine": "o228k",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22K_AFADATAA",
+    "otaId": "HE_DTV_W22K_AFADABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -9041,7 +9041,7 @@ export default {
     "broadcast": "global",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADATAA",
+    "otaId": "HE_DTV_W21K_AFADABAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -16001,7 +16001,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -16023,7 +16023,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -16051,7 +16051,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -16068,7 +16068,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -16082,7 +16082,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -16092,7 +16092,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -16102,7 +16102,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -16112,7 +16112,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -16122,7 +16122,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -16152,7 +16152,7 @@ export default {
     "broadcast": "global",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADATAA",
+    "otaId": "HE_DTV_W21P_AFADABAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -16162,7 +16162,7 @@ export default {
     "broadcast": "global",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADATAA",
+    "otaId": "HE_DTV_W21P_AFADABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -16192,7 +16192,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -16214,7 +16214,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -16228,7 +16228,7 @@ export default {
     "broadcast": "global",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADATAA",
+    "otaId": "HE_DTV_W21P_AFADABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -16238,7 +16238,7 @@ export default {
     "broadcast": "global",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADATAA",
+    "otaId": "HE_DTV_W21P_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -16265,7 +16265,7 @@ export default {
     "broadcast": "global",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADATAA",
+    "otaId": "HE_DTV_W21P_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -16302,7 +16302,7 @@ export default {
     "broadcast": "global",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADATAA",
+    "otaId": "HE_DTV_W21P_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -16312,7 +16312,7 @@ export default {
     "broadcast": "global",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADATAA",
+    "otaId": "HE_DTV_W21P_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -16322,7 +16322,7 @@ export default {
     "broadcast": "global",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADATAA",
+    "otaId": "HE_DTV_W21P_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -16332,7 +16332,7 @@ export default {
     "broadcast": "global",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADATAA",
+    "otaId": "HE_DTV_W21P_AFADABAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -16352,7 +16352,7 @@ export default {
     "broadcast": "global",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADATAA",
+    "otaId": "HE_DTV_W21P_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -16367,7 +16367,7 @@ export default {
     "broadcast": "global",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADATAA",
+    "otaId": "HE_DTV_W21P_AFADABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -16377,7 +16377,7 @@ export default {
     "broadcast": "global",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADATAA",
+    "otaId": "HE_DTV_W21P_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -16387,7 +16387,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -16409,7 +16409,7 @@ export default {
     "broadcast": "global",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADATAA",
+    "otaId": "HE_DTV_W21P_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -16428,7 +16428,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -16438,7 +16438,7 @@ export default {
     "broadcast": "global",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADATAA",
+    "otaId": "HE_DTV_W21P_AFADABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -16458,7 +16458,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -16468,7 +16468,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -16492,7 +16492,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -16512,7 +16512,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -16527,7 +16527,7 @@ export default {
     "broadcast": "global",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADATAA",
+    "otaId": "HE_DTV_W21P_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -16542,7 +16542,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -16556,7 +16556,7 @@ export default {
     "broadcast": "global",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADATAA",
+    "otaId": "HE_DTV_W21P_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -16570,7 +16570,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -16580,7 +16580,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADABAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -16600,7 +16600,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADATAA",
+    "otaId": "HE_DTV_W22P_AFADABAA",
     "suffix": ".AEEQ",
     "variants": [
       {
@@ -16629,7 +16629,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADATAA",
+    "otaId": "HE_DTV_W22P_AFADABAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -16639,7 +16639,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADATAA",
+    "otaId": "HE_DTV_W22P_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -16653,7 +16653,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADATAA",
+    "otaId": "HE_DTV_W22P_AFADABAA",
     "suffix": ".ATI",
     "variants": [
       {
@@ -16667,7 +16667,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADATAA",
+    "otaId": "HE_DTV_W22P_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -16697,7 +16697,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADATAA",
+    "otaId": "HE_DTV_W22P_AFADABAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -16707,7 +16707,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADATAA",
+    "otaId": "HE_DTV_W22P_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -16721,7 +16721,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADATAA",
+    "otaId": "HE_DTV_W22A_AFADABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -16731,7 +16731,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADATAA",
+    "otaId": "HE_DTV_W22A_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -16745,7 +16745,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADATAA",
+    "otaId": "HE_DTV_W22A_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -16782,7 +16782,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADATAA",
+    "otaId": "HE_DTV_W22A_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -16792,7 +16792,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADATAA",
+    "otaId": "HE_DTV_W22A_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -16802,7 +16802,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADATAA",
+    "otaId": "HE_DTV_W22A_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -16812,7 +16812,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADATAA",
+    "otaId": "HE_DTV_W22A_AFADABAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -16822,7 +16822,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADATAA",
+    "otaId": "HE_DTV_W22A_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -16836,7 +16836,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADATAA",
+    "otaId": "HE_DTV_W22A_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -16846,7 +16846,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADATAA",
+    "otaId": "HE_DTV_W22A_AFADABAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -16856,7 +16856,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADATAA",
+    "otaId": "HE_DTV_W22A_AFADABAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -16866,7 +16866,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADATAA",
+    "otaId": "HE_DTV_W22A_AFADABAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -16891,7 +16891,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADATAA",
+    "otaId": "HE_DTV_W22A_AFADABAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -16901,7 +16901,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADATAA",
+    "otaId": "HE_DTV_W22A_AFADABAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -16915,7 +16915,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADATAA",
+    "otaId": "HE_DTV_W22A_AFADABAA",
     "suffix": ".AHKG",
     "variants": [
       {
@@ -16939,7 +16939,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21ann",
     "codename": "number1",
-    "otaId": "HE_DTV_W23A_AFADATAA",
+    "otaId": "HE_DTV_W23A_AFADABAA",
     "suffix": ".AEEQ",
     "variants": [
       {
@@ -16964,7 +16964,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn",
     "codename": "number1",
-    "otaId": "HE_DTV_W23P_AFADATAA",
+    "otaId": "HE_DTV_W23P_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -16974,7 +16974,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn",
     "codename": "number1",
-    "otaId": "HE_DTV_W23P_AFADATAA",
+    "otaId": "HE_DTV_W23P_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -16984,7 +16984,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn",
     "codename": "number1",
-    "otaId": "HE_DTV_W23P_AFADATAA",
+    "otaId": "HE_DTV_W23P_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -16994,7 +16994,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21ann",
     "codename": "number1",
-    "otaId": "HE_DTV_W23A_AFADATAA",
+    "otaId": "HE_DTV_W23A_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -17016,7 +17016,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21ann",
     "codename": "number1",
-    "otaId": "HE_DTV_W23A_AFADATAA",
+    "otaId": "HE_DTV_W23A_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -17044,7 +17044,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn",
     "codename": "number1",
-    "otaId": "HE_DTV_W23P_AFADATAA",
+    "otaId": "HE_DTV_W23P_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -17054,7 +17054,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn",
     "codename": "number1",
-    "otaId": "HE_DTV_W23P_AFADATAA",
+    "otaId": "HE_DTV_W23P_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -17064,7 +17064,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn",
     "codename": "number1",
-    "otaId": "HE_DTV_W23P_AFADATAA",
+    "otaId": "HE_DTV_W23P_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -17074,7 +17074,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn",
     "codename": "number1",
-    "otaId": "HE_DTV_W23P_AFADATAA",
+    "otaId": "HE_DTV_W23P_AFADABAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -17089,7 +17089,7 @@ export default {
     "broadcast": "global",
     "machine": "lm21ann",
     "codename": "number1",
-    "otaId": "HE_DTV_W23A_AFADATAA",
+    "otaId": "HE_DTV_W23A_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -17117,7 +17117,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn",
     "codename": "number1",
-    "otaId": "HE_DTV_W23P_AFADATAA",
+    "otaId": "HE_DTV_W23P_AFADABAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -17127,7 +17127,7 @@ export default {
     "broadcast": "global",
     "machine": "m23",
     "codename": "number1",
-    "otaId": "HE_DTV_W23U_AFADATAA",
+    "otaId": "HE_DTV_W23U_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -17148,7 +17148,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn",
     "codename": "number1",
-    "otaId": "HE_DTV_W23P_AFADATAA",
+    "otaId": "HE_DTV_W23P_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -17168,7 +17168,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADATAA",
+    "otaId": "HE_DTV_W24P_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -17178,7 +17178,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADATAA",
+    "otaId": "HE_DTV_W24P_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -17213,7 +17213,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADATAA",
+    "otaId": "HE_DTV_W24P_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -17223,7 +17223,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADATAA",
+    "otaId": "HE_DTV_W24P_AFADABAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -17233,7 +17233,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADATAA",
+    "otaId": "HE_DTV_W24P_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -17247,7 +17247,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADATAA",
+    "otaId": "HE_DTV_W24P_AFADABAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -17257,7 +17257,7 @@ export default {
     "broadcast": "global",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADATAA",
+    "otaId": "HE_DTV_W24P_AFADABAA",
     "suffix": ".AEK",
     "variants": [
       {

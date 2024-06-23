@@ -10,7 +10,7 @@
  */
 import dump from "./data/model-epks.json" assert {type: "json"};
 import fs from "node:fs";
-import {machineOtaIdPrefix, minorMajor} from "../src/mappings.js";
+import {machineOtaIdPrefix, minorMajor} from "./mappings.js";
 import {DeviceModelName} from "../src/library.js";
 
 /**
@@ -66,16 +66,31 @@ export function parseDeviceModel(model, epk, region) {
         switch (otaIdPrefix.substring(0, 6)) {
           case 'HE_MNT':
             return 'GLAA';
-          case 'HE_DTV':
-            return 'ATAA';
-          default:
-            return '';
+          case 'HE_DTV': {
+            switch (region) {
+              case 'DE':
+              case 'IN':
+              case 'HK':
+              case 'NZ':
+              case 'UK':
+                return 'ABAA';
+              case 'CA':
+                return 'ATAA';
+              case 'JP':
+                return 'JAAA';
+            }
+          }
         }
+        break;
       default:
-        return '';
+        return undefined;
     }
   }
 
+  const otaIdSuffix = otaBroadcast(broadcast);
+  if (!otaIdSuffix) {
+    return undefined;
+  }
   return {
     series: model.series, region, broadcast, machine, codename,
     otaId: otaIdPrefix + otaBroadcast(match.groups.broadcast),

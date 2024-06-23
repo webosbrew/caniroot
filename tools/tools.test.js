@@ -1,7 +1,7 @@
 import {describe, it} from "node:test";
 import updates from "./data/fw-updates.json" assert {type: "json"};
 import epks from "./data/model-epks.json" assert {type: "json"};
-import {minorMajor} from "../src/mappings.js";
+import {minorMajor} from "./mappings.js";
 import assert from "node:assert";
 import {parseDeviceModel} from "./gen-models.js";
 
