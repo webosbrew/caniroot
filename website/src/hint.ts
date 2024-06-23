@@ -16,6 +16,10 @@ const osVersionMap: Record<string, string> = {
     'ombre': 'webOS 9.x',
 };
 
+export function webOSReleaseName(codename: string) {
+    return html`<span>${osVersionMap[codename] ?? codename}</span>`;
+}
+
 export function SearchHint(term?: SearchTerm, model?: DeviceModel) {
     if (!term) {
         return html`
@@ -36,7 +40,7 @@ export function SearchHint(term?: SearchTerm, model?: DeviceModel) {
         return html`
           <div class="alert alert-info mt-3" role="alert">
             <i class="bi bi-search me-2"/>Found <code>${model.model}</code>
-            , running <code>${osVersionMap[model.codename]}</code>
+            , running <code>${webOSReleaseName(model.codename)}</code>
             , machine <code>${model.machine}</code>
             , otaId <code>${model.otaId}</code>
           </div>

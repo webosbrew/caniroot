@@ -3,7 +3,7 @@ import {DeviceExploitAvailabilities, DeviceExploitType, DeviceModel, DeviceModel
 import debounce from 'lodash-es/debounce';
 import {RenderableProps} from "preact";
 import {ExploitCard} from "./exploit";
-import {SearchHint} from "./hint";
+import {SearchHint, webOSReleaseName} from "./hint";
 
 interface AppProps {
     q?: string;
@@ -13,6 +13,8 @@ interface AppProps {
 interface AppState {
     term?: SearchTerm;
     model?: DeviceModel;
+    availableCodenames?: string[];
+    selectedCodename?: string;
     similar?: boolean;
     availability?: DeviceExploitAvailabilities;
 }
@@ -70,7 +72,7 @@ class App extends Component<AppProps, AppState> {
 
     constructor(props: AppProps) {
         super(props);
-        this.state = this.createState(props.q)
+        this.state = this.createState(props.q);
     }
 
     /**
@@ -94,7 +96,6 @@ class App extends Component<AppProps, AppState> {
         this.searchImmediate(url.searchParams.get('q') ?? '');
     };
 
-
     componentDidMount(): void {
         addEventListener('popstate', this.locationChanged);
     }
@@ -114,6 +115,18 @@ class App extends Component<AppProps, AppState> {
                    placeholder=${props.sample} autocapitalize="characters"
                    onInput=${(e: Event) => this.searchChanged((e.currentTarget as HTMLInputElement).value)}/>
             ${SearchHint(state.term, model)}
+
+            ${state.availableCodenames && html`
+              <ul class="nav nav-pills nav-fill">
+                ${state.availableCodenames.map(codename => html`
+                  <li class="nav-item">
+                    <button type="button" class="nav-link ${state.selectedCodename === codename ? 'active' : ''}"
+                            aria-current="page" onClick=${() => this.searchImmediate(state.term!!.q, codename)}>
+                      ${webOSReleaseName(codename)}
+                    </button>
+                  </li>
+                `)}
+              </ul>`}
 
             ${state.similar && html`
               <div class="alert alert-warning mt-3">
@@ -172,19 +185,37 @@ class App extends Component<AppProps, AppState> {
         `;
     }
 
-    private searchImmediate(q: string): void {
-        this.setState(this.createState(q));
+    private searchImmediate(q: string, codename?: string): void {
+        this.setState(this.createState(q, codename));
     }
 
-    private createState(q?: string): AppState {
+    private createState(q?: string, codename?: string): AppState {
         const term = parseSearchTerm(q);
         let model = term?.model && DeviceModel.find(term.model.series + (term.model.tdd || ''));
+        let availableCodenames: string[] | undefined = undefined;
+        let selectedCodename: string | undefined;
+        if (model) {
+            availableCodenames = model.variants?.filter(v => v.codename && v.codename !== model!!.codename)
+                .map(v => v.codename!!);
+            if (availableCodenames?.length === 0) {
+                availableCodenames = undefined;
+            }
+            if (availableCodenames) {
+                availableCodenames.unshift(model.codename);
+                selectedCodename = codename || model.codename;
+            }
+            if (selectedCodename && selectedCodename !== model.codename) {
+                model = model.variant((v) => v.codename === selectedCodename)
+            }
+        }
+
         let availability = model && DeviceExploitAvailabilities.byOTAID(model.otaId);
         let similar = false;
-        if (model && availability && availability.otaId !== model.otaId) {
+        if (term?.model && model?.model?.startsWith(term.model.simple) && availability && availability.otaId !== model.otaId) {
             similar = true;
         }
-        return {term, model, similar, availability};
+        console.log(term, model);
+        return {term, model, availableCodenames, selectedCodename, similar, availability};
     }
 }
 
