@@ -1,5 +1,5 @@
 import {Component, html, render} from 'htm/preact';
-import {DeviceExploitAvailabilities, DeviceModel, DeviceModelName} from "@webosbrew/caniroot";
+import {DeviceExploitAvailabilities, DeviceExploitType, DeviceModel, DeviceModelName} from "@webosbrew/caniroot";
 import debounce from 'lodash-es/debounce';
 import {RenderableProps} from "preact";
 import {ExploitCard} from "./exploit";
@@ -13,6 +13,7 @@ interface AppProps {
 interface AppState {
     term?: SearchTerm;
     model?: DeviceModel;
+    similar?: boolean;
     availability?: DeviceExploitAvailabilities;
 }
 
@@ -32,7 +33,7 @@ function parseSearchTerm(q?: string): SearchTerm | undefined {
 
 export declare interface ExploitMethod {
     name: string;
-    key: keyof DeviceExploitAvailabilities;
+    key: DeviceExploitType;
     url: string;
     expert?: boolean;
 }
@@ -40,19 +41,36 @@ export declare interface ExploitMethod {
 class App extends Component<AppProps, AppState> {
 
     readonly exploits: ExploitMethod[] = [
-        {name: 'DejaVuln', key: 'dejavuln', url: 'https://github.com/throwaway96/dejavuln-autoroot'},
-        {name: 'ASM', key: 'asm', url: 'https://github.com/illixion/root-my-webos-tv'},
-        {name: 'crashd', key: 'crashd', url: 'https://gist.github.com/throwaway96/e811b0f7cc2a705a5a476a8dfa45e09f'},
-        {name: 'WTA', key: 'wta', url: 'https://gist.github.com/throwaway96/b171240ef59d7f5fd6fb48fc6dfd2941'},
-        {name: 'RootMy.TV', key: 'rootmytv', url: 'https://rootmy.tv/'},
+        {
+            name: 'DejaVuln',
+            key: DeviceExploitType.DejaVuln,
+            url: 'https://github.com/throwaway96/dejavuln-autoroot'
+        },
+        {
+            name: 'ASM',
+            key: DeviceExploitType.ASM,
+            url: 'https://github.com/illixion/root-my-webos-tv'
+        },
+        {
+            name: 'crashd',
+            key: DeviceExploitType.crashd,
+            url: 'https://gist.github.com/throwaway96/e811b0f7cc2a705a5a476a8dfa45e09f'
+        },
+        {
+            name: 'WTA',
+            key: DeviceExploitType.WTA,
+            url: 'https://gist.github.com/throwaway96/b171240ef59d7f5fd6fb48fc6dfd2941'
+        },
+        {
+            name: 'RootMy.TV',
+            key: DeviceExploitType.RootMyTV,
+            url: 'https://rootmy.tv/'
+        },
     ];
 
     constructor(props: AppProps) {
         super(props);
-        const term = parseSearchTerm(props.q);
-        let model = term?.model && DeviceModel.find(term.model.series + (term.model.tdd || ''));
-        let availability = model && DeviceExploitAvailabilities.byOTAID(model.otaId);
-        this.state = {term, model, availability};
+        this.state = this.createState(props.q)
     }
 
     /**
@@ -97,10 +115,17 @@ class App extends Component<AppProps, AppState> {
                    onInput=${(e: Event) => this.searchChanged((e.currentTarget as HTMLInputElement).value)}/>
             ${SearchHint(state.term, model)}
 
+            ${state.similar && html`
+              <div class="alert alert-warning mt-3">
+                <i class="bi bi-exclamation-triangle-fill me-2"></i>
+                We found a similar model (<code>${state.availability?.otaId}</code>) but not an exact match
+                (<code>${model?.otaId}</code>).
+              </div>
+            `}
 
             ${this.exploits.map(exploit => {
               const avail = state.availability?.[exploit.key];
-              return avail && ExploitCard(exploit, avail, state.term?.firmware ?? avail.patched?.version);
+              return avail && ExploitCard(exploit, avail, state.term?.firmware);
             })}
 
             ${unrootable && html`
@@ -148,10 +173,18 @@ class App extends Component<AppProps, AppState> {
     }
 
     private searchImmediate(q: string): void {
+        this.setState(this.createState(q));
+    }
+
+    private createState(q?: string): AppState {
         const term = parseSearchTerm(q);
         let model = term?.model && DeviceModel.find(term.model.series + (term.model.tdd || ''));
         let availability = model && DeviceExploitAvailabilities.byOTAID(model.otaId);
-        this.setState({term, model, availability});
+        let similar = false;
+        if (model && availability && availability.otaId !== model.otaId) {
+            similar = true;
+        }
+        return {term, model, similar, availability};
     }
 }
 

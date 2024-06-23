@@ -34,7 +34,8 @@ export function SearchHint(term?: SearchTerm, model?: DeviceModel) {
     }
     if (model) {
         return html`
-          <div class="alert alert-info mt-3" role="alert">Found <code>${model.model}</code>
+          <div class="alert alert-info mt-3" role="alert">
+            <i class="bi bi-search me-2"/>Found <code>${model.model}</code>
             , running <code>${osVersionMap[model.codename]}</code>
             , machine <code>${model.machine}</code>
             , otaId <code>${model.otaId}</code>
