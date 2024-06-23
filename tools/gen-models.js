@@ -10,7 +10,7 @@
  */
 import dump from "./data/model-epks.json" assert {type: "json"};
 import fs from "node:fs";
-import {machineOtaIdPrefix, minorMajor} from "./mappings.js";
+import {machineOtaIdPrefix, minorMajor, otaIdUpgrades} from "./mappings.js";
 import {DeviceModelName} from "../src/library.js";
 
 /**
@@ -122,8 +122,19 @@ for (const {region, model, epk} of dump) {
       }
       variants.push(parsedModel);
     }
-    variants.sort((a, b) => a.suffix.localeCompare(b.suffix));
+    variants.sort((a, b) => {
+      const sa = a.suffix;
+      const sb = b.suffix;
+      if (!sa) {
+        return sb ? -1 : 0;
+      } else if (!sb) {
+        return 1;
+      }
+      return sa.localeCompare(sb);
+    });
     continue;
+  } else if (otaIdUpgrades[parsedModel.otaId]) {
+    parsedModel.variants.push(otaIdUpgrades[parsedModel.otaId]);
   }
   output[parsedName.simple] = parsedModel;
 }

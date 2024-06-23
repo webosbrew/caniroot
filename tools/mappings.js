@@ -122,3 +122,11 @@ export const machineOtaIdPrefix = {
   'o22n2': ['HE_DTV_W24G_AFAB'],
   'k24': ['HE_DTV_W24H_AFAD'],
 };
+
+/**
+ * @type {Record<string, Partial<DeviceModelData>>}
+ */
+export const otaIdUpgrades = {
+  'HE_DTV_W22H_AFADATAA': {otaId: 'HE_DTV_W22H_AFABATPU', codename: 'number1'},
+  'HE_DTV_W22O_AFABATAA': {otaId: 'HE_DTV_W22O_AFABATPU', codename: 'number1'},
+};
