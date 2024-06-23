@@ -9,7 +9,22 @@ export declare interface ExploitAvailability {
     patched?: FirmwareVersion;
 }
 
-export class DeviceExploitAvailabilities {
+export enum DeviceExploitType {
+    NVM = 'nvm',
+    RootMyTV = 'rootmytv',
+    crashd = 'crashd',
+    WTA = 'wta',
+    ASM = 'asm',
+    DejaVuln = 'dejavuln',
+}
+
+export type DeviceExploitAvailabilitiesData = {
+    [key in DeviceExploitType]?: ExploitAvailability | undefined;
+}
+
+export class DeviceExploitAvailabilities implements DeviceExploitAvailabilitiesData {
+    readonly otaId: string;
+
     readonly nvm?: ExploitAvailability;
     readonly rootmytv?: ExploitAvailability;
     readonly crashd?: ExploitAvailability;
@@ -57,7 +72,7 @@ export class DeviceModelName {
     public static parse(model: string): DeviceModelName | undefined;
 }
 
-export declare interface DeviceModelData {
+export interface DeviceModelData {
     series: string;
     region: string;
     broadcast: string;

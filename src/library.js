@@ -1,9 +1,18 @@
 import exploits from "./exploits.gen.js";
 import models from "./models.gen.js";
 
+export const DeviceExploitType = {
+  NVM: 'nvm',
+  RootMyTV: 'rootmytv',
+  crashd: 'crashd',
+  WTA: 'wta',
+  ASM: 'asm',
+  DejaVuln: 'dejavuln',
+};
+
 export class DeviceExploitAvailabilities {
   /**
-   * @param props {Readonly<DeviceExploitAvailabilities>}
+   * @param props {Readonly<DeviceExploitAvailabilitiesData & {otaId:string}>}
    */
   constructor(props) {
     Object.assign(this, props);
@@ -15,18 +24,21 @@ export class DeviceExploitAvailabilities {
    * @returns {DeviceExploitAvailabilities | undefined}
    */
   static byOTAID(otaId, exact) {
+    /** @type {DeviceExploitAvailabilitiesData} */
     let match = exploits[otaId];
+    let matchKey = otaId;
     if (!match && !exact) {
       // Find first match ignoring broadcast region
       const prefix = otaId.substring(0, 16);
       for (let [key, value] of Object.entries(exploits)) {
         if (key.startsWith(prefix)) {
           match = value;
+          matchKey = key;
           break;
         }
       }
     }
-    return match && new DeviceExploitAvailabilities(match);
+    return match && new DeviceExploitAvailabilities({otaId: matchKey, ...match});
   }
 }
 
