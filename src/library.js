@@ -90,6 +90,30 @@ export class DeviceModel {
   }
 
   /**
+   * @param predicate {(variant: Readonly<DeviceModelVariantData>) => boolean}
+   * @returns {DeviceModel|undefined}
+   */
+  variant(predicate) {
+    // noinspection JSCheckFunctionSignatures
+    if (predicate(this)) {
+      return this;
+    }
+    const variant = this.variants.find(predicate);
+    if (!variant) {
+      return undefined;
+    }
+    // noinspection JSValidateTypes
+    /** @type {DeviceModelData & {model:string}} */
+    const base = {};
+    for (let prop of Object.getOwnPropertyNames(this)) {
+      if (prop !== 'variants') {
+        base[prop] = this[prop];
+      }
+    }
+    return new DeviceModel(Object.assign(base, variant));
+  }
+
+  /**
    * @param {string} model
    * @param {boolean} [exact]
    * @returns {DeviceModel | undefined}
@@ -118,8 +142,9 @@ export class DeviceModel {
       return undefined;
     }
     for (const variant of match.variants) {
-      if (variant.suffix === parsed.suffix) {
+      if (parsed.suffix && variant.suffix === parsed.suffix) {
         match = Object.assign({...match}, variant);
+        delete match.variants;
         break;
       }
     }

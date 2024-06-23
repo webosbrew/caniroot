@@ -3045,7 +3045,12 @@ export default {
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".ACC",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "LX3Q6LA": {
     "series": "LX3Q6L",
@@ -3113,7 +3118,12 @@ export default {
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".ACC",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "LX5QKNA": {
     "series": "LX5QKN",
@@ -4692,7 +4702,12 @@ export default {
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".ACC",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "OLEDA3PCA": {
     "series": "OLEDA3",
@@ -4885,6 +4900,10 @@ export default {
     "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".ACC",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      },
       {
         "suffix": ".AUS"
       }
@@ -5976,6 +5995,10 @@ export default {
     "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".ACC",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      },
       {
         "suffix": ".AUS"
       }
@@ -7396,7 +7419,12 @@ export default {
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".ACC",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "OLEDG36LA": {
     "series": "OLEDG3",
@@ -8462,6 +8490,10 @@ export default {
     "suffix": ".ACC",
     "variants": [
       {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      },
+      {
         "suffix": ".AUS"
       }
     ]
@@ -8689,6 +8721,10 @@ export default {
     "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".ACC",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      },
       {
         "suffix": ".AUS"
       }

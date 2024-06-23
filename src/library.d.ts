@@ -80,8 +80,10 @@ export interface DeviceModelData {
     codename: string;
     otaId: string;
     suffix?: string;
-    variants?: Partial<Omit<DeviceModelData, 'variants'>>[];
+    variants?: DeviceModelVariantData[];
 }
+
+export type DeviceModelVariantData = Partial<Omit<DeviceModelData, 'variants'>>;
 
 export class DeviceModel implements DeviceModelData {
     readonly model: string;
@@ -92,9 +94,11 @@ export class DeviceModel implements DeviceModelData {
     readonly codename: string;
     readonly otaId: string;
     readonly suffix?: string;
-    readonly variants?: Partial<Omit<DeviceModelData, 'variants'>>[];
+    readonly variants?: DeviceModelVariantData[];
 
     private constructor();
+
+    public variant(predicate: (variant: Readonly<DeviceModelVariantData>) => boolean): DeviceModel | undefined;
 
     /**
      * Find a model by its name

@@ -46,7 +46,16 @@ describe('DeviceModel', {only: true}, () => {
     assert.strictEqual(DeviceModel.find('NANO75SQA.ATRG').model, 'NANO75SQA.ATRG');
     assert.strictEqual(DeviceModel.find('UM7380PJA').model, 'UM7380PJE.AJL');
     assert.strictEqual(DeviceModel.find('UM7380PJ').model, 'UM7380PJE.AJL');
+    assert.strictEqual(DeviceModel.find('QNED85UQA').codename, 'mullet');
+    assert.strictEqual(DeviceModel.find('QNED85').codename, 'mullet');
+    assert.ok(DeviceModel.find('QNED85UQA').variants.find((v) => v.codename === 'number1'));
+  });
 
+  it('should find a variant', () => {
+    const c2 = DeviceModel.find('OLEDC2PUA');
+    assert.ok(c2);
+    assert.ok(c2.variant((v) => v.codename === 'mullet'));
+    assert.ok(c2.variant((v) => v.codename === 'number1'));
   });
 
   it('should find by series', () => {
