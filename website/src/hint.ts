@@ -20,7 +20,8 @@ export function webOSReleaseName(codename: string) {
     return html`<span>${osVersionMap[codename] ?? codename}</span>`;
 }
 
-export function SearchHint(term?: SearchTerm, model?: DeviceModel) {
+export function SearchHint(props: { term?: SearchTerm, model?: DeviceModel }) {
+    const {term, model} = props;
     if (!term) {
         return html`
           <div class="alert alert-primary mt-3">

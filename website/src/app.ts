@@ -114,73 +114,75 @@ class App extends Component<AppProps, AppState> {
             <input class="form-control form-control-lg" type="search" value=${state.term?.q ?? ''} autofocus
                    placeholder=${props.sample} autocapitalize="characters"
                    onInput=${(e: Event) => this.searchChanged((e.currentTarget as HTMLInputElement).value)}/>
-            ${SearchHint(state.term, model)}
+            <${SearchHint} term=${state.term} model=${model}/>
 
-            ${state.availableCodenames && html`
-              <ul class="nav nav-pills nav-fill">
-                ${state.availableCodenames.map(codename => html`
-                  <li class="nav-item">
-                    <button type="button" class="nav-link ${state.selectedCodename === codename ? 'active' : ''}"
-                            aria-current="page" onClick=${() => this.searchImmediate(state.term!!.q, codename)}>
-                      ${webOSReleaseName(codename)}
-                    </button>
-                  </li>
-                `)}
-              </ul>`}
+              ${state.availableCodenames && html`
+                <ul class="nav nav-pills nav-fill">
+                  ${state.availableCodenames.map(codename => html`
+                    <li class="nav-item">
+                      <button type="button" class="nav-link ${state.selectedCodename === codename ? 'active' : ''}"
+                              aria-current="page" onClick=${() => this.searchImmediate(state.term!!.q, codename)}>
+                        ${webOSReleaseName(codename)}
+                      </button>
+                    </li>
+                  `)}
+                </ul>`}
 
-            ${state.similar && html`
-              <div class="alert alert-warning mt-3">
-                <i class="bi bi-exclamation-triangle-fill me-2"></i>
-                We found rooting methods for a similar model (<code>${state.availability?.otaId}</code>),
-                but not an exact match (<code>${model?.otaId}</code>). They may have different firmware versions.
-              </div>
-            `}
-
-            ${this.exploits.map(exploit => {
-              const avail = state.availability?.[exploit.key];
-              return avail && ExploitCard(exploit, avail, state.term?.firmware);
-            })}
-
-            ${unrootable && html`
-              <div class="card p-3 mt-3 bg-secondary-subtle">
-                <h3>
-                  <i class="bi bi-x-circle-fill me-2"></i>Unrootable (yet)
-                </h3>
-                <div>
-                  No known rooting methods are available for this model. <br/>
-                  <a href="https://discord.gg/xWqRVEm">Contact us</a> to help us find a way to root!
+              ${state.similar && html`
+                <div class="alert alert-warning mt-3">
+                  <i class="bi bi-exclamation-triangle-fill me-2"></i>
+                  We found rooting methods for a similar model (<code>${state.availability?.otaId}</code>),
+                  but not an exact match (<code>${model?.otaId}</code>). They may have different firmware versions.
                 </div>
-              </div>
-            `}
+              `}
 
-            ${legacy && html`
-              <div class="card p-3 mt-3 bg-secondary-subtle">
-                <h3>
-                  <i class="bi bi-question-octagon-fill me-2"></i>
-                  <a class="stretched-link text-decoration-none" href="https://www.webosbrew.org/rooting/getmenow"
-                     target="_blank">GetMeNow</a>
-                </h3>
-                <div>
-                  GetMeNow method may work on some models running webOS 1~3.<br/>
-                  <i class="bi bi-exclamation-triangle-fill me-2"/>Latest Dev Mode updates may have patched this method.
-                  <br/>
-                </div>
-              </div>
+              ${this.exploits.map(exploit => {
+                const avail = state.availability?.[exploit.key];
+                return avail && html`
+                  <${ExploitCard} exploit=${exploit} avail=${avail} firmware=${state.term?.firmware}/>`;
+              })}
 
-              <div class="card p-3 mt-3 bg-info-subtle">
-                <h3>
-                  <i class="bi bi-tools me-2"></i>
-                  <a class="stretched-link text-decoration-none"
-                     href="https://gist.github.com/throwaway96/827ff726981cc2cbc46a22a2ad7337a1" target="_blank">
-                    NVM (hardware method)</a>
-                </h3>
-                <div>
-                  Alternatively, you can modify contents on NVRAM chip in the TV to enable root access. <br/>
-                  <i class="bi bi-exclamation-triangle-fill me-2"/>This method requires expert knowledge.
+              ${unrootable && html`
+                <div class="card p-3 mt-3 bg-secondary-subtle">
+                  <h3>
+                    <i class="bi bi-x-circle-fill me-2"></i>Unrootable (yet)
+                  </h3>
+                  <div>
+                    No known rooting methods are available for this model. <br/>
+                    <a href="https://discord.gg/xWqRVEm">Contact us</a> to help us find a way to root!
+                  </div>
                 </div>
-              </div>
-            `
-            }
+              `}
+
+              ${legacy && html`
+                <div class="card p-3 mt-3 bg-secondary-subtle">
+                  <h3>
+                    <i class="bi bi-question-octagon-fill me-2"></i>
+                    <a class="stretched-link text-decoration-none" href="https://www.webosbrew.org/rooting/getmenow"
+                       target="_blank">GetMeNow</a>
+                  </h3>
+                  <div>
+                    GetMeNow method may work on some models running webOS 1~3.<br/>
+                    <i class="bi bi-exclamation-triangle-fill me-2"/>Latest Dev Mode updates may have patched this
+                    method.
+                    <br/>
+                  </div>
+                </div>
+
+                <div class="card p-3 mt-3 bg-info-subtle">
+                  <h3>
+                    <i class="bi bi-tools me-2"></i>
+                    <a class="stretched-link text-decoration-none"
+                       href="https://gist.github.com/throwaway96/827ff726981cc2cbc46a22a2ad7337a1" target="_blank">
+                      NVM (hardware method)</a>
+                  </h3>
+                  <div>
+                    Alternatively, you can modify contents on NVRAM chip in the TV to enable root access. <br/>
+                    <i class="bi bi-exclamation-triangle-fill me-2"/>This method requires expert knowledge.
+                  </div>
+                </div>
+              `
+              }
           </div>
         `;
     }
@@ -191,7 +193,11 @@ class App extends Component<AppProps, AppState> {
 
     private createState(q?: string, codename?: string): AppState {
         const term = parseSearchTerm(q);
-        let model = term?.model && DeviceModel.find(term.model.series + (term.model.tdd || ''));
+        const models = term?.model && DeviceModel.findAll(term.model.series + (term.model.tdd || ''));
+        let model = models?.filter(m => m.model.startsWith(term!!.model!!.simple))[0];
+        if (!model && models) {
+            model = models[0];
+        }
         let availableCodenames: string[] | undefined = undefined;
         let selectedCodename: string | undefined;
         if (model) {
@@ -209,12 +215,8 @@ class App extends Component<AppProps, AppState> {
             }
         }
 
-        let availability = model && DeviceExploitAvailabilities.byOTAID(model.otaId);
-        let similar = false;
-        if (term?.model && model?.model?.startsWith(term.model.simple) && availability && availability.otaId !== model.otaId) {
-            similar = true;
-        }
-        console.log(term, model);
+        const availability = model && DeviceExploitAvailabilities.byOTAID(model.otaId);
+        const similar = model && availability && availability.otaId !== model.otaId;
         return {term, model, availableCodenames, selectedCodename, similar, availability};
     }
 }
