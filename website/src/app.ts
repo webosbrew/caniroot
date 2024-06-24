@@ -131,8 +131,8 @@ class App extends Component<AppProps, AppState> {
             ${state.similar && html`
               <div class="alert alert-warning mt-3">
                 <i class="bi bi-exclamation-triangle-fill me-2"></i>
-                We found a similar model (<code>${state.availability?.otaId}</code>) but not an exact match
-                (<code>${model?.otaId}</code>).
+                We found rooting methods for a similar model (<code>${state.availability?.otaId}</code>),
+                but not an exact match (<code>${model?.otaId}</code>). They may have different firmware versions.
               </div>
             `}
 
