@@ -10,13 +10,32 @@
  */
 import dump from "./data/model-epks.json" assert {type: "json"};
 import fs from "node:fs";
-import {machineOtaIdPrefix, minorMajor, otaIdUpgrades} from "./mappings.js";
+import {machineOtaIdPrefix, minorMajor, otaIdUpgrades, regionBroadcasts} from "./mappings.js";
 import {DeviceModelName} from "../src/library.js";
 
 /**
  * @type {Record<string, DeviceModelData>}
  */
 let output = {};
+
+/**
+ * @param broadcast {string}
+ * @param otaIdPrefix {string}
+ * @param region {string}
+ * @return {string|undefined}
+ */
+export function inferBroadcast(broadcast, otaIdPrefix, region) {
+  if (broadcast !== 'global') {
+    return broadcast;
+  }
+  switch (otaIdPrefix.substring(0, 6)) {
+    case 'HE_MNT':
+      return 'global';
+    case 'HE_DTV': {
+      return regionBroadcasts[region];
+    }
+  }
+}
 
 /**
  * @param model {DeviceModelName}
@@ -38,7 +57,6 @@ export function parseDeviceModel(model, epk, region) {
     return undefined;
   }
 
-  const broadcast = match.groups.broadcast;
   const codename = minorMajor[match.groups.minor];
   const otaIdPrefix = otaIds.map(otaId => {
     if (typeof otaId === 'string') {
@@ -54,6 +72,8 @@ export function parseDeviceModel(model, epk, region) {
     return undefined;
   }
 
+  const broadcast = inferBroadcast(match.groups.broadcast, otaIdPrefix, region);
+
   function otaBroadcast(broadcast) {
     switch (broadcast) {
       case 'arib':
@@ -63,28 +83,14 @@ export function parseDeviceModel(model, epk, region) {
       case 'atsc':
         return 'ATAA';
       case 'global':
-        switch (otaIdPrefix.substring(0, 6)) {
-          case 'HE_MNT':
-            return 'GLAA';
-          case 'HE_DTV': {
-            switch (region) {
-              case 'DE':
-              case 'IN':
-              case 'HK':
-              case 'NZ':
-              case 'UK':
-                return 'ABAA';
-              case 'CA':
-                return 'ATAA';
-              case 'JP':
-                return 'JAAA';
-            }
-          }
+        if (otaIdPrefix.startsWith('HE_MNT_')) {
+          return 'GLAA';
         }
         break;
       default:
-        return undefined;
+        break;
     }
+    return undefined;
   }
 
   const otaIdSuffix = otaBroadcast(broadcast);
@@ -93,7 +99,7 @@ export function parseDeviceModel(model, epk, region) {
   }
   return {
     series: model.series, region, broadcast, machine, codename,
-    otaId: otaIdPrefix + otaBroadcast(match.groups.broadcast),
+    otaId: otaIdPrefix + otaIdSuffix,
     suffix: model.suffix, variants: [],
   }
 }

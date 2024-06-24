@@ -130,3 +130,16 @@ export const otaIdUpgrades = {
   'HE_DTV_W22H_AFADATAA': {otaId: 'HE_DTV_W22H_AFABATPU', codename: 'number1'},
   'HE_DTV_W22O_AFABATAA': {otaId: 'HE_DTV_W22O_AFABATPU', codename: 'number1'},
 };
+
+/** @type {Record<string, string>} */
+export const regionBroadcasts = {
+  'US': 'atsc',
+  'CA': 'atsc',
+  'JP': 'arib',
+  'KR': 'atsc',
+  'UK': 'dvb',
+  'DE': 'dvb',
+  'NZ': 'dvb',
+  'IN': 'dvb',
+  'HK': 'dvb',
+};
