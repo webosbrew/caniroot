@@ -85,6 +85,8 @@ export function parseDeviceModel(model, epk, region) {
       case 'global':
         if (otaIdPrefix.startsWith('HE_MNT_')) {
           return 'GLAA';
+        } else if (otaIdPrefix.startsWith('HE_DTV_')) {
+          return 'ATAA';
         }
         break;
       default:
@@ -93,7 +95,7 @@ export function parseDeviceModel(model, epk, region) {
     return undefined;
   }
 
-  const otaIdSuffix = otaBroadcast(broadcast);
+  const otaIdSuffix = otaBroadcast(match.groups.broadcast);
   if (!otaIdSuffix) {
     return undefined;
   }

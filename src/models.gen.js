@@ -6,9 +6,14 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AEK",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "ART90EJQA": {
     "series": "ART90",
@@ -26,9 +31,14 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AAU",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "EC9300.ACC": {
     "series": "EC9300",
@@ -2907,7 +2917,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8ap",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22L_AFAAABAA",
+    "otaId": "HE_DTV_W22L_AFAAATAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -2917,7 +2927,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8ap",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22L_AFAAABAA",
+    "otaId": "HE_DTV_W22L_AFAAATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -2927,7 +2937,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8ap",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22L_AFAAABAA",
+    "otaId": "HE_DTV_W22L_AFAAATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -2942,7 +2952,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8ap",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22L_AFAAABAA",
+    "otaId": "HE_DTV_W22L_AFAAATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -2970,7 +2980,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8ap",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22L_AFAAABAA",
+    "otaId": "HE_DTV_W22L_AFAAATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -2980,7 +2990,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8ap",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22L_AFAAABAA",
+    "otaId": "HE_DTV_W22L_AFAAATAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -2990,9 +3000,13 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AEK",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      },
       {
         "region": "DE",
         "suffix": ".AEU"
@@ -3009,9 +3023,13 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AEU",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      },
       {
         "suffix": ".AVS"
       }
@@ -3023,9 +3041,14 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AHKG",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "LX1QPSA": {
     "series": "LX1QPS",
@@ -3033,9 +3056,14 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AAU",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "LX1QPUA": {
     "series": "LX1QPU",
@@ -3058,9 +3086,13 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AEK",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      },
       {
         "suffix": ".AEU"
       }
@@ -3072,9 +3104,13 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AEU",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      },
       {
         "suffix": ".AVS"
       }
@@ -3086,9 +3122,14 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AHK",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "LX3QPJA": {
     "series": "LX3QPJ",
@@ -3106,9 +3147,14 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AAU",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "LX3QPUA": {
     "series": "LX3QPU",
@@ -3131,7 +3177,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hpt",
     "codename": "mullet",
-    "otaId": "HE_DTV_N22D_AFAAABAA",
+    "otaId": "HE_DTV_N22D_AFAAATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -3165,7 +3211,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADABAA",
+    "otaId": "HE_DTV_W22P_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -3175,7 +3221,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -3185,7 +3231,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -3207,7 +3253,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADABAA",
+    "otaId": "HE_DTV_W21P_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -3225,7 +3271,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -3239,7 +3285,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADABAA",
+    "otaId": "HE_DTV_W21P_AFADATAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -3259,7 +3305,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADABAA",
+    "otaId": "HE_DTV_W22P_AFADATAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -3269,7 +3315,7 @@ export default {
       {
         "region": "IN",
         "machine": "k8hp",
-        "otaId": "HE_DTV_W22H_AFADABAA",
+        "otaId": "HE_DTV_W22H_AFADATAA",
         "suffix": ".ATRG"
       }
     ]
@@ -3280,7 +3326,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -3290,12 +3336,12 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".ATR",
     "variants": [
       {
         "machine": "lm21u",
-        "otaId": "HE_DTV_W21U_AFADABAA",
+        "otaId": "HE_DTV_W21U_AFADATAA",
         "suffix": ".ATRG"
       }
     ]
@@ -3330,7 +3376,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -3340,7 +3386,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADABAA",
+    "otaId": "HE_DTV_W22P_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -3359,7 +3405,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADABAA",
+    "otaId": "HE_DTV_W22P_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -3377,7 +3423,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -3387,7 +3433,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADABAA",
+    "otaId": "HE_DTV_W22P_AFADATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -3407,7 +3453,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -3417,7 +3463,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -3427,7 +3473,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADABAA",
+    "otaId": "HE_DTV_W22P_AFADATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -3437,7 +3483,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn",
     "codename": "number1",
-    "otaId": "HE_DTV_W23P_AFADABAA",
+    "otaId": "HE_DTV_W23P_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -3447,7 +3493,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -3457,7 +3503,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADABAA",
+    "otaId": "HE_DTV_W22P_AFADATAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -3536,7 +3582,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -3554,7 +3600,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -3578,7 +3624,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADABAA",
+    "otaId": "HE_DTV_W22P_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -3588,7 +3634,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADABAA",
+    "otaId": "HE_DTV_W24P_AFADATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -3613,7 +3659,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -3653,7 +3699,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AMAG",
     "variants": [
       {
@@ -3683,7 +3729,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -3698,7 +3744,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADABAA",
+    "otaId": "HE_DTV_W22P_AFADATAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -3708,7 +3754,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -3718,7 +3764,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADABAA",
+    "otaId": "HE_DTV_W22P_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -3732,7 +3778,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADABAA",
+    "otaId": "HE_DTV_W24P_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -3762,7 +3808,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADABAA",
+    "otaId": "HE_DTV_W24P_AFADATAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -3772,7 +3818,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADABAA",
+    "otaId": "HE_DTV_W22P_AFADATAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -3782,7 +3828,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADABAA",
+    "otaId": "HE_DTV_W24P_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -3805,7 +3851,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -3865,7 +3911,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -3897,7 +3943,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -3929,7 +3975,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -3960,7 +4006,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -3995,7 +4041,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -4005,7 +4051,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -4035,7 +4081,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -4045,7 +4091,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -4055,7 +4101,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -4143,7 +4189,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -4168,7 +4214,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -4229,7 +4275,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -4239,7 +4285,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".ATR",
     "variants": [
       {
@@ -4263,7 +4309,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -4344,7 +4390,7 @@ export default {
     "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADABAA",
+    "otaId": "HE_DTV_W21K_AFADATAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -4374,7 +4420,7 @@ export default {
     "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADABAA",
+    "otaId": "HE_DTV_W21K_AFADATAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -4384,7 +4430,7 @@ export default {
     "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADABAA",
+    "otaId": "HE_DTV_W21K_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -4399,7 +4445,7 @@ export default {
     "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADABAA",
+    "otaId": "HE_DTV_W21K_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -4499,7 +4545,7 @@ export default {
     "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADABAA",
+    "otaId": "HE_DTV_W21K_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -4519,7 +4565,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -4545,7 +4591,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -4562,7 +4608,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -4582,7 +4628,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -4592,7 +4638,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -4612,7 +4658,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -4622,9 +4668,13 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFADABAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".AEK",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      },
       {
         "region": "DE",
         "suffix": ".AEU"
@@ -4648,9 +4698,13 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFADABAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".AEU",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      },
       {
         "suffix": ".AEUD"
       },
@@ -4665,9 +4719,14 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFADABAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".AHKG",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "OLEDA2PJA": {
     "series": "OLEDA2",
@@ -4685,9 +4744,13 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFADABAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".AAU",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      },
       {
         "region": "IN",
         "suffix": ".ATR"
@@ -4715,7 +4778,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADABAA",
+    "otaId": "HE_DTV_W23H_AFADATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -4735,7 +4798,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADABAA",
+    "otaId": "HE_DTV_W23H_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -4745,7 +4808,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -4759,7 +4822,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -4786,7 +4849,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -4796,7 +4859,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -4806,7 +4869,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -4816,9 +4879,14 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFADABAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".AEU",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "OLEDB26LA": {
     "series": "OLEDB2",
@@ -4826,9 +4894,13 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFADABAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".AEK",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      },
       {
         "region": "DE",
         "suffix": ".AEU"
@@ -4845,9 +4917,13 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFADABAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".AEU",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      },
       {
         "suffix": ".AEUD"
       },
@@ -4862,9 +4938,14 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFADABAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".AHKG",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "OLEDB2PJA": {
     "series": "OLEDB2",
@@ -4882,9 +4963,13 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFADABAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".AAU",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      },
       {
         "region": "IN",
         "suffix": ".ATR"
@@ -4915,7 +5000,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADABAA",
+    "otaId": "HE_DTV_W23H_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -4933,7 +5018,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADABAA",
+    "otaId": "HE_DTV_W23H_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -4952,7 +5037,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADABAA",
+    "otaId": "HE_DTV_W23H_AFADATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -4972,7 +5057,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADABAA",
+    "otaId": "HE_DTV_W23H_AFADATAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -5001,7 +5086,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24H_AFADABAA",
+    "otaId": "HE_DTV_W24H_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -5020,7 +5105,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24H_AFADABAA",
+    "otaId": "HE_DTV_W24H_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -5034,7 +5119,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24H_AFADABAA",
+    "otaId": "HE_DTV_W24H_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -5051,7 +5136,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24H_AFADABAA",
+    "otaId": "HE_DTV_W24H_AFADATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -5071,7 +5156,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24H_AFADABAA",
+    "otaId": "HE_DTV_W24H_AFADATAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -5570,7 +5655,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABABAA",
+    "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -5580,7 +5665,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABABAA",
+    "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -5602,7 +5687,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABABAA",
+    "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -5612,7 +5697,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABABAA",
+    "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -5627,7 +5712,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABABAA",
+    "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -5644,7 +5729,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABABAA",
+    "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -5658,7 +5743,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABABAA",
+    "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -5693,7 +5778,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABABAA",
+    "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -5713,7 +5798,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABABAA",
+    "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -5723,7 +5808,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABABAA",
+    "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -5733,7 +5818,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABABAA",
+    "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".ATR",
     "variants": [
       {
@@ -5747,7 +5832,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABABAA",
+    "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -5757,7 +5842,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABABAA",
+    "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -5767,7 +5852,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABABAA",
+    "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -5777,9 +5862,14 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AEU",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "OLEDC22LB": {
     "series": "OLEDC2",
@@ -5787,9 +5877,14 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AEU",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "OLEDC24LA": {
     "series": "OLEDC2",
@@ -5797,9 +5892,13 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AEK",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      },
       {
         "region": "DE",
         "suffix": ".AEU"
@@ -5820,9 +5919,14 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AEU",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "OLEDC26LB": {
     "series": "OLEDC2",
@@ -5830,9 +5934,13 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AEK",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      },
       {
         "region": "DE",
         "suffix": ".AEU"
@@ -5845,9 +5953,13 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AEK",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      },
       {
         "region": "DE",
         "suffix": ".AEU"
@@ -5864,9 +5976,13 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AEU",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      },
       {
         "region": "UK",
         "suffix": ".AEUD"
@@ -5882,9 +5998,13 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AEU",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      },
       {
         "suffix": ".AVS"
       }
@@ -5896,9 +6016,13 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AEU",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      },
       {
         "suffix": ".AVS"
       }
@@ -5910,9 +6034,13 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AEU",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      },
       {
         "suffix": ".AVS"
       }
@@ -5924,9 +6052,14 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AHKG",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "OLEDC2PCC": {
     "series": "OLEDC2",
@@ -5934,9 +6067,14 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AHKG",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "OLEDC2PJA": {
     "series": "OLEDC2",
@@ -5954,9 +6092,13 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AAU",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      },
       {
         "region": "IN",
         "suffix": ".ATRG"
@@ -5973,9 +6115,13 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AAU",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      },
       {
         "region": "IN",
         "suffix": ".ATR"
@@ -6010,9 +6156,14 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AEU",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "OLEDC2XSC": {
     "series": "OLEDC2",
@@ -6020,9 +6171,14 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".ATR",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "OLEDC31LA": {
     "series": "OLEDC3",
@@ -6030,7 +6186,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABABAA",
+    "otaId": "HE_DTV_W23O_AFABATAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -6040,7 +6196,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABABAA",
+    "otaId": "HE_DTV_W23O_AFABATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -6054,7 +6210,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABABAA",
+    "otaId": "HE_DTV_W23O_AFABATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -6068,7 +6224,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABABAA",
+    "otaId": "HE_DTV_W23O_AFABATAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -6078,7 +6234,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABABAA",
+    "otaId": "HE_DTV_W23O_AFABATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -6097,7 +6253,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABABAA",
+    "otaId": "HE_DTV_W23O_AFABATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -6111,7 +6267,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABABAA",
+    "otaId": "HE_DTV_W23O_AFABATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -6125,7 +6281,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABABAA",
+    "otaId": "HE_DTV_W23O_AFABATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -6145,7 +6301,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABABAA",
+    "otaId": "HE_DTV_W23O_AFABATAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -6174,7 +6330,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABABAA",
+    "otaId": "HE_DTV_W23O_AFABATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -6184,7 +6340,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o22n2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24G_AFABABAA",
+    "otaId": "HE_DTV_W24G_AFABATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -6198,7 +6354,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o22n2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24G_AFABABAA",
+    "otaId": "HE_DTV_W24G_AFABATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -6212,7 +6368,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o22n2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24G_AFABABAA",
+    "otaId": "HE_DTV_W24G_AFABATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -6226,7 +6382,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o22n2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24G_AFABABAA",
+    "otaId": "HE_DTV_W24G_AFABATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -6245,7 +6401,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o22n2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24G_AFABABAA",
+    "otaId": "HE_DTV_W24G_AFABATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -6260,7 +6416,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o22n2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24G_AFABABAA",
+    "otaId": "HE_DTV_W24G_AFABATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -6274,7 +6430,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o22n2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24G_AFABABAA",
+    "otaId": "HE_DTV_W24G_AFABATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -6294,7 +6450,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o22n2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24G_AFABABAA",
+    "otaId": "HE_DTV_W24G_AFABATAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -6695,9 +6851,13 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AEK",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      },
       {
         "region": "DE",
         "suffix": ".AEU"
@@ -6714,9 +6874,13 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AEU",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      },
       {
         "region": "UK",
         "suffix": ".AEUD"
@@ -6729,9 +6893,14 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AAU",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "OLEDCX3LA": {
     "series": "OLEDCX",
@@ -7270,7 +7439,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABABAA",
+    "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -7280,7 +7449,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABABAA",
+    "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -7294,7 +7463,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABABAA",
+    "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -7314,7 +7483,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABABAA",
+    "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -7324,7 +7493,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABABAA",
+    "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -7344,7 +7513,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABABAA",
+    "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -7354,9 +7523,14 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AEK",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "OLEDG29LA": {
     "series": "OLEDG2",
@@ -7364,9 +7538,13 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AEU",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      },
       {
         "suffix": ".AVS"
       }
@@ -7378,9 +7556,14 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AHKG",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "OLEDG2PJA": {
     "series": "OLEDG2",
@@ -7398,9 +7581,13 @@ export default {
     "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22O_AFABABAA",
+    "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AAU",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "codename": "number1"
+      },
       {
         "region": "IN",
         "suffix": ".ATR"
@@ -7432,7 +7619,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABABAA",
+    "otaId": "HE_DTV_W23O_AFABATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -7446,7 +7633,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABABAA",
+    "otaId": "HE_DTV_W23O_AFABATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -7465,7 +7652,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABABAA",
+    "otaId": "HE_DTV_W23O_AFABATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -7485,7 +7672,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
-    "otaId": "HE_DTV_W23O_AFABABAA",
+    "otaId": "HE_DTV_W23O_AFABATAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -7514,7 +7701,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24O_AFABABAA",
+    "otaId": "HE_DTV_W24O_AFABATAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -7524,7 +7711,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24O_AFABABAA",
+    "otaId": "HE_DTV_W24O_AFABATAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -7534,7 +7721,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24O_AFABABAA",
+    "otaId": "HE_DTV_W24O_AFABATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -7551,7 +7738,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24O_AFABABAA",
+    "otaId": "HE_DTV_W24O_AFABATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -7565,7 +7752,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24O_AFABABAA",
+    "otaId": "HE_DTV_W24O_AFABATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -7585,7 +7772,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24O_AFABABAA",
+    "otaId": "HE_DTV_W24O_AFABATAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -7832,7 +8019,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABABAA",
+    "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -7851,7 +8038,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21O_AFABABAA",
+    "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -8125,7 +8312,7 @@ export default {
     "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADABAA",
+    "otaId": "HE_DTV_W21K_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -8144,7 +8331,7 @@ export default {
     "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADABAA",
+    "otaId": "HE_DTV_W21K_AFADATAA",
     "suffix": ".AHK",
     "variants": []
   },
@@ -8154,7 +8341,7 @@ export default {
     "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADABAA",
+    "otaId": "HE_DTV_W21K_AFADATAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -8164,7 +8351,7 @@ export default {
     "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADABAA",
+    "otaId": "HE_DTV_W21K_AFADATAA",
     "suffix": ".ATRZ",
     "variants": []
   },
@@ -8174,7 +8361,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o228k",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22K_AFADABAA",
+    "otaId": "HE_DTV_W22K_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -8193,7 +8380,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o228k",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22K_AFADABAA",
+    "otaId": "HE_DTV_W22K_AFADATAA",
     "suffix": ".AHK",
     "variants": []
   },
@@ -8203,7 +8390,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o228k",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22K_AFADABAA",
+    "otaId": "HE_DTV_W22K_AFADATAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -8228,7 +8415,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o22n8k",
     "codename": "number1",
-    "otaId": "HE_DTV_W23K_AFADABAA",
+    "otaId": "HE_DTV_W23K_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -8327,7 +8514,7 @@ export default {
     "broadcast": "dvb",
     "machine": "m23",
     "codename": "number1",
-    "otaId": "HE_DTV_W23U_AFADABAA",
+    "otaId": "HE_DTV_W23U_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -8345,7 +8532,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn",
     "codename": "number1",
-    "otaId": "HE_DTV_W23P_AFADABAA",
+    "otaId": "HE_DTV_W23P_AFADATAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -8370,7 +8557,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADABAA",
+    "otaId": "HE_DTV_W22P_AFADATAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -8380,7 +8567,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADABAA",
+    "otaId": "HE_DTV_W22P_AFADATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -8410,9 +8597,14 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFADABAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".AAU",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "QNED80SRA": {
     "series": "QNED80",
@@ -8420,7 +8612,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADABAA",
+    "otaId": "HE_DTV_W23H_AFADATAA",
     "suffix": ".ATR",
     "variants": [
       {
@@ -8434,7 +8626,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADABAA",
+    "otaId": "HE_DTV_W24P_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -8456,7 +8648,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADABAA",
+    "otaId": "HE_DTV_W24P_AFADATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -8514,9 +8706,14 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFADABAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".AEU",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "QNED816QA": {
     "series": "QNED81",
@@ -8524,9 +8721,13 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFADABAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".AEK",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      },
       {
         "region": "DE",
         "suffix": ".AEU"
@@ -8545,7 +8746,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADABAA",
+    "otaId": "HE_DTV_W23H_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -8568,9 +8769,13 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFADABAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".AEU",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      },
       {
         "suffix": ".AEUD"
       },
@@ -8585,9 +8790,14 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFADABAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".AHKG",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "QNED81CRA": {
     "series": "QNED81",
@@ -8595,7 +8805,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADABAA",
+    "otaId": "HE_DTV_W23H_AFADATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -8605,9 +8815,14 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFADABAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".ATR",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "QNED81SRA": {
     "series": "QNED81",
@@ -8615,7 +8830,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADABAA",
+    "otaId": "HE_DTV_W23H_AFADATAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -8625,7 +8840,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADABAA",
+    "otaId": "HE_DTV_W24P_AFADATAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -8635,7 +8850,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADABAA",
+    "otaId": "HE_DTV_W23H_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -8654,9 +8869,14 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFADABAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".AEU",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "QNED85JQA": {
     "series": "QNED85",
@@ -8674,9 +8894,14 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFADABAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".AAU",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "QNED85T6A": {
     "series": "QNED85",
@@ -8684,7 +8909,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24H_AFADABAA",
+    "otaId": "HE_DTV_W24H_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -8736,9 +8961,13 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFADABAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".AEK",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      },
       {
         "region": "DE",
         "suffix": ".AEU"
@@ -8755,7 +8984,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADABAA",
+    "otaId": "HE_DTV_W23H_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -8777,9 +9006,13 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFADABAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".AEU",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      },
       {
         "suffix": ".AVS"
       }
@@ -8791,7 +9024,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADABAA",
+    "otaId": "HE_DTV_W23H_AFADATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -8801,9 +9034,14 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFADABAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".ATRG",
-    "variants": []
+    "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      }
+    ]
   },
   "QNED86SRA": {
     "series": "QNED86",
@@ -8811,7 +9049,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
-    "otaId": "HE_DTV_W23H_AFADABAA",
+    "otaId": "HE_DTV_W23H_AFADATAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -8821,7 +9059,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24H_AFADABAA",
+    "otaId": "HE_DTV_W24H_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -8840,7 +9078,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24H_AFADABAA",
+    "otaId": "HE_DTV_W24H_AFADATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -8850,7 +9088,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24H_AFADABAA",
+    "otaId": "HE_DTV_W24H_AFADATAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -8860,9 +9098,13 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFADABAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".AEU",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      },
       {
         "suffix": ".AVS"
       }
@@ -8874,7 +9116,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24H_AFADABAA",
+    "otaId": "HE_DTV_W24H_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -8922,7 +9164,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -8937,7 +9179,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -8951,7 +9193,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADABAA",
+    "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".AHK",
     "variants": [
       {
@@ -8965,9 +9207,13 @@ export default {
     "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22H_AFADABAA",
+    "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".AAU",
     "variants": [
+      {
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "codename": "number1"
+      },
       {
         "region": "IN",
         "suffix": ".ATC"
@@ -8984,7 +9230,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k24",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24H_AFADABAA",
+    "otaId": "HE_DTV_W24H_AFADATAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -8994,7 +9240,7 @@ export default {
     "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADABAA",
+    "otaId": "HE_DTV_W21K_AFADATAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -9004,7 +9250,7 @@ export default {
     "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADABAA",
+    "otaId": "HE_DTV_W21K_AFADATAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -9014,7 +9260,7 @@ export default {
     "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADABAA",
+    "otaId": "HE_DTV_W21K_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -9029,7 +9275,7 @@ export default {
     "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADABAA",
+    "otaId": "HE_DTV_W21K_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -9043,7 +9289,7 @@ export default {
     "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADABAA",
+    "otaId": "HE_DTV_W21K_AFADATAA",
     "suffix": ".AHK",
     "variants": [
       {
@@ -9067,7 +9313,7 @@ export default {
     "broadcast": "dvb",
     "machine": "o228k",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22K_AFADABAA",
+    "otaId": "HE_DTV_W22K_AFADATAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -9077,7 +9323,7 @@ export default {
     "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21K_AFADABAA",
+    "otaId": "HE_DTV_W21K_AFADATAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -16037,7 +16283,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -16059,7 +16305,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -16087,7 +16333,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -16104,7 +16350,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -16118,7 +16364,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -16128,7 +16374,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -16138,7 +16384,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -16148,7 +16394,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -16158,7 +16404,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -16188,7 +16434,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADABAA",
+    "otaId": "HE_DTV_W21P_AFADATAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -16198,7 +16444,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADABAA",
+    "otaId": "HE_DTV_W21P_AFADATAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -16228,7 +16474,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -16250,7 +16496,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -16264,7 +16510,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADABAA",
+    "otaId": "HE_DTV_W21P_AFADATAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -16274,7 +16520,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADABAA",
+    "otaId": "HE_DTV_W21P_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -16301,7 +16547,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADABAA",
+    "otaId": "HE_DTV_W21P_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -16338,7 +16584,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADABAA",
+    "otaId": "HE_DTV_W21P_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -16348,7 +16594,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADABAA",
+    "otaId": "HE_DTV_W21P_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -16358,7 +16604,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADABAA",
+    "otaId": "HE_DTV_W21P_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -16368,7 +16614,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADABAA",
+    "otaId": "HE_DTV_W21P_AFADATAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -16388,7 +16634,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADABAA",
+    "otaId": "HE_DTV_W21P_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -16403,7 +16649,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADABAA",
+    "otaId": "HE_DTV_W21P_AFADATAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -16413,7 +16659,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADABAA",
+    "otaId": "HE_DTV_W21P_AFADATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -16423,7 +16669,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -16445,7 +16691,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADABAA",
+    "otaId": "HE_DTV_W21P_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -16464,7 +16710,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -16474,7 +16720,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADABAA",
+    "otaId": "HE_DTV_W21P_AFADATAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -16494,7 +16740,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -16504,7 +16750,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -16528,7 +16774,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -16548,7 +16794,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -16563,7 +16809,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADABAA",
+    "otaId": "HE_DTV_W21P_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -16578,7 +16824,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -16592,7 +16838,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21P_AFADABAA",
+    "otaId": "HE_DTV_W21P_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -16606,7 +16852,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -16616,7 +16862,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21A_AFADABAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".ANR",
     "variants": []
   },
@@ -16636,7 +16882,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADABAA",
+    "otaId": "HE_DTV_W22P_AFADATAA",
     "suffix": ".AEEQ",
     "variants": [
       {
@@ -16665,7 +16911,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADABAA",
+    "otaId": "HE_DTV_W22P_AFADATAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -16675,7 +16921,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADABAA",
+    "otaId": "HE_DTV_W22P_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -16689,7 +16935,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADABAA",
+    "otaId": "HE_DTV_W22P_AFADATAA",
     "suffix": ".ATI",
     "variants": [
       {
@@ -16703,7 +16949,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADABAA",
+    "otaId": "HE_DTV_W22P_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -16733,7 +16979,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADABAA",
+    "otaId": "HE_DTV_W22P_AFADATAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -16743,7 +16989,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22P_AFADABAA",
+    "otaId": "HE_DTV_W22P_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -16757,7 +17003,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADABAA",
+    "otaId": "HE_DTV_W22A_AFADATAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -16767,7 +17013,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADABAA",
+    "otaId": "HE_DTV_W22A_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -16781,7 +17027,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADABAA",
+    "otaId": "HE_DTV_W22A_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -16818,7 +17064,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADABAA",
+    "otaId": "HE_DTV_W22A_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -16828,7 +17074,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADABAA",
+    "otaId": "HE_DTV_W22A_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -16838,7 +17084,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADABAA",
+    "otaId": "HE_DTV_W22A_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -16848,7 +17094,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADABAA",
+    "otaId": "HE_DTV_W22A_AFADATAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -16858,7 +17104,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADABAA",
+    "otaId": "HE_DTV_W22A_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -16872,7 +17118,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADABAA",
+    "otaId": "HE_DTV_W22A_AFADATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -16882,7 +17128,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADABAA",
+    "otaId": "HE_DTV_W22A_AFADATAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -16892,7 +17138,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADABAA",
+    "otaId": "HE_DTV_W22A_AFADATAA",
     "suffix": ".AEU",
     "variants": []
   },
@@ -16902,7 +17148,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADABAA",
+    "otaId": "HE_DTV_W22A_AFADATAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -16927,7 +17173,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADABAA",
+    "otaId": "HE_DTV_W22A_AFADATAA",
     "suffix": ".AEK",
     "variants": []
   },
@@ -16937,7 +17183,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADABAA",
+    "otaId": "HE_DTV_W22A_AFADATAA",
     "suffix": ".AEU",
     "variants": [
       {
@@ -16951,7 +17197,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
-    "otaId": "HE_DTV_W22A_AFADABAA",
+    "otaId": "HE_DTV_W22A_AFADATAA",
     "suffix": ".AHKG",
     "variants": [
       {
@@ -16975,7 +17221,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21ann",
     "codename": "number1",
-    "otaId": "HE_DTV_W23A_AFADABAA",
+    "otaId": "HE_DTV_W23A_AFADATAA",
     "suffix": ".AEEQ",
     "variants": [
       {
@@ -17000,7 +17246,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn",
     "codename": "number1",
-    "otaId": "HE_DTV_W23P_AFADABAA",
+    "otaId": "HE_DTV_W23P_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -17010,7 +17256,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn",
     "codename": "number1",
-    "otaId": "HE_DTV_W23P_AFADABAA",
+    "otaId": "HE_DTV_W23P_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -17020,7 +17266,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn",
     "codename": "number1",
-    "otaId": "HE_DTV_W23P_AFADABAA",
+    "otaId": "HE_DTV_W23P_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -17030,7 +17276,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21ann",
     "codename": "number1",
-    "otaId": "HE_DTV_W23A_AFADABAA",
+    "otaId": "HE_DTV_W23A_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -17052,7 +17298,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21ann",
     "codename": "number1",
-    "otaId": "HE_DTV_W23A_AFADABAA",
+    "otaId": "HE_DTV_W23A_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -17080,7 +17326,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn",
     "codename": "number1",
-    "otaId": "HE_DTV_W23P_AFADABAA",
+    "otaId": "HE_DTV_W23P_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -17090,7 +17336,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn",
     "codename": "number1",
-    "otaId": "HE_DTV_W23P_AFADABAA",
+    "otaId": "HE_DTV_W23P_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -17100,7 +17346,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn",
     "codename": "number1",
-    "otaId": "HE_DTV_W23P_AFADABAA",
+    "otaId": "HE_DTV_W23P_AFADATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -17110,7 +17356,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn",
     "codename": "number1",
-    "otaId": "HE_DTV_W23P_AFADABAA",
+    "otaId": "HE_DTV_W23P_AFADATAA",
     "suffix": ".AAU",
     "variants": [
       {
@@ -17125,7 +17371,7 @@ export default {
     "broadcast": "dvb",
     "machine": "lm21ann",
     "codename": "number1",
-    "otaId": "HE_DTV_W23A_AFADABAA",
+    "otaId": "HE_DTV_W23A_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -17153,7 +17399,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn",
     "codename": "number1",
-    "otaId": "HE_DTV_W23P_AFADABAA",
+    "otaId": "HE_DTV_W23P_AFADATAA",
     "suffix": ".ATR",
     "variants": []
   },
@@ -17163,7 +17409,7 @@ export default {
     "broadcast": "dvb",
     "machine": "m23",
     "codename": "number1",
-    "otaId": "HE_DTV_W23U_AFADABAA",
+    "otaId": "HE_DTV_W23U_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -17184,7 +17430,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn",
     "codename": "number1",
-    "otaId": "HE_DTV_W23P_AFADABAA",
+    "otaId": "HE_DTV_W23P_AFADATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -17204,7 +17450,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADABAA",
+    "otaId": "HE_DTV_W24P_AFADATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -17214,7 +17460,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADABAA",
+    "otaId": "HE_DTV_W24P_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -17249,7 +17495,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADABAA",
+    "otaId": "HE_DTV_W24P_AFADATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -17259,7 +17505,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADABAA",
+    "otaId": "HE_DTV_W24P_AFADATAA",
     "suffix": ".AAU",
     "variants": []
   },
@@ -17269,7 +17515,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADABAA",
+    "otaId": "HE_DTV_W24P_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
@@ -17283,7 +17529,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADABAA",
+    "otaId": "HE_DTV_W24P_AFADATAA",
     "suffix": ".AHKG",
     "variants": []
   },
@@ -17293,7 +17539,7 @@ export default {
     "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
-    "otaId": "HE_DTV_W24P_AFADABAA",
+    "otaId": "HE_DTV_W24P_AFADATAA",
     "suffix": ".AEK",
     "variants": [
       {
