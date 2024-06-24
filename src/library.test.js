@@ -61,6 +61,9 @@ describe('DeviceModel', {only: true}, () => {
   it('should find by series', () => {
     assert.ok(DeviceModel.find('UC9700'));
     assert.ok(DeviceModel.find('SM8100'));
+
+    assert.ok(DeviceModel.findAll('SM8100').length > 1);
+    assert.ok(DeviceModel.findAll('OLEDG3').length > 1);
   });
 
   it('should find by strict match', () => {

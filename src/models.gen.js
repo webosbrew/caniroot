@@ -3,7 +3,7 @@ export default {
   "ART90E6QA": {
     "series": "ART90",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -23,7 +23,7 @@ export default {
   "ART90ESQA": {
     "series": "ART90",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -2904,7 +2904,7 @@ export default {
   "LQ570B6LA": {
     "series": "LQ570B",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8ap",
     "codename": "mullet",
     "otaId": "HE_DTV_W22L_AFAAABAA",
@@ -2914,7 +2914,7 @@ export default {
   "LQ570BPSA": {
     "series": "LQ570B",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8ap",
     "codename": "mullet",
     "otaId": "HE_DTV_W22L_AFAAABAA",
@@ -2924,7 +2924,7 @@ export default {
   "LQ63006LA": {
     "series": "LQ6300",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8ap",
     "codename": "mullet",
     "otaId": "HE_DTV_W22L_AFAAABAA",
@@ -2939,7 +2939,7 @@ export default {
   "LQ630B6LA": {
     "series": "LQ630B",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8ap",
     "codename": "mullet",
     "otaId": "HE_DTV_W22L_AFAAABAA",
@@ -2957,7 +2957,7 @@ export default {
   "LQ630BPUA": {
     "series": "LQ630B",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "k8ap",
     "codename": "mullet",
     "otaId": "HE_DTV_W22L_AFAAATAA",
@@ -2967,7 +2967,7 @@ export default {
   "LQ6350PCA": {
     "series": "LQ6350",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8ap",
     "codename": "mullet",
     "otaId": "HE_DTV_W22L_AFAAABAA",
@@ -2977,7 +2977,7 @@ export default {
   "LQ63806LC": {
     "series": "LQ6380",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8ap",
     "codename": "mullet",
     "otaId": "HE_DTV_W22L_AFAAABAA",
@@ -2987,7 +2987,7 @@ export default {
   "LX1Q6LA": {
     "series": "LX1Q6L",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -3006,7 +3006,7 @@ export default {
   "LX1Q9LA": {
     "series": "LX1Q9L",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -3020,7 +3020,7 @@ export default {
   "LX1QPCA": {
     "series": "LX1QPC",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -3030,7 +3030,7 @@ export default {
   "LX1QPSA": {
     "series": "LX1QPS",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -3040,7 +3040,7 @@ export default {
   "LX1QPUA": {
     "series": "LX1QPU",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABATAA",
@@ -3055,7 +3055,7 @@ export default {
   "LX3Q6LA": {
     "series": "LX3Q6L",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -3069,7 +3069,7 @@ export default {
   "LX3Q9LA": {
     "series": "LX3Q9L",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -3083,7 +3083,7 @@ export default {
   "LX3QPCA": {
     "series": "LX3QPC",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -3103,7 +3103,7 @@ export default {
   "LX3QPSA": {
     "series": "LX3QPS",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -3113,7 +3113,7 @@ export default {
   "LX3QPUA": {
     "series": "LX3QPU",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABATAA",
@@ -3128,7 +3128,7 @@ export default {
   "LX5QKNA": {
     "series": "LX5QKN",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hpt",
     "codename": "mullet",
     "otaId": "HE_DTV_N22D_AFAAABAA",
@@ -3162,7 +3162,7 @@ export default {
   "NANO73SQA": {
     "series": "NANO73",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADABAA",
@@ -3172,7 +3172,7 @@ export default {
   "NANO73TPZ": {
     "series": "NANO73",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -3182,7 +3182,7 @@ export default {
   "NANO756PA": {
     "series": "NANO75",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -3204,7 +3204,7 @@ export default {
   "NANO756PR": {
     "series": "NANO75",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADABAA",
@@ -3222,7 +3222,7 @@ export default {
   "NANO759PA": {
     "series": "NANO75",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -3236,7 +3236,7 @@ export default {
   "NANO759PR": {
     "series": "NANO75",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADABAA",
@@ -3256,7 +3256,7 @@ export default {
   "NANO75SQA": {
     "series": "NANO75",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADABAA",
@@ -3277,7 +3277,7 @@ export default {
   "NANO75TPA": {
     "series": "NANO75",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -3287,7 +3287,7 @@ export default {
   "NANO75TPZ": {
     "series": "NANO75",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -3303,7 +3303,7 @@ export default {
   "NANO75UPA": {
     "series": "NANO75",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADATAA",
@@ -3317,7 +3317,7 @@ export default {
   "NANO75UQA": {
     "series": "NANO75",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADATAA",
@@ -3327,7 +3327,7 @@ export default {
   "NANO75VPA": {
     "series": "NANO75",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -3337,7 +3337,7 @@ export default {
   "NANO766QA": {
     "series": "NANO76",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADABAA",
@@ -3356,7 +3356,7 @@ export default {
   "NANO769QA": {
     "series": "NANO76",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADABAA",
@@ -3374,7 +3374,7 @@ export default {
   "NANO76CPA": {
     "series": "NANO76",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -3384,7 +3384,7 @@ export default {
   "NANO76CQA": {
     "series": "NANO76",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADABAA",
@@ -3404,7 +3404,7 @@ export default {
   "NANO776PA": {
     "series": "NANO77",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -3414,7 +3414,7 @@ export default {
   "NANO779PA": {
     "series": "NANO77",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -3424,7 +3424,7 @@ export default {
   "NANO77CQA": {
     "series": "NANO77",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADABAA",
@@ -3434,7 +3434,7 @@ export default {
   "NANO77SRA": {
     "series": "NANO77",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn",
     "codename": "number1",
     "otaId": "HE_DTV_W23P_AFADABAA",
@@ -3444,7 +3444,7 @@ export default {
   "NANO77TPA": {
     "series": "NANO77",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -3454,7 +3454,7 @@ export default {
   "NANO789QA": {
     "series": "NANO78",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADABAA",
@@ -3533,7 +3533,7 @@ export default {
   "NANO806PA": {
     "series": "NANO80",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -3551,7 +3551,7 @@ export default {
   "NANO809PA": {
     "series": "NANO80",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -3565,7 +3565,7 @@ export default {
   "NANO80AQA": {
     "series": "NANO80",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADATAA",
@@ -3575,7 +3575,7 @@ export default {
   "NANO80SQA": {
     "series": "NANO80",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADABAA",
@@ -3585,7 +3585,7 @@ export default {
   "NANO80TCA": {
     "series": "NANO80",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24P_AFADABAA",
@@ -3610,7 +3610,7 @@ export default {
   "NANO80TPZ": {
     "series": "NANO80",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -3630,7 +3630,7 @@ export default {
   "NANO80UPA": {
     "series": "NANO80",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADATAA",
@@ -3650,7 +3650,7 @@ export default {
   "NANO80VPA": {
     "series": "NANO80",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -3680,7 +3680,7 @@ export default {
   "NANO816PA": {
     "series": "NANO81",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -3695,7 +3695,7 @@ export default {
   "NANO816QA": {
     "series": "NANO81",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADABAA",
@@ -3705,7 +3705,7 @@ export default {
   "NANO819PA": {
     "series": "NANO81",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -3715,7 +3715,7 @@ export default {
   "NANO819QA": {
     "series": "NANO81",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADABAA",
@@ -3729,7 +3729,7 @@ export default {
   "NANO81T6A": {
     "series": "NANO81",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24P_AFADABAA",
@@ -3759,7 +3759,7 @@ export default {
   "NANO81TSA": {
     "series": "NANO81",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24P_AFADABAA",
@@ -3769,7 +3769,7 @@ export default {
   "NANO829QB": {
     "series": "NANO82",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADABAA",
@@ -3779,7 +3779,7 @@ export default {
   "NANO82T6B": {
     "series": "NANO82",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24P_AFADABAA",
@@ -3802,7 +3802,7 @@ export default {
   "NANO83TPZ": {
     "series": "NANO83",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -3812,7 +3812,7 @@ export default {
   "NANO85APA": {
     "series": "NANO85",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADATAA",
@@ -3862,7 +3862,7 @@ export default {
   "NANO85VPA": {
     "series": "NANO85",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -3894,7 +3894,7 @@ export default {
   "NANO866PA": {
     "series": "NANO86",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -3926,7 +3926,7 @@ export default {
   "NANO869PA": {
     "series": "NANO86",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -3957,7 +3957,7 @@ export default {
   "NANO86CPA": {
     "series": "NANO86",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -3992,7 +3992,7 @@ export default {
   "NANO86TPA": {
     "series": "NANO86",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -4002,7 +4002,7 @@ export default {
   "NANO86TPZ": {
     "series": "NANO86",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -4032,7 +4032,7 @@ export default {
   "NANO86VPA": {
     "series": "NANO86",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -4042,7 +4042,7 @@ export default {
   "NANO886PB": {
     "series": "NANO88",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -4052,7 +4052,7 @@ export default {
   "NANO889PB": {
     "series": "NANO88",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -4101,7 +4101,7 @@ export default {
   "NANO90UPA": {
     "series": "NANO90",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADATAA",
@@ -4140,7 +4140,7 @@ export default {
   "NANO916PA": {
     "series": "NANO91",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -4165,7 +4165,7 @@ export default {
   "NANO919PA": {
     "series": "NANO91",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -4226,7 +4226,7 @@ export default {
   "NANO91TPA": {
     "series": "NANO91",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -4236,7 +4236,7 @@ export default {
   "NANO91TPZ": {
     "series": "NANO91",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -4260,7 +4260,7 @@ export default {
   "NANO91VPA": {
     "series": "NANO91",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -4341,7 +4341,7 @@ export default {
   "NANO95TPA": {
     "series": "NANO95",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21K_AFADABAA",
@@ -4371,7 +4371,7 @@ export default {
   "NANO95VPA": {
     "series": "NANO95",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21K_AFADABAA",
@@ -4381,7 +4381,7 @@ export default {
   "NANO966PA": {
     "series": "NANO96",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21K_AFADABAA",
@@ -4396,7 +4396,7 @@ export default {
   "NANO969PA": {
     "series": "NANO96",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21K_AFADABAA",
@@ -4496,7 +4496,7 @@ export default {
   "NANO99TPZ": {
     "series": "NANO99",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21K_AFADABAA",
@@ -4516,7 +4516,7 @@ export default {
   "OLEDA16LA": {
     "series": "OLEDA1",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -4542,7 +4542,7 @@ export default {
   "OLEDA19LA": {
     "series": "OLEDA1",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -4559,7 +4559,7 @@ export default {
   "OLEDA1PCA": {
     "series": "OLEDA1",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -4579,7 +4579,7 @@ export default {
   "OLEDA1PTA": {
     "series": "OLEDA1",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -4589,7 +4589,7 @@ export default {
   "OLEDA1PTZ": {
     "series": "OLEDA1",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -4599,7 +4599,7 @@ export default {
   "OLEDA1PUA": {
     "series": "OLEDA1",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADATAA",
@@ -4609,7 +4609,7 @@ export default {
   "OLEDA1PVA": {
     "series": "OLEDA1",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -4619,7 +4619,7 @@ export default {
   "OLEDA26LA": {
     "series": "OLEDA2",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADABAA",
@@ -4645,7 +4645,7 @@ export default {
   "OLEDA29LA": {
     "series": "OLEDA2",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADABAA",
@@ -4662,7 +4662,7 @@ export default {
   "OLEDA2PCA": {
     "series": "OLEDA2",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADABAA",
@@ -4682,7 +4682,7 @@ export default {
   "OLEDA2PSA": {
     "series": "OLEDA2",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADABAA",
@@ -4697,7 +4697,7 @@ export default {
   "OLEDA2PUA": {
     "series": "OLEDA2",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADATAA",
@@ -4712,7 +4712,7 @@ export default {
   "OLEDA3PCA": {
     "series": "OLEDA3",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
     "otaId": "HE_DTV_W23H_AFADABAA",
@@ -4732,7 +4732,7 @@ export default {
   "OLEDA3PSA": {
     "series": "OLEDA3",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
     "otaId": "HE_DTV_W23H_AFADABAA",
@@ -4742,7 +4742,7 @@ export default {
   "OLEDB16LA": {
     "series": "OLEDB1",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -4756,7 +4756,7 @@ export default {
   "OLEDB19LA": {
     "series": "OLEDB1",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -4783,7 +4783,7 @@ export default {
   "OLEDB1PTA": {
     "series": "OLEDB1",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -4793,7 +4793,7 @@ export default {
   "OLEDB1PTZ": {
     "series": "OLEDB1",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -4803,7 +4803,7 @@ export default {
   "OLEDB1PVA": {
     "series": "OLEDB1",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -4813,7 +4813,7 @@ export default {
   "OLEDB23LA": {
     "series": "OLEDB2",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADABAA",
@@ -4823,7 +4823,7 @@ export default {
   "OLEDB26LA": {
     "series": "OLEDB2",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADABAA",
@@ -4842,7 +4842,7 @@ export default {
   "OLEDB29LA": {
     "series": "OLEDB2",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADABAA",
@@ -4859,7 +4859,7 @@ export default {
   "OLEDB2PCA": {
     "series": "OLEDB2",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADABAA",
@@ -4879,7 +4879,7 @@ export default {
   "OLEDB2PSA": {
     "series": "OLEDB2",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADABAA",
@@ -4894,7 +4894,7 @@ export default {
   "OLEDB2PUA": {
     "series": "OLEDB2",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADATAA",
@@ -4912,7 +4912,7 @@ export default {
   "OLEDB36LA": {
     "series": "OLEDB3",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
     "otaId": "HE_DTV_W23H_AFADABAA",
@@ -4930,7 +4930,7 @@ export default {
   "OLEDB39LA": {
     "series": "OLEDB3",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
     "otaId": "HE_DTV_W23H_AFADABAA",
@@ -4949,7 +4949,7 @@ export default {
   "OLEDB3PCA": {
     "series": "OLEDB3",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
     "otaId": "HE_DTV_W23H_AFADABAA",
@@ -4969,7 +4969,7 @@ export default {
   "OLEDB3PSA": {
     "series": "OLEDB3",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
     "otaId": "HE_DTV_W23H_AFADABAA",
@@ -4988,7 +4988,7 @@ export default {
   "OLEDB3PUA": {
     "series": "OLEDB3",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "k8hpp",
     "codename": "number1",
     "otaId": "HE_DTV_W23H_AFADATAA",
@@ -4998,7 +4998,7 @@ export default {
   "OLEDB42LA": {
     "series": "OLEDB4",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24H_AFADABAA",
@@ -5017,7 +5017,7 @@ export default {
   "OLEDB46LA": {
     "series": "OLEDB4",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24H_AFADABAA",
@@ -5031,7 +5031,7 @@ export default {
   "OLEDB49LA": {
     "series": "OLEDB4",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24H_AFADABAA",
@@ -5048,7 +5048,7 @@ export default {
   "OLEDB4PCA": {
     "series": "OLEDB4",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24H_AFADABAA",
@@ -5068,7 +5068,7 @@ export default {
   "OLEDB4PSA": {
     "series": "OLEDB4",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24H_AFADABAA",
@@ -5078,7 +5078,7 @@ export default {
   "OLEDB4PUA": {
     "series": "OLEDB4",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "k24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24H_AFADATAA",
@@ -5567,7 +5567,7 @@ export default {
   "OLEDC11LB": {
     "series": "OLEDC1",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABABAA",
@@ -5577,7 +5577,7 @@ export default {
   "OLEDC14LB": {
     "series": "OLEDC1",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABABAA",
@@ -5599,7 +5599,7 @@ export default {
   "OLEDC15LA": {
     "series": "OLEDC1",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABABAA",
@@ -5609,7 +5609,7 @@ export default {
   "OLEDC16LA": {
     "series": "OLEDC1",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABABAA",
@@ -5624,7 +5624,7 @@ export default {
   "OLEDC17LB": {
     "series": "OLEDC1",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABABAA",
@@ -5641,7 +5641,7 @@ export default {
   "OLEDC18LA": {
     "series": "OLEDC1",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABABAA",
@@ -5655,7 +5655,7 @@ export default {
   "OLEDC19LA": {
     "series": "OLEDC1",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABABAA",
@@ -5670,7 +5670,7 @@ export default {
   "OLEDC1AUA": {
     "series": "OLEDC1",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABATAA",
@@ -5680,7 +5680,7 @@ export default {
   "OLEDC1AUB": {
     "series": "OLEDC1",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABATAA",
@@ -5690,7 +5690,7 @@ export default {
   "OLEDC1PCB": {
     "series": "OLEDC1",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABABAA",
@@ -5710,7 +5710,7 @@ export default {
   "OLEDC1PTA": {
     "series": "OLEDC1",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABABAA",
@@ -5720,7 +5720,7 @@ export default {
   "OLEDC1PTB": {
     "series": "OLEDC1",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABABAA",
@@ -5730,7 +5730,7 @@ export default {
   "OLEDC1PTZ": {
     "series": "OLEDC1",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABABAA",
@@ -5744,7 +5744,7 @@ export default {
   "OLEDC1PVA": {
     "series": "OLEDC1",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABABAA",
@@ -5754,7 +5754,7 @@ export default {
   "OLEDC1PVB": {
     "series": "OLEDC1",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABABAA",
@@ -5764,7 +5764,7 @@ export default {
   "OLEDC1XTZ": {
     "series": "OLEDC1",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABABAA",
@@ -5774,7 +5774,7 @@ export default {
   "OLEDC21LA": {
     "series": "OLEDC2",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -5784,7 +5784,7 @@ export default {
   "OLEDC22LB": {
     "series": "OLEDC2",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -5794,7 +5794,7 @@ export default {
   "OLEDC24LA": {
     "series": "OLEDC2",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -5817,7 +5817,7 @@ export default {
   "OLEDC25LB": {
     "series": "OLEDC2",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -5827,7 +5827,7 @@ export default {
   "OLEDC26LB": {
     "series": "OLEDC2",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -5842,7 +5842,7 @@ export default {
   "OLEDC26LD": {
     "series": "OLEDC2",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -5861,7 +5861,7 @@ export default {
   "OLEDC27LA": {
     "series": "OLEDC2",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -5879,7 +5879,7 @@ export default {
   "OLEDC28LB": {
     "series": "OLEDC2",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -5893,7 +5893,7 @@ export default {
   "OLEDC29LB": {
     "series": "OLEDC2",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -5907,7 +5907,7 @@ export default {
   "OLEDC29LD": {
     "series": "OLEDC2",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -5921,7 +5921,7 @@ export default {
   "OLEDC2PCA": {
     "series": "OLEDC2",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -5931,7 +5931,7 @@ export default {
   "OLEDC2PCC": {
     "series": "OLEDC2",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -5951,7 +5951,7 @@ export default {
   "OLEDC2PSA": {
     "series": "OLEDC2",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -5970,7 +5970,7 @@ export default {
   "OLEDC2PSC": {
     "series": "OLEDC2",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -5989,7 +5989,7 @@ export default {
   "OLEDC2PUA": {
     "series": "OLEDC2",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABATAA",
@@ -6007,7 +6007,7 @@ export default {
   "OLEDC2SW": {
     "series": "OLEDC2",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -6017,7 +6017,7 @@ export default {
   "OLEDC2XSC": {
     "series": "OLEDC2",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -6027,7 +6027,7 @@ export default {
   "OLEDC31LA": {
     "series": "OLEDC3",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
     "otaId": "HE_DTV_W23O_AFABABAA",
@@ -6037,7 +6037,7 @@ export default {
   "OLEDC34LA": {
     "series": "OLEDC3",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
     "otaId": "HE_DTV_W23O_AFABABAA",
@@ -6051,7 +6051,7 @@ export default {
   "OLEDC36LA": {
     "series": "OLEDC3",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
     "otaId": "HE_DTV_W23O_AFABABAA",
@@ -6065,7 +6065,7 @@ export default {
   "OLEDC36LC": {
     "series": "OLEDC3",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
     "otaId": "HE_DTV_W23O_AFABABAA",
@@ -6075,7 +6075,7 @@ export default {
   "OLEDC37LA": {
     "series": "OLEDC3",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
     "otaId": "HE_DTV_W23O_AFABABAA",
@@ -6094,7 +6094,7 @@ export default {
   "OLEDC39LA": {
     "series": "OLEDC3",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
     "otaId": "HE_DTV_W23O_AFABABAA",
@@ -6108,7 +6108,7 @@ export default {
   "OLEDC39LC": {
     "series": "OLEDC3",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
     "otaId": "HE_DTV_W23O_AFABABAA",
@@ -6122,7 +6122,7 @@ export default {
   "OLEDC3PCA": {
     "series": "OLEDC3",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
     "otaId": "HE_DTV_W23O_AFABABAA",
@@ -6142,7 +6142,7 @@ export default {
   "OLEDC3PSA": {
     "series": "OLEDC3",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
     "otaId": "HE_DTV_W23O_AFABABAA",
@@ -6161,7 +6161,7 @@ export default {
   "OLEDC3PUA": {
     "series": "OLEDC3",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "o22n",
     "codename": "number1",
     "otaId": "HE_DTV_W23O_AFABATAA",
@@ -6171,7 +6171,7 @@ export default {
   "OLEDC3XSA": {
     "series": "OLEDC3",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
     "otaId": "HE_DTV_W23O_AFABABAA",
@@ -6181,7 +6181,7 @@ export default {
   "OLEDC44LA": {
     "series": "OLEDC4",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22n2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24G_AFABABAA",
@@ -6195,7 +6195,7 @@ export default {
   "OLEDC45LA": {
     "series": "OLEDC4",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22n2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24G_AFABABAA",
@@ -6209,7 +6209,7 @@ export default {
   "OLEDC46LA": {
     "series": "OLEDC4",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22n2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24G_AFABABAA",
@@ -6223,7 +6223,7 @@ export default {
   "OLEDC47LA": {
     "series": "OLEDC4",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22n2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24G_AFABABAA",
@@ -6242,7 +6242,7 @@ export default {
   "OLEDC48LA": {
     "series": "OLEDC4",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22n2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24G_AFABABAA",
@@ -6257,7 +6257,7 @@ export default {
   "OLEDC49LA": {
     "series": "OLEDC4",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22n2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24G_AFABABAA",
@@ -6271,7 +6271,7 @@ export default {
   "OLEDC4PCA": {
     "series": "OLEDC4",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22n2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24G_AFABABAA",
@@ -6291,7 +6291,7 @@ export default {
   "OLEDC4PSA": {
     "series": "OLEDC4",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22n2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24G_AFABABAA",
@@ -6301,7 +6301,7 @@ export default {
   "OLEDC4PUA": {
     "series": "OLEDC4",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "o22n2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24G_AFABATAA",
@@ -6692,7 +6692,7 @@ export default {
   "OLEDCS6LA": {
     "series": "OLEDCS",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -6711,7 +6711,7 @@ export default {
   "OLEDCS9LA": {
     "series": "OLEDCS",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -6726,7 +6726,7 @@ export default {
   "OLEDCSPSA": {
     "series": "OLEDCS",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -7267,7 +7267,7 @@ export default {
   "OLEDG16LA": {
     "series": "OLEDG1",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABABAA",
@@ -7277,7 +7277,7 @@ export default {
   "OLEDG19LA": {
     "series": "OLEDG1",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABABAA",
@@ -7291,7 +7291,7 @@ export default {
   "OLEDG1PCA": {
     "series": "OLEDG1",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABABAA",
@@ -7311,7 +7311,7 @@ export default {
   "OLEDG1PTA": {
     "series": "OLEDG1",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABABAA",
@@ -7321,7 +7321,7 @@ export default {
   "OLEDG1PTZ": {
     "series": "OLEDG1",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABABAA",
@@ -7331,7 +7331,7 @@ export default {
   "OLEDG1PUA": {
     "series": "OLEDG1",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABATAA",
@@ -7341,7 +7341,7 @@ export default {
   "OLEDG1PVA": {
     "series": "OLEDG1",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABABAA",
@@ -7351,7 +7351,7 @@ export default {
   "OLEDG26LA": {
     "series": "OLEDG2",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -7361,7 +7361,7 @@ export default {
   "OLEDG29LA": {
     "series": "OLEDG2",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -7375,7 +7375,7 @@ export default {
   "OLEDG2PCA": {
     "series": "OLEDG2",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -7395,7 +7395,7 @@ export default {
   "OLEDG2PSA": {
     "series": "OLEDG2",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABABAA",
@@ -7414,7 +7414,7 @@ export default {
   "OLEDG2PUA": {
     "series": "OLEDG2",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "o22",
     "codename": "mullet",
     "otaId": "HE_DTV_W22O_AFABATAA",
@@ -7429,7 +7429,7 @@ export default {
   "OLEDG36LA": {
     "series": "OLEDG3",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
     "otaId": "HE_DTV_W23O_AFABABAA",
@@ -7443,7 +7443,7 @@ export default {
   "OLEDG39LA": {
     "series": "OLEDG3",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
     "otaId": "HE_DTV_W23O_AFABABAA",
@@ -7462,7 +7462,7 @@ export default {
   "OLEDG3PCA": {
     "series": "OLEDG3",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
     "otaId": "HE_DTV_W23O_AFABABAA",
@@ -7482,7 +7482,7 @@ export default {
   "OLEDG3PSA": {
     "series": "OLEDG3",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
     "otaId": "HE_DTV_W23O_AFABABAA",
@@ -7501,7 +7501,7 @@ export default {
   "OLEDG3PUA": {
     "series": "OLEDG3",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "o22n",
     "codename": "number1",
     "otaId": "HE_DTV_W23O_AFABATAA",
@@ -7511,7 +7511,7 @@ export default {
   "OLEDG45LW": {
     "series": "OLEDG4",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24O_AFABABAA",
@@ -7521,7 +7521,7 @@ export default {
   "OLEDG46LS": {
     "series": "OLEDG4",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24O_AFABABAA",
@@ -7531,7 +7531,7 @@ export default {
   "OLEDG48LW": {
     "series": "OLEDG4",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24O_AFABABAA",
@@ -7548,7 +7548,7 @@ export default {
   "OLEDG49LS": {
     "series": "OLEDG4",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24O_AFABABAA",
@@ -7562,7 +7562,7 @@ export default {
   "OLEDG4PCA": {
     "series": "OLEDG4",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24O_AFABABAA",
@@ -7582,7 +7582,7 @@ export default {
   "OLEDG4PSA": {
     "series": "OLEDG4",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24O_AFABABAA",
@@ -7592,7 +7592,7 @@ export default {
   "OLEDG4SUB": {
     "series": "OLEDG4",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "o24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24O_AFABATAA",
@@ -7602,7 +7602,7 @@ export default {
   "OLEDG4WUA": {
     "series": "OLEDG4",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "o24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24O_AFABATAA",
@@ -7829,7 +7829,7 @@ export default {
   "OLEDR19LA": {
     "series": "OLEDR1",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABABAA",
@@ -7848,7 +7848,7 @@ export default {
   "OLEDR1PTA": {
     "series": "OLEDR1",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABABAA",
@@ -8122,7 +8122,7 @@ export default {
   "OLEDZ19LA": {
     "series": "OLEDZ1",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21K_AFADABAA",
@@ -8141,7 +8141,7 @@ export default {
   "OLEDZ1PCA": {
     "series": "OLEDZ1",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21K_AFADABAA",
@@ -8151,7 +8151,7 @@ export default {
   "OLEDZ1PTA": {
     "series": "OLEDZ1",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21K_AFADABAA",
@@ -8161,7 +8161,7 @@ export default {
   "OLEDZ1PTZ": {
     "series": "OLEDZ1",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21K_AFADABAA",
@@ -8171,7 +8171,7 @@ export default {
   "OLEDZ29LA": {
     "series": "OLEDZ2",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o228k",
     "codename": "mullet",
     "otaId": "HE_DTV_W22K_AFADABAA",
@@ -8190,7 +8190,7 @@ export default {
   "OLEDZ2PCA": {
     "series": "OLEDZ2",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o228k",
     "codename": "mullet",
     "otaId": "HE_DTV_W22K_AFADABAA",
@@ -8200,7 +8200,7 @@ export default {
   "OLEDZ2PSA": {
     "series": "OLEDZ2",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o228k",
     "codename": "mullet",
     "otaId": "HE_DTV_W22K_AFADABAA",
@@ -8215,7 +8215,7 @@ export default {
   "OLEDZ2PUA": {
     "series": "OLEDZ2",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "o228k",
     "codename": "mullet",
     "otaId": "HE_DTV_W22K_AFADATAA",
@@ -8225,7 +8225,7 @@ export default {
   "OLEDZ39LA": {
     "series": "OLEDZ3",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o22n8k",
     "codename": "number1",
     "otaId": "HE_DTV_W23K_AFADABAA",
@@ -8244,7 +8244,7 @@ export default {
   "OLEDZ3PUA": {
     "series": "OLEDZ3",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "o22n8k",
     "codename": "number1",
     "otaId": "HE_DTV_W23K_AFADATAA",
@@ -8324,7 +8324,7 @@ export default {
   "QNED756RA": {
     "series": "QNED75",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "m23",
     "codename": "number1",
     "otaId": "HE_DTV_W23U_AFADABAA",
@@ -8342,7 +8342,7 @@ export default {
   "QNED75SRA": {
     "series": "QNED75",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn",
     "codename": "number1",
     "otaId": "HE_DTV_W23P_AFADABAA",
@@ -8357,7 +8357,7 @@ export default {
   "QNED75URA": {
     "series": "QNED75",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "m23",
     "codename": "number1",
     "otaId": "HE_DTV_W23U_AFADATAA",
@@ -8367,7 +8367,7 @@ export default {
   "QNED7S9QA": {
     "series": "QNED7S",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADABAA",
@@ -8377,7 +8377,7 @@ export default {
   "QNED7SCQA": {
     "series": "QNED7S",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADABAA",
@@ -8407,7 +8407,7 @@ export default {
   "QNED80SQA": {
     "series": "QNED80",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADABAA",
@@ -8417,7 +8417,7 @@ export default {
   "QNED80SRA": {
     "series": "QNED80",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
     "otaId": "HE_DTV_W23H_AFADABAA",
@@ -8431,7 +8431,7 @@ export default {
   "QNED80T6A": {
     "series": "QNED80",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24P_AFADABAA",
@@ -8453,7 +8453,7 @@ export default {
   "QNED80TCA": {
     "series": "QNED80",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24P_AFADABAA",
@@ -8473,7 +8473,7 @@ export default {
   "QNED80TUC": {
     "series": "QNED80",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "k8lpn2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24P_AFADATAA",
@@ -8483,7 +8483,7 @@ export default {
   "QNED80UQA": {
     "series": "QNED80",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADATAA",
@@ -8501,7 +8501,7 @@ export default {
   "QNED80URA": {
     "series": "QNED80",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "k8hpp",
     "codename": "number1",
     "otaId": "HE_DTV_W23H_AFADATAA",
@@ -8511,7 +8511,7 @@ export default {
   "QNED813QA": {
     "series": "QNED81",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADABAA",
@@ -8521,7 +8521,7 @@ export default {
   "QNED816QA": {
     "series": "QNED81",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADABAA",
@@ -8542,7 +8542,7 @@ export default {
   "QNED816RE": {
     "series": "QNED81",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
     "otaId": "HE_DTV_W23H_AFADABAA",
@@ -8565,7 +8565,7 @@ export default {
   "QNED819QA": {
     "series": "QNED81",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADABAA",
@@ -8582,7 +8582,7 @@ export default {
   "QNED81CQA": {
     "series": "QNED81",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADABAA",
@@ -8592,7 +8592,7 @@ export default {
   "QNED81CRA": {
     "series": "QNED81",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
     "otaId": "HE_DTV_W23H_AFADABAA",
@@ -8602,7 +8602,7 @@ export default {
   "QNED81SQA": {
     "series": "QNED81",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADABAA",
@@ -8612,7 +8612,7 @@ export default {
   "QNED81SRA": {
     "series": "QNED81",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
     "otaId": "HE_DTV_W23H_AFADABAA",
@@ -8622,7 +8622,7 @@ export default {
   "QNED81TSA": {
     "series": "QNED81",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24P_AFADABAA",
@@ -8632,7 +8632,7 @@ export default {
   "QNED826RE": {
     "series": "QNED82",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
     "otaId": "HE_DTV_W23H_AFADABAA",
@@ -8651,7 +8651,7 @@ export default {
   "QNED829QB": {
     "series": "QNED82",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADABAA",
@@ -8671,7 +8671,7 @@ export default {
   "QNED85SQA": {
     "series": "QNED85",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADABAA",
@@ -8681,7 +8681,7 @@ export default {
   "QNED85T6A": {
     "series": "QNED85",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24H_AFADABAA",
@@ -8705,7 +8705,7 @@ export default {
   "QNED85TUA": {
     "series": "QNED85",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "k24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24H_AFADATAA",
@@ -8715,7 +8715,7 @@ export default {
   "QNED85UQA": {
     "series": "QNED85",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADATAA",
@@ -8733,7 +8733,7 @@ export default {
   "QNED866QA": {
     "series": "QNED86",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADABAA",
@@ -8752,7 +8752,7 @@ export default {
   "QNED866RE": {
     "series": "QNED86",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
     "otaId": "HE_DTV_W23H_AFADABAA",
@@ -8774,7 +8774,7 @@ export default {
   "QNED869QA": {
     "series": "QNED86",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADABAA",
@@ -8788,7 +8788,7 @@ export default {
   "QNED86CRA": {
     "series": "QNED86",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
     "otaId": "HE_DTV_W23H_AFADABAA",
@@ -8798,7 +8798,7 @@ export default {
   "QNED86SQA": {
     "series": "QNED86",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADABAA",
@@ -8808,7 +8808,7 @@ export default {
   "QNED86SRA": {
     "series": "QNED86",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
     "otaId": "HE_DTV_W23H_AFADABAA",
@@ -8818,7 +8818,7 @@ export default {
   "QNED86T6A": {
     "series": "QNED86",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24H_AFADABAA",
@@ -8837,7 +8837,7 @@ export default {
   "QNED86TCA": {
     "series": "QNED86",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24H_AFADABAA",
@@ -8847,7 +8847,7 @@ export default {
   "QNED86TSA": {
     "series": "QNED86",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24H_AFADABAA",
@@ -8857,7 +8857,7 @@ export default {
   "QNED879QB": {
     "series": "QNED87",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADABAA",
@@ -8871,7 +8871,7 @@ export default {
   "QNED87T6B": {
     "series": "QNED87",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24H_AFADABAA",
@@ -8909,7 +8909,7 @@ export default {
   "QNED90UPA": {
     "series": "QNED90",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADATAA",
@@ -8919,7 +8919,7 @@ export default {
   "QNED916PA": {
     "series": "QNED91",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -8934,7 +8934,7 @@ export default {
   "QNED919PA": {
     "series": "QNED91",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -8948,7 +8948,7 @@ export default {
   "QNED91CPA": {
     "series": "QNED91",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADABAA",
@@ -8962,7 +8962,7 @@ export default {
   "QNED91SQA": {
     "series": "QNED91",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADABAA",
@@ -8981,7 +8981,7 @@ export default {
   "QNED91TSA": {
     "series": "QNED91",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24H_AFADABAA",
@@ -8991,7 +8991,7 @@ export default {
   "QNED966PA": {
     "series": "QNED96",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21K_AFADABAA",
@@ -9001,7 +9001,7 @@ export default {
   "QNED96TPA": {
     "series": "QNED96",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21K_AFADABAA",
@@ -9011,7 +9011,7 @@ export default {
   "QNED996PB": {
     "series": "QNED99",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21K_AFADABAA",
@@ -9026,7 +9026,7 @@ export default {
   "QNED999PB": {
     "series": "QNED99",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21K_AFADABAA",
@@ -9040,7 +9040,7 @@ export default {
   "QNED99CPB": {
     "series": "QNED99",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21K_AFADABAA",
@@ -9064,7 +9064,7 @@ export default {
   "QNED99SQB": {
     "series": "QNED99",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "o228k",
     "codename": "mullet",
     "otaId": "HE_DTV_W22K_AFADABAA",
@@ -9074,7 +9074,7 @@ export default {
   "QNED99TPB": {
     "series": "QNED99",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21K_AFADABAA",
@@ -16000,7 +16000,7 @@ export default {
   "UP7000PUA": {
     "series": "UP7000",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADATAA",
@@ -16014,7 +16014,7 @@ export default {
   "UP7070PUD": {
     "series": "UP7070",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADATAA",
@@ -16024,7 +16024,7 @@ export default {
   "UP7100ZUF": {
     "series": "UP7100",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADATAA",
@@ -16034,7 +16034,7 @@ export default {
   "UP75006LC": {
     "series": "UP7500",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -16056,7 +16056,7 @@ export default {
   "UP75006LF": {
     "series": "UP7500",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -16084,7 +16084,7 @@ export default {
   "UP75009LC": {
     "series": "UP7500",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -16101,7 +16101,7 @@ export default {
   "UP75009LF": {
     "series": "UP7500",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -16115,7 +16115,7 @@ export default {
   "UP7500PTZ": {
     "series": "UP7500",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -16125,7 +16125,7 @@ export default {
   "UP7550PTZ": {
     "series": "UP7550",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -16135,7 +16135,7 @@ export default {
   "UP7550PVC": {
     "series": "UP7550",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -16145,7 +16145,7 @@ export default {
   "UP7550PVD": {
     "series": "UP7550",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -16155,7 +16155,7 @@ export default {
   "UP7550PVG": {
     "series": "UP7550",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -16165,7 +16165,7 @@ export default {
   "UP7560AUD": {
     "series": "UP7560",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADATAA",
@@ -16175,7 +16175,7 @@ export default {
   "UP7570AUE": {
     "series": "UP7570",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADATAA",
@@ -16185,7 +16185,7 @@ export default {
   "UP76706LB": {
     "series": "UP7670",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADABAA",
@@ -16195,7 +16195,7 @@ export default {
   "UP76709LB": {
     "series": "UP7670",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADABAA",
@@ -16205,7 +16205,7 @@ export default {
   "UP7670PUB": {
     "series": "UP7670",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADATAA",
@@ -16215,7 +16215,7 @@ export default {
   "UP7670PUC": {
     "series": "UP7670",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADATAA",
@@ -16225,7 +16225,7 @@ export default {
   "UP76906LE": {
     "series": "UP7690",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -16247,7 +16247,7 @@ export default {
   "UP76909LE": {
     "series": "UP7690",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -16261,7 +16261,7 @@ export default {
   "UP77003LB": {
     "series": "UP7700",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADABAA",
@@ -16271,7 +16271,7 @@ export default {
   "UP77006LB": {
     "series": "UP7700",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADABAA",
@@ -16298,7 +16298,7 @@ export default {
   "UP77009LB": {
     "series": "UP7700",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADABAA",
@@ -16325,7 +16325,7 @@ export default {
   "UP7700PUB": {
     "series": "UP7700",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADATAA",
@@ -16335,7 +16335,7 @@ export default {
   "UP7720PTY": {
     "series": "UP7720",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADABAA",
@@ -16345,7 +16345,7 @@ export default {
   "UP7740PTZ": {
     "series": "UP7740",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADABAA",
@@ -16355,7 +16355,7 @@ export default {
   "UP7750PTZ": {
     "series": "UP7750",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADABAA",
@@ -16365,7 +16365,7 @@ export default {
   "UP7750PVB": {
     "series": "UP7750",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADABAA",
@@ -16375,7 +16375,7 @@ export default {
   "UP7770PUB": {
     "series": "UP7770",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADATAA",
@@ -16385,7 +16385,7 @@ export default {
   "UP78006LB": {
     "series": "UP7800",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADABAA",
@@ -16400,7 +16400,7 @@ export default {
   "UP78009LB": {
     "series": "UP7800",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADABAA",
@@ -16410,7 +16410,7 @@ export default {
   "UP7800PCB": {
     "series": "UP7800",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADABAA",
@@ -16420,7 +16420,7 @@ export default {
   "UP80006LA": {
     "series": "UP8000",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -16442,7 +16442,7 @@ export default {
   "UP80006LR": {
     "series": "UP8000",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADABAA",
@@ -16461,7 +16461,7 @@ export default {
   "UP80009LA": {
     "series": "UP8000",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -16471,7 +16471,7 @@ export default {
   "UP80009LR": {
     "series": "UP8000",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADABAA",
@@ -16491,7 +16491,7 @@ export default {
   "UP8000PTB": {
     "series": "UP8000",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -16501,7 +16501,7 @@ export default {
   "UP8000PTZ": {
     "series": "UP8000",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -16511,7 +16511,7 @@ export default {
   "UP8000PUA": {
     "series": "UP8000",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADATAA",
@@ -16525,7 +16525,7 @@ export default {
   "UP8050PVB": {
     "series": "UP8050",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -16535,7 +16535,7 @@ export default {
   "UP8070PUA": {
     "series": "UP8070",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADATAA",
@@ -16545,7 +16545,7 @@ export default {
   "UP81006LA": {
     "series": "UP8100",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -16560,7 +16560,7 @@ export default {
   "UP81006LR": {
     "series": "UP8100",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADABAA",
@@ -16575,7 +16575,7 @@ export default {
   "UP81009LA": {
     "series": "UP8100",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -16589,7 +16589,7 @@ export default {
   "UP81009LR": {
     "series": "UP8100",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADABAA",
@@ -16603,7 +16603,7 @@ export default {
   "UP8100PCB": {
     "series": "UP8100",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -16613,7 +16613,7 @@ export default {
   "UP8150PVB": {
     "series": "UP8150",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADABAA",
@@ -16623,7 +16623,7 @@ export default {
   "UP8770PUA": {
     "series": "UP8770",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADATAA",
@@ -16633,7 +16633,7 @@ export default {
   "UQ70006LB": {
     "series": "UQ7000",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADABAA",
@@ -16652,7 +16652,7 @@ export default {
   "UQ7070ZUE": {
     "series": "UQ7070",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADATAA",
@@ -16662,7 +16662,7 @@ export default {
   "UQ75006LF": {
     "series": "UQ7500",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADABAA",
@@ -16672,7 +16672,7 @@ export default {
   "UQ75009LF": {
     "series": "UQ7500",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADABAA",
@@ -16686,7 +16686,7 @@ export default {
   "UQ7500PSF": {
     "series": "UQ7500",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADABAA",
@@ -16700,7 +16700,7 @@ export default {
   "UQ7550PSF": {
     "series": "UQ7550",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADABAA",
@@ -16710,7 +16710,7 @@ export default {
   "UQ7570PUJ": {
     "series": "UQ7570",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADATAA",
@@ -16720,7 +16720,7 @@ export default {
   "UQ7590PUB": {
     "series": "UQ7590",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADATAA",
@@ -16730,7 +16730,7 @@ export default {
   "UQ76906LE": {
     "series": "UQ7690",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADABAA",
@@ -16740,7 +16740,7 @@ export default {
   "UQ76909LE": {
     "series": "UQ7690",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADABAA",
@@ -16754,7 +16754,7 @@ export default {
   "UQ79009LA": {
     "series": "UQ7900",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADABAA",
@@ -16764,7 +16764,7 @@ export default {
   "UQ80006LB": {
     "series": "UQ8000",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADABAA",
@@ -16778,7 +16778,7 @@ export default {
   "UQ80009LB": {
     "series": "UQ8000",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADABAA",
@@ -16795,7 +16795,7 @@ export default {
   "UQ8000AUB": {
     "series": "UQ8000",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADATAA",
@@ -16815,7 +16815,7 @@ export default {
   "UQ8020PSB": {
     "series": "UQ8020",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADABAA",
@@ -16825,7 +16825,7 @@ export default {
   "UQ8040PSB": {
     "series": "UQ8040",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADABAA",
@@ -16835,7 +16835,7 @@ export default {
   "UQ8050PSB": {
     "series": "UQ8050",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADABAA",
@@ -16845,7 +16845,7 @@ export default {
   "UQ81006LB": {
     "series": "UQ8100",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADABAA",
@@ -16855,7 +16855,7 @@ export default {
   "UQ81009LB": {
     "series": "UQ8100",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADABAA",
@@ -16869,7 +16869,7 @@ export default {
   "UQ8100PCB": {
     "series": "UQ8100",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADABAA",
@@ -16879,7 +16879,7 @@ export default {
   "UQ90006LA": {
     "series": "UQ9000",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADABAA",
@@ -16889,7 +16889,7 @@ export default {
   "UQ90009LA": {
     "series": "UQ9000",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADABAA",
@@ -16899,7 +16899,7 @@ export default {
   "UQ9000PSD": {
     "series": "UQ9000",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADABAA",
@@ -16914,7 +16914,7 @@ export default {
   "UQ9000PUD": {
     "series": "UQ9000",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADATAA",
@@ -16924,7 +16924,7 @@ export default {
   "UQ91006LA": {
     "series": "UQ9100",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADABAA",
@@ -16934,7 +16934,7 @@ export default {
   "UQ91009LA": {
     "series": "UQ9100",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADABAA",
@@ -16948,7 +16948,7 @@ export default {
   "UQ9100PCD": {
     "series": "UQ9100",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADABAA",
@@ -16972,7 +16972,7 @@ export default {
   "UR73006LA": {
     "series": "UR7300",
     "region": "DE",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21ann",
     "codename": "number1",
     "otaId": "HE_DTV_W23A_AFADABAA",
@@ -16997,7 +16997,7 @@ export default {
   "UR7500PSC": {
     "series": "UR7500",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn",
     "codename": "number1",
     "otaId": "HE_DTV_W23P_AFADABAA",
@@ -17007,7 +17007,7 @@ export default {
   "UR7550PSC": {
     "series": "UR7550",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn",
     "codename": "number1",
     "otaId": "HE_DTV_W23P_AFADABAA",
@@ -17017,7 +17017,7 @@ export default {
   "UR7790PSA": {
     "series": "UR7790",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn",
     "codename": "number1",
     "otaId": "HE_DTV_W23P_AFADABAA",
@@ -17027,7 +17027,7 @@ export default {
   "UR78006LK": {
     "series": "UR7800",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21ann",
     "codename": "number1",
     "otaId": "HE_DTV_W23A_AFADABAA",
@@ -17049,7 +17049,7 @@ export default {
   "UR80006LJ": {
     "series": "UR8000",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21ann",
     "codename": "number1",
     "otaId": "HE_DTV_W23A_AFADABAA",
@@ -17077,7 +17077,7 @@ export default {
   "UR8020PSB": {
     "series": "UR8020",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn",
     "codename": "number1",
     "otaId": "HE_DTV_W23P_AFADABAA",
@@ -17087,7 +17087,7 @@ export default {
   "UR8040PSB": {
     "series": "UR8040",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn",
     "codename": "number1",
     "otaId": "HE_DTV_W23P_AFADABAA",
@@ -17097,7 +17097,7 @@ export default {
   "UR8050PCB": {
     "series": "UR8050",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn",
     "codename": "number1",
     "otaId": "HE_DTV_W23P_AFADABAA",
@@ -17107,7 +17107,7 @@ export default {
   "UR8050PSB": {
     "series": "UR8050",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn",
     "codename": "number1",
     "otaId": "HE_DTV_W23P_AFADABAA",
@@ -17122,7 +17122,7 @@ export default {
   "UR81006LJ": {
     "series": "UR8100",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "lm21ann",
     "codename": "number1",
     "otaId": "HE_DTV_W23A_AFADABAA",
@@ -17140,7 +17140,7 @@ export default {
   "UR9000PUA": {
     "series": "UR9000",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "m23",
     "codename": "number1",
     "otaId": "HE_DTV_W23U_AFADATAA",
@@ -17150,7 +17150,7 @@ export default {
   "UR9050PSK": {
     "series": "UR9050",
     "region": "IN",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn",
     "codename": "number1",
     "otaId": "HE_DTV_W23P_AFADABAA",
@@ -17160,7 +17160,7 @@ export default {
   "UR91006LA": {
     "series": "UR9100",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "m23",
     "codename": "number1",
     "otaId": "HE_DTV_W23U_AFADABAA",
@@ -17181,7 +17181,7 @@ export default {
   "UR9150PCK": {
     "series": "UR9150",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn",
     "codename": "number1",
     "otaId": "HE_DTV_W23P_AFADABAA",
@@ -17191,7 +17191,7 @@ export default {
   "UT7590PUA": {
     "series": "UT7590",
     "region": "CA",
-    "broadcast": "global",
+    "broadcast": "atsc",
     "machine": "k8lpn2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24P_AFADATAA",
@@ -17201,7 +17201,7 @@ export default {
   "UT7800PCB": {
     "series": "UT7800",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24P_AFADABAA",
@@ -17211,7 +17211,7 @@ export default {
   "UT80006LA": {
     "series": "UT8000",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24P_AFADABAA",
@@ -17246,7 +17246,7 @@ export default {
   "UT8050PCB": {
     "series": "UT8050",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24P_AFADABAA",
@@ -17256,7 +17256,7 @@ export default {
   "UT8050PSB": {
     "series": "UT8050",
     "region": "NZ",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24P_AFADABAA",
@@ -17266,7 +17266,7 @@ export default {
   "UT81006LA": {
     "series": "UT8100",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24P_AFADABAA",
@@ -17280,7 +17280,7 @@ export default {
   "UT9050PCB": {
     "series": "UT9050",
     "region": "HK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24P_AFADABAA",
@@ -17290,7 +17290,7 @@ export default {
   "UT91006LA": {
     "series": "UT9100",
     "region": "UK",
-    "broadcast": "global",
+    "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24P_AFADABAA",

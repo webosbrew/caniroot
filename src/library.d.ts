@@ -104,8 +104,16 @@ export class DeviceModel implements DeviceModelData {
      * Find a model by its name
      * @param model Model name like "55OLEDC3PJA"
      * @param exact If true, only return the exact match. If false, return the closest match.
+     * @returns Matching model or undefined if not found
      */
     public static find(model: string, exact?: boolean): DeviceModel | undefined;
+
+    /**
+     * Find matching models by their name
+     * @param model Model name like "55OLEDC3PJA", or "OLEDC3"
+     * @returns List of matching models
+     */
+    public static findAll(model: string): DeviceModel[];
 
     /**
      * Map of all known models

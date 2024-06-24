@@ -156,6 +156,30 @@ export class DeviceModel {
   }
 
   /**
+   * @param {string} model
+   * @returns {DeviceModel[]}
+   */
+  static findAll(model) {
+    const parsed = DeviceModelName.parse(model);
+    if (!parsed) {
+      return [];
+    }
+    let find = parsed.simple;
+    /** @type {DeviceModelData} */
+    let match = models[find];
+    if (match) {
+      const exactModel = find + (match.suffix || '');
+      return [new DeviceModel({model: exactModel, ...match})];
+    }
+    return Object.entries(models)
+      .filter(([_, value]) => value.series === parsed.series)
+      .map(([key, value]) => {
+        const exactModel = key + (value.suffix || '');
+        return new DeviceModel({model: exactModel, ...value});
+      });
+  }
+
+  /**
    * @return {Readonly<Record<string, DeviceModelData>>}
    */
   static get all() {
