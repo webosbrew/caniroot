@@ -120,8 +120,9 @@ class App extends Component<AppProps, AppState> {
                 <ul class="nav nav-pills nav-fill">
                   ${state.availableCodenames.map(codename => html`
                     <li class="nav-item">
-                      <button type="button" class="nav-link ${state.selectedCodename === codename ? 'active' : ''}"
-                              aria-current="page" onClick=${() => this.searchImmediate(state.term!!.q, codename)}>
+                      <button class="nav-link ${state.selectedCodename === codename ? 'active' : ''} notranslate"
+                              type="button" translate="no"
+                              onClick=${() => this.searchImmediate(state.term!!.q, codename)}>
                         ${webOSReleaseName(codename)}
                       </button>
                     </li>

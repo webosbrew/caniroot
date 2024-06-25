@@ -40,10 +40,11 @@ export function SearchHint(props: { term?: SearchTerm, model?: DeviceModel }) {
     if (model) {
         return html`
           <div class="alert alert-info mt-3" role="alert">
-            <i class="bi bi-search me-2"/>Found <code>${model.model}</code>
-            , running <code>${webOSReleaseName(model.codename)}</code>
-            , machine <code>${model.machine}</code>
-            , otaId <code>${model.otaId}</code>
+            <i class="bi bi-search me-2"/>Found <code>${model.model}</code> <code translate="no">(
+            <code>${webOSReleaseName(model.codename)}</code>
+            , machine: ${model.machine}
+            , otaId: ${model.otaId}
+            )</code>
           </div>
           <hr/>`
     } else {
