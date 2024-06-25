@@ -26,6 +26,8 @@ describe('DeviceModel', {only: true}, () => {
     assert.strictEqual(DeviceModelName.parse('55OLEDC3PJA.AJLG').suffix, '.AJLG');
     assert.strictEqual(DeviceModelName.parse('55OLEDC3PJA.AJLG').series, 'OLEDC3');
     assert.strictEqual(DeviceModelName.parse('105UC9.AHK').size, 105);
+    assert.strictEqual(DeviceModelName.parse('42LX3QKNA').series, 'LX3Q');
+    assert.strictEqual(DeviceModelName.parse('55LX1TPSA').series, 'LX1T');
   });
 
   it('should fail on non-LG TV models', () => {

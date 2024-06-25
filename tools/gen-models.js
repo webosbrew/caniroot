@@ -116,7 +116,12 @@ export function parseDeviceModel(model, epk, region, otaId) {
   }
 }
 
-for (const {region, model, epk, ota_id} of dump) {
+for (let {region, model, epk, ota_id} of dump) {
+  if (region === 'KR' && model.match(/-N[A-Z]$/)) {
+    // -N? models seems to be duplicates of the same model, so we can ignore them
+    model = model.replace(/-N[A-Z]$/, '');
+    continue;
+  }
   const parsedName = DeviceModelName.parse(model);
   if (!parsedName) {
     console.error(`Failed to parse model name: ${model}`);

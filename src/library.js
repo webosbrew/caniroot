@@ -64,6 +64,7 @@ export class DeviceModelName {
   static parse(model) {
     const devicePatterns = [
       '(OLED(?<osize>\\d{2,3})?(?<oled>\\w{2}))',
+      '(?<lsize>\\d{2,3})?(?<lx>LX\\w{2})',
       '((?<size>\\d{2,3})?(?<series>(?:ART|NANO|QNED)\\d{2}|[A-Z]{2}\\w{4}|UC\\w{1,2}))',
     ];
     const pattern = `^(?:${devicePatterns.join('|')})(?<tdd>\\w{1,4})?(?<suffix>[.-]\\w+)?$`;
@@ -73,8 +74,8 @@ export class DeviceModelName {
     }
     const groups = match.groups;
     return new DeviceModelName({
-      series: groups.series || `OLED${groups.oled}`,
-      size: parseInt(groups.size || groups.osize),
+      series: groups.series || groups.lx || `OLED${groups.oled}`,
+      size: parseInt(groups.size || groups.lsize || groups.osize),
       tdd: groups.tdd,
       suffix: groups.suffix
     });
