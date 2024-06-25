@@ -3,6 +3,7 @@
  * @property {string} model
  * @property {string} region
  * @property {string} epk
+ * @property {string} [ota_id]
  */
 
 /**
@@ -38,12 +39,39 @@ export function inferBroadcast(broadcast, otaIdPrefix, region) {
 }
 
 /**
+ * @param prefix {string}
+ * @param broadcast {string}
+ * @return {string | undefined}
+ */
+function inferOtaIdBroadcastSuffix(prefix, broadcast) {
+  switch (broadcast) {
+    case 'arib':
+      return 'JAAA';
+    case 'dvb':
+      return 'ABAA';
+    case 'atsc':
+      return 'ATAA';
+    case 'global':
+      if (prefix.startsWith('HE_MNT_')) {
+        return 'GLAA';
+      } else if (prefix.startsWith('HE_DTV_')) {
+        return 'ATAA';
+      }
+      break;
+    default:
+      break;
+  }
+  return undefined;
+}
+
+/**
  * @param model {DeviceModelName}
  * @param epk {string}
  * @param region {string}
+ * @param [otaId] {string}
  * @returns {DeviceModelData | undefined}
  */
-export function parseDeviceModel(model, epk, region) {
+export function parseDeviceModel(model, epk, region, otaId) {
   const match = epk.match([
     /(?:lib32-)?starfish-(?<broadcast>\w+)-secured-(?<machine2>\w+)-/,
     /(?:\d+\.)?(?<minor>\w+)(?:\.(?<machine>\w+)|-(\d+))/
@@ -52,68 +80,50 @@ export function parseDeviceModel(model, epk, region) {
     return undefined;
   }
   const machine = match.groups.machine || match.groups.machine2;
-  let otaIds = machineOtaIdPrefix[machine];
-  if (!otaIds) {
-    return undefined;
-  }
-
   const codename = minorMajor[match.groups.minor];
-  const otaIdPrefix = otaIds.map(otaId => {
-    if (typeof otaId === 'string') {
-      return otaId;
-    }
-    if (otaId.codename === codename) {
-      return otaId.otaId;
-    }
-    return null;
-  }).filter((x) => !!x)[0];
 
-  if (!otaIdPrefix) {
-    return undefined;
+  if (!otaId) {
+    let otaIds = machineOtaIdPrefix[machine];
+    if (!otaIds) {
+      return undefined;
+    }
+
+    const otaIdPrefix = otaIds.map(otaId => {
+      if (typeof otaId === 'string') {
+        return otaId;
+      }
+      if (otaId.codename === codename) {
+        return otaId.otaId;
+      }
+      return null;
+    }).filter((x) => !!x)[0];
+
+    if (!otaIdPrefix) {
+      return undefined;
+    }
+    const otaIdSuffix = inferOtaIdBroadcastSuffix(otaIdPrefix, match.groups.broadcast);
+    if (!otaIdSuffix) {
+      return undefined;
+    }
+    otaId = otaIdPrefix + otaIdSuffix;
   }
 
-  const broadcast = inferBroadcast(match.groups.broadcast, otaIdPrefix, region);
+  const broadcast = inferBroadcast(match.groups.broadcast, otaId, region);
 
-  function otaBroadcast(broadcast) {
-    switch (broadcast) {
-      case 'arib':
-        return 'JAAA';
-      case 'dvb':
-        return 'ABAA';
-      case 'atsc':
-        return 'ATAA';
-      case 'global':
-        if (otaIdPrefix.startsWith('HE_MNT_')) {
-          return 'GLAA';
-        } else if (otaIdPrefix.startsWith('HE_DTV_')) {
-          return 'ATAA';
-        }
-        break;
-      default:
-        break;
-    }
-    return undefined;
-  }
-
-  const otaIdSuffix = otaBroadcast(match.groups.broadcast);
-  if (!otaIdSuffix) {
-    return undefined;
-  }
   return {
-    series: model.series, region, broadcast, machine, codename,
-    otaId: otaIdPrefix + otaIdSuffix,
+    series: model.series, region, broadcast, machine, codename, otaId,
     suffix: model.suffix, variants: [],
   }
 }
 
-for (const {region, model, epk} of dump) {
+for (const {region, model, epk, ota_id} of dump) {
   const parsedName = DeviceModelName.parse(model);
   if (!parsedName) {
     console.error(`Failed to parse model name: ${model}`);
     continue;
   }
 
-  const parsedModel = parseDeviceModel(parsedName, epk, region);
+  const parsedModel = parseDeviceModel(parsedName, epk, region, ota_id);
   if (!parsedModel) {
     console.error(`Failed to parse EPK for model ${model}: ${epk}`);
     continue;
