@@ -50,6 +50,7 @@ describe('DeviceModel', {only: true}, () => {
     assert.strictEqual(DeviceModel.find('UM7380PJ').model, 'UM7380PJE.AJL');
     assert.strictEqual(DeviceModel.find('QNED85UQA').codename, 'mullet');
     assert.strictEqual(DeviceModel.find('QNED85').codename, 'mullet');
+    assert.strictEqual(DeviceModel.find('55LX1TPSA').codename, 'ombre');
     assert.ok(DeviceModel.find('QNED85UQA').variants.find((v) => v.codename === 'number1'));
   });
 
