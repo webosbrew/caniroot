@@ -36,7 +36,7 @@ describe('DeviceModel', {only: true}, () => {
     assert.strictEqual(DeviceModel.find('55SM8100PJB').broadcast, 'arib');
     assert.strictEqual(DeviceModel.find('SM8100PJB').machine, 'm16p3');
     assert.strictEqual(DeviceModel.find('43UN7340PVC').region, 'NZ');
-    assert.strictEqual(DeviceModel.find('50NANO766QA').otaId, 'HE_DTV_W22P_AFADABAA');
+    assert.strictEqual(DeviceModel.find('50NANO766QA').otaId, 'HE_DTV_W22P_AFADATAA');
     assert.strictEqual(DeviceModel.find('43UJ750V').series, 'UJ750V');
     assert.strictEqual(DeviceModel.find('55LB7200').series, 'LB7200');
     assert.strictEqual(DeviceModel.find('55SK7900PLA').series, 'SK7900');

@@ -74,7 +74,7 @@ function inferOtaIdBroadcastSuffix(prefix, broadcast) {
 export function parseDeviceModel(model, epk, region, otaId) {
   const match = epk.match([
     /(?:lib32-)?starfish-(?<broadcast>\w+)-secured-(?<machine2>\w+)-/,
-    /(?:\d+\.)?(?<minor>\w+)(?:\.(?<machine>\w+)|-(\d+))/
+    /(?:\d+\.)?(?<minor>\w+)(?:\.(pine|(?<machine>(?!pine)\w+))|-(\d+))/
   ].map(r => r.source).join(''));
   if (!match) {
     return undefined;

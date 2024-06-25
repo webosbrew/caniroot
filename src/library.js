@@ -54,7 +54,7 @@ export class DeviceModelName {
    * @return {string}
    */
   get simple() {
-    return this.series + (this.tdd || this.suffix || '');
+    return this.series + (this.tdd || '');
   }
 
   /**
