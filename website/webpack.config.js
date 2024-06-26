@@ -6,6 +6,15 @@ const HtmlBundlerPlugin = require('html-bundler-webpack-plugin');
 const {PurgeCSSPlugin} = require("purgecss-webpack-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
+/** @type {import('@babel/core').RuleSetUse} */
+const babelLoader = {
+  loader: 'babel-loader',
+  options: {
+    presets: ['@babel/preset-env'],
+    plugins: ['babel-plugin-htm']
+  }
+};
+
 /**
  * @param {Record<string, unknown>} env
  * @param {Record<string, unknown>} argv
@@ -33,19 +42,28 @@ module.exports = (env, argv) => ({
       },
     }),
     new PurgeCSSPlugin({
-      paths: () => fs.readdirSync(path.resolve(__dirname, 'src'), {recursive: true})
-        .map((name) => path.join('src', name)),
+      /** @returns {string[]} */
+      paths: () => {
+        const entries = fs.readdirSync(path.resolve(__dirname, 'src'), {recursive: true, encoding: 'utf-8'});
+        return entries.map(/**@param name{string}*/(name) => path.join('src', name));
+      },
     }),
   ],
   module: {
     rules: [
       {
-        test: /.m?js$/, use: {
-          loader: 'babel-loader',
-          options: {presets: ['@babel/preset-env']}
-        }
+        test: /.m?js$/, use: babelLoader
       },
-      {test: /\.ts$/, use: 'ts-loader'},
+      {
+        test: /\.(ts)$/,
+        exclude: /node_modules/,
+        use: [
+          babelLoader,
+          {
+            loader: 'ts-loader',
+          }
+        ]
+      },
       {
         test: /\.(c|sa|sc)ss$/, use: [
           'css-loader',
