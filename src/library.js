@@ -75,7 +75,7 @@ export class DeviceModelName {
     const groups = match.groups;
     const name = groups.series || groups.lx || `OLED${groups.oled}`;
     let series = name;
-    if (series.match(/[ELSU][C-T]\d{3}[0-9A-Z]/)) {
+    if (series.match(/[ELSU][B-T]\d{3}[0-9A-Z]/)) {
       series = series.substring(0, 4);
     }
     return new DeviceModelName({
