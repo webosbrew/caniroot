@@ -2724,7 +2724,7 @@ export default {
     ]
   },
   "LX6900PJA": {
-    "series": "LX6900",
+    "series": "LX69",
     "region": "JP",
     "broadcast": "arib",
     "machine": "k6lpfhd",
@@ -2734,7 +2734,7 @@ export default {
     "variants": []
   },
   "LX7000PJB": {
-    "series": "LX7000",
+    "series": "LX70",
     "region": "JP",
     "broadcast": "arib",
     "machine": "k8ap",
