@@ -44,7 +44,7 @@ export class DeviceExploitAvailabilities {
 
 export class DeviceModelName {
   /**
-   * @param props {Readonly<DeviceModelName>}
+   * @param props {Readonly<DeviceModelNameData>}
    */
   constructor(props) {
     Object.assign(this, props);
@@ -54,7 +54,7 @@ export class DeviceModelName {
    * @return {string}
    */
   get simple() {
-    return this.series + (this.tdd || '');
+    return this.name + (this.tdd || '');
   }
 
   /**
@@ -73,8 +73,13 @@ export class DeviceModelName {
       return undefined;
     }
     const groups = match.groups;
+    const name = groups.series || groups.lx || `OLED${groups.oled}`;
+    let series = name;
+    if (series.match(/[ELSU][C-T]\d{3}[0-9A-Z]/)) {
+      series = series.substring(0, 4);
+    }
     return new DeviceModelName({
-      series: groups.series || groups.lx || `OLED${groups.oled}`,
+      name, series,
       size: parseInt(groups.size || groups.lsize || groups.osize),
       tdd: groups.tdd,
       suffix: groups.suffix
@@ -130,9 +135,9 @@ export class DeviceModel {
     let matchKey = find;
     if (!match && !exact) {
       // Find first match ignoring model suffix (.ABC)
-      find = parsed.series;
+      find = parsed.name;
       for (let [key, value] of Object.entries(models)) {
-        if (value.series === find) {
+        if (value.name === find) {
           match = value;
           matchKey = key;
           break;
@@ -173,7 +178,7 @@ export class DeviceModel {
       return [new DeviceModel({model: exactModel, ...match})];
     }
     return Object.entries(models)
-      .filter(([_, value]) => value.series === parsed.series)
+      .filter(([_, value]) => value.name === parsed.name)
       .map(([key, value]) => {
         const exactModel = key + (value.suffix || '');
         return new DeviceModel({model: exactModel, ...value});

@@ -42,7 +42,16 @@ export class DeviceExploitAvailabilities implements DeviceExploitAvailabilitiesD
     public static byOTAID(otaId: string, exact?: boolean): DeviceExploitAvailabilities | undefined;
 }
 
+export declare interface DeviceModelNameData {
+    name: string;
+    series: string;
+    size?: number;
+    tdd?: string;
+    suffix?: string;
+}
+
 export class DeviceModelName {
+    readonly name: string;
     /**
      * Model series (e.g. "OLEDC3")
      */

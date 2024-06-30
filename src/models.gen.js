@@ -41,7 +41,7 @@ export default {
     ]
   },
   "EC9300": {
-    "series": "EC9300",
+    "series": "EC93",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m14tv",
@@ -65,7 +65,7 @@ export default {
     ]
   },
   "EC930T": {
-    "series": "EC930T",
+    "series": "EC93",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m14tv",
@@ -79,7 +79,7 @@ export default {
     ]
   },
   "EC930V": {
-    "series": "EC930V",
+    "series": "EC93",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m14tv",
@@ -103,7 +103,7 @@ export default {
     ]
   },
   "EC9310": {
-    "series": "EC9310",
+    "series": "EC93",
     "region": "JP",
     "broadcast": "arib",
     "machine": "m14tv",
@@ -117,7 +117,7 @@ export default {
     ]
   },
   "EC9700": {
-    "series": "EC9700",
+    "series": "EC97",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "goldfinger",
@@ -141,7 +141,7 @@ export default {
     ]
   },
   "EC970T": {
-    "series": "EC970T",
+    "series": "EC97",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "goldfinger",
@@ -151,7 +151,7 @@ export default {
     "variants": []
   },
   "EC970V": {
-    "series": "EC970V",
+    "series": "EC97",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "goldfinger",
@@ -173,7 +173,7 @@ export default {
     ]
   },
   "EC980V": {
-    "series": "EC980V",
+    "series": "EC98",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "goldfinger",
@@ -192,7 +192,7 @@ export default {
     ]
   },
   "EF9500": {
-    "series": "EF9500",
+    "series": "EF95",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "lm14a",
@@ -206,7 +206,7 @@ export default {
     ]
   },
   "EF9509": {
-    "series": "EF9509",
+    "series": "EF95",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm14a",
@@ -216,7 +216,7 @@ export default {
     "variants": []
   },
   "EF950T": {
-    "series": "EF950T",
+    "series": "EF95",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm14a",
@@ -230,7 +230,7 @@ export default {
     ]
   },
   "EF950V": {
-    "series": "EF950V",
+    "series": "EF95",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm14a",
@@ -257,7 +257,7 @@ export default {
     ]
   },
   "EG9100": {
-    "series": "EG9100",
+    "series": "EG91",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m14tv",
@@ -284,7 +284,7 @@ export default {
     ]
   },
   "EG9109": {
-    "series": "EG9109",
+    "series": "EG91",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m14tv",
@@ -298,7 +298,7 @@ export default {
     ]
   },
   "EG910T": {
-    "series": "EG910T",
+    "series": "EG91",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m14tv",
@@ -312,7 +312,7 @@ export default {
     ]
   },
   "EG910V": {
-    "series": "EG910V",
+    "series": "EG91",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m14tv",
@@ -346,7 +346,7 @@ export default {
     ]
   },
   "EG9200": {
-    "series": "EG9200",
+    "series": "EG92",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "lm14a",
@@ -363,7 +363,7 @@ export default {
     ]
   },
   "EG9209": {
-    "series": "EG9209",
+    "series": "EG92",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm14a",
@@ -373,7 +373,7 @@ export default {
     "variants": []
   },
   "EG920V": {
-    "series": "EG920V",
+    "series": "EG92",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "lm14a",
@@ -399,7 +399,7 @@ export default {
     ]
   },
   "EG9350": {
-    "series": "EG9350",
+    "series": "EG93",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "m14tv",
@@ -408,7 +408,7 @@ export default {
     "variants": []
   },
   "EG9370": {
-    "series": "EG9370",
+    "series": "EG93",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "m14tv",
@@ -417,7 +417,7 @@ export default {
     "variants": []
   },
   "EG9450": {
-    "series": "EG9450",
+    "series": "EG94",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "lm14a",
@@ -426,7 +426,7 @@ export default {
     "variants": []
   },
   "EG9470": {
-    "series": "EG9470",
+    "series": "EG94",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "lm14a",
@@ -435,7 +435,7 @@ export default {
     "variants": []
   },
   "EG9600": {
-    "series": "EG9600",
+    "series": "EG96",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "lm15u",
@@ -465,7 +465,7 @@ export default {
     ]
   },
   "EG9609": {
-    "series": "EG9609",
+    "series": "EG96",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -475,7 +475,7 @@ export default {
     "variants": []
   },
   "EG960T": {
-    "series": "EG960T",
+    "series": "EG96",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -489,7 +489,7 @@ export default {
     ]
   },
   "EG960V": {
-    "series": "EG960V",
+    "series": "EG96",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -513,7 +513,7 @@ export default {
     ]
   },
   "EG9650": {
-    "series": "EG9650",
+    "series": "EG96",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "lm14a",
@@ -523,7 +523,7 @@ export default {
     "variants": []
   },
   "EG9700": {
-    "series": "EG9700",
+    "series": "EG97",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "goldfinger",
@@ -539,7 +539,7 @@ export default {
     ]
   },
   "EG970T": {
-    "series": "EG970T",
+    "series": "EG97",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "goldfinger",
@@ -1081,7 +1081,7 @@ export default {
     ]
   },
   "LF5800": {
-    "series": "LF5800",
+    "series": "LF58",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "m14tv",
@@ -1090,7 +1090,7 @@ export default {
     "variants": []
   },
   "LF5900": {
-    "series": "LF5900",
+    "series": "LF59",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "mtka5lr",
@@ -1114,7 +1114,7 @@ export default {
     ]
   },
   "LF5909": {
-    "series": "LF5909",
+    "series": "LF59",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "mtka5lr",
@@ -1124,7 +1124,7 @@ export default {
     "variants": []
   },
   "LF590V": {
-    "series": "LF590V",
+    "series": "LF59",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "mtka5lr",
@@ -1142,7 +1142,7 @@ export default {
     ]
   },
   "LF5929": {
-    "series": "LF5929",
+    "series": "LF59",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "mtka5lr",
@@ -1152,7 +1152,7 @@ export default {
     "variants": []
   },
   "LF592V": {
-    "series": "LF592V",
+    "series": "LF59",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "mtka5lr",
@@ -1166,7 +1166,7 @@ export default {
     ]
   },
   "LF5950": {
-    "series": "LF5950",
+    "series": "LF59",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "mtka5lr",
@@ -1183,7 +1183,7 @@ export default {
     ]
   },
   "LF595B": {
-    "series": "LF595B",
+    "series": "LF59",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "mtka5lr",
@@ -1204,7 +1204,7 @@ export default {
     ]
   },
   "LF6300": {
-    "series": "LF6300",
+    "series": "LF63",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "m14tv",
@@ -1246,7 +1246,7 @@ export default {
     ]
   },
   "LF6309": {
-    "series": "LF6309",
+    "series": "LF63",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m14tv",
@@ -1256,7 +1256,7 @@ export default {
     "variants": []
   },
   "LF630V": {
-    "series": "LF630V",
+    "series": "LF63",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m14tv",
@@ -1287,7 +1287,7 @@ export default {
     ]
   },
   "LF6310": {
-    "series": "LF6310",
+    "series": "LF63",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "m14tv",
@@ -1302,7 +1302,7 @@ export default {
     ]
   },
   "LF6319": {
-    "series": "LF6319",
+    "series": "LF63",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m14tv",
@@ -1312,7 +1312,7 @@ export default {
     "variants": []
   },
   "LF631V": {
-    "series": "LF631V",
+    "series": "LF63",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m14tv",
@@ -1327,7 +1327,7 @@ export default {
     ]
   },
   "LF6329": {
-    "series": "LF6329",
+    "series": "LF63",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m14tv",
@@ -1337,7 +1337,7 @@ export default {
     "variants": []
   },
   "LF632V": {
-    "series": "LF632V",
+    "series": "LF63",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m14tv",
@@ -1354,7 +1354,7 @@ export default {
     ]
   },
   "LF6350": {
-    "series": "LF6350",
+    "series": "LF63",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m14tv",
@@ -1369,7 +1369,7 @@ export default {
     ]
   },
   "LF6380": {
-    "series": "LF6380",
+    "series": "LF63",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "m14tv",
@@ -1378,7 +1378,7 @@ export default {
     "variants": []
   },
   "LF6390": {
-    "series": "LF6390",
+    "series": "LF63",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m14tv",
@@ -1388,7 +1388,7 @@ export default {
     "variants": []
   },
   "LF6410": {
-    "series": "LF6410",
+    "series": "LF64",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "m14tv",
@@ -1397,7 +1397,7 @@ export default {
     "variants": []
   },
   "LF6500": {
-    "series": "LF6500",
+    "series": "LF65",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "m14tv",
@@ -1431,7 +1431,7 @@ export default {
     ]
   },
   "LF6509": {
-    "series": "LF6509",
+    "series": "LF65",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m14tv",
@@ -1441,7 +1441,7 @@ export default {
     "variants": []
   },
   "LF650V": {
-    "series": "LF650V",
+    "series": "LF65",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m14tv",
@@ -1462,7 +1462,7 @@ export default {
     ]
   },
   "LF6529": {
-    "series": "LF6529",
+    "series": "LF65",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m14tv",
@@ -1472,7 +1472,7 @@ export default {
     "variants": []
   },
   "LF652V": {
-    "series": "LF652V",
+    "series": "LF65",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m14tv",
@@ -1493,7 +1493,7 @@ export default {
     ]
   },
   "LH560V": {
-    "series": "LH560V",
+    "series": "LH56",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "mtka5lr",
@@ -1508,7 +1508,7 @@ export default {
     ]
   },
   "LH590U": {
-    "series": "LH590U",
+    "series": "LH59",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m2",
@@ -1526,7 +1526,7 @@ export default {
     ]
   },
   "LH590V": {
-    "series": "LH590V",
+    "series": "LH59",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m2",
@@ -1547,7 +1547,7 @@ export default {
     ]
   },
   "LH595T": {
-    "series": "LH595T",
+    "series": "LH59",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "m2",
@@ -1557,7 +1557,7 @@ export default {
     "variants": []
   },
   "LH600T": {
-    "series": "LH600T",
+    "series": "LH60",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m2",
@@ -1576,7 +1576,7 @@ export default {
     ]
   },
   "LH600V": {
-    "series": "LH600V",
+    "series": "LH60",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m2",
@@ -1586,7 +1586,7 @@ export default {
     "variants": []
   },
   "LH602D": {
-    "series": "LH602D",
+    "series": "LH60",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "m2",
@@ -1596,7 +1596,7 @@ export default {
     "variants": []
   },
   "LH6040": {
-    "series": "LH6040",
+    "series": "LH60",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "m2",
@@ -1606,7 +1606,7 @@ export default {
     "variants": []
   },
   "LH604T": {
-    "series": "LH604T",
+    "series": "LH60",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m2",
@@ -1625,7 +1625,7 @@ export default {
     ]
   },
   "LH604V": {
-    "series": "LH604V",
+    "series": "LH60",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "m2",
@@ -1648,7 +1648,7 @@ export default {
     ]
   },
   "LH630V": {
-    "series": "LH630V",
+    "series": "LH63",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m2",
@@ -1662,7 +1662,7 @@ export default {
     ]
   },
   "LJ5500": {
-    "series": "LJ5500",
+    "series": "LJ55",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m2r",
@@ -1682,7 +1682,7 @@ export default {
     ]
   },
   "LJ550B": {
-    "series": "LJ550B",
+    "series": "LJ55",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m2r",
@@ -1697,7 +1697,7 @@ export default {
     ]
   },
   "LJ550D": {
-    "series": "LJ550D",
+    "series": "LJ55",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m2r",
@@ -1711,7 +1711,7 @@ export default {
     ]
   },
   "LJ550M": {
-    "series": "LJ550M",
+    "series": "LJ55",
     "region": "US",
     "broadcast": "atsc",
     "machine": "m2r",
@@ -1725,7 +1725,7 @@ export default {
     ]
   },
   "LJ550T": {
-    "series": "LJ550T",
+    "series": "LJ55",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m2r",
@@ -1743,7 +1743,7 @@ export default {
     ]
   },
   "LJ554T": {
-    "series": "LJ554T",
+    "series": "LJ55",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "m2r",
@@ -1753,7 +1753,7 @@ export default {
     "variants": []
   },
   "LJ570B": {
-    "series": "LJ570B",
+    "series": "LJ57",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "m2r",
@@ -1763,7 +1763,7 @@ export default {
     "variants": []
   },
   "LJ573D": {
-    "series": "LJ573D",
+    "series": "LJ57",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "m2r",
@@ -1773,7 +1773,7 @@ export default {
     "variants": []
   },
   "LJ590U": {
-    "series": "LJ590U",
+    "series": "LJ59",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "m2r",
@@ -1788,7 +1788,7 @@ export default {
     ]
   },
   "LJ594V": {
-    "series": "LJ594V",
+    "series": "LJ59",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "m2r",
@@ -1807,7 +1807,7 @@ export default {
     ]
   },
   "LJ6100": {
-    "series": "LJ6100",
+    "series": "LJ61",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "m2r",
@@ -1817,7 +1817,7 @@ export default {
     "variants": []
   },
   "LJ610D": {
-    "series": "LJ610D",
+    "series": "LJ61",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m2r",
@@ -1827,7 +1827,7 @@ export default {
     "variants": []
   },
   "LJ610V": {
-    "series": "LJ610V",
+    "series": "LJ61",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "m2r",
@@ -1842,7 +1842,7 @@ export default {
     ]
   },
   "LJ6130": {
-    "series": "LJ6130",
+    "series": "LJ61",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "m2r",
@@ -1852,7 +1852,7 @@ export default {
     "variants": []
   },
   "LJ614V": {
-    "series": "LJ614V",
+    "series": "LJ61",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m2r",
@@ -1873,7 +1873,7 @@ export default {
     ]
   },
   "LJ615V": {
-    "series": "LJ615V",
+    "series": "LJ61",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m2r",
@@ -1891,7 +1891,7 @@ export default {
     ]
   },
   "LJ616D": {
-    "series": "LJ616D",
+    "series": "LJ61",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "m2r",
@@ -1905,7 +1905,7 @@ export default {
     ]
   },
   "LJ617T": {
-    "series": "LJ617T",
+    "series": "LJ61",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "m2r",
@@ -1915,7 +1915,7 @@ export default {
     "variants": []
   },
   "LJ617V": {
-    "series": "LJ617V",
+    "series": "LJ61",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "m2r",
@@ -1925,7 +1925,7 @@ export default {
     "variants": []
   },
   "LJ618U": {
-    "series": "LJ618U",
+    "series": "LJ61",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "m2r",
@@ -1935,7 +1935,7 @@ export default {
     "variants": []
   },
   "LJ619V": {
-    "series": "LJ619V",
+    "series": "LJ61",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "m2r",
@@ -1945,7 +1945,7 @@ export default {
     "variants": []
   },
   "LJ624V": {
-    "series": "LJ624V",
+    "series": "LJ62",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "m2r",
@@ -1960,7 +1960,7 @@ export default {
     ]
   },
   "LJ625V": {
-    "series": "LJ625V",
+    "series": "LJ62",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "m2r",
@@ -1970,7 +1970,7 @@ export default {
     "variants": []
   },
   "LK5400BUA": {
-    "series": "LK5400",
+    "series": "LK54",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m3",
@@ -1980,7 +1980,7 @@ export default {
     "variants": []
   },
   "LK5400PTA": {
-    "series": "LK5400",
+    "series": "LK54",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m3",
@@ -1990,7 +1990,7 @@ export default {
     "variants": []
   },
   "LK5400PUA": {
-    "series": "LK5400",
+    "series": "LK54",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m3",
@@ -2000,7 +2000,7 @@ export default {
     "variants": []
   },
   "LK540BBUA": {
-    "series": "LK540B",
+    "series": "LK54",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m3",
@@ -2010,7 +2010,7 @@ export default {
     "variants": []
   },
   "LK5700PCA": {
-    "series": "LK5700",
+    "series": "LK57",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "m3",
@@ -2020,7 +2020,7 @@ export default {
     "variants": []
   },
   "LK5700PUA": {
-    "series": "LK5700",
+    "series": "LK57",
     "region": "US",
     "broadcast": "atsc",
     "machine": "m3",
@@ -2030,7 +2030,7 @@ export default {
     "variants": []
   },
   "LK5760PTA": {
-    "series": "LK5760",
+    "series": "LK57",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "m3",
@@ -2040,7 +2040,7 @@ export default {
     "variants": []
   },
   "LK5900PLA": {
-    "series": "LK5900",
+    "series": "LK59",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m3",
@@ -2058,7 +2058,7 @@ export default {
     ]
   },
   "LK6100PCA": {
-    "series": "LK6100",
+    "series": "LK61",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "m3",
@@ -2068,7 +2068,7 @@ export default {
     "variants": []
   },
   "LK6100PCB": {
-    "series": "LK6100",
+    "series": "LK61",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "m3",
@@ -2078,7 +2078,7 @@ export default {
     "variants": []
   },
   "LK6100PLB": {
-    "series": "LK6100",
+    "series": "LK61",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "m3",
@@ -2097,7 +2097,7 @@ export default {
     ]
   },
   "LK610BBUA": {
-    "series": "LK610B",
+    "series": "LK61",
     "region": "US",
     "broadcast": "atsc",
     "machine": "m3",
@@ -2107,7 +2107,7 @@ export default {
     "variants": []
   },
   "LK610BPLB": {
-    "series": "LK610B",
+    "series": "LK61",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "m3",
@@ -2122,7 +2122,7 @@ export default {
     ]
   },
   "LK610BPTB": {
-    "series": "LK610B",
+    "series": "LK61",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m3",
@@ -2136,7 +2136,7 @@ export default {
     ]
   },
   "LK610BPUA": {
-    "series": "LK610B",
+    "series": "LK61",
     "region": "US",
     "broadcast": "atsc",
     "machine": "m3",
@@ -2146,7 +2146,7 @@ export default {
     "variants": []
   },
   "LK6120PTC": {
-    "series": "LK6120",
+    "series": "LK61",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "m3",
@@ -2156,7 +2156,7 @@ export default {
     "variants": []
   },
   "LK616BPTB": {
-    "series": "LK616B",
+    "series": "LK61",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "m3",
@@ -2166,7 +2166,7 @@ export default {
     "variants": []
   },
   "LK6200PLA": {
-    "series": "LK6200",
+    "series": "LK62",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m3",
@@ -2184,7 +2184,7 @@ export default {
     ]
   },
   "LK628BPTF": {
-    "series": "LK628B",
+    "series": "LK62",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "m3",
@@ -2194,7 +2194,7 @@ export default {
     "variants": []
   },
   "LM5700PUA": {
-    "series": "LM5700",
+    "series": "LM57",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m3r",
@@ -2209,7 +2209,7 @@ export default {
     ]
   },
   "LM570BPUA": {
-    "series": "LM570B",
+    "series": "LM57",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m3r",
@@ -2224,7 +2224,7 @@ export default {
     ]
   },
   "LM5760PTC": {
-    "series": "LM5760",
+    "series": "LM57",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "m3r",
@@ -2234,7 +2234,7 @@ export default {
     "variants": []
   },
   "LM576BPTC": {
-    "series": "LM576B",
+    "series": "LM57",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "m3r",
@@ -2244,7 +2244,7 @@ export default {
     "variants": []
   },
   "LM577BPUA": {
-    "series": "LM577B",
+    "series": "LM57",
     "region": "US",
     "broadcast": "atsc",
     "machine": "m3r",
@@ -2254,7 +2254,7 @@ export default {
     "variants": []
   },
   "LM577BZUA": {
-    "series": "LM577B",
+    "series": "LM57",
     "region": "US",
     "broadcast": "atsc",
     "machine": "m3r",
@@ -2264,7 +2264,7 @@ export default {
     "variants": []
   },
   "LM620BPUA": {
-    "series": "LM620B",
+    "series": "LM62",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m3r",
@@ -2278,7 +2278,7 @@ export default {
     ]
   },
   "LM627BPUA": {
-    "series": "LM627B",
+    "series": "LM62",
     "region": "US",
     "broadcast": "atsc",
     "machine": "m3r",
@@ -2288,7 +2288,7 @@ export default {
     "variants": []
   },
   "LM6300PCB": {
-    "series": "LM6300",
+    "series": "LM63",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "m3r",
@@ -2302,7 +2302,7 @@ export default {
     ]
   },
   "LM6300PLA": {
-    "series": "LM6300",
+    "series": "LM63",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "m3r",
@@ -2316,7 +2316,7 @@ export default {
     ]
   },
   "LM6300PTB": {
-    "series": "LM6300",
+    "series": "LM63",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m3r",
@@ -2326,7 +2326,7 @@ export default {
     "variants": []
   },
   "LM630BPLA": {
-    "series": "LM630B",
+    "series": "LM63",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "m3r",
@@ -2341,7 +2341,7 @@ export default {
     ]
   },
   "LM630BPTB": {
-    "series": "LM630B",
+    "series": "LM63",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m3r",
@@ -2351,7 +2351,7 @@ export default {
     "variants": []
   },
   "LM6360PTB": {
-    "series": "LM6360",
+    "series": "LM63",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "m3r",
@@ -2361,7 +2361,7 @@ export default {
     "variants": []
   },
   "LM636BPTB": {
-    "series": "LM636B",
+    "series": "LM63",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "m3r",
@@ -2371,7 +2371,7 @@ export default {
     "variants": []
   },
   "LQ570B6LA": {
-    "series": "LQ570B",
+    "series": "LQ57",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k8ap",
@@ -2381,7 +2381,7 @@ export default {
     "variants": []
   },
   "LQ570BPSA": {
-    "series": "LQ570B",
+    "series": "LQ57",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "k8ap",
@@ -2391,7 +2391,7 @@ export default {
     "variants": []
   },
   "LQ63006LA": {
-    "series": "LQ6300",
+    "series": "LQ63",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k8ap",
@@ -2406,7 +2406,7 @@ export default {
     ]
   },
   "LQ630B6LA": {
-    "series": "LQ630B",
+    "series": "LQ63",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k8ap",
@@ -2424,7 +2424,7 @@ export default {
     ]
   },
   "LQ630BPUA": {
-    "series": "LQ630B",
+    "series": "LQ63",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k8ap",
@@ -2439,7 +2439,7 @@ export default {
     ]
   },
   "LQ6350PCA": {
-    "series": "LQ6350",
+    "series": "LQ63",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "k8ap",
@@ -2449,7 +2449,7 @@ export default {
     "variants": []
   },
   "LQ63806LC": {
-    "series": "LQ6380",
+    "series": "LQ63",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k8ap",
@@ -9462,7 +9462,7 @@ export default {
     "variants": []
   },
   "SJ8000": {
-    "series": "SJ8000",
+    "series": "SJ80",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16p",
@@ -9488,7 +9488,7 @@ export default {
     ]
   },
   "SJ800T": {
-    "series": "SJ800T",
+    "series": "SJ80",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "m16p",
@@ -9498,7 +9498,7 @@ export default {
     "variants": []
   },
   "SJ800V": {
-    "series": "SJ800V",
+    "series": "SJ80",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16p",
@@ -9516,7 +9516,7 @@ export default {
     ]
   },
   "SJ8109": {
-    "series": "SJ8109",
+    "series": "SJ81",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16p",
@@ -9526,7 +9526,7 @@ export default {
     "variants": []
   },
   "SJ810V": {
-    "series": "SJ810V",
+    "series": "SJ81",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16p",
@@ -9547,7 +9547,7 @@ export default {
     ]
   },
   "SJ8500": {
-    "series": "SJ8500",
+    "series": "SJ85",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16p",
@@ -9573,7 +9573,7 @@ export default {
     ]
   },
   "SJ8509": {
-    "series": "SJ8509",
+    "series": "SJ85",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16p",
@@ -9583,7 +9583,7 @@ export default {
     "variants": []
   },
   "SJ850A": {
-    "series": "SJ850A",
+    "series": "SJ85",
     "region": "US",
     "broadcast": "atsc",
     "machine": "m16p",
@@ -9593,7 +9593,7 @@ export default {
     "variants": []
   },
   "SJ850T": {
-    "series": "SJ850T",
+    "series": "SJ85",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m16p",
@@ -9611,7 +9611,7 @@ export default {
     ]
   },
   "SJ850V": {
-    "series": "SJ850V",
+    "series": "SJ85",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16p",
@@ -9632,7 +9632,7 @@ export default {
     ]
   },
   "SJ8570": {
-    "series": "SJ8570",
+    "series": "SJ85",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16p",
@@ -9647,7 +9647,7 @@ export default {
     ]
   },
   "SJ857A": {
-    "series": "SJ857A",
+    "series": "SJ85",
     "region": "US",
     "broadcast": "atsc",
     "machine": "m16p",
@@ -9657,7 +9657,7 @@ export default {
     "variants": []
   },
   "SJ9500": {
-    "series": "SJ9500",
+    "series": "SJ95",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16p",
@@ -9677,7 +9677,7 @@ export default {
     ]
   },
   "SJ9509": {
-    "series": "SJ9509",
+    "series": "SJ95",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16p",
@@ -9687,7 +9687,7 @@ export default {
     "variants": []
   },
   "SJ950V": {
-    "series": "SJ950V",
+    "series": "SJ95",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16p",
@@ -9709,7 +9709,7 @@ export default {
     ]
   },
   "SJ9550": {
-    "series": "SJ9550",
+    "series": "SJ95",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "m16p",
@@ -9719,7 +9719,7 @@ export default {
     "variants": []
   },
   "SJ955T": {
-    "series": "SJ955T",
+    "series": "SJ95",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m16p",
@@ -9733,7 +9733,7 @@ export default {
     ]
   },
   "SJ955V": {
-    "series": "SJ955V",
+    "series": "SJ95",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "m16p",
@@ -9752,7 +9752,7 @@ export default {
     ]
   },
   "SJ9570": {
-    "series": "SJ9570",
+    "series": "SJ95",
     "region": "US",
     "broadcast": "atsc",
     "machine": "m16p",
@@ -9762,7 +9762,7 @@ export default {
     "variants": []
   },
   "SJ957T": {
-    "series": "SJ957T",
+    "series": "SJ95",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m16p",
@@ -9776,7 +9776,7 @@ export default {
     ]
   },
   "SJ957V": {
-    "series": "SJ957V",
+    "series": "SJ95",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16p",
@@ -9793,7 +9793,7 @@ export default {
     ]
   },
   "SK7900PLA": {
-    "series": "SK7900",
+    "series": "SK79",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16p",
@@ -9803,7 +9803,7 @@ export default {
     "variants": []
   },
   "SK8000AUB": {
-    "series": "SK8000",
+    "series": "SK80",
     "region": "US",
     "broadcast": "atsc",
     "machine": "m16pp",
@@ -9813,7 +9813,7 @@ export default {
     "variants": []
   },
   "SK8000PCA": {
-    "series": "SK8000",
+    "series": "SK80",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "m16pp",
@@ -9823,7 +9823,7 @@ export default {
     "variants": []
   },
   "SK8000PLB": {
-    "series": "SK8000",
+    "series": "SK80",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16pp",
@@ -9841,7 +9841,7 @@ export default {
     ]
   },
   "SK8000PTA": {
-    "series": "SK8000",
+    "series": "SK80",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m16pp",
@@ -9859,7 +9859,7 @@ export default {
     ]
   },
   "SK8000PUA": {
-    "series": "SK8000",
+    "series": "SK80",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16pp",
@@ -9874,7 +9874,7 @@ export default {
     ]
   },
   "SK8070AUB": {
-    "series": "SK8070",
+    "series": "SK80",
     "region": "US",
     "broadcast": "atsc",
     "machine": "m16pp",
@@ -9884,7 +9884,7 @@ export default {
     "variants": []
   },
   "SK8070PUA": {
-    "series": "SK8070",
+    "series": "SK80",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16pp",
@@ -9899,7 +9899,7 @@ export default {
     ]
   },
   "SK8100PLA": {
-    "series": "SK8100",
+    "series": "SK81",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16pp",
@@ -9920,7 +9920,7 @@ export default {
     ]
   },
   "SK8500LLA": {
-    "series": "SK8500",
+    "series": "SK85",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16pp",
@@ -9930,7 +9930,7 @@ export default {
     "variants": []
   },
   "SK8500PCA": {
-    "series": "SK8500",
+    "series": "SK85",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "m16pp",
@@ -9940,7 +9940,7 @@ export default {
     "variants": []
   },
   "SK8500PJA": {
-    "series": "SK8500",
+    "series": "SK85",
     "region": "JP",
     "broadcast": "arib",
     "machine": "m16pp",
@@ -9950,7 +9950,7 @@ export default {
     "variants": []
   },
   "SK8500PLA": {
-    "series": "SK8500",
+    "series": "SK85",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16pp",
@@ -9974,7 +9974,7 @@ export default {
     ]
   },
   "SK8500PTA": {
-    "series": "SK8500",
+    "series": "SK85",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m16pp",
@@ -9993,7 +9993,7 @@ export default {
     ]
   },
   "SK8500PVA": {
-    "series": "SK8500",
+    "series": "SK85",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m16pp",
@@ -10003,7 +10003,7 @@ export default {
     "variants": []
   },
   "SK9000PUA": {
-    "series": "SK9000",
+    "series": "SK90",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16pp",
@@ -10018,7 +10018,7 @@ export default {
     ]
   },
   "SK9500LLA": {
-    "series": "SK9500",
+    "series": "SK95",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16pp",
@@ -10028,7 +10028,7 @@ export default {
     "variants": []
   },
   "SK9500PCA": {
-    "series": "SK9500",
+    "series": "SK95",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "m16pp",
@@ -10038,7 +10038,7 @@ export default {
     "variants": []
   },
   "SK9500PLA": {
-    "series": "SK9500",
+    "series": "SK95",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "m16pp",
@@ -10057,7 +10057,7 @@ export default {
     ]
   },
   "SK9500PTA": {
-    "series": "SK9500",
+    "series": "SK95",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m16pp",
@@ -10067,7 +10067,7 @@ export default {
     "variants": []
   },
   "SK9500PUA": {
-    "series": "SK9500",
+    "series": "SK95",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16pp",
@@ -10082,7 +10082,7 @@ export default {
     ]
   },
   "SK9500PVA": {
-    "series": "SK9500",
+    "series": "SK95",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m16pp",
@@ -10092,7 +10092,7 @@ export default {
     "variants": []
   },
   "SM8050PLC": {
-    "series": "SM8050",
+    "series": "SM80",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -10107,7 +10107,7 @@ export default {
     ]
   },
   "SM8100AUA": {
-    "series": "SM8100",
+    "series": "SM81",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k5lp",
@@ -10122,7 +10122,7 @@ export default {
     ]
   },
   "SM8100PJB": {
-    "series": "SM8100",
+    "series": "SM81",
     "region": "JP",
     "broadcast": "arib",
     "machine": "m16p3",
@@ -10132,7 +10132,7 @@ export default {
     "variants": []
   },
   "SM8100PTA": {
-    "series": "SM8100",
+    "series": "SM81",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -10147,7 +10147,7 @@ export default {
     ]
   },
   "SM8100PVA": {
-    "series": "SM8100",
+    "series": "SM81",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -10157,7 +10157,7 @@ export default {
     "variants": []
   },
   "SM82007LA": {
-    "series": "SM8200",
+    "series": "SM82",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -10167,7 +10167,7 @@ export default {
     "variants": []
   },
   "SM8200PLA": {
-    "series": "SM8200",
+    "series": "SM82",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -10181,7 +10181,7 @@ export default {
     ]
   },
   "SM8500PLA": {
-    "series": "SM8500",
+    "series": "SM85",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "m16p3",
@@ -10202,7 +10202,7 @@ export default {
     ]
   },
   "SM86007LA": {
-    "series": "SM8600",
+    "series": "SM86",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16p3",
@@ -10212,7 +10212,7 @@ export default {
     "variants": []
   },
   "SM8600AUA": {
-    "series": "SM8600",
+    "series": "SM86",
     "region": "US",
     "broadcast": "atsc",
     "machine": "m16p3",
@@ -10222,7 +10222,7 @@ export default {
     "variants": []
   },
   "SM8600PCA": {
-    "series": "SM8600",
+    "series": "SM86",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "m16p3",
@@ -10232,7 +10232,7 @@ export default {
     "variants": []
   },
   "SM8600PLA": {
-    "series": "SM8600",
+    "series": "SM86",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "m16p3",
@@ -10246,7 +10246,7 @@ export default {
     ]
   },
   "SM8600PTA": {
-    "series": "SM8600",
+    "series": "SM86",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m16p3",
@@ -10264,7 +10264,7 @@ export default {
     ]
   },
   "SM8600PUA": {
-    "series": "SM8600",
+    "series": "SM86",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16p3",
@@ -10279,7 +10279,7 @@ export default {
     ]
   },
   "SM8610PLA": {
-    "series": "SM8610",
+    "series": "SM86",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "m16p3",
@@ -10294,7 +10294,7 @@ export default {
     ]
   },
   "SM8670AUA": {
-    "series": "SM8670",
+    "series": "SM86",
     "region": "US",
     "broadcast": "atsc",
     "machine": "m16p3",
@@ -10304,7 +10304,7 @@ export default {
     "variants": []
   },
   "SM8670PUA": {
-    "series": "SM8670",
+    "series": "SM86",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16p3",
@@ -10319,7 +10319,7 @@ export default {
     ]
   },
   "SM90007LA": {
-    "series": "SM9000",
+    "series": "SM90",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16p3",
@@ -10329,7 +10329,7 @@ export default {
     "variants": []
   },
   "SM9000PCA": {
-    "series": "SM9000",
+    "series": "SM90",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "m16p3",
@@ -10339,7 +10339,7 @@ export default {
     "variants": []
   },
   "SM9000PJB": {
-    "series": "SM9000",
+    "series": "SM90",
     "region": "JP",
     "broadcast": "arib",
     "machine": "m16p3",
@@ -10349,7 +10349,7 @@ export default {
     "variants": []
   },
   "SM9000PLA": {
-    "series": "SM9000",
+    "series": "SM90",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "m16p3",
@@ -10367,7 +10367,7 @@ export default {
     ]
   },
   "SM9000PUA": {
-    "series": "SM9000",
+    "series": "SM90",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16p3",
@@ -10382,7 +10382,7 @@ export default {
     ]
   },
   "SM9000PVA": {
-    "series": "SM9000",
+    "series": "SM90",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m16p3",
@@ -10392,7 +10392,7 @@ export default {
     "variants": []
   },
   "SM90107LA": {
-    "series": "SM9010",
+    "series": "SM90",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16p3",
@@ -10402,7 +10402,7 @@ export default {
     "variants": []
   },
   "SM9010PLA": {
-    "series": "SM9010",
+    "series": "SM90",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "m16p3",
@@ -10420,7 +10420,7 @@ export default {
     ]
   },
   "SM9070PUA": {
-    "series": "SM9070",
+    "series": "SM90",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16p3",
@@ -10435,7 +10435,7 @@ export default {
     ]
   },
   "SM9400PTA": {
-    "series": "SM9400",
+    "series": "SM94",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m16p3",
@@ -10453,7 +10453,7 @@ export default {
     ]
   },
   "SM9450PTA": {
-    "series": "SM9450",
+    "series": "SM94",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m16p3",
@@ -10463,7 +10463,7 @@ export default {
     "variants": []
   },
   "SM9500PUA": {
-    "series": "SM9500",
+    "series": "SM95",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16p3",
@@ -10478,7 +10478,7 @@ export default {
     ]
   },
   "SM98007LA": {
-    "series": "SM9800",
+    "series": "SM98",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16p3",
@@ -10488,7 +10488,7 @@ export default {
     "variants": []
   },
   "SM9800PLA": {
-    "series": "SM9800",
+    "series": "SM98",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "m16p3",
@@ -10506,7 +10506,7 @@ export default {
     ]
   },
   "SM9900PLA": {
-    "series": "SM9900",
+    "series": "SM99",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "o18k",
@@ -10525,7 +10525,7 @@ export default {
     ]
   },
   "SM9900PTA": {
-    "series": "SM9900",
+    "series": "SM99",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "o18k",
@@ -10535,7 +10535,7 @@ export default {
     "variants": []
   },
   "SM9970PUA": {
-    "series": "SM9970",
+    "series": "SM99",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "o18k",
@@ -10830,7 +10830,7 @@ export default {
     ]
   },
   "UC9700": {
-    "series": "UC9700",
+    "series": "UC97",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "goldfinger",
@@ -10840,7 +10840,7 @@ export default {
     "variants": []
   },
   "UC970T": {
-    "series": "UC970T",
+    "series": "UC97",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "goldfinger",
@@ -10854,7 +10854,7 @@ export default {
     ]
   },
   "UC970V": {
-    "series": "UC970V",
+    "series": "UC97",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "goldfinger",
@@ -10891,7 +10891,7 @@ export default {
     "variants": []
   },
   "UF6400": {
-    "series": "UF6400",
+    "series": "UF64",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "lm14alite",
@@ -10915,7 +10915,7 @@ export default {
     ]
   },
   "UF6409": {
-    "series": "UF6409",
+    "series": "UF64",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm14alite",
@@ -10925,7 +10925,7 @@ export default {
     "variants": []
   },
   "UF640T": {
-    "series": "UF640T",
+    "series": "UF64",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm14alite",
@@ -10944,7 +10944,7 @@ export default {
     ]
   },
   "UF640V": {
-    "series": "UF640V",
+    "series": "UF64",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm14alite",
@@ -10965,7 +10965,7 @@ export default {
     ]
   },
   "UF6430": {
-    "series": "UF6430",
+    "series": "UF64",
     "region": "US",
     "broadcast": "atsc",
     "machine": "lm14alite",
@@ -10975,7 +10975,7 @@ export default {
     "variants": []
   },
   "UF6450": {
-    "series": "UF6450",
+    "series": "UF64",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "lm14alite",
@@ -10989,7 +10989,7 @@ export default {
     ]
   },
   "UF6790": {
-    "series": "UF6790",
+    "series": "UF67",
     "region": "US",
     "broadcast": "atsc",
     "machine": "lm14a",
@@ -10999,7 +10999,7 @@ export default {
     "variants": []
   },
   "UF6800": {
-    "series": "UF6800",
+    "series": "UF68",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "lm14a",
@@ -11023,7 +11023,7 @@ export default {
     ]
   },
   "UF6807": {
-    "series": "UF6807",
+    "series": "UF68",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm14a",
@@ -11033,7 +11033,7 @@ export default {
     "variants": []
   },
   "UF6809": {
-    "series": "UF6809",
+    "series": "UF68",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm14a",
@@ -11043,7 +11043,7 @@ export default {
     "variants": []
   },
   "UF680T": {
-    "series": "UF680T",
+    "series": "UF68",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm14a",
@@ -11061,7 +11061,7 @@ export default {
     ]
   },
   "UF680V": {
-    "series": "UF680V",
+    "series": "UF68",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm14a",
@@ -11085,7 +11085,7 @@ export default {
     ]
   },
   "UF6859": {
-    "series": "UF6859",
+    "series": "UF68",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm14a",
@@ -11095,7 +11095,7 @@ export default {
     "variants": []
   },
   "UF685V": {
-    "series": "UF685V",
+    "series": "UF68",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm14a",
@@ -11109,7 +11109,7 @@ export default {
     ]
   },
   "UF6900": {
-    "series": "UF6900",
+    "series": "UF69",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "lm15u",
@@ -11129,7 +11129,7 @@ export default {
     ]
   },
   "UF6907": {
-    "series": "UF6907",
+    "series": "UF69",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11139,7 +11139,7 @@ export default {
     "variants": []
   },
   "UF6909": {
-    "series": "UF6909",
+    "series": "UF69",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11149,7 +11149,7 @@ export default {
     "variants": []
   },
   "UF690T": {
-    "series": "UF690T",
+    "series": "UF69",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11163,7 +11163,7 @@ export default {
     ]
   },
   "UF690V": {
-    "series": "UF690V",
+    "series": "UF69",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11182,7 +11182,7 @@ export default {
     ]
   },
   "UF7400": {
-    "series": "UF7400",
+    "series": "UF74",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "lm14a",
@@ -11191,7 +11191,7 @@ export default {
     "variants": []
   },
   "UF7480": {
-    "series": "UF7480",
+    "series": "UF74",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "lm14a",
@@ -11200,7 +11200,7 @@ export default {
     "variants": []
   },
   "UF7600": {
-    "series": "UF7600",
+    "series": "UF76",
     "region": "US",
     "broadcast": "atsc",
     "machine": "lm15u",
@@ -11210,7 +11210,7 @@ export default {
     "variants": []
   },
   "UF7650": {
-    "series": "UF7650",
+    "series": "UF76",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "lm15u",
@@ -11220,7 +11220,7 @@ export default {
     "variants": []
   },
   "UF7690": {
-    "series": "UF7690",
+    "series": "UF76",
     "region": "US",
     "broadcast": "atsc",
     "machine": "lm15u",
@@ -11230,7 +11230,7 @@ export default {
     "variants": []
   },
   "UF7700": {
-    "series": "UF7700",
+    "series": "UF77",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "lm15u",
@@ -11260,7 +11260,7 @@ export default {
     ]
   },
   "UF7707": {
-    "series": "UF7707",
+    "series": "UF77",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm14a",
@@ -11270,7 +11270,7 @@ export default {
     "variants": []
   },
   "UF7709": {
-    "series": "UF7709",
+    "series": "UF77",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm14a",
@@ -11280,7 +11280,7 @@ export default {
     "variants": []
   },
   "UF770T": {
-    "series": "UF770T",
+    "series": "UF77",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11302,7 +11302,7 @@ export default {
     ]
   },
   "UF770V": {
-    "series": "UF770V",
+    "series": "UF77",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm14a",
@@ -11333,7 +11333,7 @@ export default {
     ]
   },
   "UF7710": {
-    "series": "UF7710",
+    "series": "UF77",
     "region": "JP",
     "broadcast": "arib",
     "machine": "lm15u",
@@ -11343,7 +11343,7 @@ export default {
     "variants": []
   },
   "UF7727": {
-    "series": "UF7727",
+    "series": "UF77",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11353,7 +11353,7 @@ export default {
     "variants": []
   },
   "UF7729": {
-    "series": "UF7729",
+    "series": "UF77",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11363,7 +11363,7 @@ export default {
     "variants": []
   },
   "UF772T": {
-    "series": "UF772T",
+    "series": "UF77",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11373,7 +11373,7 @@ export default {
     "variants": []
   },
   "UF772V": {
-    "series": "UF772V",
+    "series": "UF77",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11394,7 +11394,7 @@ export default {
     ]
   },
   "UF7769": {
-    "series": "UF7769",
+    "series": "UF77",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11404,7 +11404,7 @@ export default {
     "variants": []
   },
   "UF776V": {
-    "series": "UF776V",
+    "series": "UF77",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11421,7 +11421,7 @@ export default {
     ]
   },
   "UF7780": {
-    "series": "UF7780",
+    "series": "UF77",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "lm15u",
@@ -11430,7 +11430,7 @@ export default {
     "variants": []
   },
   "UF7787": {
-    "series": "UF7787",
+    "series": "UF77",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11444,7 +11444,7 @@ export default {
     ]
   },
   "UF7789": {
-    "series": "UF7789",
+    "series": "UF77",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11454,7 +11454,7 @@ export default {
     "variants": []
   },
   "UF778V": {
-    "series": "UF778V",
+    "series": "UF77",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11471,7 +11471,7 @@ export default {
     ]
   },
   "UF7790": {
-    "series": "UF7790",
+    "series": "UF77",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "lm15u",
@@ -11480,7 +11480,7 @@ export default {
     "variants": []
   },
   "UF8009": {
-    "series": "UF8009",
+    "series": "UF80",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11490,7 +11490,7 @@ export default {
     "variants": []
   },
   "UF800V": {
-    "series": "UF800V",
+    "series": "UF80",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11507,7 +11507,7 @@ export default {
     ]
   },
   "UF8300": {
-    "series": "UF8300",
+    "series": "UF83",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "lm14a",
@@ -11521,7 +11521,7 @@ export default {
     ]
   },
   "UF8307": {
-    "series": "UF8307",
+    "series": "UF83",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm14a",
@@ -11531,7 +11531,7 @@ export default {
     "variants": []
   },
   "UF830T": {
-    "series": "UF830T",
+    "series": "UF83",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm14a",
@@ -11545,7 +11545,7 @@ export default {
     ]
   },
   "UF830V": {
-    "series": "UF830V",
+    "series": "UF83",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "lm14a",
@@ -11568,7 +11568,7 @@ export default {
     ]
   },
   "UF8400": {
-    "series": "UF8400",
+    "series": "UF84",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "lm14a",
@@ -11584,7 +11584,7 @@ export default {
     ]
   },
   "UF8409": {
-    "series": "UF8409",
+    "series": "UF84",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm14a",
@@ -11594,7 +11594,7 @@ export default {
     "variants": []
   },
   "UF8500": {
-    "series": "UF8500",
+    "series": "UF85",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "lm15u",
@@ -11624,7 +11624,7 @@ export default {
     ]
   },
   "UF8509": {
-    "series": "UF8509",
+    "series": "UF85",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11634,7 +11634,7 @@ export default {
     "variants": []
   },
   "UF850T": {
-    "series": "UF850T",
+    "series": "UF85",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11656,7 +11656,7 @@ export default {
     ]
   },
   "UF850V": {
-    "series": "UF850V",
+    "series": "UF85",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11683,7 +11683,7 @@ export default {
     ]
   },
   "UF8517": {
-    "series": "UF8517",
+    "series": "UF85",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11693,7 +11693,7 @@ export default {
     "variants": []
   },
   "UF8519": {
-    "series": "UF8519",
+    "series": "UF85",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11703,7 +11703,7 @@ export default {
     "variants": []
   },
   "UF851V": {
-    "series": "UF851V",
+    "series": "UF85",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11717,7 +11717,7 @@ export default {
     ]
   },
   "UF8529": {
-    "series": "UF8529",
+    "series": "UF85",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11727,7 +11727,7 @@ export default {
     "variants": []
   },
   "UF852V": {
-    "series": "UF852V",
+    "series": "UF85",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11747,7 +11747,7 @@ export default {
     ]
   },
   "UF8559": {
-    "series": "UF8559",
+    "series": "UF85",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11757,7 +11757,7 @@ export default {
     "variants": []
   },
   "UF8569": {
-    "series": "UF8569",
+    "series": "UF85",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11767,7 +11767,7 @@ export default {
     "variants": []
   },
   "UF8570": {
-    "series": "UF8570",
+    "series": "UF85",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "lm15u",
@@ -11776,7 +11776,7 @@ export default {
     "variants": []
   },
   "UF8579": {
-    "series": "UF8579",
+    "series": "UF85",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11786,7 +11786,7 @@ export default {
     "variants": []
   },
   "UF8600": {
-    "series": "UF8600",
+    "series": "UF86",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "lm15u",
@@ -11800,7 +11800,7 @@ export default {
     ]
   },
   "UF8609": {
-    "series": "UF8609",
+    "series": "UF86",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11810,7 +11810,7 @@ export default {
     "variants": []
   },
   "UF860V": {
-    "series": "UF860V",
+    "series": "UF86",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11831,7 +11831,7 @@ export default {
     ]
   },
   "UF9400": {
-    "series": "UF9400",
+    "series": "UF94",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "lm15u",
@@ -11840,7 +11840,7 @@ export default {
     "variants": []
   },
   "UF9450": {
-    "series": "UF9450",
+    "series": "UF94",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "lm15u",
@@ -11849,7 +11849,7 @@ export default {
     "variants": []
   },
   "UF9500": {
-    "series": "UF9500",
+    "series": "UF95",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "h15",
@@ -11881,7 +11881,7 @@ export default {
     ]
   },
   "UF9509": {
-    "series": "UF9509",
+    "series": "UF95",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "h15",
@@ -11891,7 +11891,7 @@ export default {
     "variants": []
   },
   "UF950T": {
-    "series": "UF950T",
+    "series": "UF95",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "h15",
@@ -11913,7 +11913,7 @@ export default {
     ]
   },
   "UF950V": {
-    "series": "UF950V",
+    "series": "UF95",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "h15",
@@ -11934,7 +11934,7 @@ export default {
     ]
   },
   "UG8700": {
-    "series": "UG8700",
+    "series": "UG87",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "lm15u",
@@ -11948,7 +11948,7 @@ export default {
     ]
   },
   "UG8709": {
-    "series": "UG8709",
+    "series": "UG87",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11958,7 +11958,7 @@ export default {
     "variants": []
   },
   "UG870T": {
-    "series": "UG870T",
+    "series": "UG87",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11972,7 +11972,7 @@ export default {
     ]
   },
   "UG870V": {
-    "series": "UG870V",
+    "series": "UG87",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm15u",
@@ -11996,7 +11996,7 @@ export default {
     ]
   },
   "UG8800": {
-    "series": "UG8800",
+    "series": "UG88",
     "region": "KR",
     "broadcast": "atsc",
     "machine": "goldfinger",
@@ -12005,7 +12005,7 @@ export default {
     "variants": []
   },
   "UG880T": {
-    "series": "UG880T",
+    "series": "UG88",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "goldfinger",
@@ -12019,7 +12019,7 @@ export default {
     ]
   },
   "UG880V": {
-    "series": "UG880V",
+    "series": "UG88",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "goldfinger",
@@ -12036,7 +12036,7 @@ export default {
     ]
   },
   "UH5500": {
-    "series": "UH5500",
+    "series": "UH55",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k2lp",
@@ -12051,7 +12051,7 @@ export default {
     ]
   },
   "UH5530": {
-    "series": "UH5530",
+    "series": "UH55",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k2lp",
@@ -12061,7 +12061,7 @@ export default {
     "variants": []
   },
   "UH600T": {
-    "series": "UH600T",
+    "series": "UH60",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm14a",
@@ -12071,7 +12071,7 @@ export default {
     "variants": []
   },
   "UH600V": {
-    "series": "UH600V",
+    "series": "UH60",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm14a",
@@ -12088,7 +12088,7 @@ export default {
     ]
   },
   "UH6030": {
-    "series": "UH6030",
+    "series": "UH60",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k2lp",
@@ -12103,7 +12103,7 @@ export default {
     ]
   },
   "UH6035": {
-    "series": "UH6035",
+    "series": "UH60",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k2lp",
@@ -12113,7 +12113,7 @@ export default {
     "variants": []
   },
   "UH603V": {
-    "series": "UH603V",
+    "series": "UH60",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k2lp",
@@ -12134,7 +12134,7 @@ export default {
     ]
   },
   "UH605T": {
-    "series": "UH605T",
+    "series": "UH60",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm14a",
@@ -12144,7 +12144,7 @@ export default {
     "variants": []
   },
   "UH605V": {
-    "series": "UH605V",
+    "series": "UH60",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k2lp",
@@ -12165,7 +12165,7 @@ export default {
     ]
   },
   "UH6090": {
-    "series": "UH6090",
+    "series": "UH60",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k2lp",
@@ -12175,7 +12175,7 @@ export default {
     "variants": []
   },
   "UH6100": {
-    "series": "UH6100",
+    "series": "UH61",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k2lp",
@@ -12202,7 +12202,7 @@ export default {
     ]
   },
   "UH6109": {
-    "series": "UH6109",
+    "series": "UH61",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k2lp",
@@ -12212,7 +12212,7 @@ export default {
     "variants": []
   },
   "UH610A": {
-    "series": "UH610A",
+    "series": "UH61",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k2lp",
@@ -12222,7 +12222,7 @@ export default {
     "variants": []
   },
   "UH610T": {
-    "series": "UH610T",
+    "series": "UH61",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k2lp",
@@ -12236,7 +12236,7 @@ export default {
     ]
   },
   "UH610V": {
-    "series": "UH610V",
+    "series": "UH61",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k2lp",
@@ -12257,7 +12257,7 @@ export default {
     ]
   },
   "UH6150": {
-    "series": "UH6150",
+    "series": "UH61",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k2lp",
@@ -12277,7 +12277,7 @@ export default {
     ]
   },
   "UH6159": {
-    "series": "UH6159",
+    "series": "UH61",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k2lp",
@@ -12287,7 +12287,7 @@ export default {
     "variants": []
   },
   "UH615A": {
-    "series": "UH615A",
+    "series": "UH61",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k2lp",
@@ -12297,7 +12297,7 @@ export default {
     "variants": []
   },
   "UH615T": {
-    "series": "UH615T",
+    "series": "UH61",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k2lp",
@@ -12311,7 +12311,7 @@ export default {
     ]
   },
   "UH615V": {
-    "series": "UH615V",
+    "series": "UH61",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k2lp",
@@ -12330,7 +12330,7 @@ export default {
     ]
   },
   "UH617T": {
-    "series": "UH617T",
+    "series": "UH61",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "k2lp",
@@ -12340,7 +12340,7 @@ export default {
     "variants": []
   },
   "UH620V": {
-    "series": "UH620V",
+    "series": "UH62",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k2lp",
@@ -12355,7 +12355,7 @@ export default {
     ]
   },
   "UH625V": {
-    "series": "UH625V",
+    "series": "UH62",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k2lp",
@@ -12374,7 +12374,7 @@ export default {
     ]
   },
   "UH6300": {
-    "series": "UH6300",
+    "series": "UH63",
     "region": "US",
     "broadcast": "atsc",
     "machine": "m16lite",
@@ -12384,7 +12384,7 @@ export default {
     "variants": []
   },
   "UH630V": {
-    "series": "UH630V",
+    "series": "UH63",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16lite",
@@ -12402,7 +12402,7 @@ export default {
     ]
   },
   "UH6330": {
-    "series": "UH6330",
+    "series": "UH63",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k2l",
@@ -12412,7 +12412,7 @@ export default {
     "variants": []
   },
   "UH6350": {
-    "series": "UH6350",
+    "series": "UH63",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k2l",
@@ -12422,7 +12422,7 @@ export default {
     "variants": []
   },
   "UH635T": {
-    "series": "UH635T",
+    "series": "UH63",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k2l",
@@ -12436,7 +12436,7 @@ export default {
     ]
   },
   "UH635V": {
-    "series": "UH635V",
+    "series": "UH63",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16lite",
@@ -12454,7 +12454,7 @@ export default {
     ]
   },
   "UH6500": {
-    "series": "UH6500",
+    "series": "UH65",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16lite",
@@ -12481,7 +12481,7 @@ export default {
     ]
   },
   "UH6509": {
-    "series": "UH6509",
+    "series": "UH65",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16lite",
@@ -12495,7 +12495,7 @@ export default {
     ]
   },
   "UH650T": {
-    "series": "UH650T",
+    "series": "UH65",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "m16lite",
@@ -12505,7 +12505,7 @@ export default {
     "variants": []
   },
   "UH650V": {
-    "series": "UH650V",
+    "series": "UH65",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "m16lite",
@@ -12528,7 +12528,7 @@ export default {
     ]
   },
   "UH651V": {
-    "series": "UH651V",
+    "series": "UH65",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m16lite",
@@ -12538,7 +12538,7 @@ export default {
     "variants": []
   },
   "UH652T": {
-    "series": "UH652T",
+    "series": "UH65",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m16lite",
@@ -12552,7 +12552,7 @@ export default {
     ]
   },
   "UH652V": {
-    "series": "UH652V",
+    "series": "UH65",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m16lite",
@@ -12562,7 +12562,7 @@ export default {
     "variants": []
   },
   "UH6550": {
-    "series": "UH6550",
+    "series": "UH65",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16lite",
@@ -12578,7 +12578,7 @@ export default {
     ]
   },
   "UH656T": {
-    "series": "UH656T",
+    "series": "UH65",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m16",
@@ -12597,7 +12597,7 @@ export default {
     ]
   },
   "UH661V": {
-    "series": "UH661V",
+    "series": "UH66",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16lite",
@@ -12615,7 +12615,7 @@ export default {
     ]
   },
   "UH664V": {
-    "series": "UH664V",
+    "series": "UH66",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16lite",
@@ -12632,7 +12632,7 @@ export default {
     ]
   },
   "UH668V": {
-    "series": "UH668V",
+    "series": "UH66",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16lite",
@@ -12657,7 +12657,7 @@ export default {
     ]
   },
   "UH700V": {
-    "series": "UH700V",
+    "series": "UH70",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k2l",
@@ -12681,7 +12681,7 @@ export default {
     ]
   },
   "UH7500": {
-    "series": "UH7500",
+    "series": "UH75",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16lite",
@@ -12704,7 +12704,7 @@ export default {
     ]
   },
   "UH7509": {
-    "series": "UH7509",
+    "series": "UH75",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16lite",
@@ -12714,7 +12714,7 @@ export default {
     "variants": []
   },
   "UH750T": {
-    "series": "UH750T",
+    "series": "UH75",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "m16lite",
@@ -12724,7 +12724,7 @@ export default {
     "variants": []
   },
   "UH750V": {
-    "series": "UH750V",
+    "series": "UH75",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "m16lite",
@@ -12747,7 +12747,7 @@ export default {
     ]
   },
   "UH7650": {
-    "series": "UH7650",
+    "series": "UH76",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k2l",
@@ -12761,7 +12761,7 @@ export default {
     ]
   },
   "UH7700": {
-    "series": "UH7700",
+    "series": "UH77",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k2l",
@@ -12787,7 +12787,7 @@ export default {
     ]
   },
   "UH7709": {
-    "series": "UH7709",
+    "series": "UH77",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k2l",
@@ -12797,7 +12797,7 @@ export default {
     "variants": []
   },
   "UH770T": {
-    "series": "UH770T",
+    "series": "UH77",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k2l",
@@ -12815,7 +12815,7 @@ export default {
     ]
   },
   "UH770V": {
-    "series": "UH770V",
+    "series": "UH77",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k2l",
@@ -12838,7 +12838,7 @@ export default {
     ]
   },
   "UH780V": {
-    "series": "UH780V",
+    "series": "UH78",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16",
@@ -12859,7 +12859,7 @@ export default {
     ]
   },
   "UH8500": {
-    "series": "UH8500",
+    "series": "UH85",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16",
@@ -12885,7 +12885,7 @@ export default {
     ]
   },
   "UH8509": {
-    "series": "UH8509",
+    "series": "UH85",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16",
@@ -12895,7 +12895,7 @@ export default {
     "variants": []
   },
   "UH850T": {
-    "series": "UH850T",
+    "series": "UH85",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m16",
@@ -12913,7 +12913,7 @@ export default {
     ]
   },
   "UH850V": {
-    "series": "UH850V",
+    "series": "UH85",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "m16",
@@ -12940,7 +12940,7 @@ export default {
     ]
   },
   "UH8550": {
-    "series": "UH8550",
+    "series": "UH85",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "m16",
@@ -12950,7 +12950,7 @@ export default {
     "variants": []
   },
   "UH855T": {
-    "series": "UH855T",
+    "series": "UH85",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m16",
@@ -12964,7 +12964,7 @@ export default {
     ]
   },
   "UH855V": {
-    "series": "UH855V",
+    "series": "UH85",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16",
@@ -12985,7 +12985,7 @@ export default {
     ]
   },
   "UH9500": {
-    "series": "UH9500",
+    "series": "UH95",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16",
@@ -13005,7 +13005,7 @@ export default {
     ]
   },
   "UH950T": {
-    "series": "UH950T",
+    "series": "UH95",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m16",
@@ -13020,7 +13020,7 @@ export default {
     ]
   },
   "UH950V": {
-    "series": "UH950V",
+    "series": "UH95",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16",
@@ -13042,7 +13042,7 @@ export default {
     ]
   },
   "UH953T": {
-    "series": "UH953T",
+    "series": "UH95",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m16",
@@ -13052,7 +13052,7 @@ export default {
     "variants": []
   },
   "UH955T": {
-    "series": "UH955T",
+    "series": "UH95",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m16",
@@ -13066,7 +13066,7 @@ export default {
     ]
   },
   "UH955V": {
-    "series": "UH955V",
+    "series": "UH95",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16",
@@ -13083,7 +13083,7 @@ export default {
     ]
   },
   "UJ6050": {
-    "series": "UJ6050",
+    "series": "UJ60",
     "region": "US",
     "broadcast": "atsc",
     "machine": "m16plite",
@@ -13093,7 +13093,7 @@ export default {
     "variants": []
   },
   "UJ6100": {
-    "series": "UJ6100",
+    "series": "UJ61",
     "region": "JP",
     "broadcast": "arib",
     "machine": "k3lp",
@@ -13103,7 +13103,7 @@ export default {
     "variants": []
   },
   "UJ6200": {
-    "series": "UJ6200",
+    "series": "UJ62",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16plite",
@@ -13124,7 +13124,7 @@ export default {
     ]
   },
   "UJ620V": {
-    "series": "UJ620V",
+    "series": "UJ62",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k3lp",
@@ -13141,7 +13141,7 @@ export default {
     ]
   },
   "UJ6300": {
-    "series": "UJ6300",
+    "series": "UJ63",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16plite",
@@ -13162,7 +13162,7 @@ export default {
     ]
   },
   "UJ6309": {
-    "series": "UJ6309",
+    "series": "UJ63",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k3lp",
@@ -13172,7 +13172,7 @@ export default {
     "variants": []
   },
   "UJ630A": {
-    "series": "UJ630A",
+    "series": "UJ63",
     "region": "JP",
     "broadcast": "arib",
     "machine": "k3lp",
@@ -13182,7 +13182,7 @@ export default {
     "variants": []
   },
   "UJ630V": {
-    "series": "UJ630V",
+    "series": "UJ63",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k3lp",
@@ -13200,7 +13200,7 @@ export default {
     ]
   },
   "UJ632T": {
-    "series": "UJ632T",
+    "series": "UJ63",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "k3lp",
@@ -13210,7 +13210,7 @@ export default {
     "variants": []
   },
   "UJ634V": {
-    "series": "UJ634V",
+    "series": "UJ63",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k3lp",
@@ -13241,7 +13241,7 @@ export default {
     ]
   },
   "UJ635V": {
-    "series": "UJ635V",
+    "series": "UJ63",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k3lp",
@@ -13259,7 +13259,7 @@ export default {
     ]
   },
   "UJ6450": {
-    "series": "UJ6450",
+    "series": "UJ64",
     "region": "US",
     "broadcast": "atsc",
     "machine": "m16plite",
@@ -13269,7 +13269,7 @@ export default {
     "variants": []
   },
   "UJ6470": {
-    "series": "UJ6470",
+    "series": "UJ64",
     "region": "US",
     "broadcast": "atsc",
     "machine": "m16plite",
@@ -13279,7 +13279,7 @@ export default {
     "variants": []
   },
   "UJ6500": {
-    "series": "UJ6500",
+    "series": "UJ65",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16plite",
@@ -13307,7 +13307,7 @@ export default {
     ]
   },
   "UJ6517": {
-    "series": "UJ6517",
+    "series": "UJ65",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k3lp",
@@ -13317,7 +13317,7 @@ export default {
     "variants": []
   },
   "UJ6519": {
-    "series": "UJ6519",
+    "series": "UJ65",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k3lp",
@@ -13327,7 +13327,7 @@ export default {
     "variants": []
   },
   "UJ651V": {
-    "series": "UJ651V",
+    "series": "UJ65",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k3lp",
@@ -13345,7 +13345,7 @@ export default {
     ]
   },
   "UJ652T": {
-    "series": "UJ652T",
+    "series": "UJ65",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "k3lp",
@@ -13355,7 +13355,7 @@ export default {
     "variants": []
   },
   "UJ6540": {
-    "series": "UJ6540",
+    "series": "UJ65",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16plite",
@@ -13369,7 +13369,7 @@ export default {
     ]
   },
   "UJ654T": {
-    "series": "UJ654T",
+    "series": "UJ65",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k3lp",
@@ -13379,7 +13379,7 @@ export default {
     "variants": []
   },
   "UJ654V": {
-    "series": "UJ654V",
+    "series": "UJ65",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k3lp",
@@ -13389,7 +13389,7 @@ export default {
     "variants": []
   },
   "UJ6570": {
-    "series": "UJ6570",
+    "series": "UJ65",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "k3lp",
@@ -13407,7 +13407,7 @@ export default {
     ]
   },
   "UJ657A": {
-    "series": "UJ657A",
+    "series": "UJ65",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16plite",
@@ -13421,7 +13421,7 @@ export default {
     ]
   },
   "UJ670V": {
-    "series": "UJ670V",
+    "series": "UJ67",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k3lp",
@@ -13443,7 +13443,7 @@ export default {
     ]
   },
   "UJ675V": {
-    "series": "UJ675V",
+    "series": "UJ67",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k3lp",
@@ -13464,7 +13464,7 @@ export default {
     ]
   },
   "UJ701V": {
-    "series": "UJ701V",
+    "series": "UJ70",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k3lp",
@@ -13486,7 +13486,7 @@ export default {
     ]
   },
   "UJ7500": {
-    "series": "UJ7500",
+    "series": "UJ75",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "m16p",
@@ -13503,7 +13503,7 @@ export default {
     ]
   },
   "UJ7509": {
-    "series": "UJ7509",
+    "series": "UJ75",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "m16p",
@@ -13513,7 +13513,7 @@ export default {
     "variants": []
   },
   "UJ750V": {
-    "series": "UJ750V",
+    "series": "UJ75",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "m16p",
@@ -13531,7 +13531,7 @@ export default {
     ]
   },
   "UJ752T": {
-    "series": "UJ752T",
+    "series": "UJ75",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m16p",
@@ -13549,7 +13549,7 @@ export default {
     ]
   },
   "UJ7700": {
-    "series": "UJ7700",
+    "series": "UJ77",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16p",
@@ -13563,7 +13563,7 @@ export default {
     ]
   },
   "UK6090PUA": {
-    "series": "UK6090",
+    "series": "UK60",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "lm18a",
@@ -13578,7 +13578,7 @@ export default {
     ]
   },
   "UK6100PLB": {
-    "series": "UK6100",
+    "series": "UK61",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k3lp",
@@ -13595,7 +13595,7 @@ export default {
     ]
   },
   "UK6100PTA": {
-    "series": "UK6100",
+    "series": "UK61",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k3lp",
@@ -13605,7 +13605,7 @@ export default {
     "variants": []
   },
   "UK6190PUB": {
-    "series": "UK6190",
+    "series": "UK61",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "lm18a",
@@ -13620,7 +13620,7 @@ export default {
     ]
   },
   "UK6200PCA": {
-    "series": "UK6200",
+    "series": "UK62",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -13630,7 +13630,7 @@ export default {
     "variants": []
   },
   "UK6200PJA": {
-    "series": "UK6200",
+    "series": "UK62",
     "region": "JP",
     "broadcast": "arib",
     "machine": "m16pplite",
@@ -13640,7 +13640,7 @@ export default {
     "variants": []
   },
   "UK6200PLA": {
-    "series": "UK6200",
+    "series": "UK62",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -13658,7 +13658,7 @@ export default {
     ]
   },
   "UK6200PLB": {
-    "series": "UK6200",
+    "series": "UK62",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -13677,7 +13677,7 @@ export default {
     ]
   },
   "UK6200PTA": {
-    "series": "UK6200",
+    "series": "UK62",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -13691,7 +13691,7 @@ export default {
     ]
   },
   "UK6200PUA": {
-    "series": "UK6200",
+    "series": "UK62",
     "region": "US",
     "broadcast": "atsc",
     "machine": "lm18a",
@@ -13701,7 +13701,7 @@ export default {
     "variants": []
   },
   "UK6300BUB": {
-    "series": "UK6300",
+    "series": "UK63",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "lm18a",
@@ -13716,7 +13716,7 @@ export default {
     ]
   },
   "UK6300LLB": {
-    "series": "UK6300",
+    "series": "UK63",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -13726,7 +13726,7 @@ export default {
     "variants": []
   },
   "UK6300PCD": {
-    "series": "UK6300",
+    "series": "UK63",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -13736,7 +13736,7 @@ export default {
     "variants": []
   },
   "UK6300PJF": {
-    "series": "UK6300",
+    "series": "UK63",
     "region": "JP",
     "broadcast": "arib",
     "machine": "m16pplite",
@@ -13746,7 +13746,7 @@ export default {
     "variants": []
   },
   "UK6300PLB": {
-    "series": "UK6300",
+    "series": "UK63",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -13764,7 +13764,7 @@ export default {
     ]
   },
   "UK6300PUE": {
-    "series": "UK6300",
+    "series": "UK63",
     "region": "US",
     "broadcast": "atsc",
     "machine": "lm18a",
@@ -13774,7 +13774,7 @@ export default {
     "variants": []
   },
   "UK6340PTF": {
-    "series": "UK6340",
+    "series": "UK63",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -13784,7 +13784,7 @@ export default {
     "variants": []
   },
   "UK6360PTE": {
-    "series": "UK6360",
+    "series": "UK63",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -13794,7 +13794,7 @@ export default {
     "variants": []
   },
   "UK6400EJC": {
-    "series": "UK6400",
+    "series": "UK64",
     "region": "JP",
     "broadcast": "arib",
     "machine": "m16pplite",
@@ -13804,7 +13804,7 @@ export default {
     "variants": []
   },
   "UK6400PLF": {
-    "series": "UK6400",
+    "series": "UK64",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -13826,7 +13826,7 @@ export default {
     ]
   },
   "UK6400PVC": {
-    "series": "UK6400",
+    "series": "UK64",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -13836,7 +13836,7 @@ export default {
     "variants": []
   },
   "UK6470PLC": {
-    "series": "UK6470",
+    "series": "UK64",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -13854,7 +13854,7 @@ export default {
     ]
   },
   "UK6500AUA": {
-    "series": "UK6500",
+    "series": "UK65",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "lm18a",
@@ -13869,7 +13869,7 @@ export default {
     ]
   },
   "UK6500EJD": {
-    "series": "UK6500",
+    "series": "UK65",
     "region": "JP",
     "broadcast": "arib",
     "machine": "m16pplite",
@@ -13879,7 +13879,7 @@ export default {
     "variants": []
   },
   "UK6500LLA": {
-    "series": "UK6500",
+    "series": "UK65",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -13889,7 +13889,7 @@ export default {
     "variants": []
   },
   "UK6500MLA": {
-    "series": "UK6500",
+    "series": "UK65",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -13899,7 +13899,7 @@ export default {
     "variants": []
   },
   "UK6500PCB": {
-    "series": "UK6500",
+    "series": "UK65",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -13909,7 +13909,7 @@ export default {
     "variants": []
   },
   "UK6500PCC": {
-    "series": "UK6500",
+    "series": "UK65",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -13919,7 +13919,7 @@ export default {
     "variants": []
   },
   "UK6500PLA": {
-    "series": "UK6500",
+    "series": "UK65",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -13938,7 +13938,7 @@ export default {
     ]
   },
   "UK6500PLB": {
-    "series": "UK6500",
+    "series": "UK65",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -13957,7 +13957,7 @@ export default {
     ]
   },
   "UK6500PTB": {
-    "series": "UK6500",
+    "series": "UK65",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -13971,7 +13971,7 @@ export default {
     ]
   },
   "UK6500PTC": {
-    "series": "UK6500",
+    "series": "UK65",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -13981,7 +13981,7 @@ export default {
     "variants": []
   },
   "UK6540PTA": {
-    "series": "UK6540",
+    "series": "UK65",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -13995,7 +13995,7 @@ export default {
     ]
   },
   "UK6540PTD": {
-    "series": "UK6540",
+    "series": "UK65",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -14005,7 +14005,7 @@ export default {
     "variants": []
   },
   "UK6550PCD": {
-    "series": "UK6550",
+    "series": "UK65",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -14015,7 +14015,7 @@ export default {
     "variants": []
   },
   "UK6560PTC": {
-    "series": "UK6560",
+    "series": "UK65",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -14025,7 +14025,7 @@ export default {
     "variants": []
   },
   "UK6570AUA": {
-    "series": "UK6570",
+    "series": "UK65",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "lm18a",
@@ -14042,7 +14042,7 @@ export default {
     ]
   },
   "UK6570AUB": {
-    "series": "UK6570",
+    "series": "UK65",
     "region": "US",
     "broadcast": "atsc",
     "machine": "lm18a",
@@ -14052,7 +14052,7 @@ export default {
     "variants": []
   },
   "UK6570PUB": {
-    "series": "UK6570",
+    "series": "UK65",
     "region": "US",
     "broadcast": "atsc",
     "machine": "m16pp",
@@ -14062,7 +14062,7 @@ export default {
     "variants": []
   },
   "UK6700PVD": {
-    "series": "UK6700",
+    "series": "UK67",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -14072,7 +14072,7 @@ export default {
     "variants": []
   },
   "UK6750PLD": {
-    "series": "UK6750",
+    "series": "UK67",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -14093,7 +14093,7 @@ export default {
     ]
   },
   "UK6780PTE": {
-    "series": "UK6780",
+    "series": "UK67",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -14103,7 +14103,7 @@ export default {
     "variants": []
   },
   "UK6950PLA": {
-    "series": "UK6950",
+    "series": "UK69",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -14122,7 +14122,7 @@ export default {
     ]
   },
   "UK6950PLB": {
-    "series": "UK6950",
+    "series": "UK69",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -14140,7 +14140,7 @@ export default {
     ]
   },
   "UK7500PCA": {
-    "series": "UK7500",
+    "series": "UK75",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -14150,7 +14150,7 @@ export default {
     "variants": []
   },
   "UK7500PJA": {
-    "series": "UK7500",
+    "series": "UK75",
     "region": "JP",
     "broadcast": "arib",
     "machine": "m16pplite",
@@ -14160,7 +14160,7 @@ export default {
     "variants": []
   },
   "UK7500PTA": {
-    "series": "UK7500",
+    "series": "UK75",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -14174,7 +14174,7 @@ export default {
     ]
   },
   "UK7500PVA": {
-    "series": "UK7500",
+    "series": "UK75",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -14184,7 +14184,7 @@ export default {
     "variants": []
   },
   "UK7550LLA": {
-    "series": "UK7550",
+    "series": "UK75",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -14194,7 +14194,7 @@ export default {
     "variants": []
   },
   "UK7550PLA": {
-    "series": "UK7550",
+    "series": "UK75",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -14209,7 +14209,7 @@ export default {
     ]
   },
   "UK7550PTA": {
-    "series": "UK7550",
+    "series": "UK75",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm18a",
@@ -14219,7 +14219,7 @@ export default {
     "variants": []
   },
   "UK7570PUB": {
-    "series": "UK7570",
+    "series": "UK75",
     "region": "US",
     "broadcast": "atsc",
     "machine": "m16pp",
@@ -14229,7 +14229,7 @@ export default {
     "variants": []
   },
   "UK7700AUB": {
-    "series": "UK7700",
+    "series": "UK77",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "lm18a",
@@ -14244,7 +14244,7 @@ export default {
     ]
   },
   "UK7700PUD": {
-    "series": "UK7700",
+    "series": "UK77",
     "region": "US",
     "broadcast": "atsc",
     "machine": "lm18a",
@@ -14254,7 +14254,7 @@ export default {
     "variants": []
   },
   "UM6900PUA": {
-    "series": "UM6900",
+    "series": "UM69",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k5lp",
@@ -14280,7 +14280,7 @@ export default {
     ]
   },
   "UM6910PUC": {
-    "series": "UM6910",
+    "series": "UM69",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k5lp",
@@ -14295,7 +14295,7 @@ export default {
     ]
   },
   "UM6950DUB": {
-    "series": "UM6950",
+    "series": "UM69",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k5lp",
@@ -14305,7 +14305,7 @@ export default {
     "variants": []
   },
   "UM6970PUA": {
-    "series": "UM6970",
+    "series": "UM69",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k5lp",
@@ -14315,7 +14315,7 @@ export default {
     "variants": []
   },
   "UM6970PUB": {
-    "series": "UM6970",
+    "series": "UM69",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k5lp",
@@ -14330,7 +14330,7 @@ export default {
     ]
   },
   "UM7000PLA": {
-    "series": "UM7000",
+    "series": "UM70",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14349,7 +14349,7 @@ export default {
     ]
   },
   "UM7000PLC": {
-    "series": "UM7000",
+    "series": "UM70",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14364,7 +14364,7 @@ export default {
     ]
   },
   "UM7050PLA": {
-    "series": "UM7050",
+    "series": "UM70",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14383,7 +14383,7 @@ export default {
     ]
   },
   "UM7050PLC": {
-    "series": "UM7050",
+    "series": "UM70",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14398,7 +14398,7 @@ export default {
     ]
   },
   "UM7050PLF": {
-    "series": "UM7050",
+    "series": "UM70",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14413,7 +14413,7 @@ export default {
     ]
   },
   "UM71007LB": {
-    "series": "UM7100",
+    "series": "UM71",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14427,7 +14427,7 @@ export default {
     ]
   },
   "UM7100DUA": {
-    "series": "UM7100",
+    "series": "UM71",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k5lp",
@@ -14437,7 +14437,7 @@ export default {
     "variants": []
   },
   "UM7100PCA": {
-    "series": "UM7100",
+    "series": "UM71",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14451,7 +14451,7 @@ export default {
     ]
   },
   "UM7100PJA": {
-    "series": "UM7100",
+    "series": "UM71",
     "region": "JP",
     "broadcast": "arib",
     "machine": "m16p3",
@@ -14461,7 +14461,7 @@ export default {
     "variants": []
   },
   "UM7100PLA": {
-    "series": "UM7100",
+    "series": "UM71",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14483,7 +14483,7 @@ export default {
     ]
   },
   "UM7100PLB": {
-    "series": "UM7100",
+    "series": "UM71",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14508,7 +14508,7 @@ export default {
     ]
   },
   "UM7110PLB": {
-    "series": "UM7110",
+    "series": "UM71",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14527,7 +14527,7 @@ export default {
     ]
   },
   "UM7150PTA": {
-    "series": "UM7150",
+    "series": "UM71",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14541,7 +14541,7 @@ export default {
     ]
   },
   "UM7290PTD": {
-    "series": "UM7290",
+    "series": "UM72",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14551,7 +14551,7 @@ export default {
     "variants": []
   },
   "UM7290PTF": {
-    "series": "UM7290",
+    "series": "UM72",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14561,7 +14561,7 @@ export default {
     "variants": []
   },
   "UM7300AUE": {
-    "series": "UM7300",
+    "series": "UM73",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k5lp",
@@ -14576,7 +14576,7 @@ export default {
     ]
   },
   "UM7300EJA": {
-    "series": "UM7300",
+    "series": "UM73",
     "region": "JP",
     "broadcast": "arib",
     "machine": "m16p3",
@@ -14586,7 +14586,7 @@ export default {
     "variants": []
   },
   "UM7300PTA": {
-    "series": "UM7300",
+    "series": "UM73",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14601,7 +14601,7 @@ export default {
     ]
   },
   "UM7300PUA": {
-    "series": "UM7300",
+    "series": "UM73",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k5lp",
@@ -14611,7 +14611,7 @@ export default {
     "variants": []
   },
   "UM7340PVA": {
-    "series": "UM7340",
+    "series": "UM73",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14621,7 +14621,7 @@ export default {
     "variants": []
   },
   "UM7370AUB": {
-    "series": "UM7370",
+    "series": "UM73",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k5lp",
@@ -14631,7 +14631,7 @@ export default {
     "variants": []
   },
   "UM7370PUA": {
-    "series": "UM7370",
+    "series": "UM73",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k5lp",
@@ -14641,7 +14641,7 @@ export default {
     "variants": []
   },
   "UM7380PJE": {
-    "series": "UM7380",
+    "series": "UM73",
     "region": "JP",
     "broadcast": "arib",
     "machine": "m16p3",
@@ -14651,7 +14651,7 @@ export default {
     "variants": []
   },
   "UM7380PVA": {
-    "series": "UM7380",
+    "series": "UM73",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14661,7 +14661,7 @@ export default {
     "variants": []
   },
   "UM7390PLC": {
-    "series": "UM7390",
+    "series": "UM73",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14678,7 +14678,7 @@ export default {
     ]
   },
   "UM7400PCA": {
-    "series": "UM7400",
+    "series": "UM74",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14688,7 +14688,7 @@ export default {
     "variants": []
   },
   "UM7400PLB": {
-    "series": "UM7400",
+    "series": "UM74",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14705,7 +14705,7 @@ export default {
     ]
   },
   "UM7400PTA": {
-    "series": "UM7400",
+    "series": "UM74",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14715,7 +14715,7 @@ export default {
     "variants": []
   },
   "UM74507LA": {
-    "series": "UM7450",
+    "series": "UM74",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14725,7 +14725,7 @@ export default {
     "variants": []
   },
   "UM7450PLA": {
-    "series": "UM7450",
+    "series": "UM74",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14743,7 +14743,7 @@ export default {
     ]
   },
   "UM7450PVA": {
-    "series": "UM7450",
+    "series": "UM74",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14753,7 +14753,7 @@ export default {
     "variants": []
   },
   "UM7500PJA": {
-    "series": "UM7500",
+    "series": "UM75",
     "region": "JP",
     "broadcast": "arib",
     "machine": "m16p3",
@@ -14763,7 +14763,7 @@ export default {
     "variants": []
   },
   "UM7500PLA": {
-    "series": "UM7500",
+    "series": "UM75",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14777,7 +14777,7 @@ export default {
     ]
   },
   "UM7510PLA": {
-    "series": "UM7510",
+    "series": "UM75",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14791,7 +14791,7 @@ export default {
     ]
   },
   "UM7570AUE": {
-    "series": "UM7570",
+    "series": "UM75",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k5lp",
@@ -14806,7 +14806,7 @@ export default {
     ]
   },
   "UM7570PUD": {
-    "series": "UM7570",
+    "series": "UM75",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k5lp",
@@ -14816,7 +14816,7 @@ export default {
     "variants": []
   },
   "UM7580PVA": {
-    "series": "UM7580",
+    "series": "UM75",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "m16p3",
@@ -14826,7 +14826,7 @@ export default {
     "variants": []
   },
   "UM76007LB": {
-    "series": "UM7600",
+    "series": "UM76",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14836,7 +14836,7 @@ export default {
     "variants": []
   },
   "UM7600PCA": {
-    "series": "UM7600",
+    "series": "UM76",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14846,7 +14846,7 @@ export default {
     "variants": []
   },
   "UM7600PLB": {
-    "series": "UM7600",
+    "series": "UM76",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "m16p3",
@@ -14868,7 +14868,7 @@ export default {
     ]
   },
   "UM7600PTA": {
-    "series": "UM7600",
+    "series": "UM76",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14886,7 +14886,7 @@ export default {
     ]
   },
   "UM7600PVA": {
-    "series": "UM7600",
+    "series": "UM76",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14896,7 +14896,7 @@ export default {
     "variants": []
   },
   "UM76107LB": {
-    "series": "UM7610",
+    "series": "UM76",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14906,7 +14906,7 @@ export default {
     "variants": []
   },
   "UM7610PLB": {
-    "series": "UM7610",
+    "series": "UM76",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14920,7 +14920,7 @@ export default {
     ]
   },
   "UM7660PLA": {
-    "series": "UM7660",
+    "series": "UM76",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14935,7 +14935,7 @@ export default {
     ]
   },
   "UM7660PVA": {
-    "series": "UM7660",
+    "series": "UM76",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14945,7 +14945,7 @@ export default {
     "variants": []
   },
   "UM7700PTA": {
-    "series": "UM7700",
+    "series": "UM77",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14955,7 +14955,7 @@ export default {
     "variants": []
   },
   "UM7780PTA": {
-    "series": "UM7780",
+    "series": "UM77",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "k5lp",
@@ -14965,7 +14965,7 @@ export default {
     "variants": []
   },
   "UM8070AUB": {
-    "series": "UM8070",
+    "series": "UM80",
     "region": "US",
     "broadcast": "atsc",
     "machine": "m16p3",
@@ -14975,7 +14975,7 @@ export default {
     "variants": []
   },
   "UM8070PUA": {
-    "series": "UM8070",
+    "series": "UM80",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m16p3",
@@ -14990,7 +14990,7 @@ export default {
     ]
   },
   "UN6950ZUD": {
-    "series": "UN6950",
+    "series": "UN69",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k6lp",
@@ -15000,7 +15000,7 @@ export default {
     "variants": []
   },
   "UN6951ZUA": {
-    "series": "UN6951",
+    "series": "UN69",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k6lp",
@@ -15010,7 +15010,7 @@ export default {
     "variants": []
   },
   "UN6951ZUD": {
-    "series": "UN6951",
+    "series": "UN69",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k6lp",
@@ -15020,7 +15020,7 @@ export default {
     "variants": []
   },
   "UN6951ZUF": {
-    "series": "UN6951",
+    "series": "UN69",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k6lp",
@@ -15030,7 +15030,7 @@ export default {
     "variants": []
   },
   "UN6970PUD": {
-    "series": "UN6970",
+    "series": "UN69",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k6lp",
@@ -15040,7 +15040,7 @@ export default {
     "variants": []
   },
   "UN70006LA": {
-    "series": "UN7000",
+    "series": "UN70",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15058,7 +15058,7 @@ export default {
     ]
   },
   "UN7000PUB": {
-    "series": "UN7000",
+    "series": "UN70",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k6lp",
@@ -15073,7 +15073,7 @@ export default {
     ]
   },
   "UN7000PUC": {
-    "series": "UN7000",
+    "series": "UN70",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k6lp",
@@ -15088,7 +15088,7 @@ export default {
     ]
   },
   "UN7000PUD": {
-    "series": "UN7000",
+    "series": "UN70",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k6lp",
@@ -15103,7 +15103,7 @@ export default {
     ]
   },
   "UN70706LB": {
-    "series": "UN7070",
+    "series": "UN70",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15118,7 +15118,7 @@ export default {
     ]
   },
   "UN70706LD": {
-    "series": "UN7070",
+    "series": "UN70",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15133,7 +15133,7 @@ export default {
     ]
   },
   "UN7070PUC": {
-    "series": "UN7070",
+    "series": "UN70",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k6lp",
@@ -15148,7 +15148,7 @@ export default {
     ]
   },
   "UN71006LA": {
-    "series": "UN7100",
+    "series": "UN71",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15163,7 +15163,7 @@ export default {
     ]
   },
   "UN71006LB": {
-    "series": "UN7100",
+    "series": "UN71",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15184,7 +15184,7 @@ export default {
     ]
   },
   "UN71006LC": {
-    "series": "UN7100",
+    "series": "UN71",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15203,7 +15203,7 @@ export default {
     ]
   },
   "UN7100PCA": {
-    "series": "UN7100",
+    "series": "UN71",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15217,7 +15217,7 @@ export default {
     ]
   },
   "UN7100PCC": {
-    "series": "UN7100",
+    "series": "UN71",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15227,7 +15227,7 @@ export default {
     "variants": []
   },
   "UN7100PJA": {
-    "series": "UN7100",
+    "series": "UN71",
     "region": "JP",
     "broadcast": "arib",
     "machine": "k6lp",
@@ -15237,7 +15237,7 @@ export default {
     "variants": []
   },
   "UN7150PTA": {
-    "series": "UN7150",
+    "series": "UN71",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15247,7 +15247,7 @@ export default {
     "variants": []
   },
   "UN7190PTA": {
-    "series": "UN7190",
+    "series": "UN71",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15257,7 +15257,7 @@ export default {
     "variants": []
   },
   "UN73006LA": {
-    "series": "UN7300",
+    "series": "UN73",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15291,7 +15291,7 @@ export default {
     ]
   },
   "UN73006LC": {
-    "series": "UN7300",
+    "series": "UN73",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15309,7 +15309,7 @@ export default {
     ]
   },
   "UN7300AUD": {
-    "series": "UN7300",
+    "series": "UN73",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k6lp",
@@ -15324,7 +15324,7 @@ export default {
     ]
   },
   "UN7300PTC": {
-    "series": "UN7300",
+    "series": "UN73",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15339,7 +15339,7 @@ export default {
     ]
   },
   "UN7300PUB": {
-    "series": "UN7300",
+    "series": "UN73",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k6lp",
@@ -15349,7 +15349,7 @@ export default {
     "variants": []
   },
   "UN7300PUD": {
-    "series": "UN7300",
+    "series": "UN73",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k6lp",
@@ -15359,7 +15359,7 @@ export default {
     "variants": []
   },
   "UN7300PUF": {
-    "series": "UN7300",
+    "series": "UN73",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k6lp",
@@ -15369,7 +15369,7 @@ export default {
     "variants": []
   },
   "UN7340PVC": {
-    "series": "UN7340",
+    "series": "UN73",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15379,7 +15379,7 @@ export default {
     "variants": []
   },
   "UN7350PTD": {
-    "series": "UN7350",
+    "series": "UN73",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15389,7 +15389,7 @@ export default {
     "variants": []
   },
   "UN7370AUH": {
-    "series": "UN7370",
+    "series": "UN73",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k6lp",
@@ -15404,7 +15404,7 @@ export default {
     ]
   },
   "UN7370PUB": {
-    "series": "UN7370",
+    "series": "UN73",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k6lp",
@@ -15414,7 +15414,7 @@ export default {
     "variants": []
   },
   "UN7370PUC": {
-    "series": "UN7370",
+    "series": "UN73",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k6lp",
@@ -15424,7 +15424,7 @@ export default {
     "variants": []
   },
   "UN7370PUE": {
-    "series": "UN7370",
+    "series": "UN73",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k6lp",
@@ -15434,7 +15434,7 @@ export default {
     "variants": []
   },
   "UN7380PVC": {
-    "series": "UN7380",
+    "series": "UN73",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15444,7 +15444,7 @@ export default {
     "variants": []
   },
   "UN73906LE": {
-    "series": "UN7390",
+    "series": "UN73",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15463,7 +15463,7 @@ export default {
     ]
   },
   "UN74006LA": {
-    "series": "UN7400",
+    "series": "UN74",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15478,7 +15478,7 @@ export default {
     ]
   },
   "UN74006LB": {
-    "series": "UN7400",
+    "series": "UN74",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15493,7 +15493,7 @@ export default {
     ]
   },
   "UN74007LB": {
-    "series": "UN7400",
+    "series": "UN74",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15503,7 +15503,7 @@ export default {
     "variants": []
   },
   "UN7400PCA": {
-    "series": "UN7400",
+    "series": "UN74",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15517,7 +15517,7 @@ export default {
     ]
   },
   "UN7400PJA": {
-    "series": "UN7400",
+    "series": "UN74",
     "region": "JP",
     "broadcast": "arib",
     "machine": "k6lp",
@@ -15527,7 +15527,7 @@ export default {
     "variants": []
   },
   "UN80006LA": {
-    "series": "UN8000",
+    "series": "UN80",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15542,7 +15542,7 @@ export default {
     ]
   },
   "UN80006LC": {
-    "series": "UN8000",
+    "series": "UN80",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15557,7 +15557,7 @@ export default {
     ]
   },
   "UN8000PTA": {
-    "series": "UN8000",
+    "series": "UN80",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15567,7 +15567,7 @@ export default {
     "variants": []
   },
   "UN8000PTB": {
-    "series": "UN8000",
+    "series": "UN80",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15577,7 +15577,7 @@ export default {
     "variants": []
   },
   "UN8080PVA": {
-    "series": "UN8080",
+    "series": "UN80",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k6hp",
@@ -15587,7 +15587,7 @@ export default {
     "variants": []
   },
   "UN81006LB": {
-    "series": "UN8100",
+    "series": "UN81",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15606,7 +15606,7 @@ export default {
     ]
   },
   "UN8100PCA": {
-    "series": "UN8100",
+    "series": "UN81",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15620,7 +15620,7 @@ export default {
     ]
   },
   "UN8100PJA": {
-    "series": "UN8100",
+    "series": "UN81",
     "region": "JP",
     "broadcast": "arib",
     "machine": "k6lp",
@@ -15630,7 +15630,7 @@ export default {
     "variants": []
   },
   "UN8100PTB": {
-    "series": "UN8100",
+    "series": "UN81",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15640,7 +15640,7 @@ export default {
     "variants": []
   },
   "UN8160PVA": {
-    "series": "UN8160",
+    "series": "UN81",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k6lp",
@@ -15650,7 +15650,7 @@ export default {
     "variants": []
   },
   "UN85006LA": {
-    "series": "UN8500",
+    "series": "UN85",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k6hp",
@@ -15669,7 +15669,7 @@ export default {
     ]
   },
   "UN8500AUJ": {
-    "series": "UN8500",
+    "series": "UN85",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k6hp",
@@ -15684,7 +15684,7 @@ export default {
     ]
   },
   "UN8500PUI": {
-    "series": "UN8500",
+    "series": "UN85",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k6hp",
@@ -15694,7 +15694,7 @@ export default {
     "variants": []
   },
   "UN8570AUD": {
-    "series": "UN8570",
+    "series": "UN85",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k6hp",
@@ -15709,7 +15709,7 @@ export default {
     ]
   },
   "UN8570PUC": {
-    "series": "UN8570",
+    "series": "UN85",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k6hp",
@@ -15719,7 +15719,7 @@ export default {
     "variants": []
   },
   "UN9000AUJ": {
-    "series": "UN9000",
+    "series": "UN90",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k6hp",
@@ -15734,7 +15734,7 @@ export default {
     ]
   },
   "UN9070AUD": {
-    "series": "UN9070",
+    "series": "UN90",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k6hp",
@@ -15749,7 +15749,7 @@ export default {
     ]
   },
   "UP7000PUA": {
-    "series": "UP7000",
+    "series": "UP70",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "lm21a",
@@ -15763,7 +15763,7 @@ export default {
     ]
   },
   "UP7070PUD": {
-    "series": "UP7070",
+    "series": "UP70",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "lm21a",
@@ -15773,7 +15773,7 @@ export default {
     "variants": []
   },
   "UP7070PUE": {
-    "series": "UP7070",
+    "series": "UP70",
     "region": "US",
     "broadcast": "atsc",
     "machine": "lm21a",
@@ -15783,7 +15783,7 @@ export default {
     "variants": []
   },
   "UP7100ZUF": {
-    "series": "UP7100",
+    "series": "UP71",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "lm21a",
@@ -15793,7 +15793,7 @@ export default {
     "variants": []
   },
   "UP75006LC": {
-    "series": "UP7500",
+    "series": "UP75",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "lm21a",
@@ -15815,7 +15815,7 @@ export default {
     ]
   },
   "UP75006LF": {
-    "series": "UP7500",
+    "series": "UP75",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "lm21a",
@@ -15843,7 +15843,7 @@ export default {
     ]
   },
   "UP75009LC": {
-    "series": "UP7500",
+    "series": "UP75",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm21a",
@@ -15860,7 +15860,7 @@ export default {
     ]
   },
   "UP75009LF": {
-    "series": "UP7500",
+    "series": "UP75",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm21a",
@@ -15874,7 +15874,7 @@ export default {
     ]
   },
   "UP7500PTZ": {
-    "series": "UP7500",
+    "series": "UP75",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "lm21a",
@@ -15884,7 +15884,7 @@ export default {
     "variants": []
   },
   "UP7550PTZ": {
-    "series": "UP7550",
+    "series": "UP75",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "lm21a",
@@ -15894,7 +15894,7 @@ export default {
     "variants": []
   },
   "UP7550PVC": {
-    "series": "UP7550",
+    "series": "UP75",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm21a",
@@ -15904,7 +15904,7 @@ export default {
     "variants": []
   },
   "UP7550PVD": {
-    "series": "UP7550",
+    "series": "UP75",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm21a",
@@ -15914,7 +15914,7 @@ export default {
     "variants": []
   },
   "UP7550PVG": {
-    "series": "UP7550",
+    "series": "UP75",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm21a",
@@ -15924,7 +15924,7 @@ export default {
     "variants": []
   },
   "UP7560AUD": {
-    "series": "UP7560",
+    "series": "UP75",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "lm21a",
@@ -15939,7 +15939,7 @@ export default {
     ]
   },
   "UP7570AUD": {
-    "series": "UP7570",
+    "series": "UP75",
     "region": "US",
     "broadcast": "atsc",
     "machine": "lm21a",
@@ -15949,7 +15949,7 @@ export default {
     "variants": []
   },
   "UP7570AUE": {
-    "series": "UP7570",
+    "series": "UP75",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "lm21a",
@@ -15959,7 +15959,7 @@ export default {
     "variants": []
   },
   "UP76706LB": {
-    "series": "UP7670",
+    "series": "UP76",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k7lp",
@@ -15969,7 +15969,7 @@ export default {
     "variants": []
   },
   "UP76709LB": {
-    "series": "UP7670",
+    "series": "UP76",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k7lp",
@@ -15979,7 +15979,7 @@ export default {
     "variants": []
   },
   "UP7670PUB": {
-    "series": "UP7670",
+    "series": "UP76",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k7lp",
@@ -15989,7 +15989,7 @@ export default {
     "variants": []
   },
   "UP7670PUC": {
-    "series": "UP7670",
+    "series": "UP76",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k7lp",
@@ -16004,7 +16004,7 @@ export default {
     ]
   },
   "UP76906LE": {
-    "series": "UP7690",
+    "series": "UP76",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "lm21a",
@@ -16026,7 +16026,7 @@ export default {
     ]
   },
   "UP76909LE": {
-    "series": "UP7690",
+    "series": "UP76",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm21a",
@@ -16040,7 +16040,7 @@ export default {
     ]
   },
   "UP77003LB": {
-    "series": "UP7700",
+    "series": "UP77",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k7lp",
@@ -16050,7 +16050,7 @@ export default {
     "variants": []
   },
   "UP77006LB": {
-    "series": "UP7700",
+    "series": "UP77",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k7lp",
@@ -16077,7 +16077,7 @@ export default {
     ]
   },
   "UP77009LB": {
-    "series": "UP7700",
+    "series": "UP77",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k7lp",
@@ -16094,7 +16094,7 @@ export default {
     ]
   },
   "UP7700PJB": {
-    "series": "UP7700",
+    "series": "UP77",
     "region": "JP",
     "broadcast": "arib",
     "machine": "k7lp",
@@ -16104,7 +16104,7 @@ export default {
     "variants": []
   },
   "UP7700PUB": {
-    "series": "UP7700",
+    "series": "UP77",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k7lp",
@@ -16114,7 +16114,7 @@ export default {
     "variants": []
   },
   "UP7720PTY": {
-    "series": "UP7720",
+    "series": "UP77",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "k7lp",
@@ -16124,7 +16124,7 @@ export default {
     "variants": []
   },
   "UP7740PTZ": {
-    "series": "UP7740",
+    "series": "UP77",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "k7lp",
@@ -16134,7 +16134,7 @@ export default {
     "variants": []
   },
   "UP7750PTZ": {
-    "series": "UP7750",
+    "series": "UP77",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "k7lp",
@@ -16144,7 +16144,7 @@ export default {
     "variants": []
   },
   "UP7750PVB": {
-    "series": "UP7750",
+    "series": "UP77",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k7lp",
@@ -16154,7 +16154,7 @@ export default {
     "variants": []
   },
   "UP7770PUB": {
-    "series": "UP7770",
+    "series": "UP77",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k7lp",
@@ -16164,7 +16164,7 @@ export default {
     "variants": []
   },
   "UP78006LB": {
-    "series": "UP7800",
+    "series": "UP78",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k7lp",
@@ -16179,7 +16179,7 @@ export default {
     ]
   },
   "UP78009LB": {
-    "series": "UP7800",
+    "series": "UP78",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k7lp",
@@ -16189,7 +16189,7 @@ export default {
     "variants": []
   },
   "UP7800PCB": {
-    "series": "UP7800",
+    "series": "UP78",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "k7lp",
@@ -16199,7 +16199,7 @@ export default {
     "variants": []
   },
   "UP80006LA": {
-    "series": "UP8000",
+    "series": "UP80",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "lm21a",
@@ -16221,7 +16221,7 @@ export default {
     ]
   },
   "UP80006LR": {
-    "series": "UP8000",
+    "series": "UP80",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k7lp",
@@ -16240,7 +16240,7 @@ export default {
     ]
   },
   "UP80009LA": {
-    "series": "UP8000",
+    "series": "UP80",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm21a",
@@ -16250,7 +16250,7 @@ export default {
     "variants": []
   },
   "UP80009LR": {
-    "series": "UP8000",
+    "series": "UP80",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k7lp",
@@ -16260,7 +16260,7 @@ export default {
     "variants": []
   },
   "UP8000PJB": {
-    "series": "UP8000",
+    "series": "UP80",
     "region": "JP",
     "broadcast": "arib",
     "machine": "lm21a",
@@ -16270,7 +16270,7 @@ export default {
     "variants": []
   },
   "UP8000PTB": {
-    "series": "UP8000",
+    "series": "UP80",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm21a",
@@ -16280,7 +16280,7 @@ export default {
     "variants": []
   },
   "UP8000PTZ": {
-    "series": "UP8000",
+    "series": "UP80",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "lm21a",
@@ -16290,7 +16290,7 @@ export default {
     "variants": []
   },
   "UP8000PUA": {
-    "series": "UP8000",
+    "series": "UP80",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "lm21a",
@@ -16304,7 +16304,7 @@ export default {
     ]
   },
   "UP8000PUR": {
-    "series": "UP8000",
+    "series": "UP80",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k7lp",
@@ -16314,7 +16314,7 @@ export default {
     "variants": []
   },
   "UP8050PVB": {
-    "series": "UP8050",
+    "series": "UP80",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm21a",
@@ -16324,7 +16324,7 @@ export default {
     "variants": []
   },
   "UP8070PUA": {
-    "series": "UP8070",
+    "series": "UP80",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "lm21a",
@@ -16334,7 +16334,7 @@ export default {
     "variants": []
   },
   "UP8070PUR": {
-    "series": "UP8070",
+    "series": "UP80",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k7lp",
@@ -16344,7 +16344,7 @@ export default {
     "variants": []
   },
   "UP81006LA": {
-    "series": "UP8100",
+    "series": "UP81",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "lm21a",
@@ -16359,7 +16359,7 @@ export default {
     ]
   },
   "UP81006LR": {
-    "series": "UP8100",
+    "series": "UP81",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k7lp",
@@ -16374,7 +16374,7 @@ export default {
     ]
   },
   "UP81009LA": {
-    "series": "UP8100",
+    "series": "UP81",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm21a",
@@ -16388,7 +16388,7 @@ export default {
     ]
   },
   "UP81009LR": {
-    "series": "UP8100",
+    "series": "UP81",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k7lp",
@@ -16402,7 +16402,7 @@ export default {
     ]
   },
   "UP8100PCB": {
-    "series": "UP8100",
+    "series": "UP81",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "lm21a",
@@ -16412,7 +16412,7 @@ export default {
     "variants": []
   },
   "UP8150PVB": {
-    "series": "UP8150",
+    "series": "UP81",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm21a",
@@ -16422,7 +16422,7 @@ export default {
     "variants": []
   },
   "UP8770PUA": {
-    "series": "UP8770",
+    "series": "UP87",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "lm21u",
@@ -16437,7 +16437,7 @@ export default {
     ]
   },
   "UQ70006LB": {
-    "series": "UQ7000",
+    "series": "UQ70",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k8lp",
@@ -16456,7 +16456,7 @@ export default {
     ]
   },
   "UQ7070ZUD": {
-    "series": "UQ7070",
+    "series": "UQ70",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k8hp",
@@ -16474,7 +16474,7 @@ export default {
     ]
   },
   "UQ7070ZUE": {
-    "series": "UQ7070",
+    "series": "UQ70",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "lm21an",
@@ -16489,7 +16489,7 @@ export default {
     ]
   },
   "UQ75006LF": {
-    "series": "UQ7500",
+    "series": "UQ75",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k8lp",
@@ -16499,7 +16499,7 @@ export default {
     "variants": []
   },
   "UQ75009LF": {
-    "series": "UQ7500",
+    "series": "UQ75",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k8lp",
@@ -16513,7 +16513,7 @@ export default {
     ]
   },
   "UQ7500PSF": {
-    "series": "UQ7500",
+    "series": "UQ75",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "k8lp",
@@ -16527,7 +16527,7 @@ export default {
     ]
   },
   "UQ7550PSF": {
-    "series": "UQ7550",
+    "series": "UQ75",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "k8lp",
@@ -16537,7 +16537,7 @@ export default {
     "variants": []
   },
   "UQ7570PUJ": {
-    "series": "UQ7570",
+    "series": "UQ75",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k8lp",
@@ -16552,7 +16552,7 @@ export default {
     ]
   },
   "UQ7590PUB": {
-    "series": "UQ7590",
+    "series": "UQ75",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "lm21an",
@@ -16567,7 +16567,7 @@ export default {
     ]
   },
   "UQ76906LE": {
-    "series": "UQ7690",
+    "series": "UQ76",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k8lp",
@@ -16577,7 +16577,7 @@ export default {
     "variants": []
   },
   "UQ76909LE": {
-    "series": "UQ7690",
+    "series": "UQ76",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "k8lp",
@@ -16591,7 +16591,7 @@ export default {
     ]
   },
   "UQ79009LA": {
-    "series": "UQ7900",
+    "series": "UQ79",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm21an",
@@ -16601,7 +16601,7 @@ export default {
     "variants": []
   },
   "UQ80006LB": {
-    "series": "UQ8000",
+    "series": "UQ80",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "lm21an",
@@ -16615,7 +16615,7 @@ export default {
     ]
   },
   "UQ80009LB": {
-    "series": "UQ8000",
+    "series": "UQ80",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm21an",
@@ -16632,7 +16632,7 @@ export default {
     ]
   },
   "UQ8000AUB": {
-    "series": "UQ8000",
+    "series": "UQ80",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "lm21an",
@@ -16647,7 +16647,7 @@ export default {
     ]
   },
   "UQ8000PJC": {
-    "series": "UQ8000",
+    "series": "UQ80",
     "region": "JP",
     "broadcast": "arib",
     "machine": "lm21an",
@@ -16657,7 +16657,7 @@ export default {
     "variants": []
   },
   "UQ8020PSB": {
-    "series": "UQ8020",
+    "series": "UQ80",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "lm21an",
@@ -16667,7 +16667,7 @@ export default {
     "variants": []
   },
   "UQ8040PSB": {
-    "series": "UQ8040",
+    "series": "UQ80",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "lm21an",
@@ -16677,7 +16677,7 @@ export default {
     "variants": []
   },
   "UQ8050PSB": {
-    "series": "UQ8050",
+    "series": "UQ80",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "lm21an",
@@ -16687,7 +16687,7 @@ export default {
     "variants": []
   },
   "UQ81006LB": {
-    "series": "UQ8100",
+    "series": "UQ81",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "lm21an",
@@ -16697,7 +16697,7 @@ export default {
     "variants": []
   },
   "UQ81009LB": {
-    "series": "UQ8100",
+    "series": "UQ81",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm21an",
@@ -16711,7 +16711,7 @@ export default {
     ]
   },
   "UQ8100PCB": {
-    "series": "UQ8100",
+    "series": "UQ81",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "lm21an",
@@ -16721,7 +16721,7 @@ export default {
     "variants": []
   },
   "UQ90006LA": {
-    "series": "UQ9000",
+    "series": "UQ90",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "lm21an",
@@ -16731,7 +16731,7 @@ export default {
     "variants": []
   },
   "UQ90009LA": {
-    "series": "UQ9000",
+    "series": "UQ90",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm21an",
@@ -16741,7 +16741,7 @@ export default {
     "variants": []
   },
   "UQ9000PSD": {
-    "series": "UQ9000",
+    "series": "UQ90",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "lm21an",
@@ -16756,7 +16756,7 @@ export default {
     ]
   },
   "UQ9000PUD": {
-    "series": "UQ9000",
+    "series": "UQ90",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "lm21an",
@@ -16771,7 +16771,7 @@ export default {
     ]
   },
   "UQ91006LA": {
-    "series": "UQ9100",
+    "series": "UQ91",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "lm21an",
@@ -16781,7 +16781,7 @@ export default {
     "variants": []
   },
   "UQ91009LA": {
-    "series": "UQ9100",
+    "series": "UQ91",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm21an",
@@ -16795,7 +16795,7 @@ export default {
     ]
   },
   "UQ9100PCD": {
-    "series": "UQ9100",
+    "series": "UQ91",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "lm21an",
@@ -16809,7 +16809,7 @@ export default {
     ]
   },
   "UQ9100PJD": {
-    "series": "UQ9100",
+    "series": "UQ91",
     "region": "JP",
     "broadcast": "arib",
     "machine": "lm21an",
@@ -16819,7 +16819,7 @@ export default {
     "variants": []
   },
   "UR73006LA": {
-    "series": "UR7300",
+    "series": "UR73",
     "region": "DE",
     "broadcast": "dvb",
     "machine": "lm21ann",
@@ -16834,7 +16834,7 @@ export default {
     ]
   },
   "UR7500PJC": {
-    "series": "UR7500",
+    "series": "UR75",
     "region": "JP",
     "broadcast": "arib",
     "machine": "k8lpn",
@@ -16844,7 +16844,7 @@ export default {
     "variants": []
   },
   "UR7500PSC": {
-    "series": "UR7500",
+    "series": "UR75",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "k8lpn",
@@ -16854,7 +16854,7 @@ export default {
     "variants": []
   },
   "UR7550PSC": {
-    "series": "UR7550",
+    "series": "UR75",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "k8lpn",
@@ -16864,7 +16864,7 @@ export default {
     "variants": []
   },
   "UR7790PSA": {
-    "series": "UR7790",
+    "series": "UR77",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "k8lpn",
@@ -16874,7 +16874,7 @@ export default {
     "variants": []
   },
   "UR78006LK": {
-    "series": "UR7800",
+    "series": "UR78",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "lm21ann",
@@ -16896,7 +16896,7 @@ export default {
     ]
   },
   "UR80006LJ": {
-    "series": "UR8000",
+    "series": "UR80",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "lm21ann",
@@ -16914,7 +16914,7 @@ export default {
     ]
   },
   "UR8000AUA": {
-    "series": "UR8000",
+    "series": "UR80",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k8lpn",
@@ -16924,7 +16924,7 @@ export default {
     "variants": []
   },
   "UR8000PJB": {
-    "series": "UR8000",
+    "series": "UR80",
     "region": "JP",
     "broadcast": "arib",
     "machine": "k8lpn",
@@ -16934,7 +16934,7 @@ export default {
     "variants": []
   },
   "UR8020PSB": {
-    "series": "UR8020",
+    "series": "UR80",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "k8lpn",
@@ -16944,7 +16944,7 @@ export default {
     "variants": []
   },
   "UR8040PSB": {
-    "series": "UR8040",
+    "series": "UR80",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "k8lpn",
@@ -16954,7 +16954,7 @@ export default {
     "variants": []
   },
   "UR8050PCB": {
-    "series": "UR8050",
+    "series": "UR80",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "k8lpn",
@@ -16964,7 +16964,7 @@ export default {
     "variants": []
   },
   "UR8050PSB": {
-    "series": "UR8050",
+    "series": "UR80",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k8lpn",
@@ -16979,7 +16979,7 @@ export default {
     ]
   },
   "UR81006LJ": {
-    "series": "UR8100",
+    "series": "UR81",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "lm21ann",
@@ -16997,7 +16997,7 @@ export default {
     ]
   },
   "UR9000PUA": {
-    "series": "UR9000",
+    "series": "UR90",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "m23",
@@ -17012,7 +17012,7 @@ export default {
     ]
   },
   "UR9050PSK": {
-    "series": "UR9050",
+    "series": "UR90",
     "region": "IN",
     "broadcast": "dvb",
     "machine": "k8lpn",
@@ -17022,7 +17022,7 @@ export default {
     "variants": []
   },
   "UR91006LA": {
-    "series": "UR9100",
+    "series": "UR91",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "m23",
@@ -17043,7 +17043,7 @@ export default {
     ]
   },
   "UR9150PCK": {
-    "series": "UR9150",
+    "series": "UR91",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "k8lpn",
@@ -17053,7 +17053,7 @@ export default {
     "variants": []
   },
   "UT7550AUA": {
-    "series": "UT7550",
+    "series": "UT75",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k8lpn2",
@@ -17063,7 +17063,7 @@ export default {
     "variants": []
   },
   "UT7590PUA": {
-    "series": "UT7590",
+    "series": "UT75",
     "region": "CA",
     "broadcast": "atsc",
     "machine": "k8lpn2",
@@ -17078,7 +17078,7 @@ export default {
     ]
   },
   "UT7800PCB": {
-    "series": "UT7800",
+    "series": "UT78",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "k8lpn2",
@@ -17088,7 +17088,7 @@ export default {
     "variants": []
   },
   "UT80006LA": {
-    "series": "UT8000",
+    "series": "UT80",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k8lpn2",
@@ -17113,7 +17113,7 @@ export default {
     ]
   },
   "UT8000AUA": {
-    "series": "UT8000",
+    "series": "UT80",
     "region": "US",
     "broadcast": "atsc",
     "machine": "k8lpn2",
@@ -17123,7 +17123,7 @@ export default {
     "variants": []
   },
   "UT8000PJB": {
-    "series": "UT8000",
+    "series": "UT80",
     "region": "JP",
     "broadcast": "arib",
     "machine": "k8lpn2",
@@ -17133,7 +17133,7 @@ export default {
     "variants": []
   },
   "UT8050PCB": {
-    "series": "UT8050",
+    "series": "UT80",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "k8lpn2",
@@ -17143,7 +17143,7 @@ export default {
     "variants": []
   },
   "UT8050PSB": {
-    "series": "UT8050",
+    "series": "UT80",
     "region": "NZ",
     "broadcast": "dvb",
     "machine": "k8lpn2",
@@ -17153,7 +17153,7 @@ export default {
     "variants": []
   },
   "UT81006LA": {
-    "series": "UT8100",
+    "series": "UT81",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k8lpn2",
@@ -17167,7 +17167,7 @@ export default {
     ]
   },
   "UT9050PCB": {
-    "series": "UT9050",
+    "series": "UT90",
     "region": "HK",
     "broadcast": "dvb",
     "machine": "k8lpn2",
@@ -17177,7 +17177,7 @@ export default {
     "variants": []
   },
   "UT91006LA": {
-    "series": "UT9100",
+    "series": "UT91",
     "region": "UK",
     "broadcast": "dvb",
     "machine": "k8lpn2",
