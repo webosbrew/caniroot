@@ -1,9 +1,12 @@
 {
   "compilerOptions": {
     "sourceMap": true,
-    "target": "ES2020",
-    "module": "ES2015",
-    "moduleResolution": "Node",
+    "target": "es2019",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
     "strict": true
   }
 }

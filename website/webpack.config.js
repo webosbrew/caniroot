@@ -11,7 +11,8 @@ const babelLoader = {
   loader: 'babel-loader',
   options: {
     presets: ['@babel/preset-env'],
-    plugins: ['babel-plugin-htm']
+    // Without import: 'preact', `h is not defined` error will occur
+    plugins: [['babel-plugin-htm', {'import': 'preact'}]]
   }
 };
 
@@ -52,10 +53,7 @@ module.exports = (env, argv) => ({
   module: {
     rules: [
       {
-        test: /.m?js$/, use: babelLoader
-      },
-      {
-        test: /\.(ts)$/,
+        test: /\.(m?js|ts)$/,
         exclude: /node_modules/,
         use: [
           babelLoader,
