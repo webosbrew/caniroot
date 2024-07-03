@@ -3,7 +3,9 @@
   "version": "1.1.4",
   "description": "Can I root this webOS device?",
   "scripts": {
-    "test": "node --test-only",
+    "test": "node --test --test-only",
+    "preversion": "npm run test",
+    "version": "npm install --prefix website && git add .",
     "gen-exploits": "node tools/gen-exploits.js",
     "gen-models": "node tools/gen-models.js",
     "website:build": "npm run build --prefix website"
