@@ -194,7 +194,7 @@ class App extends Component<AppProps, AppState> {
 
     private createState(q?: string, codename?: string): AppState {
         const term = parseSearchTerm(q);
-        const models = term?.model && DeviceModel.findAll(term.model.series + (term.model.tdd || ''));
+        const models = term?.model && DeviceModel.findAll(term.model.name + (term.model.tdd || ''));
         let model = models?.filter(m => m.model.startsWith(term!!.model!!.simple))[0];
         if (!model && models) {
             model = models[0];

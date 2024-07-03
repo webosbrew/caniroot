@@ -27,7 +27,7 @@ module.exports = (env, argv) => ({
     static: path.resolve(__dirname, 'dist'),
     port: 8080,
   },
-  devtool: argv.mode === 'production' && 'source-map',
+  devtool: 'source-map',
   plugins: [
     new HtmlBundlerPlugin({
       entry: 'src',

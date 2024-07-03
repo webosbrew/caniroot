@@ -51,9 +51,12 @@ export declare interface DeviceModelNameData {
 }
 
 export class DeviceModelName {
+    /**
+     * Model name (e.g. "SM8100")
+     */
     readonly name: string;
     /**
-     * Model series (e.g. "OLEDC3")
+     * Model series (e.g. "SM81")
      */
     readonly series: string;
     /**
@@ -75,7 +78,7 @@ export class DeviceModelName {
 
     /**
      * Parse a model name into its components
-     * @param model Model name like "55OLEDC3PJA"
+     * @param model Model name like "55SM8100PJA"
      * @returns Parsed model name or undefined if the model is not recognized
      */
     public static parse(model: string): DeviceModelName | undefined;
