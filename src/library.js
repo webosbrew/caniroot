@@ -134,14 +134,27 @@ export class DeviceModel {
     let match = models[find];
     let matchKey = find;
     if (!match && !exact) {
-      // Find first match ignoring model suffix (.ABC)
-      find = parsed.name;
-      for (let [key, value] of Object.entries(models)) {
-        if (value.name === find) {
-          match = value;
-          matchKey = key;
-          break;
+      /**
+       * Get length of different suffixes between two strings
+       * @param k {string}
+       * @param f {string}
+       * @return {number}
+       */
+      function lenSuffixDiff(k, f) {
+        let i = 0, j = Math.min(k.length, f.length);
+        for (; i < j; i++) {
+          if (k[i] !== f[i]) {
+            break;
+          }
         }
+        return Math.max(k.length, f.length) - i;
+      }
+
+      const matches = Object.entries(models)
+        .filter(([k]) => k.startsWith(parsed.name))
+        .sort(([k1], [k2]) => lenSuffixDiff(k1, find) - lenSuffixDiff(k2, find));
+      if (matches.length > 0) {
+        [matchKey, match] = matches[0];
       }
     }
     if (!match) {
@@ -178,7 +191,7 @@ export class DeviceModel {
       return [new DeviceModel({model: exactModel, ...match})];
     }
     return Object.entries(models)
-      .filter(([_, value]) => value.name === parsed.name)
+      .filter(([key, value]) => key.startsWith(parsed.name))
       .map(([key, value]) => {
         const exactModel = key + (value.suffix || '');
         return new DeviceModel({model: exactModel, ...value});

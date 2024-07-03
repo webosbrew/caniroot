@@ -19,7 +19,7 @@ describe('DeviceModel', {only: true}, () => {
     assert.strictEqual(DeviceModelName.parse('ART90E6QA').series, 'ART90');
     assert.strictEqual(DeviceModelName.parse('65NANO86VPA').series, 'NANO86');
     assert.strictEqual(DeviceModelName.parse('OLED65A1PUA').series, 'OLEDA1');
-    assert.strictEqual(DeviceModelName.parse('43LF6300-UA').series, 'LF6300');
+    assert.strictEqual(DeviceModelName.parse('43LF6300-UA').series, 'LF63');
     assert.strictEqual(DeviceModelName.parse('OLED65W7V-T').series, 'OLEDW7');
     assert.strictEqual(DeviceModelName.parse('OLED65W7V-T').suffix, '-T');
     assert.strictEqual(DeviceModelName.parse('55SM8100PJB').tdd, 'PJB');
@@ -39,10 +39,10 @@ describe('DeviceModel', {only: true}, () => {
     assert.strictEqual(DeviceModel.find('SM8100PJB').machine, 'm16p3');
     assert.strictEqual(DeviceModel.find('43UN7340PVC').region, 'NZ');
     assert.strictEqual(DeviceModel.find('50NANO766QA').otaId, 'HE_DTV_W22P_AFADATAA');
-    assert.strictEqual(DeviceModel.find('43UJ750V').series, 'UJ750V');
-    assert.strictEqual(DeviceModel.find('55LB7200').series, 'LB7200');
-    assert.strictEqual(DeviceModel.find('55SK7900PLA').series, 'SK7900');
-    assert.strictEqual(DeviceModel.find('43UH668V-ZA').series, 'UH668V');
+    assert.strictEqual(DeviceModel.find('43UJ750V').series, 'UJ75');
+    assert.strictEqual(DeviceModel.find('55LB7200').series, 'LB72');
+    assert.strictEqual(DeviceModel.find('55SK7900PLA').series, 'SK79');
+    assert.strictEqual(DeviceModel.find('43UH668V-ZA').series, 'UH66');
     assert.strictEqual(DeviceModel.find('105UC9.AHK').series, 'UC9');
     assert.strictEqual(DeviceModel.find('NANO75SQA.ATRG').region, 'IN');
     assert.strictEqual(DeviceModel.find('NANO75SQA.ATRG').model, 'NANO75SQA.ATRG');
@@ -51,6 +51,7 @@ describe('DeviceModel', {only: true}, () => {
     assert.strictEqual(DeviceModel.find('QNED85UQA').codename, 'mullet');
     assert.strictEqual(DeviceModel.find('QNED85').codename, 'mullet');
     assert.strictEqual(DeviceModel.find('55LX1TPSA').codename, 'ombre');
+    assert.strictEqual(DeviceModel.find('UK6540PTA').codename, 'goldilocks');
     assert.ok(DeviceModel.find('QNED85UQA').variants.find((v) => v.codename === 'number1'));
   });
 
