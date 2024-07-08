@@ -66,6 +66,8 @@ describe('DeviceModel', {only: true}, () => {
   it('should treat same model with different region as similar', () => {
     assert.ok(DeviceModelName.parse('NANO806PA')._similarModel('NANO809PA'));
     assert.ok(!DeviceModelName.parse('NANO916NA')._similarModel('NANO916PA'));
+
+    assert.ok(DeviceModelName.parse('QNED90TAA')._similarModel('QNED90TJA'));
   });
 
   it('should find a variant', () => {
