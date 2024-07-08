@@ -50,8 +50,14 @@ export function SearchHint(props: { term?: SearchTerm, model?: DeviceModel }) {
     } else {
         return html`
           <div class="alert alert-warning mt-3" role="alert">
-            Unable to find this model number <code>${term.model}</code>. Try searching by the series
-            name (e.g. <code>OLEDC3</code> instead of <code>OLEDC3PJA</code>).<br/>
+            Unable to find this model number.
+            <br/>
+            ${['QNED', 'NANO'].includes(term.model.class) ?
+                html`For QNED and NANO series, please input the complete model number (e.g. <code>
+                  NANO916NA</code> instead of <code>NANO91</code>).` :
+                html`Try searching by the series name (e.g. <code>OLEDC3</code> instead of <code>OLEDC3PJA</code>).`
+            }
+            <br/>
             <i class="bi bi-exclamation-circle-fill me-2"/>Root availability may vary across different
             models/regions of the same series.
           </div>`

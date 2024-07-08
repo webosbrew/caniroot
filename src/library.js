@@ -65,7 +65,7 @@ export class DeviceModelName {
     const devicePatterns = [
       '(OLED(?<osize>\\d{2,3})?(?<oled>\\w{2}))',
       '(?<lsize>\\d{2,3})?(?<lx>LX\\w{2})',
-      '((?<size>\\d{2,3})?(?<series>(?:ART|NANO|QNED)\\d{2}|[A-Z]{2}\\w{4}|UC\\w{1,2}))',
+      '((?<size>\\d{2,3})?(?<series>(?<anq>ART|NANO|QNED)\\d{2}|[A-Z]{2}\\w{4}|UC\\w{1,2}))',
     ];
     const pattern = `^(?:${devicePatterns.join('|')})(?<tdd>\\w{1,4})?(?<suffix>[.-]\\w+)?$`;
     const match = model.match(pattern);
@@ -73,17 +73,42 @@ export class DeviceModelName {
       return undefined;
     }
     const groups = match.groups;
+    const modelClass = groups.anq || (groups.oled && 'OLED') || 'TV';
     const name = groups.series || groups.lx || `OLED${groups.oled}`;
     let series = name;
     if (series.match(/[ELSU][A-Z]\d{3}[0-9A-Z]/)) {
       series = series.substring(0, 4);
     }
     return new DeviceModelName({
-      name, series,
+      name, class: modelClass, series,
       size: parseInt(groups.size || groups.lsize || groups.osize),
       tdd: groups.tdd,
       suffix: groups.suffix
     });
+  }
+
+  /**
+   * @param match {string}
+   * @return {boolean}
+   * @package
+   */
+  _similarModel(match) {
+    if (!match.startsWith(this.name)) {
+      return false;
+    }
+    if (this.class === 'QNED' || this.class === 'NANO') {
+      if (this.tdd?.length !== 3) {
+        return false;
+      }
+      // Check last 3 digits for QNED and NANO
+      // For QNED, when the last 3 digit starts with 'T' it's a 2024 model
+      if (this.class === 'QNED' && this.tdd[0] === 'T') {
+        return match[this.name.length] === 'T';
+      }
+      // Otherwise, match the digit in the middle of last 3 digits
+      return this.tdd[1] === match[this.name.length + 1];
+    }
+    return true;
   }
 }
 
@@ -135,7 +160,7 @@ export class DeviceModel {
     let matchKey = find;
     if (!match && !exact) {
       const matches = Object.entries(models)
-        .filter(([k]) => k.startsWith(parsed.name))
+        .filter(([k]) => parsed._similarModel(k))
         .sort(([k1], [k2]) => this._lenSuffixDiff(k1, find) - this._lenSuffixDiff(k2, find));
       if (matches.length > 0) {
         [matchKey, match] = matches[0];
@@ -175,7 +200,7 @@ export class DeviceModel {
       return [new DeviceModel({model: exactModel, ...match})];
     }
     return Object.entries(models)
-      .filter(([key]) => key.startsWith(parsed.name))
+      .filter(([key]) => parsed._similarModel(key))
       .sort(([k1], [k2]) => this._lenSuffixDiff(k1, find) - this._lenSuffixDiff(k2, find))
       .map(([key, value]) => {
         const exactModel = key + (value.suffix || '');

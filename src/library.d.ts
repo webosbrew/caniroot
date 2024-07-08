@@ -56,6 +56,10 @@ export class DeviceModelName {
      */
     readonly name: string;
     /**
+     * Model class (e.g. "OLED")
+     */
+    readonly class: string;
+    /**
      * Model series (e.g. "SM81")
      */
     readonly series: string;
