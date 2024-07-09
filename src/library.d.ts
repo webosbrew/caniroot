@@ -80,6 +80,8 @@ export class DeviceModelName {
 
     get simple(): string;
 
+    get sized(): string;
+
     /**
      * Parse a model name into its components
      * @param model Model name like "55SM8100PJA"
@@ -90,13 +92,13 @@ export class DeviceModelName {
 
 export interface DeviceModelData {
     series: string;
-    region: string;
     broadcast: string;
     machine: string;
     codename: string;
     otaId: string;
     suffix?: string;
-    sizes?: number[];
+    sizes: number[];
+    regions: string[];
     variants?: DeviceModelVariantData[];
 }
 
@@ -105,13 +107,13 @@ export type DeviceModelVariantData = Partial<Omit<DeviceModelData, 'variants'>>;
 export class DeviceModel implements DeviceModelData {
     readonly model: string;
     readonly series: string;
-    readonly region: string;
     readonly broadcast: string;
     readonly machine: string;
     readonly codename: string;
     readonly otaId: string;
     readonly suffix?: string;
-    readonly sizes?: number[];
+    readonly sizes: number[];
+    readonly regions: string[];
     readonly variants?: DeviceModelVariantData[];
 
     private constructor();

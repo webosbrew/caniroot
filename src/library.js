@@ -1,5 +1,6 @@
 import exploits from "./exploits.gen.js";
 import models from "./models.gen.js";
+import assert from "node:assert";
 
 export const DeviceExploitType = {
   NVM: 'nvm',
@@ -55,6 +56,16 @@ export class DeviceModelName {
    */
   get simple() {
     return this.name + (this.tdd || '');
+  }
+
+  /**
+   * @return {string}
+   */
+  get sized() {
+    if (this.class === 'OLED') {
+      return `OLED${this.size}${this.simple.substring(4)}`
+    }
+    return `${this.size}${this.simple}`;
   }
 
   /**
@@ -129,7 +140,7 @@ export class DeviceModel {
     if (predicate(this)) {
       return this;
     }
-    const variant = this.variants.find(predicate);
+    const variant = this.variants?.find(predicate);
     if (!variant) {
       return undefined;
     }
@@ -169,18 +180,13 @@ export class DeviceModel {
     if (!match) {
       return undefined;
     }
-    for (const variant of match.variants) {
-      if (parsed.suffix && variant.suffix === parsed.suffix) {
-        match = Object.assign({...match}, variant);
-        delete match.variants;
-        break;
-      }
+    const coarse = new DeviceModel({model: matchKey, ...match});
+    if (exact) {
+      return coarse.variant((v) => {
+        return parsed.tdd?.length >= 3 || v.suffix === parsed.suffix;
+      });
     }
-    if (exact && match.suffix !== parsed.suffix) {
-      return undefined;
-    }
-    const exactModel = matchKey + (match.suffix || '');
-    return new DeviceModel({model: exactModel, ...match});
+    return coarse;
   }
 
   /**

@@ -24,8 +24,8 @@ describe('DeviceModel', {only: true}, () => {
     assert.strictEqual(DeviceModelName.parse('OLED65A1PUA').class, 'OLED');
     assert.strictEqual(DeviceModelName.parse('43LF6300-UA').series, 'LF63');
     assert.strictEqual(DeviceModelName.parse('43LF6300-UA').class, 'TV');
-    assert.strictEqual(DeviceModelName.parse('OLED65W7V-T').series, 'OLEDW7');
-    assert.strictEqual(DeviceModelName.parse('OLED65W7V-T').suffix, '-T');
+    assert.strictEqual(DeviceModelName.parse('OLED65W7V.AEE').series, 'OLEDW7');
+    assert.strictEqual(DeviceModelName.parse('OLED65W7V.AEE').suffix, '.AEE');
     assert.strictEqual(DeviceModelName.parse('55SM8100PJB').tdd, 'PJB');
     assert.strictEqual(DeviceModelName.parse('55OLEDC3PJA.AJLG').suffix, '.AJLG');
     assert.strictEqual(DeviceModelName.parse('55OLEDC3PJA.AJLG').series, 'OLEDC3');
@@ -41,22 +41,23 @@ describe('DeviceModel', {only: true}, () => {
   it('should find the model', {only: true}, () => {
     assert.strictEqual(DeviceModel.find('55SM8100PJB').broadcast, 'arib');
     assert.strictEqual(DeviceModel.find('SM8100PJB').machine, 'm16p3');
-    assert.strictEqual(DeviceModel.find('43UN7340PVC').region, 'NZ');
+    assert.deepEqual(DeviceModel.find('43UN7340PVC').regions, ['AU', 'NZ']);
     assert.strictEqual(DeviceModel.find('43UJ750V').series, 'UJ75');
     assert.strictEqual(DeviceModel.find('55LB7200').series, 'LB72');
     assert.strictEqual(DeviceModel.find('55SK7900PLA').series, 'SK79');
     assert.strictEqual(DeviceModel.find('43UH668V-ZA').series, 'UH66');
     assert.strictEqual(DeviceModel.find('105UC9.AHK').series, 'UC9');
-    assert.strictEqual(DeviceModel.find('UM7380PJA').model, 'UM7380PJE.AJL');
-    assert.strictEqual(DeviceModel.find('UM7380PJ').model, 'UM7380PJE.AJL');
+    assert.strictEqual(DeviceModel.find('UM7380PJA').model, 'UM7380PJE');
+    assert.strictEqual(DeviceModel.find('UM7380PJ').model, 'UM7380PJE');
+    assert.strictEqual(DeviceModel.find('OLED55B6D.AHK').model, 'OLEDB6D');
     assert.strictEqual(DeviceModel.find('55LX1TPSA').codename, 'ombre');
     assert.strictEqual(DeviceModel.find('UK6540PTA').codename, 'goldilocks');
   });
 
   it('should match QNED/NANO models accurately', () => {
     assert.strictEqual(DeviceModel.find('50NANO766QA').otaId, 'HE_DTV_W22P_AFADATAA');
-    assert.strictEqual(DeviceModel.find('NANO75SQA.ATRG').region, 'IN');
-    assert.strictEqual(DeviceModel.find('NANO75SQA.ATRG').model, 'NANO75SQA.ATRG');
+    assert.ok(DeviceModel.find('NANO75SQA.ATR').regions.indexOf('IN') >= 0);
+    assert.strictEqual(DeviceModel.find('NANO75SQA.ATR').model, 'NANO75SQA');
 
     assert.ok(!DeviceModel.find('QNED85'));
     assert.strictEqual(DeviceModel.find('QNED85UQA').codename, 'mullet');
@@ -87,9 +88,13 @@ describe('DeviceModel', {only: true}, () => {
   });
 
   it('should find by strict match', () => {
-    assert.strictEqual(DeviceModel.find('UM7340PVA.ANR', true).model, 'UM7340PVA.ANR');
-    assert.strictEqual(DeviceModel.find('UM7340PVA.ATR', true), undefined);
-    assert.strictEqual(DeviceModel.find('UM7340PVA', true), undefined);
+    // Newer model with last 3 digits should ignore the suffix
+    assert.strictEqual(DeviceModel.find('UM7340PVA.ANR', true).model, 'UM7340PVA');
+    assert.ok(DeviceModel.find('UM7340PVA', true));
+
+    // Older models should match the suffix
+    assert.strictEqual(DeviceModel.find('OLED55C7D.AEU', true).model, 'OLEDC7D');
+    assert.strictEqual(DeviceModel.find('OLED55C7D', true), undefined);
   });
 
   it('should return record for known models', {only: true}, () => {
