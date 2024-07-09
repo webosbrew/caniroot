@@ -96,6 +96,7 @@ export interface DeviceModelData {
     codename: string;
     otaId: string;
     suffix?: string;
+    sizes?: number[];
     variants?: DeviceModelVariantData[];
 }
 
@@ -110,6 +111,7 @@ export class DeviceModel implements DeviceModelData {
     readonly codename: string;
     readonly otaId: string;
     readonly suffix?: string;
+    readonly sizes?: number[];
     readonly variants?: DeviceModelVariantData[];
 
     private constructor();

@@ -121,6 +121,7 @@ export const machineOtaIdPrefix = {
   'k8lpn2': ['HE_DTV_W24P_AFAD'],
   'o22n2': ['HE_DTV_W24G_AFAB'],
   'k24': ['HE_DTV_W24H_AFAD'],
+  'o22n28k': ['HE_DTV_W24K_AFAD'],
 };
 
 /**
@@ -133,13 +134,13 @@ export const otaIdUpgrades = {
 
 /** @type {Record<string, string>} */
 export const regionBroadcasts = {
+  'KR': 'atsc',
   'US': 'atsc',
   'CA': 'atsc',
-  'JP': 'arib',
-  'KR': 'atsc',
   'UK': 'dvb',
   'DE': 'dvb',
   'NZ': 'dvb',
   'IN': 'dvb',
   'HK': 'dvb',
+  'JP': 'arib',
 };

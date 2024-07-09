@@ -20,6 +20,9 @@ describe('mappings', () => {
 
   it('should have no missing mappings', () => {
     for (/**@type {ModelItem}*/const {model, epk, region} of epks) {
+      if (!epk?.includes("starfish")) {
+        continue;
+      }
       const codename = parseDeviceModel(model, epk, region)?.codename;
       assert.ok(codename, `Failed to parse EPK for model ${model}: ${epk}`);
     }

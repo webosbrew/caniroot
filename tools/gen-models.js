@@ -1,8 +1,9 @@
 /**
  * @typedef {Object} ModelItem
  * @property {string} model
+ * @property {string} unsized
  * @property {string} region
- * @property {string} epk
+ * @property {string} [epk]
  * @property {string} [ota_id]
  */
 
@@ -13,6 +14,7 @@ import dump from "./data/model-epks.json" assert {type: "json"};
 import fs from "node:fs";
 import {machineOtaIdPrefix, minorMajor, otaIdUpgrades, regionBroadcasts} from "./mappings.js";
 import {DeviceModelName} from "../src/library.js";
+import {groupBy, sortBy, uniq, uniqBy} from "lodash-es";
 
 /**
  * @type {Record<string, DeviceModelData>}
@@ -65,6 +67,28 @@ function inferOtaIdBroadcastSuffix(prefix, broadcast) {
 }
 
 /**
+ * @param machine {string}
+ * @param predicate {({codename: string, otaId: string}) => boolean}
+ * @returns {string|undefined}
+ */
+function findOtaIdPrefix(machine, predicate) {
+  let otaIds = machineOtaIdPrefix[machine];
+  if (!otaIds) {
+    return undefined;
+  }
+
+  return otaIds.map(otaId => {
+    if (typeof otaId === 'string') {
+      return otaId;
+    }
+    if (predicate(otaId)) {
+      return otaId.otaId;
+    }
+    return null;
+  }).filter((x) => !!x)[0];
+}
+
+/**
  * @param model {DeviceModelName}
  * @param epk {string}
  * @param region {string}
@@ -79,25 +103,14 @@ export function parseDeviceModel(model, epk, region, otaId) {
   if (!match) {
     return undefined;
   }
-  const machine = match.groups.machine || match.groups.machine2;
+  const machine = [match.groups.machine, match.groups.machine2].filter(x => machineOtaIdPrefix[x])[0];
+  if (!machine) {
+    return undefined;
+  }
   const codename = minorMajor[match.groups.minor];
 
+  const otaIdPrefix = findOtaIdPrefix(machine, x => x.codename === codename);
   if (!otaId) {
-    let otaIds = machineOtaIdPrefix[machine];
-    if (!otaIds) {
-      return undefined;
-    }
-
-    const otaIdPrefix = otaIds.map(otaId => {
-      if (typeof otaId === 'string') {
-        return otaId;
-      }
-      if (otaId.codename === codename) {
-        return otaId.otaId;
-      }
-      return null;
-    }).filter((x) => !!x)[0];
-
     if (!otaIdPrefix) {
       return undefined;
     }
@@ -106,6 +119,8 @@ export function parseDeviceModel(model, epk, region, otaId) {
       return undefined;
     }
     otaId = otaIdPrefix + otaIdSuffix;
+  } else if (otaIdPrefix && !otaId.startsWith(otaIdPrefix)) {
+    return undefined;
   }
 
   const broadcast = inferBroadcast(match.groups.broadcast, otaId, region);
@@ -116,49 +131,62 @@ export function parseDeviceModel(model, epk, region, otaId) {
   }
 }
 
-for (let {region, model, epk, ota_id} of dump) {
-  if (region === 'KR' && model.match(/-N[A-Z]$/)) {
-    // -N? models seems to be duplicates of the same model, so we can ignore them
-    model = model.replace(/-N[A-Z]$/, '');
-    continue;
-  }
-  const parsedName = DeviceModelName.parse(model);
-  if (!parsedName) {
-    console.error(`Failed to parse model name: ${model}`);
-    continue;
-  }
+const knownRegions = Object.keys(regionBroadcasts);
 
-  const parsedModel = parseDeviceModel(parsedName, epk, region, ota_id);
+/** @type {Record<string, (Omit<ModelItem, 'model'> & {model: DeviceModelName})[]>} */
+const dumpGrouped = groupBy(dump.map(item => {
+  let modelRaw = item.model;
+  if (item.region === 'KR' && modelRaw.match(/-N[A-Z]$/)) {
+    // -N? models seems to be duplicates of the same model, so we can ignore them
+    modelRaw = modelRaw.replace(/-N[A-Z]$/, '');
+  }
+  const model = DeviceModelName.parse(modelRaw);
+  if (!model) {
+    console.error(`Failed to parse model name: ${modelRaw}`);
+    return null;
+  }
+  return {...item, model};
+}).filter(v => v), (item) => item.model.simple);
+
+for (let [model, items] of Object.entries(dumpGrouped)) {
+  const sizes = uniq(items.map(x => x.model.size)).sort();
+  items = sortBy(items, v => {
+    let prefix = v.epk ? 'a' : 'z';
+    let region = knownRegions.indexOf(v.region);
+    prefix += region < 0 ? '_' : region.toString(36);
+    return `${prefix}-${v.model.codename}-${v.model.simple}`;
+  });
+  const {model: parsedName, epk, region, ota_id} = items[0];
+  const parsedModel = epk && parseDeviceModel(parsedName, epk, region, ota_id);
   if (!parsedModel) {
     console.error(`Failed to parse EPK for model ${model}: ${epk}`);
     continue;
   }
-  if (output[parsedName.simple]) {
-    const variants = output[parsedName.simple].variants;
-    if (parsedName.suffix !== output[parsedName.simple].suffix &&
-      !variants.find(x => x.suffix === parsedName.suffix)) {
-      delete parsedModel.variants;
-      for (const [k, v] of Object.entries(output[parsedName.simple])) {
-        if (parsedModel[k] === v) {
-          delete parsedModel[k];
-        }
-      }
-      variants.push(parsedModel);
+  parsedModel.sizes = sizes;
+  /** @type {DeviceModelData[]} */
+  const variants = items.slice(1).flatMap(({model, epk, region, ota_id}) => {
+    const variant = epk && parseDeviceModel(model, epk, region, ota_id);
+    if (!variant) {
+      return region !== parsedModel.region ? [{region}] : [];
     }
-    variants.sort((a, b) => {
-      const sa = a.suffix;
-      const sb = b.suffix;
-      if (!sa) {
-        return sb ? -1 : 0;
-      } else if (!sb) {
-        return 1;
+    delete variant.variants;
+    const results = [variant];
+    if (otaIdUpgrades[variant.otaId]) {
+      results.push({...variant, ...otaIdUpgrades[variant.otaId]});
+    }
+    return results;
+  }).filter(variant => {
+    for (const [k, v] of Object.entries(variant)) {
+      if (parsedModel[k] === v) {
+        delete variant[k];
       }
-      return sa.localeCompare(sb);
-    });
-    continue;
-  } else if (otaIdUpgrades[parsedModel.otaId]) {
-    parsedModel.variants.push(otaIdUpgrades[parsedModel.otaId]);
+    }
+    return Object.keys(variant).length > 0;
+  });
+  if (otaIdUpgrades[parsedModel.otaId]) {
+    variants.splice(0, 0, otaIdUpgrades[parsedModel.otaId]);
   }
+  parsedModel.variants = uniqBy(variants, v => JSON.stringify(v));
   output[parsedName.simple] = parsedModel;
 }
 
