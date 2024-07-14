@@ -137,7 +137,9 @@ export function parseDeviceModel(model, epk, region, otaId) {
 
 const knownRegions = Object.keys(regionBroadcasts);
 
-/** @type {Record<string, (Omit<ModelItem, 'model'> & {model: DeviceModelName})[]>} */
+/** @typedef {Omit<ModelItem, 'model'> & {model: DeviceModelName}} GroupedModelItem */
+
+/** @type {Record<string, GroupedModelItem[]>} */
 const dumpGrouped = groupBy(dump.map(item => {
   let modelRaw = item.model;
   if (item.region === 'KR' && modelRaw.match(/-N[A-Z]$/)) {
@@ -152,21 +154,42 @@ const dumpGrouped = groupBy(dump.map(item => {
   return {...item, model};
 }).filter(v => v), (item) => item.model.simple);
 
+/**
+ * @param item {GroupedModelItem}
+ * @return {boolean}
+ */
+function isMismatch(item) {
+  const broadcast = item.epk?.match(/(?:lib32-)?starfish-(?<broadcast>\w+)-secured-/)?.groups?.broadcast;
+  if (broadcast && broadcast !== 'global' && regionBroadcasts[item.region] !== broadcast) {
+    return true;
+  }
+  return false;
+}
+
 for (let [model, items] of Object.entries(dumpGrouped)) {
-  items = sortBy(items, v => {
+  items = sortBy(items.filter(v => !isMismatch(v)), v => {
     let prefix = v.epk ? 'a' : 'z';
     let region = knownRegions.indexOf(v.region);
     prefix += region < 0 ? '_' : region.toString(36);
     return `${prefix}-${v.model.codename}-${v.model.sized}`;
   });
+  if (items.length === 0) {
+    console.warn(`No valid firmware found for model ${model}`);
+    continue;
+  }
+  let preferredIndex = 0;
   for (const [_, sub] of Object.entries(groupBy(items, (v) => `${v.model.sized}-${v.region}`))) {
     const rank = Object.entries(groupBy(sub.filter(v => v.ota_id && !v.ota_id.endsWith('PU')), 'ota_id'))
       .sort(([_ak, a], [_bk, b]) => b.length - a.length);
     if (rank.length > 1) {
       console.warn(`Multiple OTA IDs for model ${sub[0].model.sized} (${sub[0].region}): ${rank.map(([k, v]) => `${k}=${v.length}`).join(", ")}`);
+      preferredIndex = items.indexOf(rank[0][1][0]);
+      if (preferredIndex < 0) {
+        preferredIndex = 0;
+      }
     }
   }
-  const {model: parsedName, epk, region, ota_id} = items[0];
+  const {model: parsedName, epk, region, ota_id} = items[preferredIndex];
   /** @type {DeviceModelData | undefined} */
   const base = epk && parseDeviceModel(parsedName, epk, region, ota_id);
   if (!base) {

@@ -139,6 +139,8 @@ export const regionBroadcasts = {
   'CA': 'atsc',
   'UK': 'dvb',
   'DE': 'dvb',
+  'PL': 'dvb',
+  'AU': 'dvb',
   'NZ': 'dvb',
   'IN': 'dvb',
   'HK': 'dvb',
