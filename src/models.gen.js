@@ -5966,8 +5966,7 @@ export default {
     "otaId": "HE_DTV_W20K_AFADABAA",
     "suffix": ".AEU",
     "sizes": [
-      55,
-      65
+      55
     ],
     "regions": [
       "DE"
@@ -6016,7 +6015,6 @@ export default {
     ],
     "regions": [
       "AU",
-      "IN",
       "NZ"
     ]
   },
@@ -13197,6 +13195,20 @@ export default {
       "UK"
     ]
   },
+  "QNED89T6A": {
+    "series": "QNED89",
+    "broadcast": "dvb",
+    "machine": "k24",
+    "codename": "ombre",
+    "otaId": "HE_DTV_W24H_AFADATAA",
+    "suffix": ".AEUQ",
+    "sizes": [
+      98
+    ],
+    "regions": [
+      "DE"
+    ]
+  },
   "QNED89TKA": {
     "series": "QNED89",
     "broadcast": "atsc",
@@ -13208,6 +13220,21 @@ export default {
     ],
     "regions": [
       "KR"
+    ]
+  },
+  "QNED89TSA": {
+    "series": "QNED89",
+    "broadcast": "dvb",
+    "machine": "k24",
+    "codename": "ombre",
+    "otaId": "HE_DTV_W24H_AFADATAA",
+    "suffix": ".AAUQ",
+    "sizes": [
+      98
+    ],
+    "regions": [
+      "AU",
+      "NZ"
     ]
   },
   "QNED90JPA": {
@@ -26547,6 +26574,23 @@ export default {
     ],
     "regions": [
       "JP"
+    ]
+  },
+  "UT8000PUA": {
+    "series": "UT80",
+    "broadcast": "atsc",
+    "machine": "k8lpn2",
+    "codename": "ombre",
+    "otaId": "HE_DTV_W24P_AFADATAA",
+    "suffix": ".ACC",
+    "sizes": [
+      43,
+      55,
+      65,
+      75
+    ],
+    "regions": [
+      "CA"
     ]
   },
   "UT8050PCB": {
