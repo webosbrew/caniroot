@@ -1,6 +1,5 @@
 import exploits from "./exploits.gen.js";
 import models from "./models.gen.js";
-import assert from "node:assert";
 
 export const DeviceExploitType = {
   NVM: 'nvm',
