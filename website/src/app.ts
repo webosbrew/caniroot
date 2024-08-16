@@ -23,14 +23,25 @@ export interface SearchTerm {
     q: string;
     model?: DeviceModelName;
     firmware?: string;
+    remaining?: string;
 }
 
 function parseSearchTerm(q?: string): SearchTerm | undefined {
     if (!q) return undefined;
-    const modelQ = q.match(/[A-Z0-9-]{4,12}(?:\.[A-Z0-9]{2,4})?/i)?.[0]?.toUpperCase();
+    let remaining = q;
+    const modelMatch = remaining.match(/[A-Z0-9-]{4,12}(?:\.[A-Z0-9]{2,4})?/i);
+    if (modelMatch) {
+        remaining = remaining.replace(modelMatch[0], '');
+    }
+    const modelQ = modelMatch?.[0]?.toUpperCase();
     const model = modelQ ? DeviceModelName.parse(modelQ) : undefined;
-    const firmware = q.match(/\d{2}\.\d{2}\.\d{2}/)?.[0];
-    return {q, model, firmware};
+    const firmwareMatch = remaining.match(/(0?|[1-9])\d\.\d{2}\.\d{2}/);
+    let firmware = undefined;
+    if (firmwareMatch) {
+        remaining = remaining.replace(firmwareMatch[0], '');
+        firmware = firmwareMatch[0].padStart(8, '0');
+    }
+    return {q, model, firmware, remaining: remaining.trim() || undefined};
 }
 
 export declare interface ExploitMethod {
@@ -109,10 +120,11 @@ class App extends Component<AppProps, AppState> {
         const codename = state.term && model?.codename;
         const legacy = model && codename && ['afro', 'beehive', 'dreadlocks', 'dreadlocks2'].includes(codename) || false;
         const unrootable = model && !state.availability && !legacy;
+        const invalidQ = state.term && state.term.remaining;
         return html`
           <div class="app">
-            <input class="form-control form-control-lg" type="search" value=${state.term?.q ?? ''} autofocus
-                   placeholder=${props.sample} autocapitalize="characters"
+            <input class="form-control form-control-lg ${invalidQ ? 'is-invalid' : ''}" type="search" autofocus 
+                   value=${state.term?.q ?? ''} placeholder=${props.sample} autocapitalize="characters"
                    onInput=${(e: Event) => this.searchChanged((e.currentTarget as HTMLInputElement).value)}/>
             <${SearchHint} term=${state.term} model=${model}/>
 

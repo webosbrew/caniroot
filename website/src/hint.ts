@@ -27,7 +27,7 @@ export function SearchHint(props: { term?: SearchTerm, model?: DeviceModel }) {
           <div class="alert alert-primary mt-3">
             <i class="bi bi-lightbulb-fill me-2"/>Search for your device model and firmware version (optional)
             to check available rooting methods.
-          </div>`
+          </div>`;
     }
     if (!term.model) {
         return html`
@@ -35,7 +35,15 @@ export function SearchHint(props: { term?: SearchTerm, model?: DeviceModel }) {
             <i class="bi bi-info-circle-fill me-2"/>Unrecognized model name. Is this a valid model number of
             a <b>webOS powered smart TV</b>?
           </div>
-        `
+        `;
+    }
+    if (term.remaining) {
+        return html`
+          <div class="alert alert-warning mt-3" role="alert">
+            <i class="bi bi-info-circle-fill me-2"/>Please make sure the firmware version is correct.<br/>
+            It should be in the format of <code>00.00.00</code>.
+          </div>
+        `;
     }
     if (model) {
         return html`
@@ -46,7 +54,7 @@ export function SearchHint(props: { term?: SearchTerm, model?: DeviceModel }) {
             , otaId: ${model.otaId}
             )</code>
           </div>
-          <hr/>`
+          <hr/>`;
     } else {
         return html`
           <div class="alert alert-warning mt-3" role="alert">
@@ -60,6 +68,6 @@ export function SearchHint(props: { term?: SearchTerm, model?: DeviceModel }) {
             <br/>
             <i class="bi bi-exclamation-circle-fill me-2"/>Root availability may vary across different
             models/regions of the same series.
-          </div>`
+          </div>`;
     }
 }
