@@ -88,6 +88,11 @@ function findOtaIdPrefix(machine, predicate) {
   }).filter((x) => !!x)[0];
 }
 
+const epkNameRegex = new RegExp([
+  /(?:lib32-)?starfish-(?<broadcast>\w+)-secured-(?<machine2>\w+)-/,
+  /(?:\d+\.)?(?<minor>\w+)(?:\.(pine|(?<machine>(?!pine)\w+))|-(\d+))/
+].map(r => r.source).join(''));
+
 /**
  * @param model {DeviceModelName}
  * @param epk {string}
@@ -96,10 +101,7 @@ function findOtaIdPrefix(machine, predicate) {
  * @returns {Omit<DeviceModelData, 'sizes'|'regions'|'variants'> | undefined}
  */
 export function parseDeviceModel(model, epk, region, otaId) {
-  const match = epk.match([
-    /(?:lib32-)?starfish-(?<broadcast>\w+)-secured-(?<machine2>\w+)-/,
-    /(?:\d+\.)?(?<minor>\w+)(?:\.(pine|(?<machine>(?!pine)\w+))|-(\d+))/
-  ].map(r => r.source).join(''));
+  const match = epk.match(epkNameRegex);
   if (!match) {
     return undefined;
   }
@@ -108,6 +110,9 @@ export function parseDeviceModel(model, epk, region, otaId) {
     return undefined;
   }
   const codename = minorMajor[match.groups.minor];
+  if (!codename) {
+    return undefined;
+  }
 
   const otaIdPrefix = findOtaIdPrefix(machine, x => x.codename === codename);
   if (!otaId) {
@@ -171,7 +176,8 @@ for (let [model, items] of Object.entries(dumpGrouped)) {
     let prefix = v.epk ? 'a' : 'z';
     let region = knownRegions.indexOf(v.region);
     prefix += region < 0 ? '_' : region.toString(36);
-    return `${prefix}-${v.model.codename}-${v.model.sized}`;
+    const minor = v.epk?.match(epkNameRegex)?.groups?.minor;
+    return `${prefix}-${minor}-${v.model.sized}`;
   });
   if (items.length === 0) {
     console.warn(`No valid firmware found for model ${model}`);
