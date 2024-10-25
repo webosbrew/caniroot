@@ -4951,6 +4951,20 @@ export default {
       "US"
     ]
   },
+  "NANO81T3A": {
+    "series": "NANO81",
+    "broadcast": "dvb",
+    "machine": "k24",
+    "codename": "ombre",
+    "otaId": "HE_DTV_W24H_AFADATAA",
+    "suffix": ".AEU",
+    "sizes": [
+      86
+    ],
+    "regions": [
+      "PL"
+    ]
+  },
   "NANO81T6A": {
     "series": "NANO81",
     "broadcast": "dvb",
@@ -7243,6 +7257,24 @@ export default {
       "US"
     ]
   },
+  "OLEDB4ELA": {
+    "series": "OLEDB4",
+    "broadcast": "dvb",
+    "machine": "k24",
+    "codename": "ombre",
+    "otaId": "HE_DTV_W24H_AFADATAA",
+    "suffix": ".AEU",
+    "sizes": [
+      55,
+      65,
+      77
+    ],
+    "regions": [
+      "DE",
+      "PL",
+      "UK"
+    ]
+  },
   "OLEDB4PCA": {
     "series": "OLEDB4",
     "broadcast": "dvb",
@@ -9052,6 +9084,21 @@ export default {
     ],
     "regions": [
       "IN"
+    ]
+  },
+  "OLEDC41LA": {
+    "series": "OLEDC4",
+    "broadcast": "dvb",
+    "machine": "o22n2",
+    "codename": "ombre",
+    "otaId": "HE_DTV_W24G_AFABATAA",
+    "suffix": ".AEU",
+    "sizes": [
+      55,
+      65
+    ],
+    "regions": [
+      "PL"
     ]
   },
   "OLEDC44LA": {
@@ -11321,6 +11368,7 @@ export default {
       77
     ],
     "regions": [
+      "DE",
       "PL",
       "UK"
     ]
@@ -11337,6 +11385,20 @@ export default {
     ],
     "regions": [
       "HK"
+    ]
+  },
+  "OLEDM4PJA": {
+    "series": "OLEDM4",
+    "broadcast": "arib",
+    "machine": "o24",
+    "codename": "ombre",
+    "otaId": "HE_DTV_W24O_AFABJAAA",
+    "suffix": ".AJLG",
+    "sizes": [
+      65
+    ],
+    "regions": [
+      "JP"
     ]
   },
   "OLEDM4PSA": {
@@ -13817,6 +13879,22 @@ export default {
       "NZ"
     ]
   },
+  "QNED99T9B": {
+    "series": "QNED99",
+    "broadcast": "dvb",
+    "machine": "o22n28k",
+    "codename": "ombre",
+    "otaId": "HE_DTV_W24K_AFADATAA",
+    "suffix": ".AEK",
+    "sizes": [
+      75,
+      86
+    ],
+    "regions": [
+      "DE",
+      "UK"
+    ]
+  },
   "QNED99TKB": {
     "series": "QNED99",
     "broadcast": "atsc",
@@ -13846,6 +13924,20 @@ export default {
     "regions": [
       "AU",
       "NZ"
+    ]
+  },
+  "QNED99TUA": {
+    "series": "QNED99",
+    "broadcast": "atsc",
+    "machine": "o22n28k",
+    "codename": "ombre",
+    "otaId": "HE_DTV_W24K_AFADATAA",
+    "suffix": ".AUS",
+    "sizes": [
+      75
+    ],
+    "regions": [
+      "US"
     ]
   },
   "QNED99UPA": {
@@ -26839,8 +26931,10 @@ export default {
     "suffix": ".ACC",
     "sizes": [
       43,
+      50,
       55,
       65,
+      70,
       75,
       86
     ],
@@ -27006,10 +27100,20 @@ export default {
       55,
       65,
       75,
-      86
+      86,
+      98
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "machine": "k24",
+        "otaId": "HE_DTV_W24H_AFADATAA",
+        "sizes": [
+          98
+        ]
+      }
     ]
   }
 }
