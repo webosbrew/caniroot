@@ -3209,6 +3209,19 @@ export default {
       "UK"
     ]
   },
+  "LQ630BPSA": {
+    "series": "LQ63",
+    "machine": "k8ap",
+    "codename": "mullet",
+    "otaId": "HE_DTV_W22L_AFAAATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      32
+    ],
+    "regions": [
+      "PE"
+    ]
+  },
   "LQ630BPUA": {
     "series": "LQ63",
     "broadcast": "atsc",
@@ -3465,7 +3478,8 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "PE"
     ],
     "variants": [
       {
@@ -3658,7 +3672,8 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "PE"
     ],
     "variants": [
       {
@@ -3989,6 +4004,31 @@ export default {
       "KR"
     ]
   },
+  "NANO75SPA": {
+    "series": "NANO75",
+    "machine": "lm21a",
+    "codename": "kisscurl",
+    "otaId": "HE_DTV_W21A_AFADATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      50,
+      55,
+      65,
+      75
+    ],
+    "regions": [
+      "PE"
+    ],
+    "variants": [
+      {
+        "machine": "lm21u",
+        "otaId": "HE_DTV_W21U_AFADATAA",
+        "sizes": [
+          86
+        ]
+      }
+    ]
+  },
   "NANO75SQA": {
     "series": "NANO75",
     "broadcast": "dvb",
@@ -4007,7 +4047,8 @@ export default {
     "regions": [
       "AU",
       "IN",
-      "NZ"
+      "NZ",
+      "PE"
     ],
     "variants": [
       {
@@ -4415,10 +4456,28 @@ export default {
     "suffix": ".ATR",
     "sizes": [
       43,
-      55
+      50,
+      55,
+      65,
+      70,
+      75
     ],
     "regions": [
-      "IN"
+      "IN",
+      "PE"
+    ],
+    "variants": [
+      {
+        "machine": "k8hpp",
+        "otaId": "HE_DTV_W23H_AFADATAA",
+        "suffix": ".AWF",
+        "sizes": [
+          86
+        ],
+        "regions": [
+          "PE"
+        ]
+      }
     ]
   },
   "NANO77TPA": {
@@ -4666,6 +4725,20 @@ export default {
       "US"
     ]
   },
+  "NANO80SPA": {
+    "series": "NANO80",
+    "machine": "lm21a",
+    "codename": "kisscurl",
+    "otaId": "HE_DTV_W21A_AFADATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      55,
+      65
+    ],
+    "regions": [
+      "PE"
+    ]
+  },
   "NANO80SQA": {
     "series": "NANO80",
     "broadcast": "dvb",
@@ -4674,11 +4747,13 @@ export default {
     "otaId": "HE_DTV_W22P_AFADATAA",
     "suffix": ".ATR",
     "sizes": [
+      50,
       55,
       65
     ],
     "regions": [
-      "IN"
+      "IN",
+      "PE"
     ]
   },
   "NANO80TCA": {
@@ -4729,6 +4804,34 @@ export default {
     ],
     "regions": [
       "IN"
+    ]
+  },
+  "NANO80TSA": {
+    "series": "NANO80",
+    "machine": "k8lpn2",
+    "codename": "ombre",
+    "otaId": "HE_DTV_W24P_AFADATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      43,
+      50,
+      55,
+      65,
+      70,
+      75,
+      86
+    ],
+    "regions": [
+      "PE"
+    ],
+    "variants": [
+      {
+        "machine": "k24",
+        "otaId": "HE_DTV_W24H_AFADATAA",
+        "sizes": [
+          86
+        ]
+      }
     ]
   },
   "NANO80UNA": {
@@ -5193,6 +5296,20 @@ export default {
       "JP"
     ]
   },
+  "NANO85SPA": {
+    "series": "NANO85",
+    "machine": "lm21u",
+    "codename": "kisscurl",
+    "otaId": "HE_DTV_W21U_AFADATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      55,
+      65
+    ],
+    "regions": [
+      "PE"
+    ]
+  },
   "NANO85TNA": {
     "series": "NANO85",
     "broadcast": "dvb",
@@ -5635,6 +5752,20 @@ export default {
       "JP"
     ]
   },
+  "NANO90SPA": {
+    "series": "NANO90",
+    "machine": "lm21u",
+    "codename": "kisscurl",
+    "otaId": "HE_DTV_W21U_AFADATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      75,
+      86
+    ],
+    "regions": [
+      "PE"
+    ]
+  },
   "NANO90UNA": {
     "series": "NANO90",
     "broadcast": "atsc",
@@ -6038,6 +6169,20 @@ export default {
     ],
     "regions": [
       "JP"
+    ]
+  },
+  "NANO95SPA": {
+    "series": "NANO95",
+    "machine": "e60n",
+    "codename": "kisscurl",
+    "otaId": "HE_DTV_W21K_AFADATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      65,
+      75
+    ],
+    "regions": [
+      "PE"
     ]
   },
   "NANO95TNA": {
@@ -6482,6 +6627,21 @@ export default {
       "JP"
     ]
   },
+  "OLEDA1PSA": {
+    "series": "OLEDA1",
+    "machine": "lm21u",
+    "codename": "kisscurl",
+    "otaId": "HE_DTV_W21U_AFADATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      48,
+      55,
+      65
+    ],
+    "regions": [
+      "PE"
+    ]
+  },
   "OLEDA1PTA": {
     "series": "OLEDA1",
     "broadcast": "dvb",
@@ -6667,13 +6827,15 @@ export default {
     "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".AAU",
     "sizes": [
+      48,
       55,
       65
     ],
     "regions": [
       "AU",
       "IN",
-      "NZ"
+      "NZ",
+      "PE"
     ],
     "variants": [
       {
@@ -7021,7 +7183,8 @@ export default {
     "regions": [
       "AU",
       "IN",
-      "NZ"
+      "NZ",
+      "PE"
     ],
     "variants": [
       {
@@ -7163,7 +7326,8 @@ export default {
     "regions": [
       "AU",
       "IN",
-      "NZ"
+      "NZ",
+      "PE"
     ]
   },
   "OLEDB3PUA": {
@@ -7318,11 +7482,13 @@ export default {
     "suffix": ".AAU",
     "sizes": [
       55,
-      65
+      65,
+      77
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "PE"
     ]
   },
   "OLEDB4PUA": {
@@ -8203,6 +8369,22 @@ export default {
       "JP"
     ]
   },
+  "OLEDC1PSA": {
+    "series": "OLEDC1",
+    "machine": "o20n",
+    "codename": "kisscurl",
+    "otaId": "HE_DTV_W21O_AFABATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      48,
+      55,
+      65,
+      77
+    ],
+    "regions": [
+      "PE"
+    ]
+  },
   "OLEDC1PTA": {
     "series": "OLEDC1",
     "broadcast": "dvb",
@@ -8700,13 +8882,16 @@ export default {
     "sizes": [
       42,
       48,
+      55,
       65,
+      77,
       83
     ],
     "regions": [
       "AU",
       "IN",
-      "NZ"
+      "NZ",
+      "PE"
     ],
     "variants": [
       {
@@ -9049,7 +9234,8 @@ export default {
     "regions": [
       "AU",
       "IN",
-      "NZ"
+      "NZ",
+      "PE"
     ]
   },
   "OLEDC3PUA": {
@@ -9294,7 +9480,8 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "PE"
     ]
   },
   "OLEDC4PUA": {
@@ -10608,6 +10795,19 @@ export default {
       "JP"
     ]
   },
+  "OLEDG1PSA": {
+    "series": "OLEDG1",
+    "machine": "o20n",
+    "codename": "kisscurl",
+    "otaId": "HE_DTV_W21O_AFABATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      65
+    ],
+    "regions": [
+      "PE"
+    ]
+  },
   "OLEDG1PTA": {
     "series": "OLEDG1",
     "broadcast": "dvb",
@@ -10730,10 +10930,12 @@ export default {
     "sizes": [
       55,
       77,
-      83
+      83,
+      97
     ],
     "regions": [
-      "DE"
+      "DE",
+      "PL"
     ],
     "variants": [
       {
@@ -10801,7 +11003,8 @@ export default {
     "regions": [
       "AU",
       "IN",
-      "NZ"
+      "NZ",
+      "PE"
     ],
     "variants": [
       {
@@ -10931,7 +11134,8 @@ export default {
     "regions": [
       "AU",
       "IN",
-      "NZ"
+      "NZ",
+      "PE"
     ]
   },
   "OLEDG3PUA": {
@@ -11063,7 +11267,8 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "PE"
     ]
   },
   "OLEDG4SUB": {
@@ -11365,7 +11570,8 @@ export default {
     "suffix": ".AEK",
     "sizes": [
       65,
-      77
+      77,
+      83
     ],
     "regions": [
       "DE",
@@ -12088,6 +12294,7 @@ export default {
     "codename": "ombre",
     "otaId": "HE_DTV_W24P_AFADATAA",
     "sizes": [
+      75,
       86
     ],
     "regions": [
@@ -12204,7 +12411,8 @@ export default {
     "regions": [
       "AU",
       "IN",
-      "NZ"
+      "NZ",
+      "PE"
     ]
   },
   "QNED75URA": {
@@ -12285,6 +12493,21 @@ export default {
     ],
     "regions": [
       "KR"
+    ]
+  },
+  "QNED7SSQA": {
+    "series": "QNED7S",
+    "machine": "k8lp",
+    "codename": "mullet",
+    "otaId": "HE_DTV_W22P_AFADATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      55,
+      65,
+      75
+    ],
+    "regions": [
+      "PE"
     ]
   },
   "QNED80AQA": {
@@ -12392,7 +12615,8 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "PE"
     ],
     "variants": [
       {
@@ -12411,10 +12635,12 @@ export default {
     "sizes": [
       55,
       65,
-      75
+      75,
+      86
     ],
     "regions": [
-      "IN"
+      "IN",
+      "PE"
     ]
   },
   "QNED80T6A": {
@@ -12488,6 +12714,23 @@ export default {
     ],
     "regions": [
       "KR"
+    ]
+  },
+  "QNED80TSA": {
+    "series": "QNED80",
+    "machine": "k8lpn2",
+    "codename": "ombre",
+    "otaId": "HE_DTV_W24P_AFADATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      50,
+      55,
+      65,
+      75,
+      86
+    ],
+    "regions": [
+      "PE"
     ]
   },
   "QNED80TUC": {
@@ -12944,13 +13187,28 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "PE"
     ],
     "variants": [
       {
         "codename": "number1",
         "otaId": "HE_DTV_W22H_AFABATPU"
       }
+    ]
+  },
+  "QNED85SRA": {
+    "series": "QNED85",
+    "machine": "k8hpp",
+    "codename": "number1",
+    "otaId": "HE_DTV_W23H_AFADATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      65,
+      75
+    ],
+    "regions": [
+      "PE"
     ]
   },
   "QNED85T6A": {
@@ -13029,6 +13287,21 @@ export default {
     ],
     "regions": [
       "KR"
+    ]
+  },
+  "QNED85TSA": {
+    "series": "QNED85",
+    "machine": "k24",
+    "codename": "ombre",
+    "otaId": "HE_DTV_W24H_AFADATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      55,
+      65,
+      75
+    ],
+    "regions": [
+      "PE"
     ]
   },
   "QNED85TUA": {
@@ -13410,7 +13683,8 @@ export default {
     ],
     "regions": [
       "DE",
-      "PL"
+      "PL",
+      "UK"
     ]
   },
   "QNED89TKA": {
@@ -13438,7 +13712,8 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "PE"
     ]
   },
   "QNED89TUA": {
@@ -13500,6 +13775,41 @@ export default {
       "KR"
     ]
   },
+  "QNED90SPA": {
+    "series": "QNED90",
+    "machine": "lm21u",
+    "codename": "kisscurl",
+    "otaId": "HE_DTV_W21U_AFADATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      65,
+      75
+    ],
+    "regions": [
+      "PE"
+    ]
+  },
+  "QNED90SQA": {
+    "series": "QNED90",
+    "machine": "k8hp",
+    "codename": "mullet",
+    "otaId": "HE_DTV_W22H_AFADATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      65,
+      75
+    ],
+    "regions": [
+      "PE"
+    ],
+    "variants": [
+      {
+        "codename": "number1",
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "suffix": ".AWH"
+      }
+    ]
+  },
   "QNED90TAA": {
     "series": "QNED90",
     "broadcast": "atsc",
@@ -13528,6 +13838,20 @@ export default {
     ],
     "regions": [
       "JP"
+    ]
+  },
+  "QNED90TSA": {
+    "series": "QNED90",
+    "machine": "k24",
+    "codename": "ombre",
+    "otaId": "HE_DTV_W24H_AFADATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      65,
+      75
+    ],
+    "regions": [
+      "PE"
     ]
   },
   "QNED90TUA": {
@@ -13860,6 +14184,19 @@ export default {
     ],
     "regions": [
       "KR"
+    ]
+  },
+  "QNED99SPA": {
+    "series": "QNED99",
+    "machine": "e60n",
+    "codename": "kisscurl",
+    "otaId": "HE_DTV_W21K_AFADATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      75
+    ],
+    "regions": [
+      "PE"
     ]
   },
   "QNED99SQB": {
@@ -24086,6 +24423,19 @@ export default {
       "KR"
     ]
   },
+  "UP7500PSF": {
+    "series": "UP75",
+    "machine": "lm21a",
+    "codename": "kisscurl",
+    "otaId": "HE_DTV_W21A_AFADATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      43
+    ],
+    "regions": [
+      "PE"
+    ]
+  },
   "UP7500PTZ": {
     "series": "UP75",
     "broadcast": "dvb",
@@ -24395,6 +24745,19 @@ export default {
       "JP"
     ]
   },
+  "UP7700PSB": {
+    "series": "UP77",
+    "machine": "k7lp",
+    "codename": "kisscurl",
+    "otaId": "HE_DTV_W21P_AFADATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      43
+    ],
+    "regions": [
+      "PE"
+    ]
+  },
   "UP7700PUB": {
     "series": "UP77",
     "broadcast": "atsc",
@@ -24443,6 +24806,23 @@ export default {
     ],
     "regions": [
       "IN"
+    ]
+  },
+  "UP7750PSB": {
+    "series": "UP77",
+    "machine": "k7lp",
+    "codename": "kisscurl",
+    "otaId": "HE_DTV_W21P_AFADATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      50,
+      55,
+      60,
+      65,
+      75
+    ],
+    "regions": [
+      "PE"
     ]
   },
   "UP7750PTZ": {
@@ -25356,7 +25736,8 @@ export default {
       65
     ],
     "regions": [
-      "IN"
+      "IN",
+      "PE"
     ]
   },
   "UQ7550PSF": {
@@ -25485,6 +25866,20 @@ export default {
     ],
     "regions": [
       "DE"
+    ]
+  },
+  "UQ7950PSB": {
+    "series": "UQ79",
+    "machine": "lm21an",
+    "codename": "mullet",
+    "otaId": "HE_DTV_W22A_AFADATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      55,
+      65
+    ],
+    "regions": [
+      "PE"
     ]
   },
   "UQ80003LB": {
@@ -25681,12 +26076,14 @@ export default {
       43,
       50,
       55,
+      60,
       65,
       70,
       75
     ],
     "regions": [
-      "IN"
+      "IN",
+      "PE"
     ]
   },
   "UQ81003LB": {
@@ -26239,6 +26636,21 @@ export default {
       "UK"
     ]
   },
+  "UR7300PSA": {
+    "series": "UR73",
+    "machine": "k8lpn",
+    "codename": "number1",
+    "otaId": "HE_DTV_W23P_AFADATAA",
+    "suffix": ".AWFQ",
+    "sizes": [
+      50,
+      55,
+      65
+    ],
+    "regions": [
+      "PE"
+    ]
+  },
   "UR7500PJC": {
     "series": "UR75",
     "broadcast": "arib",
@@ -26353,6 +26765,20 @@ export default {
       "DE",
       "PL",
       "UK"
+    ]
+  },
+  "UR7800PSB": {
+    "series": "UR78",
+    "machine": "k8lpn",
+    "codename": "number1",
+    "otaId": "HE_DTV_W23P_AFADATAA",
+    "suffix": ".AWH",
+    "sizes": [
+      43,
+      50
+    ],
+    "regions": [
+      "PE"
     ]
   },
   "UR80003LJ": {
@@ -26623,6 +27049,23 @@ export default {
       "KR"
     ]
   },
+  "UR8750PSA": {
+    "series": "UR87",
+    "machine": "k8lpn",
+    "codename": "number1",
+    "otaId": "HE_DTV_W23P_AFADATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      43,
+      50,
+      55,
+      65,
+      75
+    ],
+    "regions": [
+      "PE"
+    ]
+  },
   "UR9000PUA": {
     "series": "UR90",
     "broadcast": "atsc",
@@ -26638,6 +27081,20 @@ export default {
     "regions": [
       "CA",
       "US"
+    ]
+  },
+  "UR9050PSJ": {
+    "series": "UR90",
+    "machine": "k8lpn",
+    "codename": "number1",
+    "otaId": "HE_DTV_W23P_AFADATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      55,
+      65
+    ],
+    "regions": [
+      "PE"
     ]
   },
   "UR9050PSK": {
@@ -26977,7 +27434,8 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "PE"
     ]
   },
   "UT81006LA": {
@@ -27066,6 +27524,20 @@ export default {
     ],
     "regions": [
       "HK"
+    ]
+  },
+  "UT9050PSA": {
+    "series": "UT90",
+    "machine": "k8lpn2",
+    "codename": "ombre",
+    "otaId": "HE_DTV_W24P_AFADATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      55,
+      65
+    ],
+    "regions": [
+      "PE"
     ]
   },
   "UT91006LA": {
