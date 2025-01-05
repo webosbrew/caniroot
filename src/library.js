@@ -1,6 +1,5 @@
 import exploits from "./exploits.gen.js";
 import models from "./models.gen.js";
-import {find} from "lodash-es";
 
 // noinspection JSUnusedGlobalSymbols
 export const DeviceExploitType = {
@@ -33,7 +32,7 @@ export class DeviceExploitAvailabilities {
      * @return {DeviceExploitAvailabilitiesData | undefined}
      **/
     function findData(v) {
-      return codename ? v[codename] : find(v, () => true);
+      return codename ? v[codename] : v[Object.keys(v)[0]];
     }
 
     /** @type {DeviceExploitAvailabilitiesData} */
