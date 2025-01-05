@@ -16,7 +16,7 @@ describe('DeviceExploitAvailabilities', {only: true}, () => {
   it('should find correct availability for specified codename', () => {
     assert.ok(DeviceExploitAvailabilities.byOTAID('HE_DTV_W22O_AFABATAA', 'mullet'));
     assert.ok(DeviceExploitAvailabilities.byOTAID('HE_DTV_W22O_AFABATAA', 'number1'));
-    assert.ok(DeviceExploitAvailabilities.byOTAID('HE_DTV_W22O_AFABATAA', 'ombre') === undefined);
+    assert.ok(DeviceExploitAvailabilities.byOTAID('HE_DTV_W22O_AFABATAA', 'ombre'));
   })
 });
 
