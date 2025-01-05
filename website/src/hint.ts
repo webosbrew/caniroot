@@ -11,9 +11,9 @@ const osVersionMap: Record<string, string> = {
     'goldilocks2': 'webOS 4.5~4.10',
     'jhericurl': 'webOS 5.x',
     'kisscurl': 'webOS 6.x',
-    'mullet': 'webOS 7.x',
-    'number1': 'webOS 8.x',
-    'ombre': 'webOS 9.x',
+    'mullet': 'webOS 22 (7.x)',
+    'number1': 'webOS 23 (8.x)',
+    'ombre': 'webOS 24 (9.x)',
 };
 
 export function webOSReleaseName(codename: string) {

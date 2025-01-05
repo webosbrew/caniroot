@@ -55,6 +55,11 @@ class App extends Component<AppProps, AppState> {
 
     readonly exploits: ExploitMethod[] = [
         {
+            name: 'faultmanager',
+            key: DeviceExploitType.FaultManager,
+            url: 'https://github.com/throwaway96/faultmanager-autoroot'
+        },
+        {
             name: 'DejaVuln',
             key: DeviceExploitType.DejaVuln,
             url: 'https://github.com/throwaway96/dejavuln-autoroot'
@@ -129,6 +134,10 @@ class App extends Component<AppProps, AppState> {
             <${SearchHint} term=${state.term} model=${model}/>
 
               ${state.availableCodenames && html`
+                <div class="alert alert-info mt-3">
+                  <i class="bi bi-info-circle me-2"/> This model can be upgraded to newer webOS versions. Please select
+                  the version you are using.
+                </div>
                 <ul class="nav nav-pills nav-fill">
                   ${state.availableCodenames.map(codename => html`
                     <li class="nav-item">

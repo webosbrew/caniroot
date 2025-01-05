@@ -3350,6 +3350,10 @@ export default {
       {
         "codename": "number1",
         "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
+        "otaId": "HE_DTV_W22O_AFABATPU"
       }
     ]
   },
@@ -3373,6 +3377,17 @@ export default {
       {
         "codename": "number1",
         "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "suffix": ".AEU",
+        "sizes": [
+          55
+        ],
+        "regions": [
+          "DE"
+        ]
       }
     ]
   },
@@ -3394,6 +3409,10 @@ export default {
     "variants": [
       {
         "codename": "number1",
+        "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
         "otaId": "HE_DTV_W22O_AFABATPU"
       }
     ]
@@ -3534,10 +3553,7 @@ export default {
       },
       {
         "codename": "ombre",
-        "otaId": "HE_DTV_W22O_AFABATPU",
-        "regions": [
-          "US"
-        ]
+        "otaId": "HE_DTV_W22O_AFABATPU"
       }
     ]
   },
@@ -3588,6 +3604,10 @@ export default {
       {
         "codename": "number1",
         "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
+        "otaId": "HE_DTV_W22O_AFABATPU"
       }
     ]
   },
@@ -3610,6 +3630,15 @@ export default {
       {
         "codename": "number1",
         "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "suffix": ".AEU",
+        "regions": [
+          "DE",
+          "PL"
+        ]
       }
     ]
   },
@@ -3630,6 +3659,10 @@ export default {
     "variants": [
       {
         "codename": "number1",
+        "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
         "otaId": "HE_DTV_W22O_AFABATPU"
       }
     ]
@@ -3740,10 +3773,7 @@ export default {
       },
       {
         "codename": "ombre",
-        "otaId": "HE_DTV_W22O_AFABATPU",
-        "regions": [
-          "US"
-        ]
+        "otaId": "HE_DTV_W22O_AFABATPU"
       }
     ]
   },
@@ -8597,6 +8627,10 @@ export default {
       {
         "codename": "number1",
         "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
+        "otaId": "HE_DTV_W22O_AFABATPU"
       }
     ]
   },
@@ -8620,6 +8654,10 @@ export default {
     "variants": [
       {
         "codename": "number1",
+        "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
         "otaId": "HE_DTV_W22O_AFABATPU"
       }
     ]
@@ -8647,6 +8685,20 @@ export default {
       {
         "codename": "number1",
         "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "suffix": ".AEU",
+        "sizes": [
+          42,
+          48,
+          55,
+          65
+        ],
+        "regions": [
+          "DE"
+        ]
       }
     ]
   },
@@ -8667,6 +8719,10 @@ export default {
       {
         "codename": "number1",
         "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
+        "otaId": "HE_DTV_W22O_AFABATPU"
       }
     ]
   },
@@ -8686,6 +8742,10 @@ export default {
     "variants": [
       {
         "codename": "number1",
+        "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
         "otaId": "HE_DTV_W22O_AFABATPU"
       }
     ]
@@ -8710,6 +8770,15 @@ export default {
       {
         "codename": "number1",
         "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "suffix": ".AEU",
+        "regions": [
+          "DE",
+          "PL"
+        ]
       }
     ]
   },
@@ -8733,6 +8802,14 @@ export default {
       {
         "codename": "number1",
         "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "suffix": ".AEU",
+        "regions": [
+          "DE"
+        ]
       }
     ]
   },
@@ -8759,6 +8836,14 @@ export default {
       {
         "codename": "number1",
         "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "suffix": ".AEU",
+        "regions": [
+          "DE"
+        ]
       }
     ]
   },
@@ -8781,6 +8866,10 @@ export default {
     "variants": [
       {
         "codename": "number1",
+        "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
         "otaId": "HE_DTV_W22O_AFABATPU"
       }
     ]
@@ -8831,10 +8920,7 @@ export default {
       },
       {
         "codename": "ombre",
-        "otaId": "HE_DTV_W22O_AFABATPU",
-        "sizes": [
-          48
-        ]
+        "otaId": "HE_DTV_W22O_AFABATPU"
       }
     ]
   },
@@ -8856,6 +8942,10 @@ export default {
     "variants": [
       {
         "codename": "number1",
+        "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
         "otaId": "HE_DTV_W22O_AFABATPU"
       }
     ]
@@ -9028,13 +9118,7 @@ export default {
       },
       {
         "codename": "ombre",
-        "otaId": "HE_DTV_W22O_AFABATPU",
-        "sizes": [
-          83
-        ],
-        "regions": [
-          "US"
-        ]
+        "otaId": "HE_DTV_W22O_AFABATPU"
       }
     ]
   },
@@ -9062,6 +9146,7 @@ export default {
         "codename": "ombre",
         "otaId": "HE_DTV_W22O_AFABATPU",
         "regions": [
+          "DE",
           "US"
         ]
       }
@@ -10189,6 +10274,15 @@ export default {
       {
         "codename": "number1",
         "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "suffix": ".AEU",
+        "regions": [
+          "DE",
+          "PL"
+        ]
       }
     ]
   },
@@ -10212,6 +10306,14 @@ export default {
       {
         "codename": "number1",
         "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "suffix": ".AEU",
+        "regions": [
+          "DE"
+        ]
       }
     ]
   },
@@ -11072,6 +11174,10 @@ export default {
       {
         "codename": "number1",
         "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
+        "otaId": "HE_DTV_W22O_AFABATPU"
       }
     ]
   },
@@ -11120,6 +11226,15 @@ export default {
       {
         "codename": "number1",
         "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "suffix": ".AEU",
+        "regions": [
+          "DE",
+          "PL"
+        ]
       }
     ]
   },
@@ -11216,13 +11331,7 @@ export default {
       },
       {
         "codename": "ombre",
-        "otaId": "HE_DTV_W22O_AFABATPU",
-        "sizes": [
-          77
-        ],
-        "regions": [
-          "US"
-        ]
+        "otaId": "HE_DTV_W22O_AFABATPU"
       }
     ]
   },
@@ -26857,6 +26966,33 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "machine": "k8hp",
+        "otaId": "HE_DTV_W22H_AFADATAA",
+        "sizes": [
+          43,
+          50,
+          55,
+          65,
+          75,
+          86
+        ]
+      },
+      {
+        "machine": "k8hp",
+        "codename": "number1",
+        "otaId": "HE_DTV_W22H_AFABATPU",
+        "sizes": [
+          43,
+          50,
+          55,
+          65,
+          75,
+          86
+        ]
+      }
     ]
   },
   "UQ93GC0NA": {
@@ -27291,6 +27427,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "UR8250KNA": {
@@ -27304,6 +27445,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "UR8300ENA": {
@@ -27331,10 +27477,7 @@ export default {
         ]
       },
       {
-        "codename": "ombre",
-        "sizes": [
-          43
-        ]
+        "codename": "ombre"
       }
     ]
   },
@@ -27350,6 +27493,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "UR831C0NA": {
@@ -27367,6 +27515,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "UR8750PSA": {

@@ -10,6 +10,7 @@ export const DeviceExploitType = {
   WTA: 'wta',
   ASM: 'asm',
   DejaVuln: 'dejavuln',
+  FaultManager: 'faultmanager',
 };
 
 export class DeviceExploitAvailabilities {
