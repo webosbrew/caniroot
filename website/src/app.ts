@@ -123,7 +123,7 @@ class App extends Component<AppProps, AppState> {
         const invalidQ = state.term && state.term.remaining;
         return html`
           <div class="app">
-            <input class="form-control form-control-lg ${invalidQ ? 'is-invalid' : ''}" type="search" autofocus 
+            <input class="form-control form-control-lg ${invalidQ ? 'is-invalid' : ''}" type="search" autofocus
                    value=${state.term?.q ?? ''} placeholder=${props.sample} autocapitalize="characters"
                    onInput=${(e: Event) => this.searchChanged((e.currentTarget as HTMLInputElement).value)}/>
             <${SearchHint} term=${state.term} model=${model}/>
@@ -152,7 +152,8 @@ class App extends Component<AppProps, AppState> {
               ${this.exploits.map(exploit => {
                 const avail = state.availability?.[exploit.key];
                 return avail && html`
-                  <${ExploitCard} exploit=${exploit} avail=${avail} firmware=${state.term?.firmware}/>`;
+                  <${ExploitCard} exploit=${exploit} avail=${avail} codename=${codename}
+                                  firmware=${state.term?.firmware}/>`;
               })}
 
               ${unrootable && html`
@@ -228,7 +229,7 @@ class App extends Component<AppProps, AppState> {
             }
         }
 
-        const availability = model && DeviceExploitAvailabilities.byOTAID(model.otaId);
+        const availability = model && DeviceExploitAvailabilities.byOTAID(model.otaId, selectedCodename);
         const similar = model && availability && availability.otaId !== model.otaId;
         return {term, model, availableCodenames, selectedCodename, similar, availability};
     }

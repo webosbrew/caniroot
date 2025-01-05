@@ -1,3 +1,5 @@
+// noinspection JSUnusedGlobalSymbols
+
 export declare interface FirmwareVersion {
     version: string;
     release: string;
@@ -20,7 +22,7 @@ export enum DeviceExploitType {
 
 export type DeviceExploitAvailabilitiesData = {
     [key in DeviceExploitType]?: ExploitAvailability | undefined;
-}
+};
 
 export class DeviceExploitAvailabilities implements DeviceExploitAvailabilitiesData {
     readonly otaId: string;
@@ -37,9 +39,10 @@ export class DeviceExploitAvailabilities implements DeviceExploitAvailabilitiesD
     /**
      * Find exploit availabilities for a specific OTA ID
      * @param otaId OTA ID
+     * @param codename Optional webOS codename to filter by
      * @param exact If true, only return the exact match. If false, return the closest match.
      */
-    public static byOTAID(otaId: string, exact?: boolean): DeviceExploitAvailabilities | undefined;
+    public static byOTAID(otaId: string, codename?: string, exact?: boolean): DeviceExploitAvailabilities | undefined;
 }
 
 export declare interface DeviceModelNameData {

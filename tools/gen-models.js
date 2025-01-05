@@ -228,7 +228,7 @@ for (let [model, items] of Object.entries(dumpGrouped)) {
       results.push({...variant, ...otaIdUpgrades[variant.otaId]});
     }
     return results;
-  }), 'otaId'), (variants, otaId) => {
+  }), (item) => item.otaId + item.codename), (variants, otaId) => {
     if (otaId === ota_id) {
       return false;
     }

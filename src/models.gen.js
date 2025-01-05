@@ -3318,6 +3318,19 @@ export default {
       "PL"
     ]
   },
+  "LR650BPSA": {
+    "series": "LR65",
+    "machine": "kf23f",
+    "codename": "number1",
+    "otaId": "HE_DTV_W23L_AFAAATAA",
+    "suffix": ".AWH",
+    "sizes": [
+      32
+    ],
+    "regions": [
+      "PE"
+    ]
+  },
   "LX1Q3LA": {
     "series": "LX1Q",
     "broadcast": "dvb",
@@ -3403,6 +3416,10 @@ export default {
       {
         "codename": "number1",
         "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
+        "otaId": "HE_DTV_W22O_AFABATPU"
       }
     ]
   },
@@ -3422,6 +3439,10 @@ export default {
       {
         "codename": "number1",
         "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
+        "otaId": "HE_DTV_W22O_AFABATPU"
       }
     ]
   },
@@ -3440,6 +3461,10 @@ export default {
     "variants": [
       {
         "codename": "number1",
+        "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
         "otaId": "HE_DTV_W22O_AFABATPU"
       }
     ]
@@ -3506,6 +3531,13 @@ export default {
       {
         "codename": "number1",
         "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "regions": [
+          "US"
+        ]
       }
     ]
   },
@@ -3618,6 +3650,10 @@ export default {
       {
         "codename": "number1",
         "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
+        "otaId": "HE_DTV_W22O_AFABATPU"
       }
     ]
   },
@@ -3701,6 +3737,13 @@ export default {
       {
         "codename": "number1",
         "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "regions": [
+          "US"
+        ]
       }
     ]
   },
@@ -7504,6 +7547,7 @@ export default {
     ],
     "regions": [
       "AU",
+      "IN",
       "NZ",
       "PE"
     ]
@@ -8759,6 +8803,10 @@ export default {
         "codename": "number1",
         "otaId": "HE_DTV_W22O_AFABATPU",
         "suffix": ".AVS"
+      },
+      {
+        "codename": "ombre",
+        "otaId": "HE_DTV_W22O_AFABATPU"
       }
     ]
   },
@@ -8780,6 +8828,13 @@ export default {
       {
         "codename": "number1",
         "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "sizes": [
+          48
+        ]
       }
     ]
   },
@@ -8821,6 +8876,10 @@ export default {
     "variants": [
       {
         "codename": "number1",
+        "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
         "otaId": "HE_DTV_W22O_AFABATPU"
       }
     ]
@@ -8966,6 +9025,16 @@ export default {
       {
         "codename": "number1",
         "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "sizes": [
+          83
+        ],
+        "regions": [
+          "US"
+        ]
       }
     ]
   },
@@ -8988,6 +9057,13 @@ export default {
       {
         "codename": "number1",
         "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "regions": [
+          "US"
+        ]
       }
     ]
   },
@@ -9030,6 +9106,11 @@ export default {
       "DE",
       "PL",
       "UK"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "OLEDC32LA": {
@@ -9048,6 +9129,11 @@ export default {
     ],
     "regions": [
       "PL"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "OLEDC34LA": {
@@ -9068,6 +9154,11 @@ export default {
     "regions": [
       "DE",
       "UK"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "OLEDC35LA": {
@@ -9085,6 +9176,11 @@ export default {
     "regions": [
       "DE",
       "PL"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "OLEDC36LA": {
@@ -9099,6 +9195,11 @@ export default {
     ],
     "regions": [
       "UK"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "OLEDC36LC": {
@@ -9115,6 +9216,11 @@ export default {
     ],
     "regions": [
       "UK"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "OLEDC37LA": {
@@ -9136,6 +9242,11 @@ export default {
       "DE",
       "PL",
       "UK"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "OLEDC38LA": {
@@ -9153,6 +9264,11 @@ export default {
     ],
     "regions": [
       "DE"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "OLEDC39LA": {
@@ -9169,6 +9285,11 @@ export default {
     "regions": [
       "DE",
       "UK"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "OLEDC39LC": {
@@ -9185,6 +9306,11 @@ export default {
     ],
     "regions": [
       "DE"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "OLEDC3AUA": {
@@ -9199,6 +9325,11 @@ export default {
     ],
     "regions": [
       "US"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "OLEDC3PCA": {
@@ -9217,6 +9348,11 @@ export default {
     ],
     "regions": [
       "HK"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "OLEDC3PJA": {
@@ -9234,6 +9370,11 @@ export default {
     ],
     "regions": [
       "JP"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "OLEDC3PSA": {
@@ -9256,6 +9397,11 @@ export default {
       "IN",
       "NZ",
       "PE"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "OLEDC3PUA": {
@@ -9276,6 +9422,11 @@ export default {
     "regions": [
       "CA",
       "US"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "OLEDC3XSA": {
@@ -9290,6 +9441,11 @@ export default {
     ],
     "regions": [
       "IN"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "OLEDC41LA": {
@@ -9301,7 +9457,8 @@ export default {
     "suffix": ".AEU",
     "sizes": [
       55,
-      65
+      65,
+      83
     ],
     "regions": [
       "PL"
@@ -11056,6 +11213,16 @@ export default {
       {
         "codename": "number1",
         "otaId": "HE_DTV_W22O_AFABATPU"
+      },
+      {
+        "codename": "ombre",
+        "otaId": "HE_DTV_W22O_AFABATPU",
+        "sizes": [
+          77
+        ],
+        "regions": [
+          "US"
+        ]
       }
     ]
   },
@@ -11074,6 +11241,11 @@ export default {
     ],
     "regions": [
       "PL"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "OLEDG36LA": {
@@ -11091,6 +11263,11 @@ export default {
     ],
     "regions": [
       "UK"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "OLEDG39LA": {
@@ -11108,6 +11285,11 @@ export default {
     "regions": [
       "DE",
       "UK"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "OLEDG3PCA": {
@@ -11124,6 +11306,11 @@ export default {
     ],
     "regions": [
       "HK"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "OLEDG3PJA": {
@@ -11139,6 +11326,11 @@ export default {
     ],
     "regions": [
       "JP"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "OLEDG3PSA": {
@@ -11159,6 +11351,11 @@ export default {
       "IN",
       "NZ",
       "PE"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "OLEDG3PUA": {
@@ -11176,6 +11373,11 @@ export default {
     "regions": [
       "CA",
       "US"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "OLEDG42LW": {
@@ -11187,7 +11389,9 @@ export default {
     "suffix": ".AEU",
     "sizes": [
       55,
-      65
+      65,
+      77,
+      83
     ],
     "regions": [
       "PL"
@@ -12099,6 +12303,11 @@ export default {
       "DE",
       "PL",
       "UK"
+    ],
+    "variants": [
+      {
+        "codename": "number1"
+      }
     ]
   },
   "OLEDZ2PCA": {
@@ -12113,6 +12322,11 @@ export default {
     ],
     "regions": [
       "HK"
+    ],
+    "variants": [
+      {
+        "codename": "number1"
+      }
     ]
   },
   "OLEDZ2PSA": {
@@ -12130,6 +12344,11 @@ export default {
       "AU",
       "IN",
       "NZ"
+    ],
+    "variants": [
+      {
+        "codename": "number1"
+      }
     ]
   },
   "OLEDZ2PUA": {
@@ -12146,6 +12365,11 @@ export default {
     "regions": [
       "CA",
       "US"
+    ],
+    "variants": [
+      {
+        "codename": "number1"
+      }
     ]
   },
   "OLEDZ39LA": {
@@ -13199,10 +13423,7 @@ export default {
     "variants": [
       {
         "codename": "number1",
-        "otaId": "HE_DTV_W22H_AFABATPU",
-        "sizes": [
-          65
-        ]
+        "otaId": "HE_DTV_W22H_AFABATPU"
       }
     ]
   },
@@ -14107,6 +14328,13 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "machine": "o228k",
+        "codename": "mullet",
+        "otaId": "HE_DTV_W22K_AFADATAA"
+      }
     ]
   },
   "QNED95KQA": {
@@ -14121,6 +14349,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "number1"
+      }
     ]
   },
   "QNED966PA": {
@@ -14241,6 +14474,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "number1"
+      }
     ]
   },
   "QNED99SPA": {
@@ -14271,6 +14509,15 @@ export default {
     "regions": [
       "AU",
       "NZ"
+    ],
+    "variants": [
+      {
+        "codename": "number1",
+        "sizes": [
+          65,
+          75
+        ]
+      }
     ]
   },
   "QNED99T9B": {
@@ -27082,6 +27329,12 @@ export default {
         "sizes": [
           86
         ]
+      },
+      {
+        "codename": "ombre",
+        "sizes": [
+          43
+        ]
       }
     ]
   },
@@ -27601,9 +27854,11 @@ export default {
     "suffix": ".AWF",
     "sizes": [
       55,
-      65
+      65,
+      98
     ],
     "regions": [
+      "NZ",
       "PE"
     ]
   },
@@ -27664,6 +27919,8 @@ export default {
     "sizes": [
       43,
       50,
+      55,
+      65,
       75,
       86
     ],

@@ -1,6 +1,8 @@
 import exploits from "./exploits.gen.js";
 import models from "./models.gen.js";
+import {find} from "lodash-es";
 
+// noinspection JSUnusedGlobalSymbols
 export const DeviceExploitType = {
   NVM: 'nvm',
   RootMyTV: 'rootmytv',
@@ -20,24 +22,39 @@ export class DeviceExploitAvailabilities {
 
   /**
    * @param {string} otaId
+   * @param {string} [codename]
    * @param {boolean} [exact]
    * @returns {DeviceExploitAvailabilities | undefined}
    */
-  static byOTAID(otaId, exact) {
+  static byOTAID(otaId, codename, exact) {
+    /**
+     * @param {Record<string, DeviceExploitAvailabilities>} v
+     * @return {DeviceExploitAvailabilitiesData | undefined}
+     **/
+    function findData(v) {
+      return codename ? v[codename] : find(v, () => true);
+    }
+
     /** @type {DeviceExploitAvailabilitiesData} */
-    let match = exploits[otaId];
+    let match = findData(exploits[otaId]);
     let matchKey = otaId;
     if (!match && !exact) {
       // Find first match ignoring broadcast region
       const prefix = otaId.substring(0, 16);
+      /** @type {[string, DeviceExploitAvailabilitiesData | Record<string, DeviceExploitAvailabilitiesData>]} */
       for (let [key, value] of Object.entries(exploits)) {
-        if (key.startsWith(prefix)) {
-          match = value;
-          matchKey = key;
-          break;
+        if (!key.startsWith(prefix)) {
+          continue;
         }
+        match = findData(value);
+        if (!match) {
+          continue;
+        }
+        matchKey = key;
+        break;
       }
     }
+
     return match && new DeviceExploitAvailabilities({otaId: matchKey, ...match});
   }
 }
