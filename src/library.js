@@ -32,7 +32,7 @@ export class DeviceExploitAvailabilities {
      * @return {DeviceExploitAvailabilitiesData | undefined}
      **/
     function findData(v) {
-      return codename ? v[codename] : v[Object.keys(v)[0]];
+      return v && (codename ? v[codename] : v[Object.keys(v)[0]]);
     }
 
     /** @type {DeviceExploitAvailabilitiesData} */

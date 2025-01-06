@@ -44,6 +44,7 @@ export const minorMajor = {
   'kavir': 'kisscurl',
   'kinglake': 'kisscurl',
   'kluane': 'kisscurl',
+  'koli': 'kisscurl',
   'maria': 'mullet',
   'marine': 'mullet',
   'mirima': 'mullet',
