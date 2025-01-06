@@ -12,7 +12,7 @@
  */
 import dump from "./data/model-epks.json" assert {type: "json"};
 import fs from "node:fs";
-import {machineOtaIdPrefix, minorMajor, otaIdUpgrades, regionBroadcasts} from "./mappings.js";
+import {machineOtaIdPrefix, minorMajor, regionBroadcasts, upgradedOtaIds} from "./mappings.js";
 import {DeviceModelName} from "../src/library.js";
 import {compact, concat, filter, groupBy, isEqual, sortBy, sortedUniq, uniq, uniqBy} from "lodash-es";
 
@@ -68,7 +68,7 @@ function inferOtaIdBroadcastSuffix(prefix, broadcast) {
 
 /**
  * @param machine {string}
- * @param predicate {({codename: string, otaId: string}) => boolean}
+ * @param predicate {({codename?: string, broascast?: string, otaId: string}) => boolean}
  * @returns {string|undefined}
  */
 function findOtaIdPrefix(machine, predicate) {
@@ -103,28 +103,34 @@ const epkNameRegex = new RegExp([
 export function parseDeviceModel(model, epk, region, otaId) {
   const match = epk.match(epkNameRegex);
   if (!match) {
+    console.error(`Unrecognized EPK file pattern: ${epk}`);
     return undefined;
   }
   const machine = [match.groups.machine, match.groups.machine2].filter(x => machineOtaIdPrefix[x])[0];
   if (!machine) {
+    console.error(`Unrecognized machine for ${epk}: ${match.groups.machine} ${match.groups.machine2}`);
     return undefined;
   }
   const codename = minorMajor[match.groups.minor];
   if (!codename) {
+    console.error(`Unrecognized codename for ${epk}: minor is ${match.groups.minor}`);
     return undefined;
   }
 
   const otaIdPrefix = findOtaIdPrefix(machine, x => x.codename === codename);
   if (!otaId) {
     if (!otaIdPrefix) {
+      console.error(`No OTA ID prefix for ${machine} ${codename}`);
       return undefined;
     }
     const otaIdSuffix = inferOtaIdBroadcastSuffix(otaIdPrefix, match.groups.broadcast);
     if (!otaIdSuffix) {
+      console.error(`No OTA ID suffix for ${epk}: otaIdPrefix=${otaIdPrefix} ${match.groups.broadcast}`);
       return undefined;
     }
     otaId = otaIdPrefix + otaIdSuffix;
   } else if (otaIdPrefix && !otaId.startsWith(otaIdPrefix)) {
+    console.error(`Mismatched OTA ID prefix for ${epk}: ${otaId} vs ${otaIdPrefix}`);
     return undefined;
   }
 
@@ -151,12 +157,13 @@ const dumpGrouped = groupBy(dump.map(item => {
     // -N? models seems to be duplicates of the same model, so we can ignore them
     modelRaw = modelRaw.replace(/-N[A-Z]$/, '');
   }
+  const ota_id = upgradedOtaIds[item.ota_id] || item.ota_id;
   const model = DeviceModelName.parse(modelRaw);
   if (!model) {
     console.error(`Failed to parse model name: ${modelRaw}`);
     return null;
   }
-  return {...item, model};
+  return {...item, ota_id, model};
 }).filter(v => v), (item) => item.model.simple);
 
 /**
@@ -207,7 +214,7 @@ for (let [model, items] of Object.entries(dumpGrouped)) {
    * @param {ModelItem} v
    * @return {boolean} */
   function sameVariation(v) {
-    if (v.ota_id !== ota_id) {
+    if (v.ota_id && v.ota_id !== ota_id) {
       return false;
     }
     return v.model.simple === parsedName.simple;
@@ -223,11 +230,7 @@ for (let [model, items] of Object.entries(dumpGrouped)) {
     }
     variant.sizes = [model.size];
     variant.regions = [region];
-    const results = [variant];
-    if (otaIdUpgrades[variant.otaId]) {
-      results.push({...variant, ...otaIdUpgrades[variant.otaId]});
-    }
-    return results;
+    return [variant];
   }), (item) => item.otaId + item.codename), (variants, otaId) => {
     if (otaId === ota_id) {
       return false;

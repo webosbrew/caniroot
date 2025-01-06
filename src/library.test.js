@@ -67,7 +67,6 @@ describe('DeviceModel', {only: true}, () => {
 
     assert.ok(!DeviceModel.find('QNED85'));
     assert.strictEqual(DeviceModel.find('QNED85UQA').codename, 'mullet');
-    assert.ok(DeviceModel.find('QNED85UQA').variants.find((v) => v.codename === 'number1'));
   });
 
   it('should treat same model with different region as similar', () => {

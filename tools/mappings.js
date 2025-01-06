@@ -106,7 +106,7 @@ export const machineOtaIdPrefix = {
   'lm21an': ['HE_DTV_W22A_AFAD'],
   'k8ap': ['HE_DTV_W22L_AFAA'],
   'k8lp': ['HE_DTV_W22P_AFAD'],
-  'k8hp': [{codename: 'mullet', otaId: 'HE_DTV_W22H_AFAD'}, {codename: 'number1', otaId: 'HE_DTV_W22H_AFAB'}],
+  'k8hp': ['HE_DTV_W22H_AFAD'],
   'k8hpt': ['HE_DTV_N22D_AFAA'],
   'k8apwee': ['HE_DTV_C22L_AFAA'],
   'k8lpwee': ['HE_DTV_C22P_AFAD'],
@@ -128,12 +128,14 @@ export const machineOtaIdPrefix = {
 };
 
 /**
- * @type {Record<string, Partial<DeviceModelData>>}
+ * @type {Record<string, string>}
  */
-export const otaIdUpgrades = {
-  'HE_DTV_W22H_AFADATAA': {otaId: 'HE_DTV_W22H_AFABATPU', codename: 'number1'},
-  'HE_DTV_W22O_AFABATAA': {otaId: 'HE_DTV_W22O_AFABATPU', codename: 'number1'},
-};
+export const upgradedOtaIds = {
+  'HE_DTV_W22H_AFABATPU': 'HE_DTV_W22H_AFADATAA',
+  'HE_DTV_W22H_AFABJAPU': 'HE_DTV_W22H_AFADJAAA',
+  'HE_DTV_W22O_AFABATPU': 'HE_DTV_W22O_AFABATAA',
+  'HE_DTV_W22O_AFABJAPU': 'HE_DTV_W22O_AFABJAAA',
+}
 
 /** @type {Record<string, string>} */
 export const regionBroadcasts = {

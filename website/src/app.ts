@@ -12,7 +12,7 @@ interface AppProps {
 
 interface AppState {
     term?: SearchTerm;
-    model?: DeviceModel;
+    model?: { base: DeviceModel, current: DeviceModel };
     availableCodenames?: string[];
     selectedCodename?: string;
     similar?: boolean;
@@ -122,7 +122,7 @@ class App extends Component<AppProps, AppState> {
 
     render(props: RenderableProps<AppProps>, state: Readonly<AppState>) {
         const model = state.model;
-        const codename = state.term && model?.codename;
+        const codename = state.term && model?.current.codename;
         const legacy = model && codename && ['afro', 'beehive', 'dreadlocks', 'dreadlocks2'].includes(codename) || false;
         const unrootable = model && !state.availability && !legacy;
         const invalidQ = state.term && state.term.remaining;
@@ -131,7 +131,7 @@ class App extends Component<AppProps, AppState> {
             <input class="form-control form-control-lg ${invalidQ ? 'is-invalid' : ''}" type="search" autofocus
                    value=${state.term?.q ?? ''} placeholder=${props.sample} autocapitalize="characters"
                    onInput=${(e: Event) => this.searchChanged((e.currentTarget as HTMLInputElement).value)}/>
-            <${SearchHint} term=${state.term} model=${model}/>
+            <${SearchHint} term=${state.term} model=${model?.base}/>
 
               ${state.availableCodenames && html`
                 <div class="alert alert-info mt-3">
@@ -154,7 +154,7 @@ class App extends Component<AppProps, AppState> {
                 <div class="alert alert-warning mt-3">
                   <i class="bi bi-exclamation-triangle-fill me-2"></i>
                   We found rooting methods for a similar model (<code>${state.availability?.otaId}</code>),
-                  but not an exact match (<code>${model?.otaId}</code>). They may have different firmware versions.
+                  but not an exact match (<code>${model?.base.otaId}</code>). They may have different firmware versions.
                 </div>
               `}
 
@@ -221,6 +221,7 @@ class App extends Component<AppProps, AppState> {
         if (!model && models) {
             model = models[0];
         }
+        let base = model;
         let availableCodenames: string[] | undefined = undefined;
         let selectedCodename: string | undefined;
         if (model) {
@@ -240,7 +241,14 @@ class App extends Component<AppProps, AppState> {
 
         const availability = model && DeviceExploitAvailabilities.byOTAID(model.otaId, selectedCodename);
         const similar = model && availability && availability.otaId !== model.otaId;
-        return {term, model, availableCodenames, selectedCodename, similar, availability};
+        return {
+            term,
+            model: base && {base, current: model!!},
+            availableCodenames,
+            selectedCodename,
+            similar,
+            availability
+        };
     }
 }
 
