@@ -19,6 +19,7 @@ export enum DeviceExploitType {
     ASM = 'asm',
     DejaVuln = 'dejavuln',
     FaultManager = 'faultmanager',
+    MVPD = 'mvpd',
 }
 
 export type DeviceExploitAvailabilitiesData = {
@@ -35,6 +36,7 @@ export class DeviceExploitAvailabilities implements DeviceExploitAvailabilitiesD
     readonly asm?: ExploitAvailability;
     readonly dejavuln?: ExploitAvailability;
     readonly faultmanager?: ExploitAvailability;
+    readonly mvpd?: ExploitAvailability;
 
     private constructor();
 

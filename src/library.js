@@ -10,6 +10,7 @@ export const DeviceExploitType = {
   ASM: 'asm',
   DejaVuln: 'dejavuln',
   FaultManager: 'faultmanager',
+  MVPD: 'mvpd',
 };
 
 export class DeviceExploitAvailabilities {

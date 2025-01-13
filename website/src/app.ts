@@ -80,6 +80,11 @@ class App extends Component<AppProps, AppState> {
             url: 'https://gist.github.com/throwaway96/b171240ef59d7f5fd6fb48fc6dfd2941'
         },
         {
+            name: 'MVPD',
+            key: DeviceExploitType.MVPD,
+            url: 'https://github.com/throwaway96/mvpd-autoroot/'
+        },
+        {
             name: 'RootMy.TV',
             key: DeviceExploitType.RootMyTV,
             url: 'https://rootmy.tv/'
