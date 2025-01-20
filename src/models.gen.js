@@ -3260,6 +3260,7 @@ export default {
   },
   "LQ630BPSA": {
     "series": "LQ63",
+    "broadcast": "isdb",
     "machine": "k8ap",
     "codename": "mullet",
     "otaId": "HE_DTV_W22L_AFAAATAA",
@@ -3412,6 +3413,7 @@ export default {
   },
   "LR650BPSA": {
     "series": "LR65",
+    "broadcast": "isdb",
     "machine": "kf23f",
     "codename": "number1",
     "otaId": "HE_DTV_W23L_AFAAATAA",
@@ -4203,6 +4205,7 @@ export default {
   },
   "NANO75SPA": {
     "series": "NANO75",
+    "broadcast": "isdb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADATAA",
@@ -4633,6 +4636,7 @@ export default {
         "codename": "ombre"
       },
       {
+        "broadcast": "isdb",
         "machine": "k8hpp",
         "otaId": "HE_DTV_W23H_AFADATAA",
         "suffix": ".AWF",
@@ -4895,6 +4899,7 @@ export default {
   },
   "NANO80SPA": {
     "series": "NANO80",
+    "broadcast": "isdb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADATAA",
@@ -4976,6 +4981,7 @@ export default {
   },
   "NANO80TSA": {
     "series": "NANO80",
+    "broadcast": "isdb",
     "machine": "k8lpn2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24P_AFADATAA",
@@ -5467,6 +5473,7 @@ export default {
   },
   "NANO85SPA": {
     "series": "NANO85",
+    "broadcast": "isdb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADATAA",
@@ -5925,6 +5932,7 @@ export default {
   },
   "NANO90SPA": {
     "series": "NANO90",
+    "broadcast": "isdb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADATAA",
@@ -6347,6 +6355,7 @@ export default {
   },
   "NANO95SPA": {
     "series": "NANO95",
+    "broadcast": "isdb",
     "machine": "e60n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21K_AFADATAA",
@@ -6806,6 +6815,7 @@ export default {
   },
   "OLEDA1PSA": {
     "series": "OLEDA1",
+    "broadcast": "isdb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADATAA",
@@ -8641,6 +8651,7 @@ export default {
   },
   "OLEDC1PSA": {
     "series": "OLEDC1",
+    "broadcast": "isdb",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABATAA",
@@ -11287,6 +11298,7 @@ export default {
   },
   "OLEDG1PSA": {
     "series": "OLEDG1",
+    "broadcast": "isdb",
     "machine": "o20n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21O_AFABATAA",
@@ -13292,6 +13304,7 @@ export default {
   },
   "QNED7SSQA": {
     "series": "QNED7S",
+    "broadcast": "isdb",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADATAA",
@@ -13539,6 +13552,7 @@ export default {
   },
   "QNED80TSA": {
     "series": "QNED80",
+    "broadcast": "isdb",
     "machine": "k8lpn2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24P_AFADATAA",
@@ -13979,6 +13993,7 @@ export default {
   },
   "QNED85SRA": {
     "series": "QNED85",
+    "broadcast": "isdb",
     "machine": "k8hpp",
     "codename": "number1",
     "otaId": "HE_DTV_W23H_AFADATAA",
@@ -14071,6 +14086,7 @@ export default {
   },
   "QNED85TSA": {
     "series": "QNED85",
+    "broadcast": "isdb",
     "machine": "k24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24H_AFADATAA",
@@ -14555,6 +14571,7 @@ export default {
   },
   "QNED90SPA": {
     "series": "QNED90",
+    "broadcast": "isdb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADATAA",
@@ -14569,6 +14586,7 @@ export default {
   },
   "QNED90SQA": {
     "series": "QNED90",
+    "broadcast": "isdb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADATAA",
@@ -14615,6 +14633,7 @@ export default {
   },
   "QNED90TSA": {
     "series": "QNED90",
+    "broadcast": "isdb",
     "machine": "k24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24H_AFADATAA",
@@ -14981,6 +15000,7 @@ export default {
   },
   "QNED99SPA": {
     "series": "QNED99",
+    "broadcast": "isdb",
     "machine": "e60n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21K_AFADATAA",
@@ -25340,6 +25360,7 @@ export default {
   },
   "UP7500PSC": {
     "series": "UP75",
+    "broadcast": "isdb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADATAA",
@@ -25353,6 +25374,7 @@ export default {
   },
   "UP7500PSF": {
     "series": "UP75",
+    "broadcast": "isdb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADATAA",
@@ -25676,6 +25698,7 @@ export default {
   },
   "UP7700PSB": {
     "series": "UP77",
+    "broadcast": "isdb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADATAA",
@@ -25739,6 +25762,7 @@ export default {
   },
   "UP7750PSB": {
     "series": "UP77",
+    "broadcast": "isdb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADATAA",
@@ -26126,6 +26150,7 @@ export default {
   },
   "UP8050PSB": {
     "series": "UP80",
+    "broadcast": "isdb",
     "machine": "lm21u",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21U_AFADATAA",
@@ -26812,6 +26837,7 @@ export default {
   },
   "UQ7950PSB": {
     "series": "UQ79",
+    "broadcast": "isdb",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADATAA",
@@ -27297,6 +27323,7 @@ export default {
   },
   "UQ9050PSC": {
     "series": "UQ90",
+    "broadcast": "isdb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADATAA",
@@ -27562,6 +27589,7 @@ export default {
   },
   "UR7300PSA": {
     "series": "UR73",
+    "broadcast": "isdb",
     "machine": "k8lpn",
     "codename": "number1",
     "otaId": "HE_DTV_W23P_AFADATAA",
@@ -27762,6 +27790,7 @@ export default {
   },
   "UR7800PSB": {
     "series": "UR78",
+    "broadcast": "isdb",
     "machine": "k8lpn",
     "codename": "number1",
     "otaId": "HE_DTV_W23P_AFADATAA",
@@ -28172,6 +28201,7 @@ export default {
   },
   "UR8750PSA": {
     "series": "UR87",
+    "broadcast": "isdb",
     "machine": "k8lpn",
     "codename": "number1",
     "otaId": "HE_DTV_W23P_AFADATAA",
@@ -28213,6 +28243,7 @@ export default {
   },
   "UR9050PSJ": {
     "series": "UR90",
+    "broadcast": "isdb",
     "machine": "k8lpn",
     "codename": "number1",
     "otaId": "HE_DTV_W23P_AFADATAA",
@@ -28706,6 +28737,7 @@ export default {
   },
   "UT9050PSA": {
     "series": "UT90",
+    "broadcast": "isdb",
     "machine": "k8lpn2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24P_AFADATAA",

@@ -150,4 +150,5 @@ export const regionBroadcasts = {
   'IN': 'dvb',
   'HK': 'dvb',
   'JP': 'arib',
+  'PE': 'isdb',
 };
