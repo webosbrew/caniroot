@@ -1,1 +1,2 @@
-data/
+data/*.json
+!data/README.md
