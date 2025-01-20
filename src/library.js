@@ -104,7 +104,7 @@ export class DeviceModelName {
     const modelClass = groups.anq || (groups.oled && 'OLED') || 'TV';
     const name = groups.series || groups.lx || `OLED${groups.oled}`;
     let series = name;
-    if (series.match(/[ELSU][A-Z]\d{3}[0-9A-Z]/)) {
+    if (series.match(/[ELSU][A-Z]\d{2}[0-9A-Z]{2}/)) {
       series = series.substring(0, 4);
     }
     return new DeviceModelName({

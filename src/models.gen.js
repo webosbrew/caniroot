@@ -24757,7 +24757,7 @@ export default {
     ]
   },
   "UN78GV0NA": {
-    "series": "UN78GV",
+    "series": "UN78",
     "broadcast": "atsc",
     "machine": "k6lp",
     "codename": "jhericurl",
@@ -26480,7 +26480,7 @@ export default {
     ]
   },
   "UP83GC0NA": {
-    "series": "UP83GC",
+    "series": "UP83",
     "broadcast": "atsc",
     "machine": "lm21a",
     "codename": "kisscurl",
@@ -26502,7 +26502,7 @@ export default {
     ]
   },
   "UP83RC0NA": {
-    "series": "UP83RC",
+    "series": "UP83",
     "broadcast": "atsc",
     "machine": "lm21a",
     "codename": "kisscurl",
@@ -27486,7 +27486,7 @@ export default {
     ]
   },
   "UQ93GC0NA": {
-    "series": "UQ93GC",
+    "series": "UQ93",
     "broadcast": "atsc",
     "machine": "lm21an",
     "codename": "mullet",
@@ -27508,7 +27508,7 @@ export default {
     ]
   },
   "UQ93RC0NA": {
-    "series": "UQ93RC",
+    "series": "UQ93",
     "broadcast": "atsc",
     "machine": "lm21an",
     "codename": "mullet",
@@ -28377,7 +28377,7 @@ export default {
     ]
   },
   "UR93GC0NA": {
-    "series": "UR93GC",
+    "series": "UR93",
     "broadcast": "atsc",
     "machine": "k8hpp",
     "codename": "number1",
@@ -28403,7 +28403,7 @@ export default {
     ]
   },
   "UR93RC0NA": {
-    "series": "UR93RC",
+    "series": "UR93",
     "broadcast": "atsc",
     "machine": "k8hpp",
     "codename": "number1",
@@ -28787,7 +28787,7 @@ export default {
     ]
   },
   "UT93GC0NA": {
-    "series": "UT93GC",
+    "series": "UT93",
     "broadcast": "atsc",
     "machine": "k8lpn2",
     "codename": "ombre",
@@ -28801,7 +28801,7 @@ export default {
     ]
   },
   "UT93RC0NA": {
-    "series": "UT93RC",
+    "series": "UT93",
     "broadcast": "atsc",
     "machine": "k8lpn2",
     "codename": "ombre",
