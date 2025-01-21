@@ -95,7 +95,7 @@ export const machineOtaIdPrefix = {
   'k6hpstb': ['HE_IDD_H20H_AHAA'],
   'o20': ['HE_DTV_W20O_AFAB'],
   'o208k': ['HE_DTV_W20K_AFAD'],
-  'e60': ['HE_DTV_W20K_AFAD' /*I guess?*/],
+  'e60': ['HE_DTV_W20E_AFAD'],
   'k6lp': ['HE_DTV_W20P_AFAD', 'HE_PJT_W20Z_AAAA'],
   'lm21ut': ['HE_DTV_N21D_AFAA'],
   'k7lp': ['HE_DTV_W21P_AFAD'],
