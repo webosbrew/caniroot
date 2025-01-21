@@ -11,7 +11,8 @@ export default {
     ],
     "regions": [
       "KR",
-      "UK"
+      "UK",
+      "US"
     ]
   },
   "ART10CKPL": {
@@ -3903,7 +3904,8 @@ export default {
     ],
     "regions": [
       "KR",
-      "UK"
+      "UK",
+      "US"
     ]
   },
   "LX5QMNA": {
@@ -6283,7 +6285,7 @@ export default {
     "broadcast": "dvb",
     "machine": "e60",
     "codename": "jhericurl",
-    "otaId": "HE_DTV_W20K_AFADABAA",
+    "otaId": "HE_DTV_W20E_AFADABAA",
     "suffix": ".AEU",
     "sizes": [
       55,
@@ -6291,6 +6293,15 @@ export default {
     ],
     "regions": [
       "PL"
+    ],
+    "variants": [
+      {
+        "machine": "o208k",
+        "otaId": "HE_DTV_W20K_AFADABAA",
+        "sizes": [
+          65
+        ]
+      }
     ]
   },
   "NANO956NA": {
@@ -6298,7 +6309,7 @@ export default {
     "broadcast": "dvb",
     "machine": "e60",
     "codename": "jhericurl",
-    "otaId": "HE_DTV_W20K_AFADABAA",
+    "otaId": "HE_DTV_W20E_AFADABAA",
     "suffix": ".AEK",
     "sizes": [
       55,
@@ -6307,6 +6318,15 @@ export default {
     "regions": [
       "DE",
       "UK"
+    ],
+    "variants": [
+      {
+        "machine": "o208k",
+        "otaId": "HE_DTV_W20K_AFADABAA",
+        "sizes": [
+          65
+        ]
+      }
     ]
   },
   "NANO959NA": {
@@ -6314,13 +6334,22 @@ export default {
     "broadcast": "dvb",
     "machine": "e60",
     "codename": "jhericurl",
-    "otaId": "HE_DTV_W20K_AFADABAA",
+    "otaId": "HE_DTV_W20E_AFADABAA",
     "suffix": ".AEU",
     "sizes": [
       55
     ],
     "regions": [
       "DE"
+    ],
+    "variants": [
+      {
+        "machine": "o208k",
+        "otaId": "HE_DTV_W20K_AFADABAA",
+        "sizes": [
+          65
+        ]
+      }
     ]
   },
   "NANO95CNA": {
@@ -6328,7 +6357,7 @@ export default {
     "broadcast": "dvb",
     "machine": "e60",
     "codename": "jhericurl",
-    "otaId": "HE_DTV_W20K_AFADABAA",
+    "otaId": "HE_DTV_W20E_AFADABAA",
     "suffix": ".AHK",
     "sizes": [
       55,
@@ -6337,6 +6366,16 @@ export default {
     ],
     "regions": [
       "HK"
+    ],
+    "variants": [
+      {
+        "machine": "o208k",
+        "otaId": "HE_DTV_W20K_AFADABAA",
+        "sizes": [
+          65,
+          75
+        ]
+      }
     ]
   },
   "NANO95JNA": {
@@ -6344,7 +6383,7 @@ export default {
     "broadcast": "arib",
     "machine": "e60",
     "codename": "jhericurl",
-    "otaId": "HE_DTV_W20K_AFADJAAA",
+    "otaId": "HE_DTV_W20E_AFADJAAA",
     "suffix": ".AJL",
     "sizes": [
       55
@@ -6371,9 +6410,9 @@ export default {
   "NANO95TNA": {
     "series": "NANO95",
     "broadcast": "dvb",
-    "machine": "o208k",
+    "machine": "e60",
     "codename": "jhericurl",
-    "otaId": "HE_DTV_W20K_AFADABAA",
+    "otaId": "HE_DTV_W20E_AFADABAA",
     "suffix": ".AAU",
     "sizes": [
       65,
@@ -6383,6 +6422,16 @@ export default {
       "AU",
       "IN",
       "NZ"
+    ],
+    "variants": [
+      {
+        "machine": "o208k",
+        "otaId": "HE_DTV_W20K_AFADABAA",
+        "regions": [
+          "AU",
+          "NZ"
+        ]
+      }
     ]
   },
   "NANO95TPA": {
@@ -17358,9 +17407,9 @@ export default {
   "UF7700": {
     "series": "UF77",
     "broadcast": "dvb",
-    "machine": "lm14a",
+    "machine": "lm15u",
     "codename": "beehive",
-    "otaId": "HE_DTV_W15A_AFADABAA",
+    "otaId": "HE_DTV_W15U_AFADABAA",
     "suffix": ".AHK",
     "sizes": [
       40,
@@ -17380,7 +17429,6 @@ export default {
     "variants": [
       {
         "broadcast": "atsc",
-        "machine": "lm15u",
         "otaId": "HE_DTV_W15U_AFADATAA",
         "sizes": [
           40,
@@ -17397,12 +17445,14 @@ export default {
         ]
       },
       {
-        "machine": "lm15u",
-        "otaId": "HE_DTV_W15U_AFADABAA",
+        "machine": "lm14a",
+        "otaId": "HE_DTV_W15A_AFADABAA",
         "sizes": [
+          40,
           49,
           55,
-          65
+          65,
+          79
         ],
         "regions": [
           "HK"
@@ -17541,9 +17591,9 @@ export default {
   "UF7727": {
     "series": "UF77",
     "broadcast": "dvb",
-    "machine": "lm15u",
+    "machine": "lm14a",
     "codename": "beehive",
-    "otaId": "HE_DTV_W15U_AFADABAA",
+    "otaId": "HE_DTV_W15A_AFADABAA",
     "suffix": ".AEE",
     "sizes": [
       40,
@@ -17557,8 +17607,8 @@ export default {
     ],
     "variants": [
       {
-        "machine": "lm14a",
-        "otaId": "HE_DTV_W15A_AFADABAA"
+        "machine": "lm15u",
+        "otaId": "HE_DTV_W15U_AFADABAA"
       }
     ]
   },
@@ -17633,7 +17683,7 @@ export default {
       {
         "machine": "lm14a",
         "otaId": "HE_DTV_W15A_AFADABAA",
-        "suffix": ".AEK",
+        "suffix": ".AEU",
         "sizes": [
           43,
           49,
@@ -17641,6 +17691,10 @@ export default {
           60,
           65,
           70
+        ],
+        "regions": [
+          "DE",
+          "PL"
         ]
       }
     ]
@@ -17671,16 +17725,13 @@ export default {
   "UF7769": {
     "series": "UF77",
     "broadcast": "dvb",
-    "machine": "lm15u",
+    "machine": "lm14a",
     "codename": "beehive",
-    "otaId": "HE_DTV_W15U_AFADABAA",
+    "otaId": "HE_DTV_W15A_AFADABAA",
     "suffix": ".AEU",
     "sizes": [
-      40,
       43,
-      49,
       55,
-      60,
       65
     ],
     "regions": [
@@ -17688,11 +17739,13 @@ export default {
     ],
     "variants": [
       {
-        "machine": "lm14a",
-        "otaId": "HE_DTV_W15A_AFADABAA",
+        "machine": "lm15u",
+        "otaId": "HE_DTV_W15U_AFADABAA",
         "sizes": [
           43,
+          49,
           55,
+          60,
           65
         ]
       }
@@ -17701,12 +17754,11 @@ export default {
   "UF776V": {
     "series": "UF77",
     "broadcast": "dvb",
-    "machine": "lm15u",
+    "machine": "lm14a",
     "codename": "beehive",
-    "otaId": "HE_DTV_W15U_AFADABAA",
+    "otaId": "HE_DTV_W15A_AFADABAA",
     "suffix": ".AEE",
     "sizes": [
-      40,
       43,
       49,
       55,
@@ -17719,16 +17771,9 @@ export default {
     ],
     "variants": [
       {
-        "machine": "lm14a",
-        "otaId": "HE_DTV_W15A_AFADABAA",
-        "suffix": ".AEU",
-        "sizes": [
-          43,
-          49,
-          55,
-          60,
-          65
-        ]
+        "machine": "lm15u",
+        "otaId": "HE_DTV_W15U_AFADABAA",
+        "suffix": ".AEU"
       }
     ]
   },
