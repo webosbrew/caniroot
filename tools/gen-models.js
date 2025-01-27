@@ -181,9 +181,11 @@ function isMismatch(item) {
 for (let [model, items] of Object.entries(dumpGrouped)) {
   items = sortBy(items.filter(v => !isMismatch(v)), v => {
     let prefix = v.epk ? 'a' : 'z';
+    prefix += v.ota_id ? 'a' : 'z';
     let region = knownRegions.indexOf(v.region);
     prefix += region < 0 ? '_' : region.toString(36);
-    const minor = v.epk?.match(epkNameRegex)?.groups?.minor;
+    const groups = v.epk?.match(epkNameRegex)?.groups;
+    const minor = groups?.minor;
     return `${prefix}-${minor}-${v.model.sized}`;
   });
   if (items.length === 0) {
