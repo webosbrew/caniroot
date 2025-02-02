@@ -14152,6 +14152,21 @@ export default {
       }
     ]
   },
+  "QNED85T3C": {
+    "series": "QNED85",
+    "broadcast": "dvb",
+    "machine": "k24",
+    "codename": "ombre",
+    "otaId": "HE_DTV_W24H_AFADATAA",
+    "suffix": ".AEU",
+    "sizes": [
+      55,
+      65
+    ],
+    "regions": [
+      "DE"
+    ]
+  },
   "QNED85T6A": {
     "series": "QNED85",
     "broadcast": "dvb",
