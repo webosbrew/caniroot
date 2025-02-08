@@ -172,10 +172,9 @@ const dumpGrouped = groupBy(dump.map(item => {
  */
 function isMismatch(item) {
   const broadcast = item.epk?.match(/(?:lib32-)?starfish-(?<broadcast>\w+)-secured-/)?.groups?.broadcast;
-  if (broadcast && broadcast !== 'global' && regionBroadcasts[item.region] !== broadcast) {
-    return true;
-  }
-  return false;
+  const regionBroadcast = regionBroadcasts[item.region];
+  return !!broadcast && broadcast !== 'global' && regionBroadcast !== 'isdb' && regionBroadcast !== broadcast;
+
 }
 
 for (let [model, items] of Object.entries(dumpGrouped)) {
