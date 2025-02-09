@@ -1,4 +1,4 @@
-import {DeviceModel} from "../../src/library";
+import {DeviceModel, DeviceModelName} from "../../src/library";
 import {SearchTerm} from "./app";
 import {html} from "htm/preact";
 
@@ -20,8 +20,21 @@ export function webOSReleaseName(codename: string) {
     return html`<span>${osVersionMap[codename] ?? codename}</span>`;
 }
 
-export function SearchHint(props: { term?: SearchTerm, model?: DeviceModel }) {
-    const {term, model} = props;
+function ModelCandidate(props: { term: SearchTerm, model: DeviceModel }) {
+    const model = DeviceModelName.parse(props.model.model);
+    if (!model) {
+        return null;
+    }
+    const newQuery = [model.simple, props.term.firmware ?? '', props.term.remaining ?? '']
+        .map(v => v.trim())
+        .filter(v => !!v)
+        .map(v => encodeURIComponent(v))
+        .join('+');
+    return html`<a href="?q=${newQuery}">${model.simple}</a>`
+}
+
+export function SearchHint(props: { term?: SearchTerm, model?: DeviceModel, candidates?: DeviceModel[] }) {
+    const {term, model, candidates} = props;
     if (!term) {
         return html`
           <div class="alert alert-primary mt-3">
@@ -63,7 +76,8 @@ export function SearchHint(props: { term?: SearchTerm, model?: DeviceModel }) {
             ${['QNED', 'NANO'].includes(term.model.class) ?
                 html`For QNED and NANO series, please input the complete model number (e.g. <code>
                   NANO916NA</code> instead of <code>NANO91</code>).` :
-                html`Try searching by the series name (e.g. <code>OLEDC3</code> instead of <code>OLEDC3PJA</code>).`
+                html`You may want to check these similar models: ${candidates?.slice(0, 3)?.map((model, index) => html`${index > 0 ? ', ' : ''}
+                <${ModelCandidate} term=${term} model=${model}/>`)}`
             }
             <br/>
             <i class="bi bi-exclamation-circle-fill me-2"/>Root availability may vary across different

@@ -13,6 +13,7 @@ interface AppProps {
 interface AppState {
     term?: SearchTerm;
     model?: { base: DeviceModel, current: DeviceModel };
+    candidates?: DeviceModel[];
     availableCodenames?: string[];
     selectedCodename?: string;
     similar?: boolean;
@@ -138,7 +139,7 @@ class App extends Component<AppProps, AppState> {
             <input class="form-control form-control-lg ${invalidQ ? 'is-invalid' : ''}" type="search" autofocus
                    value=${state.term?.q ?? ''} placeholder=${props.sample} autocapitalize="characters"
                    onInput=${(e: Event) => this.searchChanged((e.currentTarget as HTMLInputElement).value)}/>
-            <${SearchHint} term=${state.term} model=${model?.base}/>
+            <${SearchHint} term=${state.term} model=${model?.base} candidates=${state.candidates}/>
 
               ${state.availableCodenames && html`
                 <div class="alert alert-info mt-3">
@@ -231,6 +232,7 @@ class App extends Component<AppProps, AppState> {
         let base = model;
         let availableCodenames: string[] | undefined = undefined;
         let selectedCodename: string | undefined;
+        let candidates: DeviceModel[] | undefined = undefined;
         if (model) {
             availableCodenames = model.variants?.filter(v => v.codename && v.codename !== model!!.codename)
                 .map(v => v.codename!!);
@@ -244,6 +246,9 @@ class App extends Component<AppProps, AppState> {
             if (selectedCodename && selectedCodename !== model.codename) {
                 model = model.variant((v) => v.codename === selectedCodename)
             }
+        } else {
+            const series = term?.model?.series;
+            candidates = series ? DeviceModel.findAll(series).filter(v => v.series === series) : undefined;
         }
 
         const availability = model && DeviceExploitAvailabilities.byOTAID(model.otaId, selectedCodename);
@@ -251,6 +256,7 @@ class App extends Component<AppProps, AppState> {
         return {
             term,
             model: base && {base, current: model!!},
+            candidates,
             availableCodenames,
             selectedCodename,
             similar,
