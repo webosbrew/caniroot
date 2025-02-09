@@ -28,20 +28,22 @@ export interface SearchTerm {
 
 function parseSearchTerm(q?: string): SearchTerm | undefined {
     if (!q) return undefined;
-    let remaining = q;
-    const modelMatch = remaining.match(/[A-Z0-9-]{4,12}(?:\.[A-Z0-9]{2,4})?/i);
+    let remaining = q.split(/\s+/);
+    const modelMatch = remaining.map((s): [string, DeviceModelName] | undefined => {
+        const model = DeviceModelName.parse(s.toUpperCase());
+        return model && [s, model];
+    }).filter(r => r)?.[0] ?? [undefined, undefined];
     if (modelMatch) {
-        remaining = remaining.replace(modelMatch[0], '');
+        remaining = remaining.filter(s => s !== modelMatch[0]);
     }
-    const modelQ = modelMatch?.[0]?.toUpperCase();
-    const model = modelQ ? DeviceModelName.parse(modelQ) : undefined;
-    const firmwareMatch = remaining.match(/(0?|[1-9])\d\.\d{2}\.\d{2}/);
+    const model = modelMatch?.[1];
+    const firmwareMatch = remaining.map(s => s.match(/^(0?|[1-9])\d\.\d{2}\.\d{2}$/))?.[0];
     let firmware = undefined;
     if (firmwareMatch) {
-        remaining = remaining.replace(firmwareMatch[0], '');
+        remaining = remaining.filter(s => s !== firmwareMatch[0]);
         firmware = firmwareMatch[0].padStart(8, '0');
     }
-    return {q, model, firmware, remaining: remaining.trim() || undefined};
+    return {q, model, firmware, remaining: remaining.join(' ') || undefined};
 }
 
 export declare interface ExploitMethod {

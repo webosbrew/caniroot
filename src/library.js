@@ -93,7 +93,7 @@ export class DeviceModelName {
     const devicePatterns = [
       '(OLED(?<osize>\\d{2,3})?(?<oled>\\w{2}))',
       '(?<lsize>\\d{2,3})?(?<lx>LX\\w{2})',
-      '((?<size>\\d{2,3})?(?<series>(?<anq>ART|NANO|QNED)\\d{2}|[A-Z]{2}\\w{4}|UC\\w{1,2}))',
+      '((?<size>\\d{2,3})?(?<series>(?<anq>ART|NANO|QNED)\\d{2}|[A-Z]{2}\\w{2,4}|UC\\w{1,2}))',
     ];
     const pattern = `^(?:${devicePatterns.join('|')})(?<tdd>\\w{1,4})?(?<suffix>[.-]\\w+)?$`;
     const match = model.match(pattern);
