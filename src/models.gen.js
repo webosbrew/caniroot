@@ -4532,9 +4532,9 @@ export default {
   "NANO75KPA": {
     "series": "NANO75",
     "broadcast": "atsc",
-    "machine": "lm21u",
+    "machine": "lm21a",
     "codename": "kisscurl",
-    "otaId": "HE_DTV_W21U_AFADATAA",
+    "otaId": "HE_DTV_W21A_AFADATAA",
     "sizes": [
       43,
       50,
@@ -4548,8 +4548,11 @@ export default {
     ],
     "variants": [
       {
-        "machine": "lm21a",
-        "otaId": "HE_DTV_W21A_AFADATAA"
+        "machine": "lm21u",
+        "otaId": "HE_DTV_W21U_AFADATAA",
+        "sizes": [
+          86
+        ]
       }
     ]
   },
@@ -12167,11 +12170,6 @@ export default {
       },
       {
         "codename": "ombre",
-        "sizes": [
-          65,
-          77,
-          83
-        ],
         "regions": [
           "UK"
         ]
@@ -13866,6 +13864,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "QNED70NRA": {
@@ -13880,6 +13883,14 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ombre",
+        "sizes": [
+          75
+        ]
+      }
     ]
   },
   "QNED70TEA": {
@@ -13989,6 +14000,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "QNED75KRA": {
@@ -14004,6 +14020,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "QNED75SRA": {
@@ -14251,6 +14272,14 @@ export default {
       },
       {
         "codename": "ombre"
+      },
+      {
+        "machine": "m23",
+        "codename": "ombre",
+        "otaId": "HE_DTV_W23M_AFADATAA",
+        "sizes": [
+          75
+        ]
       }
     ]
   },
@@ -14816,6 +14845,14 @@ export default {
       },
       {
         "codename": "ombre"
+      },
+      {
+        "machine": "m23",
+        "codename": "ombre",
+        "otaId": "HE_DTV_W23M_AFADATAA",
+        "sizes": [
+          75
+        ]
       }
     ]
   },
@@ -29816,12 +29853,7 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre",
-        "sizes": [
-          50,
-          55,
-          65
-        ]
+        "codename": "ombre"
       }
     ]
   },
@@ -30044,13 +30076,7 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre",
-        "sizes": [
-          43,
-          50,
-          55,
-          75
-        ]
+        "codename": "ombre"
       }
     ]
   },
@@ -30408,6 +30434,16 @@ export default {
         ]
       },
       {
+        "machine": "m23",
+        "codename": "ombre",
+        "otaId": "HE_DTV_W23M_AFADATAA",
+        "sizes": [
+          43,
+          55,
+          75
+        ]
+      },
+      {
         "codename": "ombre"
       }
     ]
@@ -30435,6 +30471,14 @@ export default {
         "sizes": [
           50,
           86
+        ]
+      },
+      {
+        "machine": "m23",
+        "codename": "ombre",
+        "otaId": "HE_DTV_W23M_AFADATAA",
+        "sizes": [
+          50
         ]
       },
       {
@@ -30494,6 +30538,17 @@ export default {
           65,
           75,
           86
+        ]
+      },
+      {
+        "machine": "m23",
+        "codename": "ombre",
+        "otaId": "HE_DTV_W23M_AFADATAA",
+        "sizes": [
+          50,
+          55,
+          65,
+          75
         ]
       },
       {
