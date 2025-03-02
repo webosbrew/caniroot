@@ -13937,6 +13937,11 @@ export default {
     ],
     "regions": [
       "PL"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "QNED756RA": {
@@ -13959,6 +13964,16 @@ export default {
       "NZ",
       "PL",
       "UK"
+    ],
+    "variants": [
+      {
+        "codename": "ombre",
+        "regions": [
+          "DE",
+          "PL",
+          "UK"
+        ]
+      }
     ]
   },
   "QNED75ARA": {
@@ -13973,6 +13988,11 @@ export default {
     ],
     "regions": [
       "US"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "QNED75FRA": {
@@ -13986,6 +14006,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "QNED75GRA": {
@@ -14077,6 +14102,11 @@ export default {
     "regions": [
       "CA",
       "US"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "QNED7S3QA": {
@@ -14278,6 +14308,7 @@ export default {
         "codename": "ombre",
         "otaId": "HE_DTV_W23M_AFADATAA",
         "sizes": [
+          65,
           75
         ]
       }
@@ -29740,13 +29771,7 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre",
-        "sizes": [
-          43,
-          55,
-          65,
-          75
-        ]
+        "codename": "ombre"
       }
     ]
   },
@@ -30302,6 +30327,15 @@ export default {
     "regions": [
       "CA",
       "US"
+    ],
+    "variants": [
+      {
+        "codename": "ombre",
+        "sizes": [
+          65,
+          75
+        ]
+      }
     ]
   },
   "UR9050PSJ": {
@@ -30364,6 +30398,17 @@ export default {
     ],
     "regions": [
       "PL"
+    ],
+    "variants": [
+      {
+        "codename": "ombre",
+        "sizes": [
+          50,
+          55,
+          65,
+          75
+        ]
+      }
     ]
   },
   "UR91006LA": {
@@ -30383,6 +30428,11 @@ export default {
     "regions": [
       "DE",
       "UK"
+    ],
+    "variants": [
+      {
+        "codename": "ombre"
+      }
     ]
   },
   "UR9150PCK": {
@@ -30439,7 +30489,9 @@ export default {
         "otaId": "HE_DTV_W23M_AFADATAA",
         "sizes": [
           43,
+          50,
           55,
+          65,
           75
         ]
       },
