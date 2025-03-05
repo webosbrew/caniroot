@@ -40,6 +40,7 @@ describe('DeviceModel', {only: true}, () => {
     assert.strictEqual(DeviceModelName.parse('55LX1TPSA').series, 'LX1T');
     assert.strictEqual(DeviceModelName.parse('75QNED7SSQA.AWH').class, 'QNED');
     assert.strictEqual(DeviceModelName.parse('75QNED7SSQA.AWH').series, 'QNED7S');
+    assert.strictEqual(DeviceModelName.parse('OLEDG4').series, 'OLEDG4');
   });
 
   it('should fail on incomplete LG TV models', () => {

@@ -91,12 +91,12 @@ export class DeviceModelName {
    */
   static parse(model) {
     const devicePatterns = [
-      /(OLED(?<osize>\d{2,3})?(?<oled>\w{2}))/,
-      /(?<xsize>\d{2})?(?<xseries>LX\d\w)/,
-      /((?<qsize>\d{2,3})?(?<qseries>(?<anq>ART|NANO|QNED)[0-9][0-9A-Z]|UC\w{1,2}))/,
-      /(?<lsize>\d{2,3})?(?<lseries>[ELSUJ][A-Z][0-9][0-9A-Z]{3})/,
+      '(OLED(?<osize>\\d{2,3})?(?<oled>\\w{2}))',
+      '(?<xsize>\\d{2})?(?<xseries>LX\\d\\w)',
+      '((?<qsize>\\d{2,3})?(?<qseries>(?<anq>ART|NANO|QNED)[0-9][0-9A-Z]|UC\\w{1,2}))',
+      '(?<lsize>\\d{2,3})?(?<lseries>[ELSUJ][A-Z][0-9][0-9A-Z]{3})',
     ];
-    const pattern = `^(?:${devicePatterns.map(p => p.source).join('|')})(?<tdd>\\w{1,4})?(?<suffix>[.-]\\w+)?$`;
+    const pattern = `^(?:${devicePatterns.join('|')})(?<tdd>\\w{1,4})?(?<suffix>[.-]\\w+)?$`;
     const match = model.match(pattern);
     if (!match) {
       return undefined;
@@ -107,7 +107,7 @@ export class DeviceModelName {
     const series = groups.lseries?.substring(0, 4) || name;
     return new DeviceModelName({
       name, class: modelClass, series,
-      size: parseInt(groups.xsize || groups.qsize || groups.lsize || groups.osize),
+      size: parseInt(groups.xsize || groups.qsize || groups.lsize || groups.osize) || undefined,
       tdd: groups.tdd,
       suffix: groups.suffix
     });

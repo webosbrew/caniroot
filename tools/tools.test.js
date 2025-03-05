@@ -3,7 +3,7 @@ import updates from "./data/fw-updates.json" assert {type: "json"};
 import epks from "./data/model-epks.json" assert {type: "json"};
 import {minorMajor} from "./mappings.js";
 import assert from "node:assert";
-import {parseDeviceModel} from "./gen-models.js";
+import {parseDeviceModel} from "./device-model.js";
 
 describe('mappings', () => {
   it('should map all minor releases', () => {
