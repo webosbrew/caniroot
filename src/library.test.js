@@ -33,15 +33,28 @@ describe('DeviceModel', {only: true}, () => {
     assert.strictEqual(DeviceModelName.parse('OLED65W7V.AEE').series, 'OLEDW7');
     assert.strictEqual(DeviceModelName.parse('OLED65W7V.AEE').suffix, '.AEE');
     assert.strictEqual(DeviceModelName.parse('55SM8100PJB').tdd, 'PJB');
-    assert.strictEqual(DeviceModelName.parse('55OLEDC3PJA.AJLG').suffix, '.AJLG');
-    assert.strictEqual(DeviceModelName.parse('55OLEDC3PJA.AJLG').series, 'OLEDC3');
+    assert.strictEqual(DeviceModelName.parse('OLED55C3PJA.AJLG').suffix, '.AJLG');
+    assert.strictEqual(DeviceModelName.parse('OLED55C3PJA.AJLG').series, 'OLEDC3');
     assert.strictEqual(DeviceModelName.parse('105UC9.AHK').size, 105);
     assert.strictEqual(DeviceModelName.parse('42LX3QKNA').series, 'LX3Q');
     assert.strictEqual(DeviceModelName.parse('55LX1TPSA').series, 'LX1T');
+    assert.strictEqual(DeviceModelName.parse('75QNED7SSQA.AWH').class, 'QNED');
+    assert.strictEqual(DeviceModelName.parse('75QNED7SSQA.AWH').series, 'QNED7S');
+  });
+
+  it('should fail on incomplete LG TV models', () => {
+    assert.strictEqual(DeviceModelName.parse('OLED'), undefined);
+    assert.strictEqual(DeviceModelName.parse('QNED'), undefined);
+    assert.strictEqual(DeviceModelName.parse('OLEDG'), undefined);
+    assert.strictEqual(DeviceModelName.parse('QNED9'), undefined);
+    assert.strictEqual(DeviceModelName.parse('LX'), undefined);
+    assert.strictEqual(DeviceModelName.parse('UN3'), undefined);
   });
 
   it('should fail on non-LG TV models', () => {
     assert.strictEqual(DeviceModelName.parse('UA43AU7000KXXM'), undefined);
+    assert.strictEqual(DeviceModelName.parse('AB1234'), undefined);
+    assert.strictEqual(DeviceModelName.parse('ABCD'), undefined);
   });
 
   it('should find the model', {only: true}, () => {

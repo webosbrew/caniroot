@@ -91,25 +91,23 @@ export class DeviceModelName {
    */
   static parse(model) {
     const devicePatterns = [
-      '(OLED(?<osize>\\d{2,3})?(?<oled>\\w{2}))',
-      '(?<lsize>\\d{2,3})?(?<lx>LX\\w{2})',
-      '((?<size>\\d{2,3})?(?<series>(?<anq>ART|NANO|QNED)\\d{2}|[A-Z]{2}\\w{2,4}|UC\\w{1,2}))',
+      /(OLED(?<osize>\d{2,3})?(?<oled>\w{2}))/,
+      /(?<xsize>\d{2})?(?<xseries>LX\d\w)/,
+      /((?<qsize>\d{2,3})?(?<qseries>(?<anq>ART|NANO|QNED)[0-9][0-9A-Z]|UC\w{1,2}))/,
+      /(?<lsize>\d{2,3})?(?<lseries>[ELSUJ][A-Z][0-9][0-9A-Z]{3})/,
     ];
-    const pattern = `^(?:${devicePatterns.join('|')})(?<tdd>\\w{1,4})?(?<suffix>[.-]\\w+)?$`;
+    const pattern = `^(?:${devicePatterns.map(p => p.source).join('|')})(?<tdd>\\w{1,4})?(?<suffix>[.-]\\w+)?$`;
     const match = model.match(pattern);
     if (!match) {
       return undefined;
     }
     const groups = match.groups;
-    const modelClass = groups.anq || (groups.oled && 'OLED') || 'TV';
-    const name = groups.series || groups.lx || `OLED${groups.oled}`;
-    let series = name;
-    if (series.match(/^[ELSU][A-Z]\d{2}[0-9A-Z]{2,4}$/)) {
-      series = series.substring(0, 4);
-    }
+    const modelClass = groups.anq || (groups.oled && 'OLED') || (groups.xseries && 'LX') || 'TV';
+    const name = groups.xseries || groups.qseries || groups.lseries || (groups.oled && `OLED${groups.oled}`);
+    const series = groups.lseries?.substring(0, 4) || name;
     return new DeviceModelName({
       name, class: modelClass, series,
-      size: parseInt(groups.size || groups.lsize || groups.osize),
+      size: parseInt(groups.xsize || groups.qsize || groups.lsize || groups.osize),
       tdd: groups.tdd,
       suffix: groups.suffix
     });
