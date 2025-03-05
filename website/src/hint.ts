@@ -33,6 +33,16 @@ function ModelCandidate(props: { term: SearchTerm, model: DeviceModel }) {
     return html`<a href="?q=${newQuery}">${model.simple}</a>`
 }
 
+function ModelCandidates(props: { term: SearchTerm, candidates: DeviceModel[] }) {
+    const {term, candidates} = props;
+    if (!candidates?.length) {
+        return;
+    }
+    return html`You may want to check these similar models: ${candidates?.slice(0, 3)?.map((model, index) => html`${index > 0 ? ', ' : ''}
+    <${ModelCandidate} term=${term} model=${model}/>`)}
+    <br/>`;
+}
+
 export function SearchHint(props: { term?: SearchTerm, model?: DeviceModel, candidates?: DeviceModel[] }) {
     const {term, model, candidates} = props;
     if (!term) {
@@ -75,11 +85,11 @@ export function SearchHint(props: { term?: SearchTerm, model?: DeviceModel, cand
             <br/>
             ${['QNED', 'NANO'].includes(term.model.class) ?
                 html`For QNED and NANO series, please input the complete model number (e.g. <code>
-                  NANO916NA</code> instead of <code>NANO91</code>).` :
-                html`You may want to check these similar models: ${candidates?.slice(0, 3)?.map((model, index) => html`${index > 0 ? ', ' : ''}
-                <${ModelCandidate} term=${term} model=${model}/>`)}`
+                  NANO916NA</code> instead of <code>NANO91</code>).
+                <br/>` :
+                html`
+                  <${ModelCandidates} term=${term} candidates=${candidates}/>`
             }
-            <br/>
             <i class="bi bi-exclamation-circle-fill me-2"/>Root availability may vary across different
             models/regions of the same series.
           </div>`;
