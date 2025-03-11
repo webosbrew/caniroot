@@ -99,13 +99,15 @@ export default {
         "codename": "number1",
         "regions": [
           "UK"
-        ]
+        ],
+        "swMajor": "13"
       },
       {
         "codename": "ombre",
         "regions": [
           "UK"
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -184,10 +186,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -3847,10 +3851,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -3878,14 +3884,16 @@ export default {
         "regions": [
           "DE",
           "UK"
-        ]
+        ],
+        "swMajor": "13"
       },
       {
         "codename": "ombre",
         "regions": [
           "DE",
           "UK"
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -3906,10 +3914,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -3929,10 +3939,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -3950,10 +3962,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -3971,10 +3985,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -3995,10 +4011,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -4020,10 +4038,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -4043,10 +4063,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -4095,10 +4117,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -4126,7 +4150,8 @@ export default {
           "DE",
           "PL",
           "UK"
-        ]
+        ],
+        "swMajor": "13"
       },
       {
         "codename": "ombre",
@@ -4134,7 +4159,8 @@ export default {
           "DE",
           "PL",
           "UK"
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -4154,10 +4180,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -4175,10 +4203,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -4197,10 +4227,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -4249,7 +4281,8 @@ export default {
           "AU",
           "NZ",
           "PE"
-        ]
+        ],
+        "swMajor": "13"
       },
       {
         "codename": "ombre",
@@ -4257,7 +4290,8 @@ export default {
           "AU",
           "NZ",
           "PE"
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -4277,10 +4311,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -5030,7 +5066,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       },
       {
         "broadcast": "isdb",
@@ -5055,7 +5092,8 @@ export default {
         ],
         "regions": [
           "PE"
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -7486,10 +7524,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -7517,7 +7557,8 @@ export default {
         "regions": [
           "DE",
           "UK"
-        ]
+        ],
+        "swMajor": "13"
       },
       {
         "codename": "ombre",
@@ -7527,7 +7568,8 @@ export default {
         ],
         "regions": [
           "DE"
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -7548,10 +7590,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -7572,10 +7616,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -7623,10 +7669,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -7649,10 +7697,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -7673,7 +7723,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -7694,7 +7745,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -7713,7 +7765,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -7859,10 +7912,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -7884,14 +7939,16 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
         "codename": "ombre",
         "suffix": ".AEU",
         "regions": [
           "DE"
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -7912,10 +7969,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -7934,10 +7993,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -7957,10 +8018,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -8007,10 +8070,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -8032,10 +8097,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -8056,7 +8123,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -8084,7 +8152,8 @@ export default {
         "regions": [
           "DE",
           "UK"
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -8106,7 +8175,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -8125,7 +8195,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -8145,7 +8216,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -8166,7 +8238,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -8191,7 +8264,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -8213,7 +8287,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -9475,10 +9550,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -9501,10 +9578,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -9535,14 +9614,16 @@ export default {
         "regions": [
           "DE",
           "UK"
-        ]
+        ],
+        "swMajor": "13"
       },
       {
         "codename": "ombre",
         "regions": [
           "DE",
           "UK"
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -9561,10 +9642,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -9583,10 +9666,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -9608,10 +9693,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -9633,10 +9720,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -9661,10 +9750,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -9686,10 +9777,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -9708,10 +9801,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -9731,10 +9826,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -9755,10 +9852,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -9777,10 +9876,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -9801,10 +9902,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -9825,10 +9928,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -9882,10 +9987,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -9908,10 +10015,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -9936,10 +10045,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -9960,10 +10071,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -9982,10 +10095,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -10011,7 +10126,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -10034,7 +10150,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -10065,7 +10182,8 @@ export default {
         "regions": [
           "DE",
           "UK"
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -10087,7 +10205,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -10118,7 +10237,8 @@ export default {
         ],
         "regions": [
           "UK"
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -10139,7 +10259,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -10165,7 +10286,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -10194,7 +10316,8 @@ export default {
           55,
           65,
           77
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -10215,7 +10338,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -10236,7 +10360,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -10255,7 +10380,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -10279,7 +10405,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -10302,7 +10429,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -10330,7 +10458,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -10355,7 +10484,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -10374,7 +10504,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -11187,7 +11318,8 @@ export default {
           "DE",
           "PL",
           "UK"
-        ]
+        ],
+        "swMajor": "13"
       },
       {
         "codename": "ombre",
@@ -11195,7 +11327,8 @@ export default {
           "DE",
           "PL",
           "UK"
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -11217,10 +11350,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -11242,10 +11377,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -12136,10 +12273,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -12166,13 +12305,15 @@ export default {
         "codename": "number1",
         "regions": [
           "UK"
-        ]
+        ],
+        "swMajor": "13"
       },
       {
         "codename": "ombre",
         "regions": [
           "UK"
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -12196,10 +12337,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -12224,14 +12367,16 @@ export default {
         "sizes": [
           55,
           77
-        ]
+        ],
+        "swMajor": "13"
       },
       {
         "codename": "ombre",
         "sizes": [
           55,
           77
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -12282,10 +12427,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -12309,10 +12456,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1"
+        "codename": "number1",
+        "swMajor": "13"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -12334,7 +12483,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -12361,7 +12511,8 @@ export default {
         "codename": "ombre",
         "regions": [
           "UK"
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -12384,7 +12535,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -12405,7 +12557,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -12426,7 +12579,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -12452,7 +12606,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -12475,7 +12630,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -12980,7 +13136,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -13867,7 +14024,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -13886,7 +14044,11 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "sizes": [
+          75
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -13937,7 +14099,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -13969,7 +14132,8 @@ export default {
           "DE",
           "PL",
           "UK"
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -13988,7 +14152,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -14006,7 +14171,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -14025,7 +14191,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -14045,7 +14212,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -14078,7 +14246,8 @@ export default {
           50,
           55,
           75
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -14102,7 +14271,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -14213,7 +14383,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -14255,7 +14426,8 @@ export default {
           50,
           55,
           65
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -14298,7 +14470,8 @@ export default {
         ]
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       },
       {
         "machine": "m23",
@@ -14307,7 +14480,8 @@ export default {
         "sizes": [
           65,
           75
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -14366,7 +14540,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -14521,7 +14696,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -14563,7 +14739,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -14606,7 +14783,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -14665,7 +14843,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -14704,7 +14883,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -14762,7 +14942,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -14785,7 +14966,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -14872,7 +15054,8 @@ export default {
         ]
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       },
       {
         "machine": "m23",
@@ -14880,7 +15063,8 @@ export default {
         "otaId": "HE_DTV_W23M_AFADATAA",
         "sizes": [
           75
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -14920,7 +15104,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -15141,7 +15326,8 @@ export default {
         "codename": "ombre",
         "sizes": [
           55
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -15195,7 +15381,8 @@ export default {
         "regions": [
           "DE",
           "UK"
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -15232,7 +15419,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -15268,7 +15456,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -29578,7 +29767,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -29602,7 +29792,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -29623,7 +29814,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -29644,7 +29836,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -29666,7 +29859,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -29688,7 +29882,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -29707,7 +29902,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -29726,7 +29922,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -29745,7 +29942,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -29768,7 +29966,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -29788,7 +29987,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -29813,7 +30013,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -29832,7 +30033,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -29852,7 +30054,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -29875,7 +30078,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -29906,7 +30110,8 @@ export default {
         "regions": [
           "DE",
           "UK"
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -29925,7 +30130,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -29947,7 +30153,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -29968,7 +30175,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -29992,7 +30200,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -30015,7 +30224,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -30048,7 +30258,8 @@ export default {
         ]
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       },
       {
         "machine": "k8hpp",
@@ -30056,7 +30267,8 @@ export default {
         "otaId": "HE_DTV_W23H_AFADATAA",
         "sizes": [
           86
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -30075,7 +30287,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -30098,7 +30311,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -30124,7 +30338,8 @@ export default {
         "regions": [
           "DE",
           "UK"
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -30154,7 +30369,8 @@ export default {
         "regions": [
           "DE",
           "UK"
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -30175,7 +30391,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -30193,7 +30410,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -30230,7 +30448,8 @@ export default {
           55,
           65,
           75
-        ]
+        ],
+        "swMajor": "23"
       },
       {
         "machine": "k8hpp",
@@ -30238,7 +30457,8 @@ export default {
         "otaId": "HE_DTV_W23H_AFADATAA",
         "sizes": [
           86
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -30257,7 +30477,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -30279,7 +30500,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -30305,7 +30527,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -30327,7 +30550,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "sizes": [
+          65,
+          75
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -30348,7 +30576,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -30371,7 +30600,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -30394,7 +30624,14 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "sizes": [
+          50,
+          55,
+          65,
+          75
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -30418,7 +30655,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -30441,7 +30679,8 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -30480,10 +30719,12 @@ export default {
           55,
           65,
           75
-        ]
+        ],
+        "swMajor": "23"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },
@@ -30518,13 +30759,15 @@ export default {
         "otaId": "HE_DTV_W23M_AFADATAA",
         "sizes": [
           50
-        ]
+        ],
+        "swMajor": "23"
       },
       {
         "codename": "ombre",
         "sizes": [
           86
-        ]
+        ],
+        "swMajor": "23"
       }
     ]
   },
@@ -30550,15 +30793,8 @@ export default {
         ]
       },
       {
-        "machine": "m23",
         "codename": "ombre",
-        "otaId": "HE_DTV_W23M_AFADATAA",
-        "sizes": [
-          75
-        ]
-      },
-      {
-        "codename": "ombre"
+        "swMajor": "23"
       }
     ]
   },
@@ -30592,15 +30828,16 @@ export default {
         "codename": "ombre",
         "otaId": "HE_DTV_W23M_AFADATAA",
         "sizes": [
-          43,
           50,
           55,
           65,
           75
-        ]
+        ],
+        "swMajor": "23"
       },
       {
-        "codename": "ombre"
+        "codename": "ombre",
+        "swMajor": "23"
       }
     ]
   },

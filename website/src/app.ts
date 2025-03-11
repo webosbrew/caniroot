@@ -10,11 +10,17 @@ interface AppProps {
     sample?: string;
 }
 
+interface CodeNameEntry {
+    value: string;
+    min?: string;
+    disabled?: boolean;
+}
+
 interface AppState {
     term?: SearchTerm;
     model?: { base: DeviceModel, current: DeviceModel };
     candidates?: DeviceModel[];
-    availableCodenames?: string[];
+    availableCodenames?: CodeNameEntry[];
     selectedCodename?: string;
     similar?: boolean;
     availability?: DeviceExploitAvailabilities;
@@ -149,10 +155,10 @@ class App extends Component<AppProps, AppState> {
                 <ul class="nav nav-pills nav-fill">
                   ${state.availableCodenames.map(codename => html`
                     <li class="nav-item">
-                      <button class="nav-link ${state.selectedCodename === codename ? 'active' : ''} notranslate"
-                              type="button" translate="no"
-                              onClick=${() => this.searchImmediate(state.term!!.q, codename)}>
-                        ${webOSReleaseName(codename)}
+                      <button class="nav-link ${state.selectedCodename === codename.value ? 'active' : ''} notranslate"
+                              type="button" translate="no" disabled=${codename.disabled}
+                              onClick=${() => !codename.disabled && this.searchImmediate(state.term!!.q, codename.value)}>
+                        ${webOSReleaseName(codename.value)}
                       </button>
                     </li>
                   `)}
@@ -230,18 +236,37 @@ class App extends Component<AppProps, AppState> {
             model = models[0];
         }
         let base = model;
-        let availableCodenames: string[] | undefined = undefined;
+        let availableCodenames: CodeNameEntry[] | undefined = undefined;
         let selectedCodename: string | undefined;
         let candidates: DeviceModel[] | undefined = undefined;
         if (model) {
-            availableCodenames = model.variants?.filter(v => v.codename && v.codename !== model!!.codename)
-                .map(v => v.codename!!);
+            availableCodenames = model.variants
+                ?.filter(v => v.codename && v.codename !== model!!.codename)
+                ?.map(v => ({value: v.codename!!, min: v.swMajor}));
             if (availableCodenames?.length === 0) {
                 availableCodenames = undefined;
             }
             if (availableCodenames) {
-                availableCodenames.unshift(model.codename);
-                selectedCodename = codename || model.codename;
+                // Add base model to the list
+                availableCodenames.unshift({value: model.codename});
+
+                function matchedCodename(): string | undefined {
+                    if (!term?.firmware) {
+                        return undefined;
+                    }
+                    let value = undefined;
+                    for (let i = availableCodenames!!.length - 1; i >= 0; i--) {
+                        const entry = availableCodenames!![i];
+                        if (!value && entry.min && term.firmware >= entry.min) {
+                            value = entry.value;
+                        } else {
+                            entry.disabled = true;
+                        }
+                    }
+                    return value;
+                }
+
+                selectedCodename = codename || matchedCodename() || model.codename;
             }
             if (selectedCodename && selectedCodename !== model.codename) {
                 model = model.variant((v) => v.codename === selectedCodename)

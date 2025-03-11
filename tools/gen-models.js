@@ -11,6 +11,10 @@
  * @type {ModelItem[]}
  */
 import dump from "./data/model-epks.json" assert {type: "json"};
+/**
+ * @type {DumpItem[]}
+ */
+import updates from "./data/fw-updates.json" assert {type: "json"};
 import fs from "node:fs";
 import {regionBroadcasts, upgradedOtaIds} from "./mappings.js";
 import {DeviceModelName} from "../src/library.js";
@@ -41,6 +45,13 @@ const dumpGrouped = groupBy(dump.map(item => {
   }
   return {...item, ota_id, model};
 }).filter(v => v), (item) => item.model.simple);
+
+/** @type {Record<string, DumpItem[]>} */
+const updatesGrouped = groupBy(updates, item => {
+  const otaId = upgradedOtaIds[item.ota_id] || item.ota_id;
+  const codename = item.webos_codename.split('-', 1)[0];
+  return `${otaId}-${codename}`;
+});
 
 /**
  * @param item {GroupedModelItem}
@@ -101,12 +112,21 @@ for (let [model, items] of Object.entries(dumpGrouped)) {
   base.regions = uniq(compact(items.map(x => sameVariation(x) && x.region))).sort();
   /** @type {DeviceModelData[]} */
   let variants = filter(groupBy(items.slice(1).flatMap(({model, epk, region, ota_id}) => {
+    /** @type {DeviceModelVariantData | undefined} */
     const variant = epk && parseDeviceModel(model, epk, region, ota_id);
     if (!variant) {
       return [];
     }
     variant.sizes = [model.size];
     variant.regions = [region];
+    if (variant.codename && base.codename !== variant.codename) {
+      const updates = updatesGrouped[`${base.otaId}-${variant.codename}`];
+      if (updates) {
+        // Sort ascending by firmware version
+        updates.sort((a, b) => a.fw_version.localeCompare(b.fw_version, 'en'));
+        variant.swMajor = updates[0].fw_version.substring(0, 2);
+      }
+    }
     return [variant];
   }), (item) => item.otaId + item.codename), (variants, otaId) => {
     if (otaId === ota_id) {

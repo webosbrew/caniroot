@@ -109,7 +109,7 @@ export interface DeviceModelData {
     variants?: DeviceModelVariantData[];
 }
 
-export type DeviceModelVariantData = Partial<Omit<DeviceModelData, 'variants'>>;
+export type DeviceModelVariantData = Partial<Omit<DeviceModelData, 'variants'> & { swMajor: string }>;
 
 export class DeviceModel implements DeviceModelData {
     readonly model: string;
