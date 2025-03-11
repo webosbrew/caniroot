@@ -767,7 +767,7 @@ export default {
     ]
   },
   "EG9A7K": {
-    "series": "EG9A7K",
+    "series": "EG9A",
     "broadcast": "atsc",
     "machine": "m14tv",
     "codename": "beehive",
@@ -780,7 +780,7 @@ export default {
     ]
   },
   "EG9A7L": {
-    "series": "EG9A7L",
+    "series": "EG9A",
     "broadcast": "atsc",
     "machine": "m14tv",
     "codename": "beehive",
@@ -793,7 +793,7 @@ export default {
     ]
   },
   "EG9A7P": {
-    "series": "EG9A7P",
+    "series": "EG9A",
     "broadcast": "dvb",
     "machine": "m14tv",
     "codename": "beehive",
@@ -807,7 +807,7 @@ export default {
     ]
   },
   "EG9A7V": {
-    "series": "EG9A7V",
+    "series": "EG9A",
     "broadcast": "dvb",
     "machine": "m14tv",
     "codename": "beehive",
@@ -823,7 +823,7 @@ export default {
     ]
   },
   "JL9000": {
-    "series": "JL9000",
+    "series": "JL90",
     "broadcast": "dvb",
     "machine": "m14tv",
     "codename": "afro",
@@ -839,7 +839,7 @@ export default {
     ]
   },
   "JL9100": {
-    "series": "JL9100",
+    "series": "JL91",
     "broadcast": "dvb",
     "machine": "lm15u",
     "codename": "beehive",
@@ -13886,10 +13886,7 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre",
-        "sizes": [
-          75
-        ]
+        "codename": "ombre"
       }
     ]
   },
@@ -30330,11 +30327,7 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre",
-        "sizes": [
-          65,
-          75
-        ]
+        "codename": "ombre"
       }
     ]
   },
@@ -30401,13 +30394,7 @@ export default {
     ],
     "variants": [
       {
-        "codename": "ombre",
-        "sizes": [
-          50,
-          55,
-          65,
-          75
-        ]
+        "codename": "ombre"
       }
     ]
   },
@@ -30563,6 +30550,14 @@ export default {
         ]
       },
       {
+        "machine": "m23",
+        "codename": "ombre",
+        "otaId": "HE_DTV_W23M_AFADATAA",
+        "sizes": [
+          75
+        ]
+      },
+      {
         "codename": "ombre"
       }
     ]
@@ -30597,6 +30592,7 @@ export default {
         "codename": "ombre",
         "otaId": "HE_DTV_W23M_AFADATAA",
         "sizes": [
+          43,
           50,
           55,
           65,
