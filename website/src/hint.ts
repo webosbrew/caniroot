@@ -14,6 +14,7 @@ const osVersionMap: Record<string, string> = {
     'mullet': 'webOS 22 (7.x)',
     'number1': 'webOS 23 (8.x)',
     'ombre': 'webOS 24 (9.x)',
+    'ponytail': 'webOS 25 (10.x)',
 };
 
 export function webOSReleaseName(codename: string) {
