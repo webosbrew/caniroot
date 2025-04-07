@@ -182,7 +182,7 @@ class App extends Component<AppProps, AppState> {
               ${unrootable && html`
                 <div class="card p-3 mt-3 bg-secondary-subtle">
                   <h3>
-                    <i class="bi bi-x-circle-fill me-2"></i>Unrootable (yet)
+                    <i class="bi bi-x-circle-fill me-2"></i>Unrootable or unknown (yet)
                   </h3>
                   <div>
                     No known rooting methods are available for this model. <br/>
