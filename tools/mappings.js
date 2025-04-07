@@ -39,6 +39,7 @@ export const minorMajor = {
   'jasper': 'jhericurl',
   'jebil': 'jhericurl',
   'jervisbay': 'jhericurl',
+  'jimna': 'jhericurl',
   'kalaupapa': 'kisscurl',
   'katmai': 'kisscurl',
   'kavir': 'kisscurl',
@@ -58,6 +59,7 @@ export const minorMajor = {
   'odaesan': 'ombre',
   'oeta': 'ombre',
   'okapi': 'ombre',
+  'panna': 'ponytail',
 }
 /**
  * @type {Record<string, [string|{codename: string, otaId: string}]>}
@@ -124,7 +126,12 @@ export const machineOtaIdPrefix = {
   'k8lpn2': ['HE_DTV_W24P_AFAD'],
   'o22n2': ['HE_DTV_W24G_AFAB'],
   'k24': ['HE_DTV_W24H_AFAD'],
+  'k24t': ['HE_DTV_N24D_AFAA'],
   'o22n28k': ['HE_DTV_W24K_AFAD'],
+  'o24n': ['HE_DTV_W25O_AFAB'],
+  'k24n': ['HE_DTV_W25H_AFAD'],
+  'k25lp': ['HE_DTV_W25P_AFAD'],
+  'o22n3': ['HE_DTV_W25G_AFAB'],
 };
 
 /**
