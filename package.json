@@ -18,6 +18,7 @@
   "license": "MIT",
   "devDependencies": {
     "lodash-es": "^4.17.21",
+    "rfc6902": "^5.1.2",
     "semver": "^7.6.2"
   }
 }

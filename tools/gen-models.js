@@ -10,11 +10,11 @@
 /**
  * @type {ModelItem[]}
  */
-import dump from "./data/model-epks.json" assert {type: "json"};
+import dump from "./data/model-epks.json" with {type: "json"};
 /**
  * @type {DumpItem[]}
  */
-import updates from "./data/fw-updates.json" assert {type: "json"};
+import updates from "./data/fw-updates.json" with {type: "json"};
 import fs from "node:fs";
 import {regionBroadcasts, upgradedOtaIds} from "./mappings.js";
 import {DeviceModelName} from "../src/library.js";
