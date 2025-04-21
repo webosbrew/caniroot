@@ -18,8 +18,9 @@ import updates from "./data/fw-updates.json" with {type: "json"};
 import fs from "node:fs";
 import {regionBroadcasts, upgradedOtaIds} from "./mappings.js";
 import {DeviceModelName} from "../src/library.js";
-import {compact, concat, filter, groupBy, isEqual, sortBy, sortedUniq, uniq, uniqBy} from "lodash-es";
+import {chain, concat, filter, groupBy, isEqual, sortBy, sortedUniq, uniqBy, without} from "lodash-es";
 import {epkNameRegex, parseDeviceModel} from "./device-model.js";
+import * as rfc6902 from "rfc6902";
 
 /**
  * @type {Record<string, DeviceModelData>}
@@ -54,18 +55,63 @@ const updatesGrouped = groupBy(updates, item => {
 });
 
 /**
+ * @param epk {string}
+ * @return {string | undefined}
+ */
+function epkBroadcast(epk) {
+  return epk.match(/(?:lib32-)?starfish-(?<broadcast>\w+)-secured-/)?.groups?.broadcast;
+}
+
+/**
  * @param item {GroupedModelItem}
  * @return {boolean}
  */
 function isMismatch(item) {
-  const broadcast = item.epk?.match(/(?:lib32-)?starfish-(?<broadcast>\w+)-secured-/)?.groups?.broadcast;
+  const broadcast = item.epk && epkBroadcast(item.epk);
   const regionBroadcast = regionBroadcasts[item.region];
   return !!broadcast && broadcast !== 'global' && regionBroadcast !== 'isdb' && regionBroadcast !== broadcast;
-
 }
 
-for (let [model, items] of Object.entries(dumpGrouped)) {
-  items = sortBy(items.filter(v => !isMismatch(v)), v => {
+/**
+ * @param model {DeviceModelName}
+ * @param epk {string}
+ * @param otaId {string}
+ * @param items {GroupedModelItem[]}
+ * @param getter {(item: GroupedModelItem) => any}
+ */
+function modelsProps(model, epk, otaId, items, getter) {
+  /**
+   * @param {GroupedModelItem} v
+   * @return {boolean} */
+  function sameVariation(v) {
+    if (v.ota_id && v.ota_id !== otaId) {
+      return false;
+    } else if (v.epk && epk && epkBroadcast(v.epk) !== epkBroadcast(epk)) {
+      return false;
+    }
+    return v.model.simple === model.simple;
+  }
+
+  return chain(items).groupBy(/** @param x {GroupedModelItem} */(x) => getter(x))
+    .values()
+    .map(/** @param g {GroupedModelItem[]} */(g) => {
+      const filtered = g.filter(v => v.ota_id);
+      if (filtered.length > 1) {
+        return filtered;
+      }
+      return g;
+    })
+    .flatten()
+    .map(/** @param x {GroupedModelItem} */(x) => sameVariation(x) && getter(x))
+    .compact()
+    .uniq()
+    .sort()
+    .value();
+}
+
+for (let [model, group] of Object.entries(dumpGrouped)) {
+  group = group.filter(v => !isMismatch(v));
+  group = sortBy(group, v => {
     let prefix = v.epk ? 'a' : 'z';
     prefix += v.ota_id ? 'a' : 'z';
     let region = knownRegions.indexOf(v.region);
@@ -74,6 +120,8 @@ for (let [model, items] of Object.entries(dumpGrouped)) {
     const minor = groups?.minor;
     return `${prefix}-${minor}-${v.model.sized}`;
   });
+  /** @type {GroupedModelItem[]} */
+  const items = group;
   if (items.length === 0) {
     console.warn(`No valid firmware found for model ${model}`);
     continue;
@@ -98,18 +146,8 @@ for (let [model, items] of Object.entries(dumpGrouped)) {
     continue;
   }
 
-  /**
-   * @param {ModelItem} v
-   * @return {boolean} */
-  function sameVariation(v) {
-    if (v.ota_id && v.ota_id !== ota_id) {
-      return false;
-    }
-    return v.model.simple === parsedName.simple;
-  }
-
-  base.sizes = uniq(compact(items.map(x => sameVariation(x) && x.model.size))).sort();
-  base.regions = uniq(compact(items.map(x => sameVariation(x) && x.region))).sort();
+  base.sizes = modelsProps(parsedName, epk, ota_id, items, x => x.model.size);
+  base.regions = modelsProps(parsedName, epk, ota_id, items, x => x.region);
   /** @type {DeviceModelData[]} */
   let variants = filter(groupBy(items.slice(1).flatMap(({model, epk, region, ota_id}) => {
     /** @type {DeviceModelVariantData | undefined} */
@@ -142,6 +180,9 @@ for (let [model, items] of Object.entries(dumpGrouped)) {
       if (isEqual(value, base[key])) {
         delete first[key];
       }
+      if (['sizes', 'regions'].includes(key) && without(value, ...base[key]).length === 0) {
+        delete first[key];
+      }
     }
     return first.otaId || first.codename;
   }).map(group => group[0]);
@@ -152,6 +193,24 @@ for (let [model, items] of Object.entries(dumpGrouped)) {
   }
   output[parsedName.simple] = base;
 }
+
+async function writeSummary() {
+  const changes = rfc6902.createPatch((await import('../src/models.gen.js')).default, output);
+  for (const change of changes) {
+    const [model, ...rest] = change.path.split('/').slice(1);
+    if (change.op === 'add' && rest.length === 0) {
+      console.log(`- new model: ${model}`);
+    } else if (change.op === 'add' && rest.length === 2 && rest[0] === 'variants') {
+      /** @type {DeviceModelVariantData} */
+      const value = change.value;
+      if (!value.machine && value.codename) {
+        console.log(`- model ${model} got major firmware update: ${value.codename}`);
+      }
+    }
+  }
+}
+
+await writeSummary();
 
 // language=JavaScript
 const header = '/** @type {Record<string, DeviceModelData>} */\nexport default ';
