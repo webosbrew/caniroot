@@ -16,9 +16,9 @@ import dump from "./data/model-epks.json" with {type: "json"};
  */
 import updates from "./data/fw-updates.json" with {type: "json"};
 import fs from "node:fs";
-import {regionBroadcasts, upgradedOtaIds} from "./mappings.js";
+import {machineOtaIdPrefix, regionBroadcasts, upgradedOtaIds} from "./mappings.js";
 import {DeviceModelName} from "../src/library.js";
-import {chain, concat, filter, groupBy, isEqual, sortBy, sortedUniq, uniqBy, without} from "lodash-es";
+import {chain, concat, countBy, filter, groupBy, isEqual, size, sortBy, sortedUniq, uniqBy, without} from "lodash-es";
 import {epkNameRegex, parseDeviceModel} from "./device-model.js";
 import * as rfc6902 from "rfc6902";
 
@@ -111,14 +111,15 @@ function modelsProps(model, epk, otaId, items, getter) {
 
 for (let [model, group] of Object.entries(dumpGrouped)) {
   group = group.filter(v => !isMismatch(v));
+  // Sort by otaId, region, codename and size
   group = sortBy(group, v => {
-    let prefix = v.epk ? 'a' : 'z';
-    prefix += v.ota_id ? 'a' : 'z';
-    let region = knownRegions.indexOf(v.region);
-    prefix += region < 0 ? '_' : region.toString(36);
     const groups = v.epk?.match(epkNameRegex)?.groups;
-    const minor = groups?.minor;
-    return `${prefix}-${minor}-${v.model.sized}`;
+    let prefix = v.epk ? 'a' : 'z';
+    let regionIdx = knownRegions.indexOf(v.region);
+    prefix += regionIdx < 0 ? '_' : regionIdx.toString(36).padStart(2, '0');
+    const minor = groups?.minor ?? 'zzzz';
+    const otaIdPrefix = v.ota_id ?? (groups && [groups.machine, groups.machine2].map(x => machineOtaIdPrefix[x])?.find(v => v)?.[0]);
+    return `${prefix}-${v.model.sized}-${minor}-${otaIdPrefix?.substring(7, 11) ?? 'ZZZZ'}`;
   });
   /** @type {GroupedModelItem[]} */
   const items = group;
@@ -126,19 +127,12 @@ for (let [model, group] of Object.entries(dumpGrouped)) {
     console.warn(`No valid firmware found for model ${model}`);
     continue;
   }
-  let preferredIndex = 0;
-  for (const [_, sub] of Object.entries(groupBy(items, (v) => `${v.model.sized}-${v.region}`))) {
-    const rank = Object.entries(groupBy(sub.filter(v => v.ota_id && !v.ota_id.endsWith('PU')), 'ota_id'))
-      .sort(([_ak, a], [_bk, b]) => b.length - a.length);
-    if (rank.length > 1) {
-      console.warn(`Multiple OTA IDs for model ${sub[0].model.sized} (${sub[0].region}): ${rank.map(([k, v]) => `${k}=${v.length}`).join(", ")}`);
-      preferredIndex = items.indexOf(rank[0][1][0]);
-      if (preferredIndex < 0) {
-        preferredIndex = 0;
-      }
-    }
+  /** @type {Record<string, number>} */
+  const countByOtaId = countBy(group.filter(v => v.ota_id), v => v.ota_id.substring(0, 11));
+  if (size(countByOtaId) > 1) {
+    console.warn(`Multiple OTA IDs for model ${model}`, countByOtaId);
   }
-  const {model: parsedName, epk, region, ota_id} = items[preferredIndex];
+  const {model: parsedName, epk, region, ota_id} = items[0];
   /** @type {DeviceModelData | undefined} */
   const base = epk && parseDeviceModel(parsedName, epk, region, ota_id);
   if (!base) {
@@ -183,6 +177,13 @@ for (let [model, group] of Object.entries(dumpGrouped)) {
       if (['sizes', 'regions'].includes(key) && without(value, ...base[key]).length === 0) {
         delete first[key];
       }
+    }
+    if (ota_id && first.otaId && first.otaId.substring(0, 10) !== ota_id.substring(0, 10)) {
+      // Definitely not right (model year mismatch)
+      return false;
+    }
+    if (!first.sizes && !first.regions && first.otaId) {
+      console.warn(`Suspicious variant for model ${model} (${region}, ${ota_id || 'No OTA ID'}), having different machine:`, first);
     }
     return first.otaId || first.codename;
   }).map(group => group[0]);
