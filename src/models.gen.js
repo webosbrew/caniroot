@@ -16776,9 +16776,9 @@ export default {
   "QNED80AKA": {
     "series": "QNED80",
     "broadcast": "atsc",
-    "machine": "k24n",
+    "machine": "k25lp",
     "codename": "ponytail",
-    "otaId": "HE_DTV_W25H_AFADATAA",
+    "otaId": "HE_DTV_W25P_AFADATAA",
     "sizes": [
       75,
       86
@@ -16788,8 +16788,8 @@ export default {
     ],
     "variants": [
       {
-        "machine": "k25lp",
-        "otaId": "HE_DTV_W25P_AFADATAA"
+        "machine": "k24n",
+        "otaId": "HE_DTV_W25H_AFADATAA"
       }
     ]
   },
@@ -16911,15 +16911,15 @@ export default {
         "otaId": "HE_DTV_W23M_AFADATAA"
       },
       {
-        "machine": "m23",
-        "codename": "ombre",
-        "otaId": "HE_DTV_W23M_AFADATAA",
-        "swMajor": "23"
-      },
-      {
         "machine": "k8hp",
         "codename": "ombre",
         "otaId": "HE_DTV_W22H_AFADATAA",
+        "swMajor": "23"
+      },
+      {
+        "machine": "m23",
+        "codename": "ombre",
+        "otaId": "HE_DTV_W23M_AFADATAA",
         "swMajor": "23"
       },
       {
@@ -17526,9 +17526,9 @@ export default {
   "QNED85AKA": {
     "series": "QNED85",
     "broadcast": "atsc",
-    "machine": "k24n",
+    "machine": "k25lp",
     "codename": "ponytail",
-    "otaId": "HE_DTV_W25H_AFADATAA",
+    "otaId": "HE_DTV_W25P_AFADATAA",
     "sizes": [
       65,
       75,
@@ -17539,17 +17539,17 @@ export default {
     ],
     "variants": [
       {
-        "machine": "k25lp",
-        "otaId": "HE_DTV_W25P_AFADATAA"
+        "machine": "k24n",
+        "otaId": "HE_DTV_W25H_AFADATAA"
       }
     ]
   },
   "QNED85AMA": {
     "series": "QNED85",
     "broadcast": "atsc",
-    "machine": "k24n",
+    "machine": "k25lp",
     "codename": "ponytail",
-    "otaId": "HE_DTV_W25H_AFADATAA",
+    "otaId": "HE_DTV_W25P_AFADATAA",
     "sizes": [
       75,
       86
@@ -17559,8 +17559,8 @@ export default {
     ],
     "variants": [
       {
-        "machine": "k25lp",
-        "otaId": "HE_DTV_W25P_AFADATAA"
+        "machine": "k24n",
+        "otaId": "HE_DTV_W25H_AFADATAA"
       }
     ]
   },
@@ -17658,13 +17658,13 @@ export default {
         "swMajor": "23"
       },
       {
-        "machine": "k8hp",
         "codename": "ombre",
-        "otaId": "HE_DTV_W22H_AFADATAA",
         "swMajor": "23"
       },
       {
+        "machine": "k8hp",
         "codename": "ombre",
+        "otaId": "HE_DTV_W22H_AFADATAA",
         "swMajor": "23"
       }
     ]
@@ -33479,13 +33479,13 @@ export default {
         "swMajor": "23"
       },
       {
-        "machine": "k8hp",
         "codename": "ombre",
-        "otaId": "HE_DTV_W22H_AFADATAA",
         "swMajor": "23"
       },
       {
+        "machine": "k8hp",
         "codename": "ombre",
+        "otaId": "HE_DTV_W22H_AFADATAA",
         "swMajor": "23"
       }
     ]
