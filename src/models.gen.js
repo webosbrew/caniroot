@@ -5472,9 +5472,12 @@ export default {
     "otaId": "HE_DTV_W25P_AFADATAA",
     "suffix": ".ACC",
     "sizes": [
+      43,
+      50,
       55,
       65,
-      75
+      75,
+      86
     ],
     "regions": [
       "CA"
@@ -6562,9 +6565,12 @@ export default {
     "otaId": "HE_DTV_W25P_AFADATAA",
     "suffix": ".AEK",
     "sizes": [
-      43
+      43,
+      55,
+      65
     ],
     "regions": [
+      "DE",
       "UK"
     ]
   },
@@ -9276,6 +9282,8 @@ export default {
       77
     ],
     "regions": [
+      "AU",
+      "NZ",
       "UK"
     ]
   },
@@ -9294,6 +9302,21 @@ export default {
     ],
     "regions": [
       "DE"
+    ]
+  },
+  "OLEDB5AUA": {
+    "series": "OLEDB5",
+    "broadcast": "atsc",
+    "machine": "k24n",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25H_AFADATAA",
+    "suffix": ".AUS",
+    "sizes": [
+      55,
+      65
+    ],
+    "regions": [
+      "US"
     ]
   },
   "OLEDB5BNA": {
@@ -9352,6 +9375,21 @@ export default {
     ],
     "regions": [
       "KR"
+    ]
+  },
+  "OLEDB5PCA": {
+    "series": "OLEDB5",
+    "broadcast": "dvb",
+    "machine": "k24n",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25H_AFADATAA",
+    "suffix": ".AHKG",
+    "sizes": [
+      65,
+      77
+    ],
+    "regions": [
+      "HK"
     ]
   },
   "OLEDB5PSA": {
@@ -12358,6 +12396,8 @@ export default {
       77
     ],
     "regions": [
+      "AU",
+      "NZ",
       "UK"
     ]
   },
@@ -12516,6 +12556,20 @@ export default {
       "KR"
     ]
   },
+  "OLEDC5PCA": {
+    "series": "OLEDC5",
+    "broadcast": "dvb",
+    "machine": "o22n3",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25G_AFABATAA",
+    "suffix": ".AHKG",
+    "sizes": [
+      83
+    ],
+    "regions": [
+      "HK"
+    ]
+  },
   "OLEDC5PSA": {
     "series": "OLEDC5",
     "broadcast": "dvb",
@@ -12586,6 +12640,20 @@ export default {
     ],
     "regions": [
       "KR"
+    ]
+  },
+  "OLEDC5YUA": {
+    "series": "OLEDC5",
+    "broadcast": "atsc",
+    "machine": "o22n3",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25G_AFABATAA",
+    "suffix": ".ACC",
+    "sizes": [
+      65
+    ],
+    "regions": [
+      "CA"
     ]
   },
   "OLEDC6D": {
@@ -15130,6 +15198,21 @@ export default {
       "KR"
     ]
   },
+  "OLEDG5PCA": {
+    "series": "OLEDG5",
+    "broadcast": "dvb",
+    "machine": "o24n",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25O_AFABATAA",
+    "suffix": ".AHKG",
+    "sizes": [
+      55,
+      77
+    ],
+    "regions": [
+      "HK"
+    ]
+  },
   "OLEDG5PSA": {
     "series": "OLEDG5",
     "broadcast": "dvb",
@@ -17063,9 +17146,11 @@ export default {
     "suffix": ".ACC",
     "sizes": [
       43,
+      50,
       55,
       65,
-      75
+      75,
+      86
     ],
     "regions": [
       "CA"
@@ -17757,6 +17842,20 @@ export default {
       "UK"
     ]
   },
+  "QNED82ACA": {
+    "series": "QNED82",
+    "broadcast": "dvb",
+    "machine": "k25lp",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25P_AFADATAA",
+    "suffix": ".AHKG",
+    "sizes": [
+      65
+    ],
+    "regions": [
+      "HK"
+    ]
+  },
   "QNED82AUA": {
     "series": "QNED82",
     "broadcast": "atsc",
@@ -17773,6 +17872,7 @@ export default {
       86
     ],
     "regions": [
+      "CA",
       "US"
     ]
   },
@@ -17792,6 +17892,20 @@ export default {
     "regions": [
       "DE",
       "UK"
+    ]
+  },
+  "QNED85ACA": {
+    "series": "QNED85",
+    "broadcast": "dvb",
+    "machine": "k24n",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25H_AFADATAA",
+    "suffix": ".AHKG",
+    "sizes": [
+      65
+    ],
+    "regions": [
+      "HK"
     ]
   },
   "QNED85AKA": {
@@ -18320,7 +18434,9 @@ export default {
       86
     ],
     "regions": [
+      "AU",
       "DE",
+      "NZ",
       "UK"
     ]
   },
@@ -20963,6 +21079,21 @@ export default {
     ],
     "regions": [
       "US"
+    ]
+  },
+  "UA8450PSA": {
+    "series": "UA84",
+    "broadcast": "dvb",
+    "machine": "k25lp",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25P_AFADATAA",
+    "suffix": ".ANR",
+    "sizes": [
+      50
+    ],
+    "regions": [
+      "AU",
+      "NZ"
     ]
   },
   "UB8400": {
