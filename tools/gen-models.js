@@ -205,7 +205,7 @@ async function writeSummary() {
       /** @type {DeviceModelVariantData} */
       const value = change.value;
       if (!value.machine && value.codename) {
-        console.log(`- model ${model} got major firmware update: ${value.codename}`);
+        console.log(`- major update: ${model} got ${value.codename}`);
       }
     }
   }
