@@ -47,6 +47,12 @@ export class DeviceExploitAvailabilities implements DeviceExploitAvailabilitiesD
      * @param exact If true, only return the exact match. If false, return the closest match.
      */
     public static byOTAID(otaId: string, codename?: string, exact?: boolean): DeviceExploitAvailabilities | undefined;
+
+    /**
+     * Find codenames of exploit availabilities for a specific OTA ID
+     * @param otaId OTA ID
+     */
+    public static codenamesByOTAID(otaId: string): string[];
 }
 
 export declare interface DeviceModelNameData {

@@ -58,6 +58,14 @@ export class DeviceExploitAvailabilities {
 
     return match && new DeviceExploitAvailabilities({otaId: matchKey, ...match});
   }
+
+  /**
+   * @param otaId {string}
+   * @return {string[]}
+   */
+  static codenamesByOTAID(otaId) {
+    return Object.keys(exploits[otaId] || {})
+  }
 }
 
 export class DeviceModelName {

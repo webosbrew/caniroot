@@ -53,6 +53,9 @@ export function SearchHint(props: { term?: SearchTerm, model?: DeviceModel, cand
             to check available rooting methods.
           </div>`;
     }
+    if (term.otaId) {
+        return;
+    }
     if (!term.model) {
         return html`
           <div class="alert alert-warning mt-3" role="alert">

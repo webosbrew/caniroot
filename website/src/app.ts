@@ -30,6 +30,7 @@ export interface SearchTerm {
     q: string;
     model?: DeviceModelName;
     firmware?: string;
+    otaId?: string;
     remaining?: string;
 }
 
@@ -50,7 +51,13 @@ function parseSearchTerm(q?: string): SearchTerm | undefined {
         remaining = remaining.filter(s => s !== firmwareMatch[0]);
         firmware = firmwareMatch[0].padStart(8, '0');
     }
-    return {q, model, firmware, remaining: remaining.join(' ') || undefined};
+    const otaIdMatch = remaining.map(s => s.match(/^HE_[A-Z]{3}_[A-Z1-9]{4}_[A-Z]{8}$/))?.[0];
+    let otaId = undefined;
+    if (otaIdMatch) {
+        remaining = remaining.filter(s => s !== otaIdMatch[0]);
+        otaId = otaIdMatch[0];
+    }
+    return {q, model, firmware, otaId, remaining: remaining.join(' ') || undefined};
 }
 
 export declare interface ExploitMethod {
@@ -230,8 +237,11 @@ class App extends Component<AppProps, AppState> {
 
     private createState(q?: string, codename?: string): AppState {
         const term = parseSearchTerm(q);
-        const models = term?.model && DeviceModel.findAll(term.model.name + (term.model.tdd || ''));
-        let model = models?.filter(m => m.model.startsWith(term!!.model!!.simple))[0];
+        if (!term) {
+            return {};
+        }
+        const models = term.model && DeviceModel.findAll(term.model.name + (term.model.tdd || ''));
+        let model = models?.filter(m => m.model.startsWith(term.model!!.simple))[0];
         if (!model && models) {
             model = models[0];
         }
@@ -239,7 +249,12 @@ class App extends Component<AppProps, AppState> {
         let availableCodenames: CodeNameEntry[] | undefined = undefined;
         let selectedCodename: string | undefined;
         let candidates: DeviceModel[] | undefined = undefined;
-        if (model) {
+        let availability: DeviceExploitAvailabilities | undefined = undefined;
+        if (term.otaId) {
+            availability = DeviceExploitAvailabilities.byOTAID(term.otaId, codename);
+            availableCodenames = DeviceExploitAvailabilities.codenamesByOTAID(term.otaId).map(value => ({value}));
+            selectedCodename = codename || availableCodenames[0]?.value;
+        } else if (model) {
             availableCodenames = model.variants
                 ?.filter(v => v.codename && v.codename !== model!!.codename)
                 ?.map(v => ({value: v.codename!!, min: v.swMajor}));
@@ -271,12 +286,12 @@ class App extends Component<AppProps, AppState> {
             if (selectedCodename && selectedCodename !== model.codename) {
                 model = model.variant((v) => v.codename === selectedCodename)
             }
+            availability = model && DeviceExploitAvailabilities.byOTAID(model.otaId, selectedCodename);
         } else {
             const series = term?.model?.series;
             candidates = series ? DeviceModel.findAll(series).filter(v => v.series === series) : undefined;
         }
 
-        const availability = model && DeviceExploitAvailabilities.byOTAID(model.otaId, selectedCodename);
         const similar = model && availability && availability.otaId !== model.otaId;
         return {
             term,
