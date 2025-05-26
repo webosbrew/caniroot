@@ -854,7 +854,7 @@ export default {
     "machine": "m14tv",
     "codename": "afro",
     "otaId": "HE_DTV_WT1M_AFAAATAA",
-    "suffix": ".ACCS",
+    "suffix": ".AUSS",
     "sizes": [
       42,
       47,
@@ -2395,7 +2395,7 @@ export default {
     "machine": "m2r",
     "codename": "dreadlocks2",
     "otaId": "HE_DTV_W17R_AFAAATAA",
-    "suffix": ".ACCQ",
+    "suffix": ".AUSQ",
     "sizes": [
       32
     ],
@@ -2427,7 +2427,7 @@ export default {
     "machine": "m2r",
     "codename": "dreadlocks2",
     "otaId": "HE_DTV_W17R_AFAAATAA",
-    "suffix": ".AUS",
+    "suffix": ".AUSQ",
     "sizes": [
       32,
       43,
@@ -19087,7 +19087,7 @@ export default {
     "machine": "k24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24H_AFADATAA",
-    "suffix": ".ACCQ",
+    "suffix": ".AUSQ",
     "sizes": [
       98
     ],
@@ -19459,7 +19459,7 @@ export default {
     "machine": "k24n",
     "codename": "ponytail",
     "otaId": "HE_DTV_W25H_AFADATAA",
-    "suffix": ".ACCQ",
+    "suffix": ".AUSQ",
     "sizes": [
       65,
       75,
@@ -21425,6 +21425,22 @@ export default {
       "US"
     ]
   },
+  "UA7700PUA": {
+    "series": "UA77",
+    "broadcast": "atsc",
+    "machine": "k25lp",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25P_AFADATAA",
+    "suffix": ".AUSQ",
+    "sizes": [
+      75,
+      86
+    ],
+    "regions": [
+      "CA",
+      "US"
+    ]
+  },
   "UA7900YUA": {
     "series": "UA79",
     "broadcast": "atsc",
@@ -22298,6 +22314,22 @@ export default {
       "KR"
     ]
   },
+  "UF7600": {
+    "series": "UF76",
+    "broadcast": "atsc",
+    "machine": "lm15u",
+    "codename": "beehive",
+    "otaId": "HE_DTV_W15U_AFADATAA",
+    "suffix": ".AUST",
+    "sizes": [
+      43,
+      49,
+      55
+    ],
+    "regions": [
+      "US"
+    ]
+  },
   "UF7650": {
     "series": "UF76",
     "broadcast": "atsc",
@@ -22341,7 +22373,8 @@ export default {
       55,
       60,
       65,
-      70
+      70,
+      79
     ],
     "regions": [
       "BR",
@@ -22356,13 +22389,6 @@ export default {
         "machine": "lm14a",
         "otaId": "HE_DTV_W15A_AFADABAA",
         "suffix": ".AHK",
-        "sizes": [
-          40,
-          49,
-          55,
-          65,
-          79
-        ],
         "regions": [
           "HK"
         ]
@@ -22378,14 +22404,7 @@ export default {
       {
         "machine": "lm14a",
         "otaId": "HE_DTV_W15A_AFADATAA",
-        "suffix": ".AWZ",
-        "sizes": [
-          55,
-          60,
-          65,
-          70,
-          79
-        ]
+        "suffix": ".AWZ"
       }
     ]
   },
@@ -23634,13 +23653,27 @@ export default {
     "machine": "k2lp",
     "codename": "dreadlocks",
     "otaId": "HE_DTV_W16P_AFADATAA",
-    "suffix": ".ACCQ",
+    "suffix": ".AUSQ",
     "sizes": [
       50,
       65
     ],
     "regions": [
       "CA",
+      "US"
+    ]
+  },
+  "UH5530": {
+    "series": "UH55",
+    "broadcast": "atsc",
+    "machine": "k2lp",
+    "codename": "dreadlocks",
+    "otaId": "HE_DTV_W16P_AFADATAA",
+    "suffix": ".AUSQ",
+    "sizes": [
+      50
+    ],
+    "regions": [
       "US"
     ]
   },
@@ -24329,7 +24362,7 @@ export default {
     "machine": "m16lite",
     "codename": "dreadlocks",
     "otaId": "HE_DTV_W16N_AFADATAA",
-    "suffix": ".ACCS",
+    "suffix": ".AUSS",
     "sizes": [
       43,
       49,
@@ -24492,7 +24525,7 @@ export default {
     "machine": "m16lite",
     "codename": "dreadlocks",
     "otaId": "HE_DTV_W16N_AFADATAA",
-    "suffix": ".ACCS",
+    "suffix": ".AUSS",
     "sizes": [
       55,
       60,
@@ -24506,13 +24539,13 @@ export default {
       {
         "machine": "m16",
         "otaId": "HE_DTV_W16M_AFADATAA",
-        "suffix": ".AWZ",
         "sizes": [
           75
         ],
         "regions": [
           "BR",
-          "PE"
+          "PE",
+          "US"
         ]
       }
     ]
@@ -29458,7 +29491,7 @@ export default {
     "machine": "k6lp",
     "codename": "jhericurl",
     "otaId": "HE_DTV_W20P_AFADATAA",
-    "suffix": ".ACCQ",
+    "suffix": ".AUSQ",
     "sizes": [
       65
     ],
@@ -32451,7 +32484,7 @@ export default {
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADATAA",
-    "suffix": ".ACCQ",
+    "suffix": ".AUSQ",
     "sizes": [
       50,
       55,
@@ -33258,8 +33291,7 @@ export default {
       50,
       55,
       65,
-      75,
-      86
+      75
     ],
     "regions": [
       "KR"
@@ -33267,7 +33299,10 @@ export default {
     "variants": [
       {
         "machine": "k8hp",
-        "otaId": "HE_DTV_W22H_AFADATAA"
+        "otaId": "HE_DTV_W22H_AFADATAA",
+        "sizes": [
+          86
+        ]
       }
     ]
   },
@@ -34260,8 +34295,7 @@ export default {
       50,
       55,
       65,
-      75,
-      86
+      75
     ],
     "regions": [
       "KR"
@@ -34273,12 +34307,18 @@ export default {
       },
       {
         "machine": "k8hpp",
-        "otaId": "HE_DTV_W23H_AFADATAA"
+        "otaId": "HE_DTV_W23H_AFADATAA",
+        "sizes": [
+          86
+        ]
       },
       {
         "machine": "k8hpp",
         "codename": "ombre",
         "otaId": "HE_DTV_W23H_AFADATAA",
+        "sizes": [
+          86
+        ],
         "swMajor": "23"
       }
     ]
@@ -34294,8 +34334,7 @@ export default {
       50,
       55,
       65,
-      75,
-      86
+      75
     ],
     "regions": [
       "KR"
@@ -34307,12 +34346,18 @@ export default {
       },
       {
         "machine": "k8hpp",
-        "otaId": "HE_DTV_W23H_AFADATAA"
+        "otaId": "HE_DTV_W23H_AFADATAA",
+        "sizes": [
+          86
+        ]
       },
       {
         "machine": "k8hpp",
         "codename": "ombre",
         "otaId": "HE_DTV_W23H_AFADATAA",
+        "sizes": [
+          86
+        ],
         "swMajor": "23"
       }
     ]
@@ -34324,8 +34369,7 @@ export default {
     "codename": "number1",
     "otaId": "HE_DTV_W23M_AFADATAA",
     "sizes": [
-      75,
-      86
+      75
     ],
     "regions": [
       "KR"
@@ -34337,12 +34381,18 @@ export default {
       },
       {
         "machine": "k8hpp",
-        "otaId": "HE_DTV_W23H_AFADATAA"
+        "otaId": "HE_DTV_W23H_AFADATAA",
+        "sizes": [
+          86
+        ]
       },
       {
         "machine": "k8hpp",
         "codename": "ombre",
         "otaId": "HE_DTV_W23H_AFADATAA",
+        "sizes": [
+          86
+        ],
         "swMajor": "23"
       }
     ]
@@ -34358,8 +34408,7 @@ export default {
       50,
       55,
       65,
-      75,
-      86
+      75
     ],
     "regions": [
       "KR"
@@ -34371,12 +34420,18 @@ export default {
       },
       {
         "machine": "k8hpp",
-        "otaId": "HE_DTV_W23H_AFADATAA"
+        "otaId": "HE_DTV_W23H_AFADATAA",
+        "sizes": [
+          86
+        ]
       },
       {
         "machine": "k8hpp",
         "codename": "ombre",
         "otaId": "HE_DTV_W23H_AFADATAA",
+        "sizes": [
+          86
+        ],
         "swMajor": "23"
       }
     ]
@@ -34641,7 +34696,7 @@ export default {
     "machine": "k24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24H_AFADATAA",
-    "suffix": ".ACCQ",
+    "suffix": ".AUSQ",
     "sizes": [
       98
     ],

@@ -18,7 +18,7 @@ import updates from "./data/fw-updates.json" with {type: "json"};
 import fs from "node:fs";
 import {machineOtaIdPrefix, regionBroadcasts, upgradedOtaIds} from "./mappings.js";
 import {DeviceModelName} from "../src/library.js";
-import {chain, concat, countBy, filter, groupBy, isEqual, size, sortBy, sortedUniq, uniqBy, without} from "lodash-es";
+import {chain, concat, filter, groupBy, isEqual, sortBy, sortedUniq, uniqBy, without} from "lodash-es";
 import {epkNameRegex, parseDeviceModel} from "./device-model.js";
 import * as rfc6902 from "rfc6902";
 
@@ -121,16 +121,21 @@ for (let [model, group] of Object.entries(dumpGrouped)) {
     const otaIdPrefix = v.ota_id ?? (groups && [groups.machine, groups.machine2].map(x => machineOtaIdPrefix[x])?.find(v => v)?.[0]);
     return `${prefix}-${v.model.sized}-${minor}-${otaIdPrefix?.substring(7, 11) ?? 'ZZZZ'}`;
   });
+  if (group[0].ota_id) {
+    const year = group[0].ota_id.substring(8, 10);
+    group = group.filter(v => {
+      if (!v.ota_id) {
+        return true; // Keep items without OTA ID
+      }
+      // Filter items with year mismatch
+      return v.ota_id.substring(8, 10) === year;
+    });
+  }
   /** @type {GroupedModelItem[]} */
   const items = group;
   if (items.length === 0) {
     console.warn(`No valid firmware found for model ${model}`);
     continue;
-  }
-  /** @type {Record<string, number>} */
-  const countByOtaId = countBy(group.filter(v => v.ota_id), v => v.ota_id.substring(0, 11));
-  if (size(countByOtaId) > 1) {
-    console.warn(`Multiple OTA IDs for model ${model}`, countByOtaId);
   }
   const {model: parsedName, epk, region, ota_id} = items[0];
   /** @type {DeviceModelData | undefined} */
