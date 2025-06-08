@@ -5521,6 +5521,7 @@ export default {
     ],
     "regions": [
       "AU",
+      "BR",
       "NZ",
       "PE"
     ]
@@ -9365,6 +9366,7 @@ export default {
     ],
     "regions": [
       "AU",
+      "IN",
       "NZ",
       "PL",
       "UK"
@@ -12790,6 +12792,7 @@ export default {
     "otaId": "HE_DTV_W25G_AFABATAA",
     "suffix": ".ACC",
     "sizes": [
+      42,
       48,
       55,
       65,
@@ -16994,6 +16997,22 @@ export default {
       }
     ]
   },
+  "QNED75AEA": {
+    "series": "QNED75",
+    "broadcast": "atsc",
+    "machine": "k25lp",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25P_AFADATAA",
+    "sizes": [
+      55,
+      65,
+      75,
+      86
+    ],
+    "regions": [
+      "KR"
+    ]
+  },
   "QNED75AGA": {
     "series": "QNED75",
     "broadcast": "atsc",
@@ -18086,7 +18105,8 @@ export default {
     "otaId": "HE_DTV_W25P_AFADATAA",
     "suffix": ".AWF",
     "sizes": [
-      55
+      55,
+      75
     ],
     "regions": [
       "PE"
@@ -18123,7 +18143,8 @@ export default {
       43,
       50,
       55,
-      65
+      65,
+      75
     ],
     "regions": [
       "DE",
@@ -18255,6 +18276,7 @@ export default {
       65
     ],
     "regions": [
+      "BR",
       "PE"
     ]
   },
@@ -18820,6 +18842,20 @@ export default {
       }
     ]
   },
+  "QNED86AS": {
+    "series": "QNED86",
+    "broadcast": "dvb",
+    "machine": "k24n",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25H_AFADATAA",
+    "suffix": ".AAU",
+    "sizes": [
+      100
+    ],
+    "regions": [
+      "NZ"
+    ]
+  },
   "QNED86ASA": {
     "series": "QNED86",
     "broadcast": "dvb",
@@ -19160,7 +19196,8 @@ export default {
     "suffix": ".AEK",
     "sizes": [
       43,
-      50
+      50,
+      55
     ],
     "regions": [
       "UK"
@@ -21508,7 +21545,10 @@ export default {
     "otaId": "HE_DTV_W25P_AFADATAA",
     "suffix": ".ACC",
     "sizes": [
-      65
+      43,
+      55,
+      65,
+      75
     ],
     "regions": [
       "CA"
@@ -21537,7 +21577,11 @@ export default {
     "suffix": ".ANR",
     "sizes": [
       43,
-      50
+      50,
+      55,
+      65,
+      75,
+      86
     ],
     "regions": [
       "AU",
