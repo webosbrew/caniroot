@@ -12667,6 +12667,22 @@ export default {
       "US"
     ]
   },
+  "OLEDC5ELA": {
+    "series": "OLEDC5",
+    "broadcast": "dvb",
+    "machine": "o22n3",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25G_AFABATAA",
+    "suffix": ".AEK",
+    "sizes": [
+      83
+    ],
+    "regions": [
+      "DE",
+      "PL",
+      "UK"
+    ]
+  },
   "OLEDC5ELB": {
     "series": "OLEDC5",
     "broadcast": "dvb",
@@ -15916,8 +15932,9 @@ export default {
     "machine": "o24n",
     "codename": "ponytail",
     "otaId": "HE_DTV_W25O_AFABATAA",
-    "suffix": ".AHK",
+    "suffix": ".AHKG",
     "sizes": [
+      83,
       97
     ],
     "regions": [
@@ -18164,7 +18181,9 @@ export default {
     "sizes": [
       50,
       55,
-      75
+      65,
+      75,
+      86
     ],
     "regions": [
       "BR",
@@ -18332,7 +18351,8 @@ export default {
     "suffix": ".AWF",
     "sizes": [
       55,
-      65
+      65,
+      75
     ],
     "regions": [
       "BR",
@@ -19256,7 +19276,8 @@ export default {
     "sizes": [
       43,
       50,
-      55
+      55,
+      65
     ],
     "regions": [
       "UK"
@@ -21637,6 +21658,7 @@ export default {
     "otaId": "HE_DTV_W25P_AFADATAA",
     "suffix": ".AWH",
     "sizes": [
+      65,
       75
     ],
     "regions": [
