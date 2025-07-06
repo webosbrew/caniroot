@@ -9507,29 +9507,12 @@ export default {
     "otaId": "HE_DTV_W25H_AFADATAA",
     "sizes": [
       48,
+      55,
       65,
       77
     ],
     "regions": [
       "KR"
-    ]
-  },
-  "OLEDB5PCA": {
-    "series": "OLEDB5",
-    "broadcast": "dvb",
-    "machine": "k24n",
-    "codename": "ponytail",
-    "otaId": "HE_DTV_W25H_AFADATAA",
-    "suffix": ".AHKG",
-    "sizes": [
-      48,
-      55,
-      65,
-      77,
-      83
-    ],
-    "regions": [
-      "HK"
     ]
   },
   "OLEDB5PSA": {
@@ -15462,6 +15445,7 @@ export default {
     "suffix": ".AJLG",
     "sizes": [
       55,
+      65,
       77
     ],
     "regions": [
@@ -18408,24 +18392,6 @@ export default {
       }
     ]
   },
-  "QNED85ASG": {
-    "series": "QNED85",
-    "broadcast": "isdb",
-    "machine": "k24n",
-    "codename": "ponytail",
-    "otaId": "HE_DTV_W25H_AFADATAA",
-    "suffix": ".AWF",
-    "sizes": [
-      55,
-      65,
-      75,
-      86
-    ],
-    "regions": [
-      "BR",
-      "PE"
-    ]
-  },
   "QNED85AU": {
     "series": "QNED85",
     "broadcast": "atsc",
@@ -19348,6 +19314,7 @@ export default {
       65
     ],
     "regions": [
+      "DE",
       "UK"
     ]
   },
@@ -35183,6 +35150,7 @@ export default {
     "sizes": [
       50,
       55,
+      65,
       75,
       86
     ],
