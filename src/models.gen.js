@@ -9548,6 +9548,7 @@ export default {
     ],
     "regions": [
       "AU",
+      "BR",
       "NZ",
       "PE"
     ]
@@ -16027,6 +16028,20 @@ export default {
       "HK"
     ]
   },
+  "OLEDM5PJA": {
+    "series": "OLEDM5",
+    "broadcast": "arib",
+    "machine": "o24n",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25O_AFABJAAA",
+    "suffix": ".AJL",
+    "sizes": [
+      97
+    ],
+    "regions": [
+      "JP"
+    ]
+  },
   "OLEDR19LA": {
     "series": "OLEDR1",
     "broadcast": "dvb",
@@ -17506,6 +17521,7 @@ export default {
     "otaId": "HE_DTV_W25P_AFADATAA",
     "suffix": ".AWZ",
     "sizes": [
+      50,
       55,
       65,
       75
@@ -18539,6 +18555,20 @@ export default {
       }
     ]
   },
+  "QNED85JRA": {
+    "series": "QNED85",
+    "broadcast": "arib",
+    "machine": "k8hpp",
+    "codename": "ombre",
+    "otaId": "HE_DTV_W23H_AFADJAAA",
+    "suffix": ".AJLG",
+    "sizes": [
+      86
+    ],
+    "regions": [
+      "JP"
+    ]
+  },
   "QNED85KQA": {
     "series": "QNED85",
     "broadcast": "atsc",
@@ -19384,7 +19414,8 @@ export default {
       43,
       50,
       55,
-      65
+      65,
+      86
     ],
     "regions": [
       "DE",
@@ -21717,6 +21748,7 @@ export default {
     "suffix": ".AWZ",
     "sizes": [
       43,
+      50,
       55
     ],
     "regions": [
