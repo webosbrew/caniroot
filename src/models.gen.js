@@ -3831,7 +3831,7 @@ export default {
     "machine": "kf23f",
     "codename": "number1",
     "otaId": "HE_DTV_W23L_AFAAATAA",
-    "suffix": ".AWZ",
+    "suffix": ".AWR",
     "sizes": [
       43
     ],
@@ -4427,6 +4427,20 @@ export default {
     ],
     "regions": [
       "KR"
+    ]
+  },
+  "LX6TYGA": {
+    "series": "LX6T",
+    "broadcast": "atsc",
+    "machine": "k24t",
+    "codename": "ombre",
+    "otaId": "HE_DTV_N24D_AFAAATAA",
+    "suffix": ".AUS",
+    "sizes": [
+      27
+    ],
+    "regions": [
+      "US"
     ]
   },
   "LX7000PJB": {
@@ -16042,6 +16056,38 @@ export default {
       "JP"
     ]
   },
+  "OLEDM5PSA": {
+    "series": "OLEDM5",
+    "broadcast": "dvb",
+    "machine": "o24n",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25O_AFABATAA",
+    "suffix": ".AAU",
+    "sizes": [
+      65,
+      77,
+      83,
+      97
+    ],
+    "regions": [
+      "AU",
+      "NZ"
+    ]
+  },
+  "OLEDM5PUA": {
+    "series": "OLEDM5",
+    "broadcast": "atsc",
+    "machine": "o24n",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25O_AFABATAA",
+    "suffix": ".AUS",
+    "sizes": [
+      77
+    ],
+    "regions": [
+      "US"
+    ]
+  },
   "OLEDR19LA": {
     "series": "OLEDR1",
     "broadcast": "dvb",
@@ -17524,7 +17570,8 @@ export default {
       50,
       55,
       65,
-      75
+      75,
+      86
     ],
     "regions": [
       "BR",
@@ -18282,6 +18329,7 @@ export default {
     "otaId": "HE_DTV_W25P_AFADATAA",
     "suffix": ".AWZ",
     "sizes": [
+      43,
       50,
       55,
       65,
@@ -20116,12 +20164,13 @@ export default {
     "machine": "o22n3",
     "codename": "ponytail",
     "otaId": "HE_DTV_W25G_AFABATAA",
-    "suffix": ".AEU",
+    "suffix": ".AEK",
     "sizes": [
       65
     ],
     "regions": [
-      "PL"
+      "PL",
+      "UK"
     ]
   },
   "QNED9MAKA": {
@@ -21749,7 +21798,8 @@ export default {
     "sizes": [
       43,
       50,
-      55
+      55,
+      65
     ],
     "regions": [
       "BR"
@@ -21853,6 +21903,7 @@ export default {
     "suffix": ".AWF",
     "sizes": [
       55,
+      60,
       65,
       75,
       86
@@ -21893,7 +21944,8 @@ export default {
       50,
       55,
       65,
-      75
+      75,
+      86
     ],
     "regions": [
       "BR"
