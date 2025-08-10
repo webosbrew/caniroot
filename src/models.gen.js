@@ -13022,9 +13022,14 @@ export default {
       {
         "broadcast": "dvb",
         "otaId": "HE_DTV_W17B_AFADABAA",
-        "suffix": ".AHK",
+        "suffix": ".ATR",
+        "sizes": [
+          55,
+          65
+        ],
         "regions": [
-          "HK"
+          "HK",
+          "IN"
         ]
       }
     ]
@@ -14165,6 +14170,7 @@ export default {
     ],
     "regions": [
       "AU",
+      "IN",
       "NZ"
     ]
   },
@@ -14265,6 +14271,7 @@ export default {
     ],
     "regions": [
       "AU",
+      "IN",
       "NZ"
     ]
   },
@@ -16223,6 +16230,7 @@ export default {
     ],
     "regions": [
       "AU",
+      "IN",
       "NZ"
     ]
   },
@@ -20597,6 +20605,7 @@ export default {
     ],
     "regions": [
       "AU",
+      "IN",
       "NZ"
     ]
   },
@@ -21943,6 +21952,7 @@ export default {
       43,
       50,
       55,
+      60,
       65,
       75,
       86
