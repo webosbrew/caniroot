@@ -7851,6 +7851,8 @@ export default {
     "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".ATR",
     "sizes": [
+      48,
+      55,
       65
     ],
     "regions": [
@@ -8341,6 +8343,8 @@ export default {
     "otaId": "HE_DTV_W23H_AFADATAA",
     "suffix": ".ATR",
     "sizes": [
+      48,
+      55,
       65
     ],
     "regions": [
@@ -8484,6 +8488,7 @@ export default {
     "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".ATR",
     "sizes": [
+      55,
       65
     ],
     "regions": [
@@ -9985,6 +9990,7 @@ export default {
     "otaId": "HE_DTV_W18H_AFADABAA",
     "suffix": ".ATR",
     "sizes": [
+      55,
       65
     ],
     "regions": [
@@ -10890,6 +10896,8 @@ export default {
     "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".ATR",
     "sizes": [
+      48,
+      55,
       65,
       77,
       83
@@ -10985,6 +10993,8 @@ export default {
     "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".ATR",
     "sizes": [
+      48,
+      55,
       65
     ],
     "regions": [
@@ -11674,14 +11684,35 @@ export default {
       }
     ]
   },
+  "OLEDC2XSA": {
+    "series": "OLEDC2",
+    "broadcast": "dvb",
+    "machine": "o22",
+    "codename": "number1",
+    "otaId": "HE_DTV_W22O_AFABATAA",
+    "suffix": ".ATR",
+    "sizes": [
+      48
+    ],
+    "regions": [
+      "IN"
+    ],
+    "variants": [
+      {
+        "codename": "ombre",
+        "swMajor": "23"
+      }
+    ]
+  },
   "OLEDC2XSC": {
     "series": "OLEDC2",
     "broadcast": "dvb",
     "machine": "o22",
-    "codename": "mullet",
+    "codename": "number1",
     "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".ATR",
     "sizes": [
+      55,
       65
     ],
     "regions": [
@@ -11689,12 +11720,12 @@ export default {
     ],
     "variants": [
       {
-        "codename": "number1",
-        "swMajor": "13"
-      },
-      {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "mullet",
+        "swMajor": "03"
       }
     ]
   },
@@ -12188,6 +12219,8 @@ export default {
     "otaId": "HE_DTV_W23O_AFABATAA",
     "suffix": ".ATR",
     "sizes": [
+      48,
+      55,
       65
     ],
     "regions": [
@@ -12235,6 +12268,7 @@ export default {
     "regions": [
       "AU",
       "DE",
+      "IN",
       "NZ",
       "PL",
       "UK"
@@ -12556,6 +12590,7 @@ export default {
     ],
     "regions": [
       "AU",
+      "IN",
       "NZ",
       "PL",
       "UK"
@@ -16007,7 +16042,8 @@ export default {
     "suffix": ".AEK",
     "sizes": [
       65,
-      77
+      77,
+      97
     ],
     "regions": [
       "AU",
@@ -19471,6 +19507,7 @@ export default {
       50,
       55,
       65,
+      75,
       86
     ],
     "regions": [
@@ -20174,7 +20211,8 @@ export default {
     "otaId": "HE_DTV_W25G_AFABATAA",
     "suffix": ".AEK",
     "sizes": [
-      65
+      65,
+      86
     ],
     "regions": [
       "PL",
@@ -21834,6 +21872,22 @@ export default {
       "US"
     ]
   },
+  "UA751C0NA": {
+    "series": "UA75",
+    "broadcast": "atsc",
+    "machine": "k25lp",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25P_AFADATAA",
+    "sizes": [
+      43,
+      50,
+      55,
+      65
+    ],
+    "regions": [
+      "KR"
+    ]
+  },
   "UA7550PCA": {
     "series": "UA75",
     "broadcast": "dvb",
@@ -21895,6 +21949,7 @@ export default {
     "suffix": ".ACC",
     "sizes": [
       43,
+      50,
       55,
       65,
       75
