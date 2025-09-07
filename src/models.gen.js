@@ -12590,6 +12590,7 @@ export default {
     ],
     "regions": [
       "AU",
+      "DE",
       "IN",
       "NZ",
       "PL",
@@ -12768,6 +12769,20 @@ export default {
     ],
     "regions": [
       "KR"
+    ]
+  },
+  "OLEDC5ESA": {
+    "series": "OLEDC5",
+    "broadcast": "isdb",
+    "machine": "o22n3",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25G_AFABATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      65
+    ],
+    "regions": [
+      "PE"
     ]
   },
   "OLEDC5FNA": {
@@ -16043,6 +16058,7 @@ export default {
     "sizes": [
       65,
       77,
+      83,
       97
     ],
     "regions": [
@@ -17126,6 +17142,25 @@ export default {
     ],
     "regions": [
       "KR"
+    ]
+  },
+  "QNED70AUA": {
+    "series": "QNED70",
+    "broadcast": "atsc",
+    "machine": "k25lp",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25P_AFADATAA",
+    "suffix": ".AUS",
+    "sizes": [
+      43,
+      50,
+      55,
+      65,
+      86
+    ],
+    "regions": [
+      "CA",
+      "US"
     ]
   },
   "QNED70ERA": {
@@ -19160,7 +19195,8 @@ export default {
       100
     ],
     "regions": [
-      "NZ"
+      "NZ",
+      "PE"
     ]
   },
   "QNED86ASA": {
@@ -19896,15 +19932,21 @@ export default {
   "QNED93AKA": {
     "series": "QNED93",
     "broadcast": "atsc",
-    "machine": "k24n",
+    "machine": "k25lp",
     "codename": "ponytail",
-    "otaId": "HE_DTV_W25H_AFADATAA",
+    "otaId": "HE_DTV_W25P_AFADATAA",
     "sizes": [
       65,
       75
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "machine": "k24n",
+        "otaId": "HE_DTV_W25H_AFADATAA"
+      }
     ]
   },
   "QNED95KPA": {
@@ -20212,6 +20254,7 @@ export default {
     "suffix": ".AEK",
     "sizes": [
       65,
+      75,
       86
     ],
     "regions": [
@@ -21833,6 +21876,20 @@ export default {
     ],
     "regions": [
       "KR"
+    ]
+  },
+  "UA7500PJA": {
+    "series": "UA75",
+    "broadcast": "arib",
+    "machine": "k25lp",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25P_AFADJAAA",
+    "suffix": ".AJLG",
+    "sizes": [
+      50
+    ],
+    "regions": [
+      "JP"
     ]
   },
   "UA7500PSA": {
