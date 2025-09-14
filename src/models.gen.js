@@ -3807,6 +3807,7 @@ export default {
       32
     ],
     "regions": [
+      "AU",
       "BR",
       "PE"
     ]
@@ -17144,6 +17145,64 @@ export default {
       "KR"
     ]
   },
+  "QNED70ABA": {
+    "series": "QNED70",
+    "broadcast": "atsc",
+    "machine": "k25lp",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25P_AFADATAA",
+    "sizes": [
+      55,
+      65,
+      75,
+      86
+    ],
+    "regions": [
+      "KR"
+    ]
+  },
+  "QNED70AEA": {
+    "series": "QNED70",
+    "broadcast": "atsc",
+    "machine": "k25lp",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25P_AFADATAA",
+    "sizes": [
+      65
+    ],
+    "regions": [
+      "KR"
+    ]
+  },
+  "QNED70AGA": {
+    "series": "QNED70",
+    "broadcast": "atsc",
+    "machine": "k25lp",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25P_AFADATAA",
+    "sizes": [
+      65,
+      75
+    ],
+    "regions": [
+      "KR"
+    ]
+  },
+  "QNED70ANA": {
+    "series": "QNED70",
+    "broadcast": "atsc",
+    "machine": "k25lp",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25P_AFADATAA",
+    "sizes": [
+      65,
+      75,
+      86
+    ],
+    "regions": [
+      "KR"
+    ]
+  },
   "QNED70AUA": {
     "series": "QNED70",
     "broadcast": "atsc",
@@ -18398,6 +18457,20 @@ export default {
     ],
     "regions": [
       "HK"
+    ]
+  },
+  "QNED82AKA": {
+    "series": "QNED82",
+    "broadcast": "atsc",
+    "machine": "k25lp",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25P_AFADATAA",
+    "sizes": [
+      75,
+      86
+    ],
+    "regions": [
+      "KR"
     ]
   },
   "QNED82ASG": {
