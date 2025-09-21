@@ -3809,6 +3809,7 @@ export default {
     "regions": [
       "AU",
       "BR",
+      "NZ",
       "PE"
     ]
   },
@@ -4110,6 +4111,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail"
+      }
     ]
   },
   "LX1TKNB": {
@@ -4124,6 +4130,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail"
+      }
     ]
   },
   "LX1TPSA": {
@@ -4389,6 +4400,20 @@ export default {
     ],
     "regions": [
       "JP"
+    ]
+  },
+  "LX6TDGA": {
+    "series": "LX6T",
+    "broadcast": "dvb",
+    "machine": "k24t",
+    "codename": "ombre",
+    "otaId": "HE_DTV_N24D_AFAAATAA",
+    "suffix": ".AEK",
+    "sizes": [
+      27
+    ],
+    "regions": [
+      "UK"
     ]
   },
   "LX6TEGA": {
@@ -12404,6 +12429,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail"
+      }
     ]
   },
   "OLEDC4ENA": {
@@ -12420,6 +12450,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail"
+      }
     ]
   },
   "OLEDC4FNA": {
@@ -12434,6 +12469,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail"
+      }
     ]
   },
   "OLEDC4KNA": {
@@ -12449,6 +12489,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail"
+      }
     ]
   },
   "OLEDC4PCA": {
@@ -12544,6 +12589,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail"
+      }
     ]
   },
   "OLEDC4SNA": {
@@ -12559,6 +12609,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail"
+      }
     ]
   },
   "OLEDC4XNA": {
@@ -12572,6 +12627,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail"
+      }
     ]
   },
   "OLEDC54LA": {
@@ -12780,6 +12840,7 @@ export default {
     "otaId": "HE_DTV_W25G_AFABATAA",
     "suffix": ".AWF",
     "sizes": [
+      55,
       65
     ],
     "regions": [
@@ -15293,6 +15354,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail"
+      }
     ]
   },
   "OLEDG4PCA": {
@@ -15429,6 +15495,7 @@ export default {
       65
     ],
     "regions": [
+      "DE",
       "UK"
     ]
   },
@@ -16002,6 +16069,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail"
+      }
     ]
   },
   "OLEDM4PCA": {
@@ -20257,6 +20329,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail"
+      }
     ]
   },
   "QNED99TPB": {
@@ -20298,7 +20375,8 @@ export default {
     "otaId": "HE_DTV_W24K_AFADATAA",
     "suffix": ".AUS",
     "sizes": [
-      75
+      75,
+      86
     ],
     "regions": [
       "US"
