@@ -8115,6 +8115,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -8139,6 +8142,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -8165,6 +8171,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -8189,6 +8198,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -8212,6 +8224,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -8335,6 +8350,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail"
+      }
     ]
   },
   "OLEDA3HNA": {
@@ -8349,6 +8369,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail"
+      }
     ]
   },
   "OLEDA3KNA": {
@@ -8364,6 +8389,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail"
+      }
     ]
   },
   "OLEDA3MNA": {
@@ -8378,6 +8408,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail"
+      }
     ]
   },
   "OLEDA3PCA": {
@@ -8458,6 +8493,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail"
+      }
     ]
   },
   "OLEDB13LA": {
@@ -8766,6 +8806,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -8790,6 +8833,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -8815,6 +8861,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -8944,6 +8993,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -8968,6 +9020,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -9074,6 +9129,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail"
+      }
     ]
   },
   "OLEDB3NNA": {
@@ -9089,6 +9149,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail"
+      }
     ]
   },
   "OLEDB3PCA": {
@@ -9196,6 +9261,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail"
+      }
     ]
   },
   "OLEDB3XNA": {
@@ -9209,6 +9279,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail"
+      }
     ]
   },
   "OLEDB42LA": {
@@ -18387,6 +18462,9 @@ export default {
         "swMajor": "23"
       },
       {
+        "codename": "ponytail"
+      },
+      {
         "machine": "m23",
         "codename": "ponytail",
         "otaId": "HE_DTV_W23M_AFADATAA"
@@ -19142,6 +19220,20 @@ export default {
       "UK"
     ]
   },
+  "QNED85A3C": {
+    "series": "QNED85",
+    "broadcast": "dvb",
+    "machine": "k24n",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25H_AFADATAA",
+    "suffix": ".AEU",
+    "sizes": [
+      75
+    ],
+    "regions": [
+      "DE"
+    ]
+  },
   "QNED85A6C": {
     "series": "QNED85",
     "broadcast": "dvb",
@@ -19420,6 +19512,9 @@ export default {
         "codename": "ombre",
         "otaId": "HE_DTV_W23M_AFADATAA",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       },
       {
         "machine": "m23",
@@ -35341,6 +35436,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -35360,6 +35458,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -35386,6 +35487,9 @@ export default {
         "swMajor": "23"
       },
       {
+        "codename": "ponytail"
+      },
+      {
         "machine": "k8hpp",
         "otaId": "HE_DTV_W23H_AFADATAA",
         "sizes": [
@@ -35400,6 +35504,14 @@ export default {
           86
         ],
         "swMajor": "23"
+      },
+      {
+        "machine": "k8hpp",
+        "codename": "ponytail",
+        "otaId": "HE_DTV_W23H_AFADATAA",
+        "sizes": [
+          86
+        ]
       }
     ]
   },
@@ -35420,6 +35532,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -35443,6 +35558,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -35663,6 +35781,14 @@ export default {
           86
         ],
         "swMajor": "23"
+      },
+      {
+        "machine": "k8hpp",
+        "codename": "ponytail",
+        "otaId": "HE_DTV_W23H_AFADATAA",
+        "sizes": [
+          86
+        ]
       }
     ]
   },
@@ -35705,6 +35831,14 @@ export default {
           86
         ],
         "swMajor": "23"
+      },
+      {
+        "machine": "k8hpp",
+        "codename": "ponytail",
+        "otaId": "HE_DTV_W23H_AFADATAA",
+        "sizes": [
+          86
+        ]
       }
     ]
   },
@@ -35743,6 +35877,14 @@ export default {
           86
         ],
         "swMajor": "23"
+      },
+      {
+        "machine": "k8hpp",
+        "codename": "ponytail",
+        "otaId": "HE_DTV_W23H_AFADATAA",
+        "sizes": [
+          86
+        ]
       }
     ]
   },
@@ -35785,6 +35927,14 @@ export default {
           86
         ],
         "swMajor": "23"
+      },
+      {
+        "machine": "k8hpp",
+        "codename": "ponytail",
+        "otaId": "HE_DTV_W23H_AFADATAA",
+        "sizes": [
+          86
+        ]
       }
     ]
   },
