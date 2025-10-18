@@ -62,6 +62,7 @@ export const minorMajor = {
   'panna': 'ponytail',
   'paluma': 'ponytail',
   'paparoa': 'ponytail',
+  'papikonda': 'ponytail',
 }
 /**
  * @type {Record<string, [string|{codename: string, otaId: string}]>}
