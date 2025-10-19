@@ -9666,7 +9666,8 @@ export default {
     "suffix": ".AUS",
     "sizes": [
       55,
-      65
+      65,
+      83
     ],
     "regions": [
       "US"
