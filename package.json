@@ -14,6 +14,9 @@
   "main": "src/library.js",
   "types": "src/library.d.ts",
   "keywords": [],
+  "repository": {
+    "url": "https://github.com/webosbrew/caniroot"
+  },
   "author": "",
   "license": "MIT",
   "devDependencies": {
