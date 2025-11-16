@@ -4091,6 +4091,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -4373,6 +4376,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -8334,6 +8340,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -8782,6 +8791,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -8968,6 +8980,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -9113,6 +9128,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -9245,6 +9263,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -9360,6 +9381,12 @@ export default {
     ],
     "regions": [
       "US"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail",
+        "swMajor": "33"
+      }
     ]
   },
   "OLEDB4ELA": {
@@ -9574,6 +9601,12 @@ export default {
     "regions": [
       "CA",
       "US"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail",
+        "swMajor": "33"
+      }
     ]
   },
   "OLEDB4SNA": {
@@ -11559,6 +11592,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -11843,6 +11879,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -11915,6 +11954,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -15446,6 +15488,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -16042,7 +16087,8 @@ export default {
       48,
       55,
       77,
-      83
+      83,
+      97
     ],
     "regions": [
       "HK"
@@ -17403,6 +17449,9 @@ export default {
       },
       {
         "codename": "ombre"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -17802,6 +17851,25 @@ export default {
     ],
     "regions": [
       "KR"
+    ]
+  },
+  "QNED70ASA": {
+    "series": "QNED70",
+    "broadcast": "isdb",
+    "machine": "k25lp",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25P_AFADATAA",
+    "suffix": ".BWR",
+    "sizes": [
+      43,
+      50,
+      55,
+      65,
+      75
+    ],
+    "regions": [
+      "BR",
+      "PE"
     ]
   },
   "QNED70AUA": {
@@ -18334,6 +18402,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -18732,6 +18803,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -19308,6 +19382,20 @@ export default {
       }
     ]
   },
+  "QNED85AKS": {
+    "series": "QNED85",
+    "broadcast": "atsc",
+    "machine": "k24n",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25H_AFADATAA",
+    "sizes": [
+      65,
+      75
+    ],
+    "regions": [
+      "KR"
+    ]
+  },
   "QNED85AMA": {
     "series": "QNED85",
     "broadcast": "atsc",
@@ -19649,6 +19737,12 @@ export default {
     ],
     "regions": [
       "US"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail",
+        "swMajor": "33"
+      }
     ]
   },
   "QNED85TJA": {
@@ -19722,6 +19816,12 @@ export default {
     "regions": [
       "CA",
       "US"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail",
+        "swMajor": "33"
+      }
     ]
   },
   "QNED85TYA": {
@@ -19738,6 +19838,12 @@ export default {
     ],
     "regions": [
       "CA"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail",
+        "swMajor": "33"
+      }
     ]
   },
   "QNED85UQA": {
@@ -19896,6 +20002,7 @@ export default {
       100
     ],
     "regions": [
+      "AU",
       "DE",
       "IN",
       "NZ",
@@ -19985,6 +20092,7 @@ export default {
       100
     ],
     "regions": [
+      "AU",
       "NZ",
       "PE"
     ]
@@ -20325,6 +20433,12 @@ export default {
     "regions": [
       "CA",
       "US"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail",
+        "swMajor": "33"
+      }
     ]
   },
   "QNED8EA6B": {
@@ -20466,6 +20580,12 @@ export default {
     ],
     "regions": [
       "US"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail",
+        "swMajor": "33"
+      }
     ]
   },
   "QNED90TJA": {
@@ -20514,6 +20634,12 @@ export default {
     "regions": [
       "CA",
       "US"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail",
+        "swMajor": "33"
+      }
     ]
   },
   "QNED90UPA": {
@@ -35184,6 +35310,9 @@ export default {
       {
         "codename": "ombre",
         "swMajor": "23"
+      },
+      {
+        "codename": "ponytail"
       }
     ]
   },
@@ -36289,6 +36418,12 @@ export default {
     "regions": [
       "CA",
       "US"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail",
+        "swMajor": "33"
+      }
     ]
   },
   "UT9050PCB": {
