@@ -121,7 +121,7 @@ for (let [model, group] of Object.entries(dumpGrouped)) {
     const otaIdPrefix = v.ota_id ?? (groups && [groups.machine, groups.machine2].map(x => machineOtaIdPrefix[x])?.find(v => v)?.[0]);
     return `${prefix}-${v.model.sized}-${minor}-${otaIdPrefix?.substring(7, 11) ?? 'ZZZZ'}`;
   });
-  if (group[0].ota_id) {
+  if (group[0]?.ota_id) {
     const year = group[0].ota_id.substring(8, 10);
     group = group.filter(v => {
       if (!v.ota_id) {
