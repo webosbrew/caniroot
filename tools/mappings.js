@@ -56,6 +56,7 @@ export const minorMajor = {
   'nambung': 'number1',
   'nameri': 'number1',
   'namtok': 'number1',
+  'nattai': 'number1',
   'odaesan': 'ombre',
   'oeta': 'ombre',
   'okapi': 'ombre',
