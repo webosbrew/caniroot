@@ -160,6 +160,8 @@ export const regionBroadcasts = {
   'NZ': 'dvb',
   'IN': 'dvb',
   'HK': 'dvb',
+  'RU': 'dvb',
+  'KZ': 'dvb',
   'JP': 'arib',
   'BR': 'isdb',
   'PE': 'isdb',
