@@ -14777,6 +14777,20 @@ export default {
       }
     ]
   },
+  "OLEDC51LA": {
+    "series": "OLEDC5",
+    "broadcast": "dvb",
+    "machine": "o22n3",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25G_AFABATAA",
+    "suffix": ".AEU",
+    "sizes": [
+      83
+    ],
+    "regions": [
+      "DE"
+    ]
+  },
   "OLEDC54LA": {
     "series": "OLEDC5",
     "broadcast": "dvb",
@@ -25325,7 +25339,7 @@ export default {
     "machine": "k25lp",
     "codename": "ponytail",
     "otaId": "HE_DTV_W25P_AFADATAA",
-    "suffix": ".AWZ",
+    "suffix": ".AWR",
     "sizes": [
       43,
       50,
