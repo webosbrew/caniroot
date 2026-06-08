@@ -11,6 +11,7 @@ export const DeviceExploitType = {
   DejaVuln: 'dejavuln',
   FaultManager: 'faultmanager',
   MVPD: 'mvpd',
+  DangBro: 'dangbro',
 };
 
 export class DeviceExploitAvailabilities {
