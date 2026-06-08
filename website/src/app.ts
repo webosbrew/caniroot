@@ -65,6 +65,7 @@ export declare interface ExploitMethod {
     key: DeviceExploitType;
     url: string;
     expert?: boolean;
+    dvbOnly?: boolean;
 }
 
 class App extends Component<AppProps, AppState> {
@@ -104,6 +105,12 @@ class App extends Component<AppProps, AppState> {
             name: 'RootMy.TV',
             key: DeviceExploitType.RootMyTV,
             url: 'https://rootmy.tv/'
+        },
+        {
+            name: 'DangBro',
+            key: DeviceExploitType.DangBro,
+            url: 'https://azoffshowy.github.io/dangbro/',
+            dvbOnly: true
         },
     ];
 
