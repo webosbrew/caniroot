@@ -72,6 +72,12 @@ class App extends Component<AppProps, AppState> {
 
     readonly exploits: ExploitMethod[] = [
         {
+            name: 'DangBro',
+            key: DeviceExploitType.DangBro,
+            url: 'https://azoffshowy.github.io/dangbro/',
+            dvbOnly: true
+        },
+        {
             name: 'faultmanager',
             key: DeviceExploitType.FaultManager,
             url: 'https://github.com/throwaway96/faultmanager-autoroot'
@@ -105,12 +111,6 @@ class App extends Component<AppProps, AppState> {
             name: 'RootMy.TV',
             key: DeviceExploitType.RootMyTV,
             url: 'https://rootmy.tv/'
-        },
-        {
-            name: 'DangBro',
-            key: DeviceExploitType.DangBro,
-            url: 'https://azoffshowy.github.io/dangbro/',
-            dvbOnly: true
         },
     ];
 
