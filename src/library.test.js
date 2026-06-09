@@ -74,6 +74,10 @@ describe('DeviceModel', {only: true}, () => {
     assert.strictEqual(DeviceModelName.parse('43NU8E0B3LA.AEK').series, 'NU8E');
     assert.strictEqual(DeviceModelName.parse('43NU8E0B3LA.AEK').simple, 'NU8E0B3LA');
     assert.strictEqual(DeviceModelName.parse('43NU8E0B3LA.AEK').sized, '43NU8E0B3LA');
+    // QN1C must not be mistaken for QNED
+    assert.strictEqual(DeviceModelName.parse('55QN1C70BKA').series, 'QN1C');
+    assert.strictEqual(DeviceModelName.parse('55QN1C70BKA').simple, 'QN1C70BKA');
+    assert.strictEqual(DeviceModelName.parse('55QN1C70BKA').tdd, 'BKA');
   });
 
   it('should fail on incomplete LG TV models', () => {

@@ -103,7 +103,7 @@ export class DeviceModelName {
       '(?<xsize>\\d{2})?(?<xseries>LX\\d\\w)',
       '((?<qsize>\\d{2,3})?(?<qseries>(?<anq>ART|NANO|QNED)[0-9][0-9A-Z]|UC\\w{1,2}))',
       '((?<msize>\\d{2,3})?(?<mseries>MRGB[0-9][0-9A-Z]))',
-      '(?<lsize>\\d{2,3})?(?<lseries>[ELSUJN][A-Z][0-9][0-9A-Z]{3})',
+      '(?<lsize>\\d{2,3})?(?<lseries>[ELSUJNQ][A-Z][0-9][0-9A-Z]{3})',
     ];
     const pattern = `^(?:${devicePatterns.join('|')})(?<tdd>\\w{1,4})?(?<suffix>[.-]\\w+)?$`;
     const match = model.match(pattern);
