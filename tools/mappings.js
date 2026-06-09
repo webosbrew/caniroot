@@ -68,6 +68,7 @@ export const minorMajor = {
   'paparoa': 'ponytail',
   'papikonda': 'ponytail',
   'qausui': 'queue',
+  'qianshan': 'queue',
   'qilian': 'queue',
 }
 /**

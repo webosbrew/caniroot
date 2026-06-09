@@ -43,6 +43,24 @@ describe('DeviceModel', {only: true}, () => {
     assert.strictEqual(DeviceModelName.parse('OLEDG4').series, 'OLEDG4');
   });
 
+  it('should parse LG MicroLED (MRGB) models', () => {
+    assert.strictEqual(DeviceModelName.parse('50MRGB85BCA.AHKG').series, 'MRGB85');
+    assert.strictEqual(DeviceModelName.parse('50MRGB85BCA.AHKG').class, 'MicroLED');
+    assert.strictEqual(DeviceModelName.parse('50MRGB85BCA.AHKG').size, 50);
+    assert.strictEqual(DeviceModelName.parse('50MRGB85BCA.AHKG').tdd, 'BCA');
+    assert.strictEqual(DeviceModelName.parse('50MRGB85BCA.AHKG').suffix, '.AHKG');
+    assert.strictEqual(DeviceModelName.parse('50MRGB85BCA.AHKG').simple, 'MRGB85BCA');
+    assert.strictEqual(DeviceModelName.parse('50MRGB85BCA.AHKG').sized, '50MRGB85BCA');
+    // Three-digit size
+    assert.strictEqual(DeviceModelName.parse('100MRGB95BU.AUS').size, 100);
+    assert.strictEqual(DeviceModelName.parse('100MRGB95BU.AUS').series, 'MRGB95');
+    assert.strictEqual(DeviceModelName.parse('100MRGB95BU.AUS').tdd, 'BU');
+    // No suffix
+    assert.strictEqual(DeviceModelName.parse('65MRGB86BKA').series, 'MRGB86');
+    assert.strictEqual(DeviceModelName.parse('65MRGB86BKA').suffix, undefined);
+    assert.strictEqual(DeviceModelName.parse('65MRGB86BKA').tdd, 'BKA');
+  });
+
   it('should fail on incomplete LG TV models', () => {
     assert.strictEqual(DeviceModelName.parse('OLED'), undefined);
     assert.strictEqual(DeviceModelName.parse('QNED'), undefined);
