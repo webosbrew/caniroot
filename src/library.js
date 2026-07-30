@@ -16,7 +16,7 @@ export const DeviceExploitType = {
 
 export class DeviceExploitAvailabilities {
   /**
-   * @param props {Readonly<DeviceExploitAvailabilitiesData & {otaId:string}>}
+   * @param {Readonly<DeviceExploitAvailabilitiesData & {otaId:string}>} props
    */
   constructor(props) {
     Object.assign(this, props);
@@ -61,7 +61,7 @@ export class DeviceExploitAvailabilities {
   }
 
   /**
-   * @param otaId {string}
+   * @param {string} otaId
    * @return {string[]}
    */
   static codenamesByOTAID(otaId) {
@@ -71,7 +71,7 @@ export class DeviceExploitAvailabilities {
 
 export class DeviceModelName {
   /**
-   * @param props {Readonly<DeviceModelNameData>}
+   * @param {Readonly<DeviceModelNameData>} props
    */
   constructor(props) {
     Object.assign(this, props);
@@ -124,7 +124,7 @@ export class DeviceModelName {
   }
 
   /**
-   * @param match {string}
+   * @param {string} match
    * @return {boolean}
    * @package
    */
@@ -150,14 +150,14 @@ export class DeviceModelName {
 
 export class DeviceModel {
   /**
-   * @param props {DeviceModelData & {model: string}}
+   * @param {DeviceModelData & {model: string}} props
    */
   constructor(props) {
     Object.assign(this, props);
   }
 
   /**
-   * @param predicate {(variant: Readonly<DeviceModelVariantData>) => boolean}
+   * @param {(variant: Readonly<DeviceModelVariantData>) => boolean} predicate
    * @returns {DeviceModel|undefined}
    */
   variant(predicate) {
@@ -248,8 +248,8 @@ export class DeviceModel {
 
   /**
    * Get length of different suffixes between two strings
-   * @param k {string}
-   * @param f {string}
+   * @param {string} k
+   * @param {string} f
    * @return {number}
    * @private
    */

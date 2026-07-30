@@ -1,10 +1,10 @@
 import {machineOtaIdPrefix, minorMajor, regionBroadcasts} from "./mappings.js";
 
 /**
- * @param broadcast {string}
- * @param otaIdPrefix {string}
- * @param region {string}
- * @return {string|undefined}
+ * @param {string} broadcast
+ * @param {string} otaIdPrefix
+ * @param {string} region
+ * @returns {string | undefined}
  */
 function inferBroadcast(broadcast, otaIdPrefix, region) {
   if (broadcast !== 'global') {
@@ -20,9 +20,9 @@ function inferBroadcast(broadcast, otaIdPrefix, region) {
 }
 
 /**
- * @param prefix {string}
- * @param broadcast {string}
- * @return {string | undefined}
+ * @param {string} prefix
+ * @param {string} broadcast
+ * @returns {string | undefined}
  */
 function inferOtaIdBroadcastSuffix(prefix, broadcast) {
   switch (broadcast) {
@@ -46,9 +46,9 @@ function inferOtaIdBroadcastSuffix(prefix, broadcast) {
 }
 
 /**
- * @param machine {string}
- * @param predicate {({codename?: string, broascast?: string, otaId: string}) => boolean}
- * @returns {string|undefined}
+ * @param {string} machine
+ * @param {(ota: {codename?: string, broadcast?: string, otaId: string}) => boolean} predicate
+ * @returns {string | undefined}
  */
 function findOtaIdPrefix(machine, predicate) {
   let otaIds = machineOtaIdPrefix[machine];
@@ -73,10 +73,10 @@ export const epkNameRegex = new RegExp([
 ].map(r => r.source).join(''));
 
 /**
- * @param model {DeviceModelName}
- * @param epk {string}
- * @param region {string}
- * @param [otaId] {string}
+ * @param {DeviceModelName} model
+ * @param {string} epk
+ * @param {string} region
+ * @param {string} [otaId]
  * @returns {Omit<DeviceModelData, 'sizes'|'regions'|'variants'> | undefined}
  */
 export function parseDeviceModel(model, epk, region, otaId) {

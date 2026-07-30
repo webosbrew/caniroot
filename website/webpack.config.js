@@ -46,7 +46,7 @@ module.exports = (env, argv) => ({
       /** @returns {string[]} */
       paths: () => {
         const entries = fs.readdirSync(path.resolve(__dirname, 'src'), {recursive: true, encoding: 'utf-8'});
-        return entries.map(/**@param name{string}*/(name) => path.join('src', name));
+        return entries.map(/** @param {string} name */(name) => path.join('src', name));
       },
     }),
   ],

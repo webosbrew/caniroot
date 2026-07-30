@@ -55,7 +55,7 @@ const updatesGrouped = groupBy(updates, item => {
 });
 
 /**
- * @param epk {string}
+ * @param {string} epk
  * @return {string | undefined}
  */
 function epkBroadcast(epk) {
@@ -63,7 +63,7 @@ function epkBroadcast(epk) {
 }
 
 /**
- * @param item {GroupedModelItem}
+ * @param {GroupedModelItem} item
  * @return {boolean}
  */
 function isMismatch(item) {
@@ -73,11 +73,11 @@ function isMismatch(item) {
 }
 
 /**
- * @param model {DeviceModelName}
- * @param epk {string}
- * @param otaId {string}
- * @param items {GroupedModelItem[]}
- * @param getter {(item: GroupedModelItem) => any}
+ * @param {DeviceModelName} model
+ * @param {string} epk
+ * @param {string} otaId
+ * @param {GroupedModelItem[]} items
+ * @param {(item: GroupedModelItem) => any} getter
  */
 function modelsProps(model, epk, otaId, items, getter) {
   /**
@@ -92,9 +92,9 @@ function modelsProps(model, epk, otaId, items, getter) {
     return v.model.simple === model.simple;
   }
 
-  return chain(items).groupBy(/** @param x {GroupedModelItem} */(x) => getter(x))
+  return chain(items).groupBy(/** @param {GroupedModelItem} x */(x) => getter(x))
     .values()
-    .map(/** @param g {GroupedModelItem[]} */(g) => {
+    .map(/** @param {GroupedModelItem[]} g */(g) => {
       const filtered = g.filter(v => v.ota_id);
       if (filtered.length > 1) {
         return filtered;
@@ -102,7 +102,7 @@ function modelsProps(model, epk, otaId, items, getter) {
       return g;
     })
     .flatten()
-    .map(/** @param x {GroupedModelItem} */(x) => sameVariation(x) && getter(x))
+    .map(/** @param {GroupedModelItem} x */(x) => sameVariation(x) && getter(x))
     .compact()
     .uniq()
     .sort()
