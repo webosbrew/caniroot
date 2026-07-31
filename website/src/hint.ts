@@ -15,6 +15,7 @@ const osVersionMap: Record<string, string> = {
     'number1': 'webOS 23 (8.x)',
     'ombre': 'webOS 24 (9.x)',
     'ponytail': 'webOS 25 (10.x)',
+    'queue': 'webOS 26 (11.x)',
 };
 
 export function webOSReleaseName(codename: string) {
