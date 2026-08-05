@@ -12,6 +12,7 @@ export const DeviceExploitType = {
   FaultManager: 'faultmanager',
   MVPD: 'mvpd',
   DangBro: 'dangbro',
+  SlopBro: 'slopbro',
 };
 
 export class DeviceExploitAvailabilities {

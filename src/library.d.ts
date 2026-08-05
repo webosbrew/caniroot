@@ -21,6 +21,7 @@ export enum DeviceExploitType {
     FaultManager = 'faultmanager',
     MVPD = 'mvpd',
     DangBro = 'dangbro',
+    SlopBro = 'slopbro',
 }
 
 export type DeviceExploitAvailabilitiesData = {
@@ -39,6 +40,7 @@ export class DeviceExploitAvailabilities implements DeviceExploitAvailabilitiesD
     readonly faultmanager?: ExploitAvailability;
     readonly mvpd?: ExploitAvailability;
     readonly dangbro?: ExploitAvailability;
+    readonly slopbro?: ExploitAvailability;
 
     private constructor();
 
