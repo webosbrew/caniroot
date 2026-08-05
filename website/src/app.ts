@@ -72,6 +72,11 @@ class App extends Component<AppProps, AppState> {
 
     readonly exploits: ExploitMethod[] = [
         {
+            name: 'SlopBro',
+            key: DeviceExploitType.SlopBro,
+            url: 'https://github.com/throwaway96/slopbro',
+        },
+        {
             name: 'DangBro',
             key: DeviceExploitType.DangBro,
             url: 'https://azoffshowy.github.io/dangbro/',
