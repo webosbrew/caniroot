@@ -1707,6 +1707,7 @@ export default {
       27
     ],
     "regions": [
+      "CA",
       "US"
     ]
   },
@@ -5446,6 +5447,22 @@ export default {
       "DE"
     ]
   },
+  "MRGB86BJA": {
+    "series": "MRGB86",
+    "broadcast": "arib",
+    "machine": "k26",
+    "codename": "queue",
+    "otaId": "HE_DTV_W26H_AFADJAAA",
+    "suffix": ".AJLG",
+    "sizes": [
+      55,
+      65,
+      75
+    ],
+    "regions": [
+      "JP"
+    ]
+  },
   "MRGB86BKA": {
     "series": "MRGB86",
     "broadcast": "atsc",
@@ -5675,7 +5692,8 @@ export default {
     "otaId": "HE_DTV_W26O_AFABATAA",
     "suffix": ".AAU",
     "sizes": [
-      75
+      75,
+      86
     ],
     "regions": [
       "AU",
@@ -9440,6 +9458,19 @@ export default {
       "US"
     ]
   },
+  "NU850B6LB": {
+    "series": "NU85",
+    "machine": "k26",
+    "codename": "queue",
+    "otaId": "HE_DTV_W26H_AFADATAA",
+    "suffix": ".AFAQ",
+    "sizes": [
+      98
+    ],
+    "regions": [
+      "ZA"
+    ]
+  },
   "NU855BPSB": {
     "series": "NU85",
     "broadcast": "dvb",
@@ -9451,6 +9482,7 @@ export default {
       98
     ],
     "regions": [
+      "AU",
       "NZ",
       "PE"
     ]
@@ -12129,7 +12161,8 @@ export default {
     "sizes": [
       55,
       65,
-      77
+      77,
+      83
     ],
     "regions": [
       "KR"
@@ -12148,6 +12181,23 @@ export default {
     ],
     "regions": [
       "DE"
+    ]
+  },
+  "OLEDB6EJA": {
+    "series": "OLEDB6",
+    "broadcast": "arib",
+    "machine": "k26",
+    "codename": "queue",
+    "otaId": "HE_DTV_W26H_AFADJAAA",
+    "suffix": ".AJLG",
+    "sizes": [
+      48,
+      55,
+      65,
+      77
+    ],
+    "regions": [
+      "JP"
     ]
   },
   "OLEDB6ELB": {
@@ -12492,7 +12542,8 @@ export default {
     "sizes": [
       55,
       65,
-      77
+      77,
+      83
     ],
     "regions": [
       "KR"
@@ -14772,6 +14823,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -14800,6 +14854,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -14832,6 +14889,10 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue",
+        "suffix": ".AEU"
       }
     ]
   },
@@ -14859,6 +14920,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -14891,6 +14955,10 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue",
+        "suffix": ".AFKE"
       }
     ]
   },
@@ -14949,6 +15017,10 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue",
+        "suffix": ".AVS"
       }
     ]
   },
@@ -14970,6 +15042,9 @@ export default {
       "DE"
     ],
     "variants": [
+      {
+        "codename": "queue"
+      },
       {
         "codename": "number1",
         "swMajor": "03"
@@ -15003,6 +15078,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -15029,6 +15107,10 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue",
+        "suffix": ".AVS"
       }
     ]
   },
@@ -15092,6 +15174,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -15153,6 +15238,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -15210,6 +15298,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -15243,6 +15334,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -15273,6 +15367,10 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue",
+        "suffix": ".ACC"
       }
     ]
   },
@@ -15294,6 +15392,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -15345,6 +15446,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -15390,6 +15494,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -16548,6 +16655,22 @@ export default {
       "DE",
       "PL",
       "UK"
+    ]
+  },
+  "OLEDC6ESA": {
+    "series": "OLEDC6",
+    "broadcast": "isdb",
+    "machine": "o26",
+    "codename": "queue",
+    "otaId": "HE_DTV_W26O_AFABATAA",
+    "suffix": ".AWF",
+    "sizes": [
+      55,
+      65,
+      77
+    ],
+    "regions": [
+      "PE"
     ]
   },
   "OLEDC6HUA": {
@@ -18913,6 +19036,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -18971,6 +19097,10 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue",
+        "suffix": ".AEUD"
       }
     ]
   },
@@ -18992,6 +19122,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -19018,6 +19151,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -19075,6 +19211,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -19103,6 +19242,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -19130,6 +19272,10 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue",
+        "suffix": ".ADKG"
       }
     ]
   },
@@ -19145,6 +19291,11 @@ export default {
     ],
     "regions": [
       "IN"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
     ]
   },
   "OLEDG42LW": {
@@ -19169,6 +19320,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -19195,6 +19349,10 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue",
+        "suffix": ".API"
       }
     ]
   },
@@ -19221,6 +19379,10 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue",
+        "suffix": ".HFAQLWK"
       }
     ]
   },
@@ -19243,6 +19405,10 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue",
+        "suffix": ".API"
       }
     ]
   },
@@ -19266,6 +19432,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -19374,6 +19543,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -19401,6 +19573,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -19426,6 +19601,10 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue",
+        "suffix": ".ADKZ"
       }
     ]
   },
@@ -19448,6 +19627,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -19471,6 +19653,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -19505,6 +19690,11 @@ export default {
     "regions": [
       "PL",
       "UK"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
     ]
   },
   "OLEDG55LW": {
@@ -19523,6 +19713,11 @@ export default {
       "AU",
       "NZ",
       "PL"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
     ]
   },
   "OLEDG56LS": {
@@ -19558,6 +19753,12 @@ export default {
     ],
     "regions": [
       "DE"
+    ],
+    "variants": [
+      {
+        "codename": "queue",
+        "suffix": ".AEUD"
+      }
     ]
   },
   "OLEDG58LW": {
@@ -19574,6 +19775,11 @@ export default {
     ],
     "regions": [
       "DE"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
     ]
   },
   "OLEDG59LS": {
@@ -19589,6 +19795,12 @@ export default {
     ],
     "regions": [
       "DE"
+    ],
+    "variants": [
+      {
+        "codename": "queue",
+        "suffix": ".AVS"
+      }
     ]
   },
   "OLEDG5KNA": {
@@ -19624,6 +19836,11 @@ export default {
     ],
     "regions": [
       "HK"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
     ]
   },
   "OLEDG5PJA": {
@@ -19654,6 +19871,11 @@ export default {
     ],
     "regions": [
       "JP"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
     ]
   },
   "OLEDG5PSA": {
@@ -19675,6 +19897,11 @@ export default {
       "BR",
       "NZ",
       "PE"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
     ]
   },
   "OLEDG5RLA": {
@@ -19694,6 +19921,12 @@ export default {
     "regions": [
       "KZ",
       "RU"
+    ],
+    "variants": [
+      {
+        "codename": "queue",
+        "suffix": ".ADKG"
+      }
     ]
   },
   "OLEDG5SUB": {
@@ -19709,6 +19942,11 @@ export default {
     ],
     "regions": [
       "CA"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
     ]
   },
   "OLEDG5WUA": {
@@ -19728,6 +19966,11 @@ export default {
     "regions": [
       "CA",
       "US"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
     ]
   },
   "OLEDG62LW": {
@@ -19906,7 +20149,8 @@ export default {
     "otaId": "HE_DTV_W26O_AFABJAAA",
     "suffix": ".AJLG",
     "sizes": [
-      83
+      83,
+      97
     ],
     "regions": [
       "JP"
@@ -20353,6 +20597,12 @@ export default {
       "DE",
       "PL",
       "UK"
+    ],
+    "variants": [
+      {
+        "codename": "queue",
+        "suffix": ".API"
+      }
     ]
   },
   "OLEDM3KNA": {
@@ -20372,6 +20622,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -20387,6 +20640,11 @@ export default {
     ],
     "regions": [
       "HK"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
     ]
   },
   "OLEDM3PJA": {
@@ -20411,6 +20669,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -20445,6 +20706,11 @@ export default {
       "CA",
       "KR",
       "US"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
     ]
   },
   "OLEDM3YUA": {
@@ -20460,6 +20726,11 @@ export default {
     ],
     "regions": [
       "US"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
     ]
   },
   "OLEDM49LA": {
@@ -20484,6 +20755,10 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue",
+        "suffix": ".AEU"
       }
     ]
   },
@@ -20505,6 +20780,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -20527,6 +20805,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -20548,6 +20829,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -20591,6 +20875,11 @@ export default {
       "NZ",
       "PL",
       "UK"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
     ]
   },
   "OLEDM5KNA": {
@@ -20607,6 +20896,11 @@ export default {
     ],
     "regions": [
       "KR"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
     ]
   },
   "OLEDM5PCA": {
@@ -20623,6 +20917,11 @@ export default {
     ],
     "regions": [
       "HK"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
     ]
   },
   "OLEDM5PJA": {
@@ -20637,6 +20936,11 @@ export default {
     ],
     "regions": [
       "JP"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
     ]
   },
   "OLEDM5PSA": {
@@ -20655,6 +20959,11 @@ export default {
     "regions": [
       "AU",
       "NZ"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
     ]
   },
   "OLEDM5PUA": {
@@ -20758,6 +21067,11 @@ export default {
       "DE",
       "KZ",
       "UK"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
     ]
   },
   "OLEDT4PCA": {
@@ -20800,6 +21114,11 @@ export default {
     ],
     "regions": [
       "US"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
     ]
   },
   "OLEDW69LA": {
@@ -20816,6 +21135,7 @@ export default {
     "regions": [
       "DE",
       "PL",
+      "RU",
       "UK"
     ]
   },
@@ -22906,6 +23226,20 @@ export default {
       "UK"
     ]
   },
+  "QNED7EB6T": {
+    "series": "QNED7E",
+    "machine": "k25lpn",
+    "codename": "queue",
+    "otaId": "HE_DTV_W26P_AFADATAA",
+    "suffix": ".AFBE",
+    "sizes": [
+      65,
+      75
+    ],
+    "regions": [
+      "ZA"
+    ]
+  },
   "QNED7S3QA": {
     "series": "QNED7S",
     "broadcast": "dvb",
@@ -23179,13 +23513,14 @@ export default {
     "machine": "k25lpn",
     "codename": "queue",
     "otaId": "HE_DTV_W26P_AFADATAA",
-    "suffix": ".ARUG",
+    "suffix": ".AEU",
     "sizes": [
       75,
       85
     ],
     "regions": [
       "AU",
+      "DE",
       "KZ",
       "NZ",
       "RU"
@@ -23276,7 +23611,8 @@ export default {
       50,
       55,
       65,
-      75
+      75,
+      85
     ],
     "regions": [
       "BR",
@@ -24870,11 +25206,12 @@ export default {
     "machine": "k26",
     "codename": "queue",
     "otaId": "HE_DTV_W26H_AFADATAA",
-    "suffix": ".AWF",
+    "suffix": ".AWR",
     "sizes": [
       100
     ],
     "regions": [
+      "BR",
       "PE"
     ]
   },
@@ -26784,6 +27121,7 @@ export default {
       115
     ],
     "regions": [
+      "DE",
       "UK"
     ]
   },
@@ -26801,7 +27139,8 @@ export default {
       85
     ],
     "regions": [
-      "DE"
+      "DE",
+      "KZ"
     ]
   },
   "QNED95KPA": {
@@ -30756,6 +31095,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CA",
       "KR",
       "PE",
       "US"
@@ -31555,6 +31895,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CA",
       "KR",
       "PE"
     ]
