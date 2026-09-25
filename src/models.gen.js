@@ -235,6 +235,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -4785,6 +4788,10 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue",
+        "suffix": ".AEU"
       }
     ]
   },
@@ -4988,6 +4995,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -5104,6 +5114,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -5137,6 +5150,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -7840,6 +7856,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -11495,6 +11514,14 @@ export default {
           83
         ],
         "swMajor": "33"
+      },
+      {
+        "machine": "o22n2",
+        "codename": "queue",
+        "otaId": "HE_DTV_W24G_AFABATAA",
+        "sizes": [
+          83
+        ]
       }
     ]
   },
@@ -13980,6 +14007,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -14012,6 +14042,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -14107,6 +14140,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -14291,6 +14327,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -14596,6 +14635,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -14662,6 +14704,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -15192,6 +15237,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -15438,8 +15486,7 @@ export default {
         "swMajor": "33"
       },
       {
-        "codename": "queue",
-        "suffix": ".ACC"
+        "codename": "queue"
       }
     ]
   },
@@ -15595,6 +15642,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -15649,7 +15699,7 @@ export default {
       },
       {
         "codename": "queue",
-        "suffix": ".AEUD"
+        "suffix": ".AEU"
       }
     ]
   },
@@ -15677,7 +15727,8 @@ export default {
         "swMajor": "33"
       },
       {
-        "codename": "queue"
+        "codename": "queue",
+        "suffix": ".API"
       }
     ]
   },
@@ -16345,6 +16396,11 @@ export default {
     ],
     "regions": [
       "US"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
     ]
   },
   "OLEDC5ELA": {
@@ -16385,7 +16441,7 @@ export default {
     "variants": [
       {
         "codename": "queue",
-        "suffix": ".API"
+        "suffix": ".AEUD"
       }
     ]
   },
@@ -16660,6 +16716,11 @@ export default {
     ],
     "regions": [
       "CA"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
     ]
   },
   "OLEDC64LA": {
@@ -17827,6 +17888,10 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue",
+        "suffix": ".AEU"
       }
     ]
   },
@@ -17858,6 +17923,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -19174,6 +19242,11 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "broadcast": "isdb",
+        "codename": "queue",
+        "suffix": ".AWH"
       }
     ]
   },
@@ -19207,6 +19280,10 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue",
+        "suffix": ".ACC"
       }
     ]
   },
@@ -19760,8 +19837,7 @@ export default {
         "swMajor": "33"
       },
       {
-        "codename": "queue",
-        "suffix": ".AJL"
+        "codename": "queue"
       }
     ]
   },
@@ -20961,6 +21037,11 @@ export default {
     "regions": [
       "AU",
       "NZ"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
     ]
   },
   "OLEDM3PUA": {
@@ -21387,6 +21468,11 @@ export default {
     ],
     "regions": [
       "JP"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
     ]
   },
   "OLEDT4PUA": {
@@ -24139,6 +24225,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -43132,7 +43221,8 @@ export default {
     "suffix": ".AEU",
     "sizes": [
       43,
-      65
+      65,
+      75
     ],
     "regions": [
       "DE",
@@ -44649,6 +44739,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -44822,6 +44915,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -45053,6 +45149,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       },
       {
         "machine": "k24",
