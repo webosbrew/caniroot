@@ -7690,6 +7690,10 @@ export default {
         "swMajor": "33"
       },
       {
+        "codename": "queue",
+        "suffix": ".AEU"
+      },
+      {
         "machine": "k24",
         "otaId": "HE_DTV_W24H_AFADATAA",
         "sizes": [
@@ -16162,6 +16166,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -43327,6 +43334,23 @@ export default {
       }
     ]
   },
+  "UR75506LC": {
+    "series": "UR75",
+    "broadcast": "dvb",
+    "machine": "k8lpn",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W23P_AFADATAA",
+    "suffix": ".ATR",
+    "sizes": [
+      43,
+      50,
+      55,
+      65
+    ],
+    "regions": [
+      "IN"
+    ]
+  },
   "UR7550PSC": {
     "series": "UR75",
     "broadcast": "dvb",
@@ -44671,6 +44695,25 @@ export default {
         ],
         "swMajor": "33"
       }
+    ]
+  },
+  "UT7000PUA": {
+    "series": "UT70",
+    "broadcast": "atsc",
+    "machine": "k8lpn2",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W24P_AFADATAA",
+    "suffix": ".ACC",
+    "sizes": [
+      43,
+      50,
+      55,
+      65,
+      75
+    ],
+    "regions": [
+      "CA",
+      "US"
     ]
   },
   "UT7550AUA": {
