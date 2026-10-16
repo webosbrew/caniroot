@@ -4681,6 +4681,20 @@ export default {
       "IN"
     ]
   },
+  "LR570B6LA": {
+    "series": "LR57",
+    "broadcast": "dvb",
+    "machine": "kf23f",
+    "codename": "number1",
+    "otaId": "HE_DTV_W23L_AFAAATAA",
+    "suffix": ".ATR",
+    "sizes": [
+      32
+    ],
+    "regions": [
+      "IN"
+    ]
+  },
   "LR573B6LA": {
     "series": "LR57",
     "broadcast": "dvb",
@@ -4739,6 +4753,20 @@ export default {
     "regions": [
       "CA",
       "US"
+    ]
+  },
+  "LR656B6LA": {
+    "series": "LR65",
+    "broadcast": "dvb",
+    "machine": "kf23f",
+    "codename": "number1",
+    "otaId": "HE_DTV_W23L_AFAAATAA",
+    "suffix": ".ATR",
+    "sizes": [
+      32
+    ],
+    "regions": [
+      "IN"
     ]
   },
   "LR656BPSA": {
@@ -15989,6 +16017,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -16058,6 +16089,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -17258,6 +17292,21 @@ export default {
     "regions": [
       "KZ",
       "RU"
+    ]
+  },
+  "OLEDC6SNA": {
+    "series": "OLEDC6",
+    "broadcast": "atsc",
+    "machine": "o26",
+    "codename": "queue",
+    "otaId": "HE_DTV_W26O_AFABATAA",
+    "sizes": [
+      65,
+      77,
+      83
+    ],
+    "regions": [
+      "KR"
     ]
   },
   "OLEDC6T": {
@@ -24884,6 +24933,20 @@ export default {
       }
     ]
   },
+  "QNED81TCA": {
+    "series": "QNED81",
+    "broadcast": "dvb",
+    "machine": "k8lpn2",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W24P_AFADATAA",
+    "suffix": ".AHKG",
+    "sizes": [
+      75
+    ],
+    "regions": [
+      "HK"
+    ]
+  },
   "QNED81TSA": {
     "series": "QNED81",
     "broadcast": "dvb",
@@ -25260,6 +25323,21 @@ export default {
       "KZ",
       "RU",
       "UK"
+    ]
+  },
+  "QNED83SRA": {
+    "series": "QNED83",
+    "broadcast": "dvb",
+    "machine": "k8hpp",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W23H_AFADATAA",
+    "suffix": ".ATR",
+    "sizes": [
+      55,
+      65
+    ],
+    "regions": [
+      "IN"
     ]
   },
   "QNED84A6C": {
