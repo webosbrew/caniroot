@@ -1079,7 +1079,7 @@ export default {
     "machine": "lm24f",
     "codename": "queue",
     "otaId": "HE_DTV_W26L_AFAAATAA",
-    "suffix": ".AEU",
+    "suffix": ".AEI",
     "sizes": [
       43
     ],
@@ -5144,6 +5144,9 @@ export default {
       {
         "codename": "ponytail",
         "swMajor": "33"
+      },
+      {
+        "codename": "queue"
       }
     ]
   },
@@ -17068,6 +17071,22 @@ export default {
       "UK"
     ]
   },
+  "OLEDC6ENA": {
+    "series": "OLEDC6",
+    "broadcast": "atsc",
+    "machine": "o26",
+    "codename": "queue",
+    "otaId": "HE_DTV_W26O_AFABATAA",
+    "sizes": [
+      42,
+      48,
+      55,
+      65
+    ],
+    "regions": [
+      "KR"
+    ]
+  },
   "OLEDC6ESA": {
     "series": "OLEDC6",
     "broadcast": "isdb",
@@ -20596,6 +20615,23 @@ export default {
       "KR"
     ]
   },
+  "OLEDG6KNA": {
+    "series": "OLEDG6",
+    "broadcast": "atsc",
+    "machine": "o26",
+    "codename": "queue",
+    "otaId": "HE_DTV_W26O_AFABATAA",
+    "sizes": [
+      55,
+      65,
+      77,
+      83,
+      97
+    ],
+    "regions": [
+      "KR"
+    ]
+  },
   "OLEDG6P": {
     "series": "OLEDG6",
     "broadcast": "atsc",
@@ -21699,6 +21735,20 @@ export default {
       "PL",
       "RU",
       "UK"
+    ]
+  },
+  "OLEDW6KNA": {
+    "series": "OLEDW6",
+    "broadcast": "atsc",
+    "machine": "o26",
+    "codename": "queue",
+    "otaId": "HE_DTV_W26O_AFABATAA",
+    "sizes": [
+      77,
+      83
+    ],
+    "regions": [
+      "KR"
     ]
   },
   "OLEDW6PCA": {
