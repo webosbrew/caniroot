@@ -69,6 +69,9 @@ function epkBroadcast(epk) {
 function isMismatch(item) {
   const broadcast = item.epk && epkBroadcast(item.epk);
   const regionBroadcast = regionBroadcasts[item.region];
+  if (!regionBroadcast) {
+    return false;
+  }
   return !!broadcast && broadcast !== 'global' && regionBroadcast !== 'isdb' && regionBroadcast !== broadcast;
 }
 

@@ -6401,6 +6401,7 @@ export default {
   },
   "MRGB86BSA": {
     "series": "MRGB86",
+    "broadcast": "dvb",
     "machine": "k26",
     "codename": "queue",
     "otaId": "HE_DTV_W26H_AFADATAA",
@@ -7557,6 +7558,7 @@ export default {
   },
   "NANO76SQA": {
     "series": "NANO76",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADATAA",
@@ -7641,6 +7643,7 @@ export default {
   },
   "NANO776RA": {
     "series": "NANO77",
+    "broadcast": "dvb",
     "machine": "lm21ann",
     "codename": "number1",
     "otaId": "HE_DTV_W23A_AFADATAA",
@@ -7948,6 +7951,7 @@ export default {
   },
   "NANO796PB": {
     "series": "NANO79",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADATAA",
@@ -7966,6 +7970,7 @@ export default {
   },
   "NANO796QA": {
     "series": "NANO79",
+    "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADATAA",
@@ -8229,6 +8234,7 @@ export default {
   },
   "NANO80A6A": {
     "series": "NANO80",
+    "broadcast": "dvb",
     "machine": "k25lp",
     "codename": "ponytail",
     "otaId": "HE_DTV_W25P_AFADATAA",
@@ -8560,6 +8566,7 @@ export default {
   },
   "NANO80TPA": {
     "series": "NANO80",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADATAA",
@@ -8900,6 +8907,7 @@ export default {
   },
   "NANO81A3A": {
     "series": "NANO81",
+    "broadcast": "dvb",
     "machine": "k25lp",
     "codename": "ponytail",
     "otaId": "HE_DTV_W25P_AFADATAA",
@@ -9235,6 +9243,7 @@ export default {
   },
   "NANO82A6B": {
     "series": "NANO82",
+    "broadcast": "dvb",
     "machine": "k25lp",
     "codename": "ponytail",
     "otaId": "HE_DTV_W25P_AFADATAA",
@@ -9336,6 +9345,7 @@ export default {
   },
   "NANO846QA": {
     "series": "NANO84",
+    "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADATAA",
@@ -10016,6 +10026,7 @@ export default {
   },
   "NANO90A3B": {
     "series": "NANO90",
+    "broadcast": "dvb",
     "machine": "k25lp",
     "codename": "ponytail",
     "otaId": "HE_DTV_W25P_AFADATAA",
@@ -11186,6 +11197,7 @@ export default {
   },
   "NU850B6LB": {
     "series": "NU85",
+    "broadcast": "dvb",
     "machine": "k26",
     "codename": "queue",
     "otaId": "HE_DTV_W26H_AFADATAA",
@@ -14078,6 +14090,7 @@ export default {
   },
   "OLEDB66LA": {
     "series": "OLEDB6",
+    "broadcast": "dvb",
     "machine": "k26",
     "codename": "queue",
     "otaId": "HE_DTV_W26H_AFADATAA",
@@ -14201,6 +14214,7 @@ export default {
   },
   "OLEDB6ELA": {
     "series": "OLEDB6",
+    "broadcast": "dvb",
     "machine": "k26",
     "codename": "queue",
     "otaId": "HE_DTV_W26H_AFADATAA",
@@ -18467,6 +18481,7 @@ export default {
   },
   "OLEDC4PTA": {
     "series": "OLEDC4",
+    "broadcast": "dvb",
     "machine": "o22n2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24G_AFABATAA",
@@ -18652,6 +18667,7 @@ export default {
   },
   "OLEDC52LA": {
     "series": "OLEDC5",
+    "broadcast": "dvb",
     "machine": "o22n3",
     "codename": "ponytail",
     "otaId": "HE_DTV_W25G_AFABATAA",
@@ -19337,6 +19353,7 @@ export default {
   },
   "OLEDC66LA": {
     "series": "OLEDC6",
+    "broadcast": "dvb",
     "machine": "o26",
     "codename": "queue",
     "otaId": "HE_DTV_W26O_AFABATAA",
@@ -20622,6 +20639,7 @@ export default {
   },
   "OLEDCS3VA": {
     "series": "OLEDCS",
+    "broadcast": "dvb",
     "machine": "o22n",
     "codename": "number1",
     "otaId": "HE_DTV_W23O_AFABATAA",
@@ -22728,6 +22746,7 @@ export default {
   },
   "OLEDG46LA": {
     "series": "OLEDG4",
+    "broadcast": "dvb",
     "machine": "o24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24O_AFABATAA",
@@ -22987,6 +23006,7 @@ export default {
   },
   "OLEDG4PTA": {
     "series": "OLEDG4",
+    "broadcast": "dvb",
     "machine": "o24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24O_AFABATAA",
@@ -23115,6 +23135,7 @@ export default {
   },
   "OLEDG53LS": {
     "series": "OLEDG5",
+    "broadcast": "dvb",
     "machine": "o24n",
     "codename": "ponytail",
     "otaId": "HE_DTV_W25O_AFABATAA",
@@ -23201,6 +23222,7 @@ export default {
   },
   "OLEDG56LA": {
     "series": "OLEDG5",
+    "broadcast": "dvb",
     "machine": "o24n",
     "codename": "ponytail",
     "otaId": "HE_DTV_W25O_AFABATAA",
@@ -24577,6 +24599,7 @@ export default {
   },
   "OLEDM56LA": {
     "series": "OLEDM5",
+    "broadcast": "dvb",
     "machine": "o24n",
     "codename": "ponytail",
     "otaId": "HE_DTV_W25O_AFABATAA",
@@ -24940,6 +24963,7 @@ export default {
   },
   "OLEDW66LA": {
     "series": "OLEDW6",
+    "broadcast": "dvb",
     "machine": "o26",
     "codename": "queue",
     "otaId": "HE_DTV_W26O_AFABATAA",
@@ -25600,6 +25624,7 @@ export default {
   },
   "OLEDZ1PSA": {
     "series": "OLEDZ1",
+    "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21K_AFADATAA",
@@ -25647,6 +25672,7 @@ export default {
   },
   "OLEDZ1PVA": {
     "series": "OLEDZ1",
+    "broadcast": "dvb",
     "machine": "e60n",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21K_AFADATAA",
@@ -25661,6 +25687,7 @@ export default {
   },
   "OLEDZ26LA": {
     "series": "OLEDZ2",
+    "broadcast": "dvb",
     "machine": "o228k",
     "codename": "mullet",
     "otaId": "HE_DTV_W22K_AFADATAA",
@@ -26500,6 +26527,7 @@ export default {
   },
   "QNED70B3C": {
     "series": "QNED70",
+    "broadcast": "dvb",
     "machine": "k25lpn",
     "codename": "queue",
     "otaId": "HE_DTV_W26P_AFADATAA",
@@ -26580,6 +26608,7 @@ export default {
   },
   "QNED70B6T": {
     "series": "QNED70",
+    "broadcast": "dvb",
     "machine": "k25lpn",
     "codename": "queue",
     "otaId": "HE_DTV_W26P_AFADATAA",
@@ -26807,6 +26836,7 @@ export default {
   },
   "QNED71BSC": {
     "series": "QNED71",
+    "broadcast": "isdb",
     "machine": "k25lpn",
     "codename": "queue",
     "otaId": "HE_DTV_W26P_AFADATAA",
@@ -26877,6 +26907,7 @@ export default {
   },
   "QNED72B6T": {
     "series": "QNED72",
+    "broadcast": "dvb",
     "machine": "k25lpn",
     "codename": "queue",
     "otaId": "HE_DTV_W26P_AFADATAA",
@@ -27067,6 +27098,7 @@ export default {
   },
   "QNED756RB": {
     "series": "QNED75",
+    "broadcast": "dvb",
     "machine": "m23",
     "codename": "number1",
     "otaId": "HE_DTV_W23M_AFADATAA",
@@ -27479,6 +27511,7 @@ export default {
   },
   "QNED7EB6T": {
     "series": "QNED7E",
+    "broadcast": "dvb",
     "machine": "k25lpn",
     "codename": "queue",
     "otaId": "HE_DTV_W26P_AFADATAA",
@@ -27628,6 +27661,7 @@ export default {
   },
   "QNED80A3A": {
     "series": "QNED80",
+    "broadcast": "dvb",
     "machine": "k25lp",
     "codename": "ponytail",
     "otaId": "HE_DTV_W25P_AFADATAA",
@@ -27951,6 +27985,7 @@ export default {
   },
   "QNED80BTA": {
     "series": "QNED80",
+    "broadcast": "dvb",
     "machine": "k25lpn",
     "codename": "queue",
     "otaId": "HE_DTV_W26P_AFADATAA",
@@ -28205,6 +28240,7 @@ export default {
   },
   "QNED80T6B": {
     "series": "QNED80",
+    "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24P_AFADATAA",
@@ -28607,6 +28643,7 @@ export default {
   },
   "QNED81A6A": {
     "series": "QNED81",
+    "broadcast": "dvb",
     "machine": "k25lp",
     "codename": "ponytail",
     "otaId": "HE_DTV_W25P_AFADATAA",
@@ -28911,6 +28948,7 @@ export default {
   },
   "QNED826QB": {
     "series": "QNED82",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADATAA",
@@ -28995,6 +29033,7 @@ export default {
   },
   "QNED82A3B": {
     "series": "QNED82",
+    "broadcast": "dvb",
     "machine": "k25lp",
     "codename": "ponytail",
     "otaId": "HE_DTV_W25P_AFADATAA",
@@ -29013,6 +29052,7 @@ export default {
   },
   "QNED82A6A": {
     "series": "QNED82",
+    "broadcast": "dvb",
     "machine": "k25lp",
     "codename": "ponytail",
     "otaId": "HE_DTV_W25P_AFADATAA",
@@ -29137,6 +29177,7 @@ export default {
   },
   "QNED82ASA": {
     "series": "QNED82",
+    "broadcast": "dvb",
     "machine": "k25lp",
     "codename": "ponytail",
     "otaId": "HE_DTV_W25P_AFADATAA",
@@ -29283,6 +29324,7 @@ export default {
   },
   "QNED82BSA": {
     "series": "QNED82",
+    "broadcast": "dvb",
     "machine": "k26",
     "codename": "queue",
     "otaId": "HE_DTV_W26H_AFADATAA",
@@ -29315,6 +29357,7 @@ export default {
   },
   "QNED83B3A": {
     "series": "QNED83",
+    "broadcast": "dvb",
     "machine": "k26",
     "codename": "queue",
     "otaId": "HE_DTV_W26H_AFADATAA",
@@ -29402,6 +29445,7 @@ export default {
   },
   "QNED84B6T": {
     "series": "QNED84",
+    "broadcast": "dvb",
     "machine": "k26",
     "codename": "queue",
     "otaId": "HE_DTV_W26H_AFADATAA",
@@ -29470,6 +29514,7 @@ export default {
   },
   "QNED856QA": {
     "series": "QNED85",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADATAA",
@@ -29819,6 +29864,7 @@ export default {
   },
   "QNED85B6T": {
     "series": "QNED85",
+    "broadcast": "dvb",
     "machine": "k26",
     "codename": "queue",
     "otaId": "HE_DTV_W26H_AFADATAA",
@@ -29837,6 +29883,7 @@ export default {
   },
   "QNED85B8": {
     "series": "QNED85",
+    "broadcast": "dvb",
     "machine": "k26",
     "codename": "queue",
     "otaId": "HE_DTV_W26H_AFADATAA",
@@ -30848,6 +30895,7 @@ export default {
   },
   "QNED86BTA": {
     "series": "QNED86",
+    "broadcast": "dvb",
     "machine": "k26",
     "codename": "queue",
     "otaId": "HE_DTV_W26H_AFADATAA",
@@ -31829,6 +31877,7 @@ export default {
   },
   "QNED916QA": {
     "series": "QNED91",
+    "broadcast": "dvb",
     "machine": "k8hp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22H_AFADATAA",
@@ -31948,6 +31997,7 @@ export default {
   },
   "QNED91T3A": {
     "series": "QNED91",
+    "broadcast": "dvb",
     "machine": "k24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24H_AFADATAA",
@@ -32075,6 +32125,7 @@ export default {
   },
   "QNED91TTA": {
     "series": "QNED91",
+    "broadcast": "dvb",
     "machine": "k24",
     "codename": "ombre",
     "otaId": "HE_DTV_W24H_AFADATAA",
@@ -32393,6 +32444,7 @@ export default {
   },
   "QNED96SQA": {
     "series": "QNED96",
+    "broadcast": "dvb",
     "machine": "o228k",
     "codename": "mullet",
     "otaId": "HE_DTV_W22K_AFADATAA",
@@ -32783,6 +32835,7 @@ export default {
   },
   "QNED9MATA": {
     "series": "QNED9M",
+    "broadcast": "dvb",
     "machine": "o22n3",
     "codename": "ponytail",
     "otaId": "HE_DTV_W25G_AFABATAA",
@@ -35108,6 +35161,7 @@ export default {
   },
   "UA80006LC": {
     "series": "UA80",
+    "broadcast": "dvb",
     "machine": "k25lp",
     "codename": "ponytail",
     "otaId": "HE_DTV_W25P_AFADATAA",
@@ -35219,6 +35273,7 @@ export default {
   },
   "UA85006LA": {
     "series": "UA85",
+    "broadcast": "dvb",
     "machine": "k25lp",
     "codename": "ponytail",
     "otaId": "HE_DTV_W25P_AFADATAA",
@@ -35240,6 +35295,7 @@ export default {
   },
   "UA85506LA": {
     "series": "UA85",
+    "broadcast": "dvb",
     "machine": "k25lp",
     "codename": "ponytail",
     "otaId": "HE_DTV_W25P_AFADATAA",
@@ -47183,6 +47239,7 @@ export default {
   },
   "UP7500PTC": {
     "series": "UP75",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADATAA",
@@ -47220,6 +47277,7 @@ export default {
   },
   "UP7500PVG": {
     "series": "UP75",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADATAA",
@@ -47256,6 +47314,7 @@ export default {
   },
   "UP7550PTC": {
     "series": "UP75",
+    "broadcast": "dvb",
     "machine": "lm21a",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21A_AFADATAA",
@@ -47718,6 +47777,7 @@ export default {
   },
   "UP77109LC": {
     "series": "UP77",
+    "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADATAA",
@@ -47736,6 +47796,7 @@ export default {
   },
   "UP7720PTC": {
     "series": "UP77",
+    "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADATAA",
@@ -47832,6 +47893,7 @@ export default {
   },
   "UP7750PTB": {
     "series": "UP77",
+    "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADATAA",
@@ -47898,6 +47960,7 @@ export default {
   },
   "UP7760PSB": {
     "series": "UP77",
+    "broadcast": "isdb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADATAA",
@@ -48038,6 +48101,7 @@ export default {
   },
   "UP7800PTB": {
     "series": "UP78",
+    "broadcast": "dvb",
     "machine": "k7lp",
     "codename": "kisscurl",
     "otaId": "HE_DTV_W21P_AFADATAA",
@@ -49003,6 +49067,7 @@ export default {
   },
   "UQ75006LG": {
     "series": "UQ75",
+    "broadcast": "dvb",
     "machine": "k8lp",
     "codename": "mullet",
     "otaId": "HE_DTV_W22P_AFADATAA",
@@ -49395,6 +49460,7 @@ export default {
   },
   "UQ80006LD": {
     "series": "UQ80",
+    "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADATAA",
@@ -49507,6 +49573,7 @@ export default {
   },
   "UQ8000PSB": {
     "series": "UQ80",
+    "broadcast": "isdb",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADATAA",
@@ -49525,6 +49592,7 @@ export default {
   },
   "UQ8000PSC": {
     "series": "UQ80",
+    "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADATAA",
@@ -49744,6 +49812,7 @@ export default {
   },
   "UQ8150PSB": {
     "series": "UQ81",
+    "broadcast": "isdb",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADATAA",
@@ -49903,6 +49972,7 @@ export default {
   },
   "UQ90006LC": {
     "series": "UQ90",
+    "broadcast": "dvb",
     "machine": "lm21an",
     "codename": "mullet",
     "otaId": "HE_DTV_W22A_AFADATAA",
@@ -50485,6 +50555,7 @@ export default {
   },
   "UR7410PSA": {
     "series": "UR74",
+    "broadcast": "isdb",
     "machine": "k8lpn",
     "codename": "ponytail",
     "otaId": "HE_DTV_W23P_AFADATAA",
@@ -50501,6 +50572,7 @@ export default {
   },
   "UR75003LK": {
     "series": "UR75",
+    "broadcast": "dvb",
     "machine": "m23",
     "codename": "ponytail",
     "otaId": "HE_DTV_W23M_AFADATAA",
@@ -50916,6 +50988,7 @@ export default {
   },
   "UR78006LC": {
     "series": "UR78",
+    "broadcast": "dvb",
     "machine": "k8lpn",
     "codename": "number1",
     "otaId": "HE_DTV_W23P_AFADATAA",
@@ -51144,6 +51217,7 @@ export default {
   },
   "UR80006LA": {
     "series": "UR80",
+    "broadcast": "dvb",
     "machine": "k8hpp",
     "codename": "number1",
     "otaId": "HE_DTV_W23H_AFADATAA",
@@ -51349,6 +51423,7 @@ export default {
   },
   "UR80506LK": {
     "series": "UR80",
+    "broadcast": "dvb",
     "machine": "lm21ann",
     "codename": "ponytail",
     "otaId": "HE_DTV_W23A_AFADATAA",
@@ -51623,6 +51698,7 @@ export default {
   },
   "UR8150PSB": {
     "series": "UR81",
+    "broadcast": "dvb",
     "machine": "k8lpn",
     "codename": "number1",
     "otaId": "HE_DTV_W23P_AFADATAA",
@@ -52364,6 +52440,7 @@ export default {
   },
   "UT80006LB": {
     "series": "UT80",
+    "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ponytail",
     "otaId": "HE_DTV_W24P_AFADATAA",
@@ -52816,6 +52893,7 @@ export default {
   },
   "UT9050PSB": {
     "series": "UT90",
+    "broadcast": "dvb",
     "machine": "k8lpn2",
     "codename": "ombre",
     "otaId": "HE_DTV_W24P_AFADATAA",

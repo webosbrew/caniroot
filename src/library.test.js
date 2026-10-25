@@ -98,7 +98,7 @@ describe('DeviceModel', {only: true}, () => {
   it('should find the model', {only: true}, () => {
     assert.strictEqual(DeviceModel.find('55SM8100PJB').broadcast, 'arib');
     assert.strictEqual(DeviceModel.find('SM8100PJB').machine, 'm16p3');
-    assert.deepEqual(DeviceModel.find('43UN7340PVC').regions, ['AU', 'NZ']);
+    assert.deepEqual(DeviceModel.find('43UN7340PVC').regions, ['AE', 'AU', 'NZ', 'SA']);
     assert.strictEqual(DeviceModel.find('43UJ750V').series, 'UJ75');
     assert.strictEqual(DeviceModel.find('55LB7200').series, 'LB72');
     assert.strictEqual(DeviceModel.find('55SK7900PLA').series, 'SK79');

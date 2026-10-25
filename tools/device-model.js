@@ -114,6 +114,10 @@ export function parseDeviceModel(model, epk, region, otaId) {
   }
 
   const broadcast = inferBroadcast(match.groups.broadcast, otaId, region);
+  if (!broadcast) {
+    console.error(`Cannot infer broadcast for ${epk}: unknown region ${region}`);
+    return undefined;
+  }
 
   return {
     series: model.series,
