@@ -11,6 +11,7 @@ export default {
     ],
     "regions": [
       "KR",
+      "TR",
       "UK",
       "US"
     ],
@@ -127,9 +128,17 @@ export default {
     ],
     "regions": [
       "AU",
+      "BE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "NZ",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -221,7 +230,10 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "MX",
+      "NZ",
+      "SG",
+      "TW"
     ],
     "variants": [
       {
@@ -253,7 +265,9 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
       "KR",
+      "MX",
       "PE",
       "US"
     ],
@@ -279,8 +293,15 @@ export default {
       55
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "PH",
+      "SA",
+      "SG",
+      "TH"
     ]
   },
   "EC930V": {
@@ -294,10 +315,22 @@ export default {
       55
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -361,7 +394,10 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH"
     ]
   },
   "EC970V": {
@@ -375,9 +411,19 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -392,9 +438,17 @@ export default {
       77
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "NL",
       "PL",
       "RU",
+      "TR",
       "UK"
     ]
   },
@@ -426,6 +480,8 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
       "PL"
     ]
@@ -458,10 +514,19 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -478,6 +543,7 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
       "PE",
       "US"
     ],
@@ -511,6 +577,8 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
       "PL"
     ]
@@ -526,8 +594,15 @@ export default {
       55
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "PH",
+      "SA",
+      "SG",
+      "TH"
     ]
   },
   "EG910V": {
@@ -541,10 +616,22 @@ export default {
       55
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ]
@@ -562,6 +649,7 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "MX",
       "PE"
     ],
     "variants": [
@@ -586,7 +674,10 @@ export default {
       55
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES",
+      "IT"
     ]
   },
   "EG920V": {
@@ -600,10 +691,21 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -673,6 +775,7 @@ export default {
       "BR",
       "CA",
       "KR",
+      "MX",
       "PE",
       "US"
     ],
@@ -707,7 +810,10 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
       "PL"
     ],
     "variants": [
@@ -729,8 +835,15 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "CO",
+      "ID",
+      "NZ",
+      "PH",
+      "SA",
+      "SG",
+      "TH"
     ]
   },
   "EG960V": {
@@ -745,10 +858,22 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ],
@@ -809,8 +934,10 @@ export default {
       77
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SG"
     ]
   },
   "EG9770": {
@@ -877,10 +1004,22 @@ export default {
       55
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "TR",
       "UK"
     ]
   },
@@ -949,9 +1088,19 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK",
       "ZA"
     ]
@@ -964,12 +1113,15 @@ export default {
     "otaId": "HE_DTV_WT1M_AFAAABAA",
     "suffix": ".AAU",
     "sizes": [
+      42,
       47,
       55
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "NZ",
+      "PH"
     ]
   },
   "LB631V": {
@@ -985,6 +1137,7 @@ export default {
       55
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -1036,8 +1189,13 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
+      "ID",
       "KR",
+      "MX",
       "PE",
+      "PH",
+      "SG",
       "US"
     ],
     "variants": [
@@ -1084,8 +1242,12 @@ export default {
       43
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
       "KZ",
+      "NL",
+      "PT",
       "UK"
     ]
   },
@@ -1113,7 +1275,10 @@ export default {
       43
     ],
     "regions": [
-      "BR"
+      "BR",
+      "CL",
+      "CO",
+      "MX"
     ]
   },
   "LB650B6LA": {
@@ -1127,9 +1292,17 @@ export default {
       32
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -1197,6 +1370,8 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
+      "MX",
       "PE"
     ]
   },
@@ -1233,12 +1408,24 @@ export default {
       70
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "NZ",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ]
@@ -1257,9 +1444,18 @@ export default {
       55
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
-      "RU"
+      "NL",
+      "PT",
+      "RU",
+      "TR"
     ]
   },
   "LB653V": {
@@ -1307,7 +1503,11 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "NZ",
+      "PH",
+      "TH",
+      "VN"
     ]
   },
   "LB6560": {
@@ -1323,7 +1523,9 @@ export default {
       60
     ],
     "regions": [
-      "KR"
+      "AE",
+      "KR",
+      "SA"
     ],
     "variants": [
       {
@@ -1355,6 +1557,7 @@ export default {
       70
     ],
     "regions": [
+      "AT",
       "AU",
       "DE",
       "NZ"
@@ -1402,7 +1605,11 @@ export default {
       55
     ],
     "regions": [
-      "KR"
+      "AE",
+      "ID",
+      "KR",
+      "PH",
+      "SA"
     ],
     "variants": [
       {
@@ -1450,9 +1657,20 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
-      "RU"
+      "PT",
+      "RU",
+      "SE",
+      "TR"
     ]
   },
   "LB671V": {
@@ -1469,10 +1687,21 @@ export default {
       55
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
-      "RU"
+      "PT",
+      "RU",
+      "SE"
     ]
   },
   "LB673V": {
@@ -1506,7 +1735,10 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
       "PL"
     ]
   },
@@ -1524,6 +1756,7 @@ export default {
       55
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -1542,6 +1775,7 @@ export default {
       55
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -1590,6 +1824,9 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
       "PL"
     ]
@@ -1607,7 +1844,12 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "HU",
+      "IT",
       "KZ",
       "PL",
       "RU"
@@ -1692,6 +1934,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -1707,8 +1950,16 @@ export default {
       27
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -1756,8 +2007,18 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -1802,14 +2063,20 @@ export default {
     "otaId": "HE_DTV_WT1M_AFAAATAA",
     "suffix": ".AUS",
     "sizes": [
+      42,
       47,
       55,
+      60,
       65,
       70
     ],
     "regions": [
+      "AE",
       "BR",
+      "CL",
+      "MX",
       "PE",
+      "SA",
       "US"
     ],
     "variants": [
@@ -1817,12 +2084,6 @@ export default {
         "broadcast": "dvb",
         "otaId": "HE_DTV_WT1M_AFAAABAA",
         "suffix": ".AHK",
-        "sizes": [
-          42,
-          47,
-          55,
-          65
-        ],
         "regions": [
           "HK"
         ]
@@ -1843,6 +2104,7 @@ export default {
       60
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -1876,10 +2138,21 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -1896,8 +2169,14 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "HU",
+      "IT",
       "PL",
+      "SE",
       "UK"
     ]
   },
@@ -1912,6 +2191,7 @@ export default {
       55
     ],
     "regions": [
+      "ID",
       "KR"
     ],
     "variants": [
@@ -1987,7 +2267,9 @@ export default {
       60
     ],
     "regions": [
+      "CL",
       "HK",
+      "MX",
       "PE"
     ]
   },
@@ -2004,10 +2286,21 @@ export default {
       60
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
-      "RU"
+      "PT",
+      "RU",
+      "SE",
+      "TR"
     ]
   },
   "LF5800": {
@@ -2017,12 +2310,21 @@ export default {
     "codename": "beehive",
     "otaId": "HE_DTV_W15M_AFAAATAA",
     "sizes": [
+      32,
       42,
       50,
       55
     ],
     "regions": [
-      "KR"
+      "AT",
+      "CZ",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "KR",
+      "MX",
+      "PT"
     ]
   },
   "LF5900": {
@@ -2039,8 +2341,11 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
       "HK",
+      "MX",
       "PE",
+      "PH",
       "US"
     ],
     "variants": [
@@ -2083,10 +2388,20 @@ export default {
       49
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -2115,8 +2430,13 @@ export default {
       32
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "HU",
       "PL",
-      "RU"
+      "PT",
+      "RU",
+      "SE"
     ]
   },
   "LF592V": {
@@ -2130,8 +2450,14 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
-      "PL"
+      "ES",
+      "FR",
+      "IT",
+      "PL",
+      "SE"
     ]
   },
   "LF5950": {
@@ -2147,7 +2473,10 @@ export default {
     "regions": [
       "BR",
       "CA",
-      "PE"
+      "CL",
+      "MX",
+      "PE",
+      "PH"
     ],
     "variants": [
       {
@@ -2174,7 +2503,10 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "MX",
       "PE",
+      "PH",
+      "SG",
       "US"
     ],
     "variants": [
@@ -2203,9 +2535,13 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "CA",
       "KR",
-      "US"
+      "MX",
+      "PH",
+      "US",
+      "VN"
     ],
     "variants": [
       {
@@ -2258,6 +2594,7 @@ export default {
       55
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -2277,12 +2614,24 @@ export default {
       60
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "NZ",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ]
@@ -2332,6 +2681,7 @@ export default {
       55
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -2351,11 +2701,20 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "NL",
       "NZ",
       "PL",
-      "RU"
+      "PT",
+      "RU",
+      "SE",
+      "VN"
     ]
   },
   "LF6329": {
@@ -2373,7 +2732,9 @@ export default {
       55
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES"
     ]
   },
   "LF632V": {
@@ -2391,8 +2752,16 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
-      "PL"
+      "ES",
+      "HU",
+      "NL",
+      "PL",
+      "PT",
+      "SE"
     ]
   },
   "LF634V": {
@@ -2429,6 +2798,8 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
+      "MX",
       "PE",
       "US"
     ]
@@ -2487,6 +2858,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -2502,6 +2874,7 @@ export default {
       55
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -2534,6 +2907,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -2550,8 +2924,11 @@ export default {
       60
     ],
     "regions": [
+      "AE",
       "BR",
+      "CL",
       "KR",
+      "MX",
       "PE"
     ],
     "variants": [
@@ -2594,9 +2971,17 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -2613,6 +2998,7 @@ export default {
       55
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -2630,9 +3016,20 @@ export default {
       55
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK",
       "ZA"
     ]
@@ -2651,6 +3048,7 @@ export default {
       55
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -2666,9 +3064,17 @@ export default {
       43
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "PL",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -2683,10 +3089,17 @@ export default {
       32
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "HU",
+      "IT",
       "KZ",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -2702,11 +3115,25 @@ export default {
       49
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
-      "UK"
+      "SA",
+      "SE",
+      "TR",
+      "UK",
+      "VN"
     ]
   },
   "LH595T": {
@@ -2746,10 +3173,13 @@ export default {
     "suffix": ".ARUB",
     "sizes": [
       43,
-      49
+      49,
+      55
     ],
     "regions": [
-      "RU"
+      "AE",
+      "RU",
+      "SA"
     ]
   },
   "LH6000": {
@@ -2766,7 +3196,10 @@ export default {
     ],
     "regions": [
       "BR",
-      "PE"
+      "CL",
+      "MX",
+      "PE",
+      "PH"
     ]
   },
   "LH600T": {
@@ -2783,8 +3216,14 @@ export default {
     ],
     "regions": [
       "AU",
+      "CO",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "LH600V": {
@@ -2800,8 +3239,10 @@ export default {
       55
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA"
     ]
   },
   "LH602D": {
@@ -2847,6 +3288,9 @@ export default {
       55
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "HU",
       "PL"
     ]
   },
@@ -2863,7 +3307,9 @@ export default {
     "regions": [
       "AU",
       "IN",
-      "NZ"
+      "NZ",
+      "PH",
+      "SG"
     ]
   },
   "LH604V": {
@@ -2880,9 +3326,20 @@ export default {
       55
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -2916,8 +3373,14 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
-      "PL"
+      "ES",
+      "HU",
+      "IT",
+      "PL",
+      "PT"
     ]
   },
   "LH6600": {
@@ -2977,6 +3440,8 @@ export default {
       55
     ],
     "regions": [
+      "CL",
+      "MX",
       "PE"
     ]
   },
@@ -3010,7 +3475,10 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
+      "MX",
       "PE",
+      "PH",
       "US"
     ],
     "variants": [
@@ -3037,7 +3505,9 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "MX",
       "PE",
+      "PH",
       "US"
     ]
   },
@@ -3053,7 +3523,12 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "CO",
+      "ID",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "LJ550M": {
@@ -3087,8 +3562,14 @@ export default {
     ],
     "regions": [
       "AU",
+      "CO",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "LJ554T": {
@@ -3120,6 +3601,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "MX",
       "PE"
     ]
   },
@@ -3162,8 +3644,17 @@ export default {
       32
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "UK"
     ]
   },
@@ -3194,10 +3685,22 @@ export default {
       49
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -3241,6 +3744,7 @@ export default {
       32
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -3271,7 +3775,9 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "SG",
+      "TH"
     ]
   },
   "LJ610V": {
@@ -3287,9 +3793,21 @@ export default {
       49
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
       "UK"
     ]
   },
@@ -3319,8 +3837,17 @@ export default {
       49
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "SE",
       "UK"
     ]
   },
@@ -3335,8 +3862,16 @@ export default {
       55
     ],
     "regions": [
+      "AE",
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "IT",
       "PL",
+      "PT",
+      "SA",
+      "SE",
       "UK"
     ]
   },
@@ -3425,6 +3960,7 @@ export default {
       55
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -3441,8 +3977,15 @@ export default {
       49
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "HU",
+      "IT",
       "PL",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -3457,7 +4000,12 @@ export default {
       55
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "HU",
+      "IT",
       "PL",
+      "PT",
       "UK"
     ]
   },
@@ -3546,6 +4094,7 @@ export default {
       49
     ],
     "regions": [
+      "CL",
       "PE"
     ]
   },
@@ -3562,7 +4111,12 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "PH",
+      "TH",
+      "VN"
     ]
   },
   "LK5400PUA": {
@@ -3649,6 +4203,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -3708,7 +4263,8 @@ export default {
       49
     ],
     "regions": [
-      "IN"
+      "IN",
+      "SG"
     ]
   },
   "LK5900PLA": {
@@ -3723,9 +4279,16 @@ export default {
       49
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "HU",
+      "IT",
       "PL",
+      "PT",
       "RU",
+      "TR",
       "UK"
     ]
   },
@@ -3741,6 +4304,7 @@ export default {
       49
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -3756,6 +4320,7 @@ export default {
       43
     ],
     "regions": [
+      "AE",
       "RU"
     ]
   },
@@ -3771,6 +4336,7 @@ export default {
       49
     ],
     "regions": [
+      "AE",
       "RU"
     ]
   },
@@ -3830,9 +4396,19 @@ export default {
       49
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -3861,8 +4437,17 @@ export default {
       32
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "UK"
     ]
   },
@@ -3892,7 +4477,8 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "SG"
     ]
   },
   "LK610BPUA": {
@@ -3906,6 +4492,7 @@ export default {
       32
     ],
     "regions": [
+      "MX",
       "US"
     ]
   },
@@ -3935,6 +4522,7 @@ export default {
       32
     ],
     "regions": [
+      "AE",
       "RU"
     ]
   },
@@ -3977,6 +4565,7 @@ export default {
       32
     ],
     "regions": [
+      "AE",
       "RU"
     ]
   },
@@ -3991,8 +4580,17 @@ export default {
       32
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -4008,6 +4606,7 @@ export default {
       49
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -4038,6 +4637,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -4053,6 +4653,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -4095,6 +4696,7 @@ export default {
       32
     ],
     "regions": [
+      "MX",
       "US"
     ]
   },
@@ -4196,10 +4798,19 @@ export default {
       43
     ],
     "regions": [
+      "AE",
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
       "RU",
+      "TR",
       "UK"
     ]
   },
@@ -4215,6 +4826,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -4230,7 +4842,8 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "VN"
     ]
   },
   "LM630BPLA": {
@@ -4244,8 +4857,16 @@ export default {
       32
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "NL",
       "PL",
+      "PT",
       "RU",
       "UK"
     ]
@@ -4276,7 +4897,12 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "NZ",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "LM6350KNA": {
@@ -4303,6 +4929,7 @@ export default {
       32
     ],
     "regions": [
+      "AE",
       "RU"
     ]
   },
@@ -4344,7 +4971,8 @@ export default {
       43
     ],
     "regions": [
-      "IN"
+      "IN",
+      "VN"
     ]
   },
   "LM636BPTB": {
@@ -4358,7 +4986,8 @@ export default {
       32
     ],
     "regions": [
-      "IN"
+      "IN",
+      "SG"
     ]
   },
   "LM6390PLC": {
@@ -4401,9 +5030,19 @@ export default {
       32
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
-      "RU"
+      "PT",
+      "RU",
+      "SE"
     ]
   },
   "LQ570BPSA": {
@@ -4417,7 +5056,9 @@ export default {
       32
     ],
     "regions": [
-      "IN"
+      "ID",
+      "IN",
+      "PH"
     ]
   },
   "LQ573BPSA": {
@@ -4445,7 +5086,8 @@ export default {
       32
     ],
     "regions": [
-      "IN"
+      "IN",
+      "VN"
     ]
   },
   "LQ60006LA": {
@@ -4487,9 +5129,19 @@ export default {
       32
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
       "RU",
+      "SE",
       "UK",
       "ZA"
     ]
@@ -4505,10 +5157,20 @@ export default {
       32
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -4523,7 +5185,13 @@ export default {
       32
     ],
     "regions": [
-      "PE"
+      "CO",
+      "ID",
+      "MX",
+      "PE",
+      "PH",
+      "SG",
+      "TH"
     ]
   },
   "LQ630BPUA": {
@@ -4660,7 +5328,9 @@ export default {
       32
     ],
     "regions": [
-      "IN"
+      "IN",
+      "SG",
+      "VN"
     ]
   },
   "LQ63806LC": {
@@ -4674,9 +5344,18 @@ export default {
       32
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -4763,6 +5442,9 @@ export default {
     "regions": [
       "AU",
       "BR",
+      "CO",
+      "ID",
+      "MX",
       "NZ",
       "PE"
     ]
@@ -4821,7 +5503,8 @@ export default {
       43
     ],
     "regions": [
-      "BR"
+      "BR",
+      "MX"
     ]
   },
   "LR686B6LA": {
@@ -4865,6 +5548,9 @@ export default {
       55
     ],
     "regions": [
+      "CZ",
+      "HU",
+      "IT",
       "PL"
     ],
     "variants": [
@@ -4895,11 +5581,24 @@ export default {
       55
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "NZ",
+      "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -4934,6 +5633,7 @@ export default {
       55
     ],
     "regions": [
+      "AT",
       "DE"
     ],
     "variants": [
@@ -5072,13 +5772,22 @@ export default {
     "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AAU",
     "sizes": [
+      42,
       55
     ],
     "regions": [
       "AU",
       "BR",
+      "CL",
+      "ID",
+      "MX",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "TW"
     ],
     "variants": [
       {
@@ -5139,7 +5848,12 @@ export default {
       55
     ],
     "regions": [
+      "AE",
+      "AT",
       "DE",
+      "ES",
+      "HU",
+      "IT",
       "KZ",
       "RU",
       "UK"
@@ -5212,7 +5926,10 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "PH",
+      "SG",
+      "TH"
     ],
     "variants": [
       {
@@ -5232,6 +5949,9 @@ export default {
       42
     ],
     "regions": [
+      "CZ",
+      "HU",
+      "IT",
       "PL"
     ],
     "variants": [
@@ -5263,11 +5983,24 @@ export default {
       42
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "NZ",
       "PL",
+      "PT",
+      "SA",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -5299,7 +6032,10 @@ export default {
       42
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "IT",
       "PL"
     ],
     "variants": [
@@ -5410,8 +6146,13 @@ export default {
     "regions": [
       "AU",
       "BR",
+      "CL",
+      "MX",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "SG",
+      "TW"
     ],
     "variants": [
       {
@@ -5572,6 +6313,9 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
+      "CO",
+      "MX",
       "PE"
     ]
   },
@@ -5591,10 +6335,16 @@ export default {
     ],
     "regions": [
       "AU",
+      "CZ",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
       "NZ",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -5612,7 +6362,9 @@ export default {
       75
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "NL"
     ]
   },
   "MRGB86BJA": {
@@ -5647,6 +6399,28 @@ export default {
       "KR"
     ]
   },
+  "MRGB86BSA": {
+    "series": "MRGB86",
+    "machine": "k26",
+    "codename": "queue",
+    "otaId": "HE_DTV_W26H_AFADATAA",
+    "suffix": ".ATV",
+    "sizes": [
+      55,
+      65,
+      75,
+      86
+    ],
+    "regions": [
+      "ID",
+      "MX",
+      "MY",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
+    ]
+  },
   "MRGB87B6B": {
     "series": "MRGB87",
     "broadcast": "dvb",
@@ -5655,13 +6429,19 @@ export default {
     "otaId": "HE_DTV_W26H_AFADATAA",
     "suffix": ".AEU",
     "sizes": [
+      50,
       55,
       65,
       75,
       86
     ],
     "regions": [
-      "PL"
+      "ES",
+      "FR",
+      "IT",
+      "PL",
+      "SE",
+      "TR"
     ]
   },
   "MRGB87B9B": {
@@ -5679,7 +6459,9 @@ export default {
       86
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "NL"
     ]
   },
   "MRGB88B6B": {
@@ -5697,6 +6479,13 @@ export default {
       86
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "FR",
+      "IT",
+      "PL",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -5715,7 +6504,9 @@ export default {
       86
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "NL"
     ]
   },
   "MRGB95BCA": {
@@ -5775,10 +6566,16 @@ export default {
     ],
     "regions": [
       "AU",
+      "CZ",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
       "NZ",
       "PL",
+      "PT",
       "RU",
+      "TR",
       "UK"
     ]
   },
@@ -5794,7 +6591,14 @@ export default {
       86
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "FR",
+      "IT",
+      "PL",
+      "PT",
       "RU",
+      "TR",
       "UK"
     ]
   },
@@ -5809,7 +6613,9 @@ export default {
       100
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "NL"
     ]
   },
   "MRGB96B9B": {
@@ -5824,7 +6630,10 @@ export default {
       86
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "NL",
+      "PL"
     ]
   },
   "MRGB96BC": {
@@ -5867,8 +6676,14 @@ export default {
     ],
     "regions": [
       "AU",
+      "ID",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "MRGB96BSA": {
@@ -5993,11 +6808,16 @@ export default {
       50,
       55,
       65,
+      70,
       75,
       86
     ],
     "regions": [
-      "PL"
+      "CZ",
+      "ES",
+      "HU",
+      "PL",
+      "PT"
     ]
   },
   "NANO753PR": {
@@ -6014,6 +6834,8 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -6034,8 +6856,19 @@ export default {
       86
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -6053,7 +6886,15 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -6072,10 +6913,17 @@ export default {
       75
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "BE",
       "DE",
+      "ES",
+      "FR",
       "KZ",
+      "NL",
       "NZ",
+      "PT",
       "RU"
     ],
     "variants": [
@@ -6101,8 +6949,16 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
-      "PL"
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PL",
+      "PT"
     ]
   },
   "NANO759PA": {
@@ -6121,7 +6977,10 @@ export default {
       86
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "HU",
+      "PT"
     ]
   },
   "NANO759PR": {
@@ -6138,6 +6997,7 @@ export default {
       65
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -6244,6 +7104,7 @@ export default {
     "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".BWZ",
     "sizes": [
+      43,
       50,
       55,
       65,
@@ -6252,7 +7113,11 @@ export default {
     ],
     "regions": [
       "BR",
-      "PE"
+      "CL",
+      "CO",
+      "MX",
+      "PE",
+      "PH"
     ],
     "variants": [
       {
@@ -6283,9 +7148,17 @@ export default {
     "regions": [
       "AU",
       "BR",
+      "CL",
+      "CO",
+      "ID",
       "IN",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ],
     "variants": [
       {
@@ -6293,6 +7166,15 @@ export default {
         "otaId": "HE_DTV_W22H_AFADATAA",
         "sizes": [
           86
+        ],
+        "regions": [
+          "AU",
+          "BR",
+          "CO",
+          "IN",
+          "MX",
+          "NZ",
+          "PE"
         ]
       },
       {
@@ -6313,13 +7195,20 @@ export default {
     "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AAU",
     "sizes": [
+      43,
+      50,
       55,
       65,
       75
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ],
     "variants": [
       {
@@ -6441,6 +7330,7 @@ export default {
       75
     ],
     "regions": [
+      "AE",
       "AU",
       "NZ",
       "ZA"
@@ -6451,6 +7341,12 @@ export default {
         "otaId": "HE_DTV_W21U_AFADATAA",
         "sizes": [
           86
+        ],
+        "regions": [
+          "AU",
+          "NZ",
+          "SA",
+          "ZA"
         ]
       }
     ]
@@ -6471,6 +7367,9 @@ export default {
       75
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "HU",
       "PL"
     ],
     "variants": [
@@ -6506,6 +7405,7 @@ export default {
       75
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -6526,8 +7426,18 @@ export default {
       75
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -6564,6 +7474,8 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
       "KZ",
       "PL",
@@ -6643,6 +7555,26 @@ export default {
       "JP"
     ]
   },
+  "NANO76SQA": {
+    "series": "NANO76",
+    "machine": "k8hp",
+    "codename": "mullet",
+    "otaId": "HE_DTV_W22H_AFADATAA",
+    "suffix": ".ATV",
+    "sizes": [
+      43,
+      50,
+      55,
+      65,
+      70,
+      75,
+      86
+    ],
+    "regions": [
+      "TW",
+      "VN"
+    ]
+  },
   "NANO773PA": {
     "series": "NANO77",
     "broadcast": "dvb",
@@ -6656,6 +7588,9 @@ export default {
       55
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "HU",
       "PL"
     ]
   },
@@ -6672,9 +7607,18 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
-      "RU"
+      "NL",
+      "PT",
+      "RU",
+      "SE"
     ]
   },
   "NANO776QA": {
@@ -6691,6 +7635,7 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "RU"
     ]
   },
@@ -6701,11 +7646,14 @@ export default {
     "otaId": "HE_DTV_W23A_AFADATAA",
     "suffix": ".AFFE",
     "sizes": [
+      50,
       55,
       65,
       75
     ],
     "regions": [
+      "AE",
+      "SA",
       "ZA"
     ],
     "variants": [
@@ -6757,6 +7705,7 @@ export default {
       55
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -6794,8 +7743,13 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
+      "CO",
       "IN",
-      "PE"
+      "MX",
+      "PE",
+      "PH",
+      "TW"
     ],
     "variants": [
       {
@@ -6847,12 +7801,16 @@ export default {
     "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AAU",
     "sizes": [
+      43,
+      50,
       55,
       65
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "TH",
+      "VN"
     ]
   },
   "NANO783QA": {
@@ -6869,6 +7827,8 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -6881,11 +7841,18 @@ export default {
     "suffix": ".ADRB",
     "sizes": [
       43,
+      50,
       55,
       65
     ],
     "regions": [
-      "RU"
+      "BE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "RU",
+      "SE"
     ]
   },
   "NANO789QA": {
@@ -6902,6 +7869,7 @@ export default {
       65
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -6916,6 +7884,8 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -6933,7 +7903,16 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -6952,10 +7931,37 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
+    ]
+  },
+  "NANO796PB": {
+    "series": "NANO79",
+    "machine": "lm21a",
+    "codename": "kisscurl",
+    "otaId": "HE_DTV_W21A_AFADATAA",
+    "suffix": ".API",
+    "sizes": [
+      43,
+      50,
+      55,
+      65
+    ],
+    "regions": [
+      "ES",
+      "IT",
+      "SE"
     ]
   },
   "NANO796QA": {
@@ -6965,11 +7971,14 @@ export default {
     "otaId": "HE_DTV_W22P_AFADATAA",
     "suffix": ".AFFG",
     "sizes": [
+      50,
       55,
       65,
       75
     ],
     "regions": [
+      "AE",
+      "SA",
       "ZA"
     ],
     "variants": [
@@ -7041,6 +8050,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -7068,14 +8078,20 @@ export default {
     "suffix": ".ANR",
     "sizes": [
       43,
+      50,
       55,
       65,
       75
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "NANO803NA": {
@@ -7091,6 +8107,8 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -7108,7 +8126,11 @@ export default {
       75
     ],
     "regions": [
-      "PL"
+      "CZ",
+      "ES",
+      "HU",
+      "PL",
+      "PT"
     ]
   },
   "NANO806NA": {
@@ -7124,9 +8146,16 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "IT",
+      "NL",
       "PL",
-      "RU"
+      "RU",
+      "SE"
     ]
   },
   "NANO806PA": {
@@ -7143,9 +8172,18 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -7182,7 +8220,11 @@ export default {
       75
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES",
+      "HU",
+      "PT"
     ]
   },
   "NANO80A6A": {
@@ -7199,8 +8241,10 @@ export default {
       86
     ],
     "regions": [
+      "AE",
       "AU",
       "NZ",
+      "SA",
       "ZA"
     ]
   },
@@ -7219,11 +8263,20 @@ export default {
       75
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
       "NZ",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -7331,8 +8384,17 @@ export default {
     "regions": [
       "AU",
       "BR",
+      "CL",
+      "CO",
+      "ID",
+      "MX",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "NANO80AUA": {
@@ -7368,13 +8430,18 @@ export default {
     "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AWZ",
     "sizes": [
+      50,
       55,
       65,
       75
     ],
     "regions": [
       "BR",
-      "PE"
+      "CL",
+      "CO",
+      "MX",
+      "PE",
+      "PH"
     ]
   },
   "NANO80SQA": {
@@ -7387,12 +8454,20 @@ export default {
     "sizes": [
       50,
       55,
-      65
+      65,
+      75
     ],
     "regions": [
       "BR",
+      "CL",
+      "CO",
+      "ID",
       "IN",
-      "PE"
+      "MX",
+      "MY",
+      "PE",
+      "TH",
+      "VN"
     ]
   },
   "NANO80T6A": {
@@ -7410,6 +8485,8 @@ export default {
       75
     ],
     "regions": [
+      "AE",
+      "ID",
       "IN",
       "KZ",
       "RU",
@@ -7474,8 +8551,31 @@ export default {
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "NZ",
+      "SG",
+      "TH"
+    ]
+  },
+  "NANO80TPA": {
+    "series": "NANO80",
+    "machine": "lm21a",
+    "codename": "kisscurl",
+    "otaId": "HE_DTV_W21A_AFADATAA",
+    "suffix": ".ATI",
+    "sizes": [
+      50,
+      55,
+      65,
+      75
+    ],
+    "regions": [
+      "ID",
+      "MY",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "NANO80TPZ": {
@@ -7511,6 +8611,9 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
+      "CO",
+      "MX",
       "PE"
     ],
     "variants": [
@@ -7550,6 +8653,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -7584,8 +8688,10 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA"
     ]
   },
   "NANO80VPA": {
@@ -7602,9 +8708,11 @@ export default {
       75
     ],
     "regions": [
+      "AE",
       "AU",
       "IN",
       "NZ",
+      "SA",
       "ZA"
     ]
   },
@@ -7621,6 +8729,10 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "HU",
+      "IT",
       "PL"
     ]
   },
@@ -7638,7 +8750,10 @@ export default {
       75
     ],
     "regions": [
-      "PL"
+      "CZ",
+      "HU",
+      "PL",
+      "PT"
     ]
   },
   "NANO813QA": {
@@ -7655,6 +8770,8 @@ export default {
       75
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -7671,10 +8788,21 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -7692,8 +8820,19 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -7711,8 +8850,14 @@ export default {
       75
     ],
     "regions": [
+      "AE",
       "AU",
+      "ES",
+      "FR",
       "NZ",
+      "PL",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -7729,7 +8874,10 @@ export default {
       65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "HU",
+      "PT"
     ]
   },
   "NANO819QA": {
@@ -7746,7 +8894,26 @@ export default {
       75
     ],
     "regions": [
+      "AT",
       "DE"
+    ]
+  },
+  "NANO81A3A": {
+    "series": "NANO81",
+    "machine": "k25lp",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25P_AFADATAA",
+    "suffix": ".AEU",
+    "sizes": [
+      43,
+      50,
+      55,
+      65,
+      75,
+      86
+    ],
+    "regions": [
+      "HU"
     ]
   },
   "NANO81A6A": {
@@ -7765,10 +8932,22 @@ export default {
       86
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ]
@@ -7802,6 +8981,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -7813,6 +8993,10 @@ export default {
     "otaId": "HE_DTV_W24H_AFADATAA",
     "suffix": ".AEU",
     "sizes": [
+      43,
+      50,
+      55,
+      75,
       86
     ],
     "regions": [
@@ -7821,6 +9005,28 @@ export default {
     "variants": [
       {
         "codename": "ponytail",
+        "swMajor": "33"
+      },
+      {
+        "machine": "k8lpn2",
+        "otaId": "HE_DTV_W24P_AFADATAA",
+        "sizes": [
+          65
+        ],
+        "regions": [
+          "HU"
+        ]
+      },
+      {
+        "machine": "k8lpn2",
+        "codename": "ponytail",
+        "otaId": "HE_DTV_W24P_AFADATAA",
+        "sizes": [
+          65
+        ],
+        "regions": [
+          "HU"
+        ],
         "swMajor": "33"
       }
     ]
@@ -7840,9 +9046,22 @@ export default {
       75
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "ID",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -7922,7 +9141,12 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "NZ",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ],
     "variants": [
       {
@@ -7955,11 +9179,14 @@ export default {
     "otaId": "HE_DTV_W22P_AFADATAA",
     "suffix": ".AEU",
     "sizes": [
+      50,
       55,
       65,
       75
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -7973,10 +9200,18 @@ export default {
     "sizes": [
       50,
       55,
+      65,
       75
     ],
     "regions": [
-      "RU"
+      "BE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PT",
+      "RU",
+      "SE"
     ]
   },
   "NANO829QB": {
@@ -7993,8 +9228,28 @@ export default {
       75
     ],
     "regions": [
+      "AT",
       "DE",
       "RU"
+    ]
+  },
+  "NANO82A6B": {
+    "series": "NANO82",
+    "machine": "k25lp",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25P_AFADATAA",
+    "suffix": ".AEU",
+    "sizes": [
+      43,
+      50,
+      55,
+      65,
+      75,
+      86
+    ],
+    "regions": [
+      "HU",
+      "SE"
     ]
   },
   "NANO82T6B": {
@@ -8012,8 +9267,17 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
       "UK"
     ],
     "variants": [
@@ -8070,6 +9334,24 @@ export default {
       "IN"
     ]
   },
+  "NANO846QA": {
+    "series": "NANO84",
+    "machine": "k8lp",
+    "codename": "mullet",
+    "otaId": "HE_DTV_W22P_AFADATAA",
+    "suffix": ".AMAG",
+    "sizes": [
+      50,
+      55,
+      65,
+      75
+    ],
+    "regions": [
+      "AE",
+      "SA",
+      "TR"
+    ]
+  },
   "NANO853PA": {
     "series": "NANO85",
     "broadcast": "dvb",
@@ -8084,7 +9366,10 @@ export default {
       75
     ],
     "regions": [
-      "PL"
+      "CZ",
+      "HU",
+      "PL",
+      "PT"
     ]
   },
   "NANO856PA": {
@@ -8101,7 +9386,12 @@ export default {
       75
     ],
     "regions": [
-      "RU"
+      "ES",
+      "HU",
+      "IT",
+      "PT",
+      "RU",
+      "SE"
     ]
   },
   "NANO85APA": {
@@ -8150,6 +9440,9 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
+      "CO",
+      "MX",
       "PE"
     ]
   },
@@ -8165,7 +9458,8 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "VN"
     ]
   },
   "NANO85UNA": {
@@ -8213,8 +9507,10 @@ export default {
       86
     ],
     "regions": [
+      "AE",
       "AU",
       "NZ",
+      "SA",
       "ZA"
     ]
   },
@@ -8231,6 +9527,8 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -8249,7 +9547,11 @@ export default {
       86
     ],
     "regions": [
-      "PL"
+      "CZ",
+      "ES",
+      "HU",
+      "PL",
+      "PT"
     ]
   },
   "NANO866NA": {
@@ -8265,9 +9567,19 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -8286,9 +9598,20 @@ export default {
       86
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -8305,6 +9628,8 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
       "PL"
     ]
@@ -8324,7 +9649,11 @@ export default {
       86
     ],
     "regions": [
-      "DE"
+      "AT",
+      "CZ",
+      "DE",
+      "HU",
+      "PT"
     ]
   },
   "NANO86CNA": {
@@ -8387,6 +9716,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -8398,13 +9728,19 @@ export default {
     "otaId": "HE_DTV_W20H_AFADABAA",
     "suffix": ".AAU",
     "sizes": [
+      49,
       55,
       65
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "NANO86TPA": {
@@ -8415,6 +9751,7 @@ export default {
     "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".AAU",
     "sizes": [
+      50,
       55,
       65,
       75,
@@ -8422,7 +9759,12 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "NANO86TPZ": {
@@ -8454,7 +9796,8 @@ export default {
       65
     ],
     "regions": [
-      "CA"
+      "CA",
+      "MX"
     ]
   },
   "NANO86VNA": {
@@ -8469,8 +9812,10 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA"
     ]
   },
   "NANO86VPA": {
@@ -8485,8 +9830,10 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
       "NZ",
+      "SA",
       "ZA"
     ]
   },
@@ -8517,7 +9864,10 @@ export default {
       75
     ],
     "regions": [
-      "PL"
+      "CZ",
+      "HU",
+      "PL",
+      "PT"
     ]
   },
   "NANO886PB": {
@@ -8530,9 +9880,19 @@ export default {
     "sizes": [
       50,
       55,
-      65
+      65,
+      75
     ],
     "regions": [
+      "BE",
+      "CZ",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -8550,8 +9910,12 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
-      "PL"
+      "HU",
+      "PL",
+      "PT"
     ]
   },
   "NANO893PC": {
@@ -8562,9 +9926,12 @@ export default {
     "otaId": "HE_DTV_W21U_AFADATAA",
     "suffix": ".AEU",
     "sizes": [
-      55
+      55,
+      65
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -8580,7 +9947,9 @@ export default {
       65
     ],
     "regions": [
-      "RU"
+      "ES",
+      "RU",
+      "SE"
     ]
   },
   "NANO903NA": {
@@ -8597,6 +9966,8 @@ export default {
       86
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -8614,9 +9985,17 @@ export default {
       86
     ],
     "regions": [
+      "AE",
+      "AT",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -8635,6 +10014,21 @@ export default {
       "RU"
     ]
   },
+  "NANO90A3B": {
+    "series": "NANO90",
+    "machine": "k25lp",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25P_AFADATAA",
+    "suffix": ".AEU",
+    "sizes": [
+      43,
+      55,
+      65
+    ],
+    "regions": [
+      "HU"
+    ]
+  },
   "NANO90A6B": {
     "series": "NANO90",
     "broadcast": "dvb",
@@ -8650,9 +10044,12 @@ export default {
       75
     ],
     "regions": [
+      "AT",
       "DE",
+      "FR",
       "KZ",
       "RU",
+      "TR",
       "UK"
     ]
   },
@@ -8720,6 +10117,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -8735,6 +10133,9 @@ export default {
       86
     ],
     "regions": [
+      "CL",
+      "CO",
+      "MX",
       "PE"
     ]
   },
@@ -8753,6 +10154,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -8782,11 +10184,16 @@ export default {
     "otaId": "HE_DTV_W20H_AFADABAA",
     "suffix": ".ANR",
     "sizes": [
+      55,
+      65,
+      75,
       86
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA"
     ]
   },
   "NANO913NA": {
@@ -8803,6 +10210,8 @@ export default {
       86
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -8820,7 +10229,10 @@ export default {
       86
     ],
     "regions": [
-      "PL"
+      "CZ",
+      "HU",
+      "PL",
+      "PT"
     ]
   },
   "NANO916NA": {
@@ -8837,9 +10249,19 @@ export default {
       86
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -8857,9 +10279,20 @@ export default {
       86
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -8875,6 +10308,8 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
       "PL"
     ]
@@ -8893,7 +10328,10 @@ export default {
       86
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "HU",
+      "PT"
     ]
   },
   "NANO91ANA": {
@@ -8956,8 +10394,13 @@ export default {
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "NANO91TPA": {
@@ -8975,7 +10418,8 @@ export default {
     "regions": [
       "AU",
       "IN",
-      "NZ"
+      "NZ",
+      "TH"
     ]
   },
   "NANO91TPZ": {
@@ -9042,7 +10486,10 @@ export default {
       75
     ],
     "regions": [
-      "PL"
+      "CZ",
+      "HU",
+      "PL",
+      "PT"
     ]
   },
   "NANO926PB": {
@@ -9059,8 +10506,14 @@ export default {
       86
     ],
     "regions": [
+      "AE",
+      "ES",
+      "FR",
+      "HU",
       "KZ",
-      "RU"
+      "PT",
+      "RU",
+      "SE"
     ]
   },
   "NANO93KNB": {
@@ -9103,7 +10556,10 @@ export default {
     "sizes": [
       55
     ],
-    "regions": [],
+    "regions": [
+      "CZ",
+      "HU"
+    ],
     "variants": [
       {
         "machine": "o208k",
@@ -9127,7 +10583,17 @@ export default {
     "sizes": [
       55
     ],
-    "regions": [],
+    "regions": [
+      "AT",
+      "BE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PT",
+      "SE",
+      "TR"
+    ],
     "variants": [
       {
         "machine": "o208k",
@@ -9156,6 +10622,7 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "RU"
     ]
   },
@@ -9169,7 +10636,9 @@ export default {
     "sizes": [
       55
     ],
-    "regions": [],
+    "regions": [
+      "AT"
+    ],
     "variants": [
       {
         "machine": "o208k",
@@ -9234,6 +10703,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ],
     "variants": [
@@ -9258,7 +10728,10 @@ export default {
     ],
     "regions": [
       "BR",
-      "PE"
+      "CL",
+      "MX",
+      "PE",
+      "PH"
     ]
   },
   "NANO95TNA": {
@@ -9268,9 +10741,16 @@ export default {
     "codename": "jhericurl",
     "otaId": "HE_DTV_W20E_AFADABAA",
     "suffix": ".AAU",
-    "sizes": [],
+    "sizes": [
+      55
+    ],
     "regions": [
-      "IN"
+      "ID",
+      "IN",
+      "MY",
+      "SG",
+      "TH",
+      "VN"
     ],
     "variants": [
       {
@@ -9295,11 +10775,14 @@ export default {
     "otaId": "HE_DTV_W21K_AFADATAA",
     "suffix": ".AAU",
     "sizes": [
-      65
+      65,
+      75
     ],
     "regions": [
       "AU",
-      "NZ"
+      "MY",
+      "NZ",
+      "VN"
     ]
   },
   "NANO95UNA": {
@@ -9314,7 +10797,8 @@ export default {
       75
     ],
     "regions": [
-      "CA"
+      "CA",
+      "MX"
     ]
   },
   "NANO95VNA": {
@@ -9325,9 +10809,11 @@ export default {
     "otaId": "HE_DTV_W20K_AFADABAA",
     "suffix": ".ANR",
     "sizes": [
-      65
+      65,
+      75
     ],
     "regions": [
+      "AE",
       "AU",
       "NZ"
     ]
@@ -9344,8 +10830,10 @@ export default {
       75
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA"
     ]
   },
   "NANO963PA": {
@@ -9361,6 +10849,8 @@ export default {
       75
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -9377,9 +10867,17 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -9396,6 +10894,7 @@ export default {
       75
     ],
     "regions": [
+      "AT",
       "DE",
       "UK"
     ]
@@ -9427,6 +10926,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -9455,6 +10955,7 @@ export default {
       75
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -9512,6 +11013,8 @@ export default {
       75
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -9527,9 +11030,18 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -9559,7 +11071,9 @@ export default {
       75
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES"
     ]
   },
   "NANO99JNA": {
@@ -9617,8 +11131,12 @@ export default {
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH"
     ]
   },
   "NANO99TPZ": {
@@ -9648,6 +11166,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -9675,6 +11194,7 @@ export default {
       98
     ],
     "regions": [
+      "AE",
       "ZA"
     ]
   },
@@ -9690,8 +11210,16 @@ export default {
     ],
     "regions": [
       "AU",
+      "CL",
+      "CO",
+      "ID",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "NU870BAUA": {
@@ -9723,8 +11251,16 @@ export default {
       77
     ],
     "regions": [
+      "BE",
+      "CZ",
+      "ES",
+      "HU",
+      "IT",
+      "NL",
       "PL",
-      "RU"
+      "PT",
+      "RU",
+      "SE"
     ]
   },
   "OLEDA16LA": {
@@ -9741,9 +11277,20 @@ export default {
       77
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -9761,7 +11308,12 @@ export default {
       77
     ],
     "regions": [
-      "DE"
+      "AT",
+      "BE",
+      "DE",
+      "HU",
+      "NL",
+      "PT"
     ]
   },
   "OLEDA1AUA": {
@@ -9909,7 +11461,12 @@ export default {
     ],
     "regions": [
       "BR",
-      "PE"
+      "CL",
+      "CO",
+      "MX",
+      "PE",
+      "PH",
+      "TW"
     ]
   },
   "OLEDA1PTA": {
@@ -9926,7 +11483,12 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "OLEDA1PTZ": {
@@ -9976,8 +11538,10 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
       "NZ",
+      "SA",
       "ZA"
     ]
   },
@@ -10039,6 +11603,11 @@ export default {
       65
     ],
     "regions": [
+      "BE",
+      "CZ",
+      "ES",
+      "HU",
+      "NL",
       "PL"
     ],
     "variants": [
@@ -10069,10 +11638,21 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "NZ",
+      "PT",
       "RU",
+      "SA",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ],
@@ -10105,7 +11685,11 @@ export default {
       65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "BE",
+      "DE",
+      "IT",
+      "NL"
     ],
     "variants": [
       {
@@ -10332,13 +11916,23 @@ export default {
     "sizes": [
       48,
       55,
-      65
+      65,
+      77
     ],
     "regions": [
       "AU",
+      "CL",
+      "CO",
       "IN",
+      "MX",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "TW",
+      "VN"
     ],
     "variants": [
       {
@@ -10565,7 +12159,14 @@ export default {
       65
     ],
     "regions": [
-      "IN"
+      "IN",
+      "MX",
+      "MY",
+      "PH",
+      "SG",
+      "TH",
+      "TW",
+      "VN"
     ],
     "variants": [
       {
@@ -10615,6 +12216,7 @@ export default {
       77
     ],
     "regions": [
+      "ID",
       "KR"
     ],
     "variants": [
@@ -10637,7 +12239,12 @@ export default {
       77
     ],
     "regions": [
-      "PL"
+      "CZ",
+      "ES",
+      "HU",
+      "PL",
+      "PT",
+      "SE"
     ]
   },
   "OLEDB16LA": {
@@ -10653,7 +12260,17 @@ export default {
       77
     ],
     "regions": [
+      "BE",
+      "CZ",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -10670,7 +12287,12 @@ export default {
       77
     ],
     "regions": [
-      "DE"
+      "AT",
+      "BE",
+      "DE",
+      "HU",
+      "NL",
+      "PT"
     ]
   },
   "OLEDB1FNA": {
@@ -10730,7 +12352,10 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "OLEDB1PTZ": {
@@ -10771,9 +12396,11 @@ export default {
     "suffix": ".ANR",
     "sizes": [
       55,
-      65
+      65,
+      77
     ],
     "regions": [
+      "AE",
       "AU",
       "NZ"
     ]
@@ -10803,6 +12430,7 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -10834,7 +12462,10 @@ export default {
       77
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "HU",
       "PL"
     ],
     "variants": [
@@ -10865,7 +12496,17 @@ export default {
       77
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
+      "PT",
+      "SE",
       "UK"
     ],
     "variants": [
@@ -10897,7 +12538,10 @@ export default {
       77
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES",
+      "IT"
     ],
     "variants": [
       {
@@ -11096,9 +12740,15 @@ export default {
     ],
     "regions": [
       "AU",
+      "CL",
+      "CO",
+      "ID",
       "IN",
+      "MX",
       "NZ",
-      "PE"
+      "PE",
+      "SG",
+      "TH"
     ],
     "variants": [
       {
@@ -11246,7 +12896,10 @@ export default {
       77
     ],
     "regions": [
-      "PL"
+      "CZ",
+      "HU",
+      "PL",
+      "SE"
     ],
     "variants": [
       {
@@ -11272,9 +12925,20 @@ export default {
       77
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "NZ",
+      "PT",
+      "SA",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -11301,6 +12965,7 @@ export default {
       77
     ],
     "regions": [
+      "AT",
       "DE",
       "UK"
     ],
@@ -11447,9 +13112,15 @@ export default {
     "regions": [
       "AU",
       "BR",
+      "CL",
+      "CO",
       "IN",
+      "MX",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "SG",
+      "TH"
     ],
     "variants": [
       {
@@ -11568,7 +13239,14 @@ export default {
       77
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "HU",
+      "IT",
+      "NL",
       "PL",
       "UK"
     ],
@@ -11593,10 +13271,21 @@ export default {
       77
     ],
     "regions": [
+      "AE",
       "AU",
+      "BE",
+      "CZ",
+      "ES",
+      "FR",
       "IN",
+      "IT",
+      "NL",
       "NZ",
       "PL",
+      "PT",
+      "SA",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ],
@@ -11630,7 +13319,9 @@ export default {
       77
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "IT"
     ],
     "variants": [
       {
@@ -11644,6 +13335,7 @@ export default {
           83
         ],
         "regions": [
+          "AT",
           "DE",
           "PL"
         ]
@@ -11733,8 +13425,18 @@ export default {
       77
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
       "UK"
     ],
     "variants": [
@@ -11931,19 +13633,37 @@ export default {
     "otaId": "HE_DTV_W24H_AFADATAA",
     "suffix": ".AAU",
     "sizes": [
+      48,
       55,
       65,
-      77
+      77,
+      83
     ],
     "regions": [
       "AU",
+      "CL",
+      "CO",
+      "ID",
       "IN",
+      "MX",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ],
     "variants": [
       {
         "codename": "ponytail",
+        "swMajor": "33"
+      },
+      {
+        "machine": "o22n2",
+        "codename": "ponytail",
+        "otaId": "HE_DTV_W24G_AFABATAA",
+        "suffix": ".AWH",
         "swMajor": "33"
       }
     ]
@@ -11992,9 +13712,11 @@ export default {
       48,
       55,
       65,
-      77
+      77,
+      83
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ],
@@ -12054,9 +13776,15 @@ export default {
     "otaId": "HE_DTV_W25H_AFADATAA",
     "suffix": ".AEU",
     "sizes": [
-      55
+      48,
+      55,
+      65,
+      77,
+      83
     ],
     "regions": [
+      "ES",
+      "HU",
       "PL"
     ]
   },
@@ -12075,10 +13803,22 @@ export default {
       83
     ],
     "regions": [
+      "AE",
       "AU",
+      "BE",
+      "CZ",
+      "ES",
+      "FR",
+      "HU",
       "IN",
+      "IT",
+      "NL",
       "NZ",
       "PL",
+      "PT",
+      "SA",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ]
@@ -12098,7 +13838,9 @@ export default {
       83
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "HU"
     ]
   },
   "OLEDB5AUA": {
@@ -12236,13 +13978,23 @@ export default {
       48,
       55,
       65,
-      77
+      77,
+      83
     ],
     "regions": [
       "AU",
       "BR",
+      "CL",
+      "CO",
+      "ID",
+      "MX",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "OLEDB5PUA": {
@@ -12279,6 +14031,7 @@ export default {
       83
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -12312,7 +14065,14 @@ export default {
       83
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "FR",
+      "IT",
       "PL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -12325,11 +14085,14 @@ export default {
     "sizes": [
       55,
       65,
-      77
+      77,
+      83
     ],
     "regions": [
+      "AE",
       "AU",
       "NZ",
+      "SA",
       "ZA"
     ]
   },
@@ -12348,7 +14111,10 @@ export default {
       83
     ],
     "regions": [
-      "DE"
+      "AT",
+      "BE",
+      "DE",
+      "NL"
     ]
   },
   "OLEDB6AUA": {
@@ -12395,6 +14161,7 @@ export default {
       65
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -12441,9 +14208,11 @@ export default {
     "sizes": [
       55,
       65,
-      77
+      77,
+      83
     ],
     "regions": [
+      "KZ",
       "ZA"
     ]
   },
@@ -12458,7 +14227,13 @@ export default {
       83
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "FR",
+      "IT",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -12476,7 +14251,17 @@ export default {
       77
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -12517,11 +14302,17 @@ export default {
     "suffix": ".AWZ",
     "sizes": [
       55,
-      65
+      65,
+      77
     ],
     "regions": [
       "BR",
-      "PE"
+      "CL",
+      "CO",
+      "MX",
+      "PE",
+      "TH",
+      "VN"
     ]
   },
   "OLEDB6EUA": {
@@ -12602,6 +14393,8 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -12681,7 +14474,10 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
+      "MX",
       "PE",
+      "PH",
       "US"
     ],
     "variants": [
@@ -12731,13 +14527,23 @@ export default {
       48,
       55,
       65,
-      77
+      77,
+      83
     ],
     "regions": [
       "AU",
       "BR",
+      "CL",
+      "CO",
+      "ID",
+      "MX",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "OLEDB6RLA": {
@@ -12802,7 +14608,13 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "CO",
+      "ID",
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "OLEDB6V": {
@@ -12817,10 +14629,22 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
+      "PH",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -12867,7 +14691,11 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "NL",
       "UK"
     ]
   },
@@ -12930,6 +14758,7 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
       "PE",
       "US"
     ],
@@ -12965,7 +14794,10 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "CO",
+      "MY",
+      "NZ",
+      "TH"
     ]
   },
   "OLEDB7V": {
@@ -12980,10 +14812,23 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -13055,8 +14900,11 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
-      "PL"
+      "PL",
+      "PT"
     ]
   },
   "OLEDB8PCA": {
@@ -13100,10 +14948,22 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ]
@@ -13120,7 +14980,10 @@ export default {
       65
     ],
     "regions": [
-      "IN"
+      "ID",
+      "IN",
+      "MY",
+      "TH"
     ]
   },
   "OLEDB8PUA": {
@@ -13182,8 +15045,16 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "UK"
     ]
   },
@@ -13200,6 +15071,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -13216,7 +15088,8 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "SG"
     ]
   },
   "OLEDB97LA": {
@@ -13231,6 +15104,8 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
       "PL"
     ]
@@ -13345,10 +15220,22 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -13365,6 +15252,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -13381,8 +15269,12 @@ export default {
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "TH",
+      "VN"
     ]
   },
   "OLEDB9PUA": {
@@ -13414,8 +15306,10 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA"
     ]
   },
   "OLEDB9SLA": {
@@ -13430,9 +15324,20 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
-      "RU"
+      "PT",
+      "RU",
+      "SE",
+      "TR"
     ]
   },
   "OLEDBX3LB": {
@@ -13447,6 +15352,9 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "HU",
       "PL"
     ]
   },
@@ -13462,7 +15370,16 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -13478,6 +15395,7 @@ export default {
       65
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -13621,8 +15539,12 @@ export default {
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "TH",
+      "VN"
     ]
   },
   "OLEDBXPUA": {
@@ -13638,6 +15560,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -13653,6 +15576,7 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
       "NZ"
     ]
@@ -13684,6 +15608,8 @@ export default {
       83
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -13701,8 +15627,15 @@ export default {
       77
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
-      "PL"
+      "ES",
+      "HU",
+      "IT",
+      "PL",
+      "PT",
+      "SE"
     ]
   },
   "OLEDC12LA": {
@@ -13719,7 +15652,12 @@ export default {
       77
     ],
     "regions": [
-      "PL"
+      "CZ",
+      "ES",
+      "HU",
+      "PL",
+      "PT",
+      "SE"
     ]
   },
   "OLEDC14LA": {
@@ -13733,8 +15671,17 @@ export default {
       83
     ],
     "regions": [
+      "BE",
+      "CZ",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -13752,8 +15699,15 @@ export default {
       77
     ],
     "regions": [
+      "AT",
       "DE",
+      "ES",
+      "HU",
+      "IT",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -13765,12 +15719,20 @@ export default {
     "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".AEK",
     "sizes": [
+      48,
       55,
       65,
       77
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "PL",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -13788,8 +15750,17 @@ export default {
       77
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -13804,6 +15775,7 @@ export default {
       83
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -13821,7 +15793,11 @@ export default {
       77
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES",
+      "HU",
+      "PT"
     ]
   },
   "OLEDC18LA": {
@@ -13838,8 +15814,13 @@ export default {
       77
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
-      "PL"
+      "ES",
+      "HU",
+      "PL",
+      "PT"
     ]
   },
   "OLEDC19LA": {
@@ -13856,8 +15837,14 @@ export default {
       77
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "HU",
+      "NL",
       "PL",
+      "PT",
       "UK"
     ]
   },
@@ -14015,7 +16002,11 @@ export default {
     ],
     "regions": [
       "BR",
-      "PE"
+      "CL",
+      "CO",
+      "MX",
+      "PE",
+      "TW"
     ]
   },
   "OLEDC1PTA": {
@@ -14030,7 +16021,9 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "NZ",
+      "SG"
     ]
   },
   "OLEDC1PTB": {
@@ -14048,7 +16041,12 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "OLEDC1PTZ": {
@@ -14108,11 +16106,16 @@ export default {
     "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".ANR",
     "sizes": [
+      55,
+      65,
+      77,
       83
     ],
     "regions": [
+      "AE",
       "AU",
       "NZ",
+      "SA",
       "ZA"
     ]
   },
@@ -14130,8 +16133,10 @@ export default {
       77
     ],
     "regions": [
+      "AE",
       "AU",
       "NZ",
+      "SA",
       "ZA"
     ]
   },
@@ -14165,6 +16170,7 @@ export default {
       83
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -14201,8 +16207,14 @@ export default {
       83
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
-      "PL"
+      "HU",
+      "NL",
+      "PL",
+      "PT"
     ],
     "variants": [
       {
@@ -14236,7 +16248,12 @@ export default {
       77
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "HU",
+      "NL",
       "PL"
     ],
     "variants": [
@@ -14273,10 +16290,21 @@ export default {
       83
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "NZ",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -14302,10 +16330,18 @@ export default {
     "otaId": "HE_DTV_W22O_AFABATAA",
     "suffix": ".AEU",
     "sizes": [
-      65
+      48,
+      55,
+      65,
+      77
     ],
     "regions": [
-      "DE"
+      "BE",
+      "DE",
+      "ES",
+      "FR",
+      "NL",
+      "SE"
     ],
     "variants": [
       {
@@ -14331,10 +16367,18 @@ export default {
     "suffix": ".AEU",
     "sizes": [
       48,
+      55,
+      65,
+      77,
       83
     ],
     "regions": [
+      "AE",
+      "CZ",
+      "ES",
       "PL",
+      "SA",
+      "SE",
       "ZA"
     ],
     "variants": [
@@ -14367,8 +16411,19 @@ export default {
       48
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
       "UK"
     ],
     "variants": [
@@ -14399,7 +16454,16 @@ export default {
       77
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PT",
+      "SE",
       "UK"
     ],
     "variants": [
@@ -14433,7 +16497,12 @@ export default {
       83
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "NL",
+      "SE",
       "UK"
     ],
     "variants": [
@@ -14465,7 +16534,10 @@ export default {
       77
     ],
     "regions": [
-      "DE"
+      "AT",
+      "BE",
+      "DE",
+      "NL"
     ],
     "variants": [
       {
@@ -14493,6 +16565,7 @@ export default {
       83
     ],
     "regions": [
+      "AT",
       "DE"
     ],
     "variants": [
@@ -14522,7 +16595,12 @@ export default {
       48
     ],
     "regions": [
-      "DE"
+      "AT",
+      "BE",
+      "DE",
+      "ES",
+      "NL",
+      "SE"
     ],
     "variants": [
       {
@@ -14555,6 +16633,7 @@ export default {
       77
     ],
     "regions": [
+      "AT",
       "DE",
       "RU"
     ],
@@ -14828,9 +16907,19 @@ export default {
     "regions": [
       "AU",
       "BR",
+      "CL",
+      "CO",
+      "ID",
       "IN",
+      "MX",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "TW",
+      "VN"
     ],
     "variants": [
       {
@@ -14865,7 +16954,10 @@ export default {
     "regions": [
       "AU",
       "IN",
-      "NZ"
+      "NZ",
+      "PH",
+      "TH",
+      "TW"
     ],
     "variants": [
       {
@@ -15032,6 +17124,7 @@ export default {
       65
     ],
     "regions": [
+      "AT",
       "DE",
       "UK",
       "US"
@@ -15120,7 +17213,13 @@ export default {
       83
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "HU",
+      "NL",
       "PL",
       "UK"
     ],
@@ -15153,6 +17252,8 @@ export default {
       77
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ],
     "variants": [
@@ -15185,9 +17286,18 @@ export default {
       83
     ],
     "regions": [
+      "AT",
       "AU",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "NZ",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -15214,12 +17324,22 @@ export default {
     "suffix": ".AEU",
     "sizes": [
       42,
+      48,
       55,
-      65
+      65,
+      77
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
-      "PL"
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PL",
+      "PT",
+      "SE"
     ],
     "variants": [
       {
@@ -15250,9 +17370,14 @@ export default {
       83
     ],
     "regions": [
+      "AE",
       "AU",
+      "ES",
       "NZ",
+      "PT",
       "RU",
+      "SA",
+      "SE",
       "UK",
       "ZA"
     ],
@@ -15284,7 +17409,13 @@ export default {
       77
     ],
     "regions": [
+      "AE",
+      "BE",
+      "ES",
+      "NL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ],
     "variants": [
@@ -15318,7 +17449,11 @@ export default {
       83
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "IT",
+      "NL",
       "PL",
       "UK"
     ],
@@ -15351,6 +17486,7 @@ export default {
       77
     ],
     "regions": [
+      "AT",
       "DE"
     ],
     "variants": [
@@ -15379,6 +17515,7 @@ export default {
       83
     ],
     "regions": [
+      "AT",
       "DE",
       "UK"
     ],
@@ -15409,7 +17546,10 @@ export default {
       77
     ],
     "regions": [
-      "DE"
+      "AT",
+      "BE",
+      "DE",
+      "NL"
     ],
     "variants": [
       {
@@ -15648,9 +17788,19 @@ export default {
     "regions": [
       "AU",
       "BR",
+      "CL",
+      "CO",
+      "ID",
       "IN",
+      "MX",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "TW",
+      "VN"
     ],
     "variants": [
       {
@@ -15839,12 +17989,18 @@ export default {
     "otaId": "HE_DTV_W24G_AFABATAA",
     "suffix": ".AEU",
     "sizes": [
+      42,
       48,
       55,
       65,
+      77,
       83
     ],
     "regions": [
+      "BE",
+      "HU",
+      "IT",
+      "NL",
       "PL"
     ],
     "variants": [
@@ -15872,8 +18028,13 @@ export default {
       83
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "HU",
+      "IT",
       "PL",
+      "PT",
       "UK"
     ]
   },
@@ -15893,12 +18054,21 @@ export default {
       83
     ],
     "regions": [
+      "AT",
       "AU",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
       "IN",
+      "IT",
+      "NL",
       "NZ",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ],
     "variants": [
@@ -15927,6 +18097,10 @@ export default {
       77
     ],
     "regions": [
+      "BE",
+      "CZ",
+      "ES",
+      "NL",
       "PL",
       "UK"
     ],
@@ -15956,12 +18130,22 @@ export default {
       83
     ],
     "regions": [
+      "AE",
       "AU",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
       "IN",
+      "IT",
+      "NL",
       "NZ",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "TR",
       "UK",
       "ZA"
     ],
@@ -15992,6 +18176,7 @@ export default {
       83
     ],
     "regions": [
+      "AT",
       "DE",
       "UK"
     ],
@@ -16020,7 +18205,9 @@ export default {
       77
     ],
     "regions": [
+      "AT",
       "DE",
+      "IT",
       "UK"
     ],
     "variants": [
@@ -16048,7 +18235,10 @@ export default {
       83
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES",
+      "IT"
     ],
     "variants": [
       {
@@ -16253,8 +18443,17 @@ export default {
     "regions": [
       "AU",
       "BR",
+      "CL",
+      "CO",
+      "ID",
+      "MX",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ],
     "variants": [
       {
@@ -16263,6 +18462,30 @@ export default {
       },
       {
         "codename": "queue"
+      }
+    ]
+  },
+  "OLEDC4PTA": {
+    "series": "OLEDC4",
+    "machine": "o22n2",
+    "codename": "ombre",
+    "otaId": "HE_DTV_W24G_AFABATAA",
+    "suffix": ".ATT",
+    "sizes": [
+      42,
+      48,
+      55,
+      65,
+      77,
+      83
+    ],
+    "regions": [
+      "TW"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail",
+        "swMajor": "33"
       }
     ]
   },
@@ -16335,6 +18558,7 @@ export default {
       83
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ],
@@ -16402,19 +18626,46 @@ export default {
     "otaId": "HE_DTV_W25G_AFABATAA",
     "suffix": ".AEU",
     "sizes": [
+      42,
+      48,
       55,
       65,
       77,
       83
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "HU",
+      "IT",
+      "NL",
       "PL"
     ],
     "variants": [
       {
         "codename": "queue"
       }
+    ]
+  },
+  "OLEDC52LA": {
+    "series": "OLEDC5",
+    "machine": "o22n3",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25G_AFABATAA",
+    "suffix": ".AEU",
+    "sizes": [
+      42,
+      48,
+      55,
+      65,
+      77
+    ],
+    "regions": [
+      "CZ",
+      "HU"
     ]
   },
   "OLEDC54LA": {
@@ -16433,11 +18684,22 @@ export default {
       83
     ],
     "regions": [
+      "AT",
       "AU",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
       "IN",
+      "IT",
+      "NL",
       "NZ",
       "PL",
+      "PT",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ],
@@ -16463,6 +18725,11 @@ export default {
       77
     ],
     "regions": [
+      "BE",
+      "ES",
+      "HU",
+      "IT",
+      "NL",
       "UK"
     ]
   },
@@ -16481,10 +18748,17 @@ export default {
       83
     ],
     "regions": [
+      "AE",
       "AU",
+      "BE",
+      "CZ",
+      "ES",
       "IN",
+      "NL",
       "NZ",
       "PL",
+      "PT",
+      "SA",
       "ZA"
     ],
     "variants": [
@@ -16508,7 +18782,16 @@ export default {
       77
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
+      "PT",
       "UK"
     ],
     "variants": [
@@ -16534,7 +18817,11 @@ export default {
       83
     ],
     "regions": [
-      "DE"
+      "AT",
+      "CZ",
+      "DE",
+      "ES",
+      "HU"
     ],
     "variants": [
       {
@@ -16557,7 +18844,9 @@ export default {
       77
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "HU"
     ],
     "variants": [
       {
@@ -16577,7 +18866,9 @@ export default {
       83
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "HU"
     ]
   },
   "OLEDC59LB": {
@@ -16594,7 +18885,12 @@ export default {
       77
     ],
     "regions": [
-      "DE"
+      "AT",
+      "CZ",
+      "DE",
+      "ES",
+      "FR",
+      "HU"
     ],
     "variants": [
       {
@@ -16638,8 +18934,19 @@ export default {
       83
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -16658,8 +18965,19 @@ export default {
       77
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -16699,9 +19017,13 @@ export default {
     "suffix": ".AWF",
     "sizes": [
       55,
-      65
+      65,
+      77
     ],
     "regions": [
+      "CL",
+      "CO",
+      "MX",
       "PE"
     ],
     "variants": [
@@ -16827,10 +19149,20 @@ export default {
       83
     ],
     "regions": [
+      "AE",
       "AU",
       "BR",
+      "CL",
+      "CO",
+      "ID",
+      "MX",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ],
     "variants": [
       {
@@ -16899,6 +19231,7 @@ export default {
       83
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ],
@@ -16968,8 +19301,16 @@ export default {
       83
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "PL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -16988,6 +19329,9 @@ export default {
       77
     ],
     "regions": [
+      "ES",
+      "IT",
+      "SE",
       "UK"
     ]
   },
@@ -17005,8 +19349,10 @@ export default {
       83
     ],
     "regions": [
+      "AE",
       "AU",
       "NZ",
+      "SA",
       "ZA"
     ]
   },
@@ -17026,6 +19372,12 @@ export default {
       83
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "FR",
+      "IT",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -17045,8 +19397,11 @@ export default {
       83
     ],
     "regions": [
+      "AT",
       "AU",
+      "BE",
       "DE",
+      "NL",
       "NZ"
     ]
   },
@@ -17065,7 +19420,9 @@ export default {
       77
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "NL"
     ]
   },
   "OLEDC69LB": {
@@ -17084,7 +19441,9 @@ export default {
       83
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "NL"
     ]
   },
   "OLEDC6AUA": {
@@ -17115,7 +19474,9 @@ export default {
       65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES"
     ]
   },
   "OLEDC6DLA": {
@@ -17150,8 +19511,19 @@ export default {
       83
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SA",
+      "TR",
       "UK"
     ]
   },
@@ -17184,6 +19556,8 @@ export default {
       77
     ],
     "regions": [
+      "CL",
+      "CO",
       "PE"
     ]
   },
@@ -17306,6 +19680,7 @@ export default {
       65
     ],
     "regions": [
+      "PH",
       "US"
     ],
     "variants": [
@@ -17386,8 +19761,17 @@ export default {
     "regions": [
       "AU",
       "BR",
+      "CL",
+      "CO",
+      "ID",
+      "MX",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "OLEDC6PUA": {
@@ -17438,6 +19822,7 @@ export default {
       83
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -17470,7 +19855,10 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH"
     ]
   },
   "OLEDC6V": {
@@ -17485,10 +19873,22 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -17500,20 +19900,19 @@ export default {
     "otaId": "HE_DTV_W17B_AFADATAA",
     "suffix": ".AUS",
     "sizes": [
-      55
+      55,
+      65
     ],
     "regions": [
-      "CA"
+      "CA",
+      "ES",
+      "MX"
     ],
     "variants": [
       {
         "broadcast": "dvb",
         "otaId": "HE_DTV_W17B_AFADABAA",
         "suffix": ".ATR",
-        "sizes": [
-          55,
-          65
-        ],
         "regions": [
           "HK",
           "IN"
@@ -17533,7 +19932,11 @@ export default {
       65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "BE",
+      "DE",
+      "ES",
+      "NL"
     ]
   },
   "OLEDC7K": {
@@ -17579,6 +19982,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "PH",
       "US"
     ],
     "variants": [
@@ -17613,7 +20017,12 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "OLEDC7V": {
@@ -17628,10 +20037,23 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -17732,8 +20154,19 @@ export default {
       77
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -17782,10 +20215,22 @@ export default {
       77
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ]
@@ -17803,6 +20248,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -17820,8 +20266,13 @@ export default {
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "OLEDC8PUA": {
@@ -17838,6 +20289,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -17853,6 +20305,7 @@ export default {
       65
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -17868,7 +20321,10 @@ export default {
       65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "BE",
+      "DE",
+      "NL"
     ]
   },
   "OLEDC9AUA": {
@@ -17981,7 +20437,14 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "HU",
+      "IT",
+      "NL",
+      "PT",
       "RU",
       "UK"
     ]
@@ -18031,10 +20494,22 @@ export default {
       77
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -18051,6 +20526,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -18066,6 +20542,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -18083,8 +20560,13 @@ export default {
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "OLEDC9PUA": {
@@ -18100,6 +20582,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -18115,6 +20598,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -18130,8 +20614,10 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA"
     ]
   },
   "OLEDCS3VA": {
@@ -18145,6 +20631,9 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "SA",
+      "TR",
       "ZA"
     ],
     "variants": [
@@ -18174,10 +20663,23 @@ export default {
       77
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "NZ",
       "PL",
+      "PT",
+      "SA",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ],
@@ -18213,7 +20715,9 @@ export default {
       77
     ],
     "regions": [
+      "AT",
       "DE",
+      "SE",
       "UK"
     ],
     "variants": [
@@ -18278,7 +20782,11 @@ export default {
       77
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "HU",
       "PL"
     ]
   },
@@ -18293,6 +20801,9 @@ export default {
       48
     ],
     "regions": [
+      "CZ",
+      "HU",
+      "IT",
       "PL"
     ]
   },
@@ -18308,6 +20819,8 @@ export default {
       65
     ],
     "regions": [
+      "ES",
+      "PT",
       "UK"
     ]
   },
@@ -18322,6 +20835,9 @@ export default {
       48
     ],
     "regions": [
+      "BE",
+      "ES",
+      "NL",
       "UK"
     ]
   },
@@ -18338,9 +20854,19 @@ export default {
       77
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -18355,8 +20881,16 @@ export default {
       48
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -18372,6 +20906,7 @@ export default {
       65
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -18386,6 +20921,8 @@ export default {
       48
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE"
     ]
   },
@@ -18402,7 +20939,10 @@ export default {
       77
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "FR",
       "PL"
     ]
   },
@@ -18417,7 +20957,10 @@ export default {
       48
     ],
     "regions": [
-      "DE"
+      "AT",
+      "BE",
+      "DE",
+      "NL"
     ]
   },
   "OLEDCXAUA": {
@@ -18565,6 +21108,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -18583,8 +21127,13 @@ export default {
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "OLEDCXPUA": {
@@ -18601,6 +21150,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -18632,8 +21182,10 @@ export default {
       77
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA"
     ]
   },
   "OLEDCXRLA": {
@@ -18650,6 +21202,7 @@ export default {
       77
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -18666,7 +21219,11 @@ export default {
       65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "BE",
+      "DE",
+      "ES",
+      "NL"
     ]
   },
   "OLEDE6K": {
@@ -18698,7 +21255,10 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
+      "MX",
       "PE",
+      "PH",
       "US"
     ],
     "variants": [
@@ -18733,8 +21293,13 @@ export default {
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "OLEDE6V": {
@@ -18749,10 +21314,22 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -18782,9 +21359,20 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -18802,7 +21390,10 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
+      "MX",
       "PE",
+      "PH",
       "US"
     ],
     "variants": [
@@ -18837,8 +21428,14 @@ export default {
     ],
     "regions": [
       "AU",
+      "CO",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "OLEDE7V": {
@@ -18852,10 +21449,23 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -18885,6 +21495,8 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
       "PL"
     ]
@@ -18931,10 +21543,21 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -18949,6 +21572,7 @@ export default {
       65
     ],
     "regions": [
+      "CL",
       "PE"
     ]
   },
@@ -18965,8 +21589,13 @@ export default {
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "OLEDE8PUA": {
@@ -18982,6 +21611,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -18997,7 +21627,10 @@ export default {
       65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "BE",
+      "DE",
+      "NL"
     ]
   },
   "OLEDE9AUA": {
@@ -19070,10 +21703,21 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -19106,7 +21750,10 @@ export default {
     "regions": [
       "AU",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "VN"
     ]
   },
   "OLEDE9PUA": {
@@ -19122,6 +21769,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -19136,6 +21784,7 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
       "NZ"
     ]
@@ -19153,7 +21802,11 @@ export default {
       77
     ],
     "regions": [
-      "PL"
+      "CZ",
+      "HU",
+      "PL",
+      "PT",
+      "SE"
     ]
   },
   "OLEDG16LA": {
@@ -19169,7 +21822,14 @@ export default {
       77
     ],
     "regions": [
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -19182,10 +21842,14 @@ export default {
     "suffix": ".AEU",
     "sizes": [
       55,
+      65,
       77
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "HU",
+      "PT"
     ]
   },
   "OLEDG1KNA": {
@@ -19242,12 +21906,18 @@ export default {
     "otaId": "HE_DTV_W21O_AFABATAA",
     "suffix": ".AWZ",
     "sizes": [
+      55,
       65,
       77
     ],
     "regions": [
       "BR",
-      "PE"
+      "CL",
+      "CO",
+      "MX",
+      "PE",
+      "PH",
+      "TW"
     ]
   },
   "OLEDG1PTA": {
@@ -19264,7 +21934,12 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "OLEDG1PTZ": {
@@ -19313,8 +21988,10 @@ export default {
       77
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA"
     ]
   },
   "OLEDG1RLA": {
@@ -19330,7 +22007,11 @@ export default {
       77
     ],
     "regions": [
+      "BE",
+      "HU",
       "KZ",
+      "NL",
+      "PT",
       "RU"
     ]
   },
@@ -19348,6 +22029,10 @@ export default {
       83
     ],
     "regions": [
+      "AE",
+      "CZ",
+      "ES",
+      "HU",
       "PL"
     ],
     "variants": [
@@ -19376,12 +22061,24 @@ export default {
       55,
       65,
       77,
-      83
+      83,
+      97
     ],
     "regions": [
+      "AE",
       "AU",
+      "BE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "NZ",
+      "PT",
       "RU",
+      "SA",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -19408,13 +22105,26 @@ export default {
     "suffix": ".AEK",
     "sizes": [
       55,
+      65,
       77,
       83,
       97
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -19531,9 +22241,19 @@ export default {
     "regions": [
       "AU",
       "BR",
+      "CL",
+      "CO",
+      "ID",
       "IN",
+      "MX",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "TW",
+      "VN"
     ],
     "variants": [
       {
@@ -19634,6 +22354,8 @@ export default {
       83
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ],
     "variants": [
@@ -19664,9 +22386,20 @@ export default {
       83
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "BE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "NZ",
+      "PT",
       "RU",
+      "SA",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -19698,6 +22431,7 @@ export default {
       83
     ],
     "regions": [
+      "AT",
       "DE",
       "UK"
     ],
@@ -19813,9 +22547,19 @@ export default {
     "regions": [
       "AU",
       "BR",
+      "CL",
+      "CO",
+      "ID",
       "IN",
+      "MX",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "TW",
+      "VN"
     ],
     "variants": [
       {
@@ -19926,8 +22670,13 @@ export default {
       97
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
-      "PL"
+      "HU",
+      "IT",
+      "PL",
+      "SE"
     ],
     "variants": [
       {
@@ -19954,8 +22703,17 @@ export default {
       97
     ],
     "regions": [
+      "BE",
+      "CZ",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -19982,9 +22740,11 @@ export default {
       97
     ],
     "regions": [
+      "AE",
       "AU",
       "IN",
       "NZ",
+      "SA",
       "ZA"
     ],
     "variants": [
@@ -20009,7 +22769,15 @@ export default {
       65
     ],
     "regions": [
+      "BE",
+      "CZ",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
       "UK"
     ],
     "variants": [
@@ -20031,12 +22799,16 @@ export default {
     "suffix": ".AEU",
     "sizes": [
       55,
+      65,
       77,
       83,
       97
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "IT",
+      "SE"
     ],
     "variants": [
       {
@@ -20056,10 +22828,13 @@ export default {
     "otaId": "HE_DTV_W24O_AFABATAA",
     "suffix": ".AEU",
     "sizes": [
-      55
+      55,
+      65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "IT"
     ],
     "variants": [
       {
@@ -20188,8 +22963,41 @@ export default {
     "regions": [
       "AU",
       "BR",
+      "CL",
+      "CO",
+      "ID",
+      "MX",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail",
+        "swMajor": "33"
+      },
+      {
+        "codename": "queue"
+      }
+    ]
+  },
+  "OLEDG4PTA": {
+    "series": "OLEDG4",
+    "machine": "o24",
+    "codename": "ombre",
+    "otaId": "HE_DTV_W24O_AFABATAA",
+    "suffix": ".ATT",
+    "sizes": [
+      55,
+      65,
+      83
+    ],
+    "regions": [
+      "TW"
     ],
     "variants": [
       {
@@ -20216,6 +23024,7 @@ export default {
       97
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ],
@@ -20288,10 +23097,35 @@ export default {
     "otaId": "HE_DTV_W25O_AFABATAA",
     "suffix": ".AEU",
     "sizes": [
+      55,
+      65,
+      77,
+      83,
+      97
+    ],
+    "regions": [
+      "HU",
+      "PL"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
+    ]
+  },
+  "OLEDG53LS": {
+    "series": "OLEDG5",
+    "machine": "o24n",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25O_AFABATAA",
+    "suffix": ".AEU",
+    "sizes": [
+      48,
+      55,
       65
     ],
     "regions": [
-      "PL"
+      "HU"
     ],
     "variants": [
       {
@@ -20314,7 +23148,17 @@ export default {
       97
     ],
     "regions": [
+      "BE",
+      "CZ",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -20334,12 +23178,46 @@ export default {
     "sizes": [
       55,
       65,
+      77,
       83
     ],
     "regions": [
       "AU",
+      "BE",
+      "CZ",
+      "ES",
+      "HU",
+      "IT",
+      "NL",
       "NZ",
-      "PL"
+      "PL",
+      "TR"
+    ],
+    "variants": [
+      {
+        "codename": "queue"
+      }
+    ]
+  },
+  "OLEDG56LA": {
+    "series": "OLEDG5",
+    "machine": "o24n",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25O_AFABATAA",
+    "suffix": ".AMVG",
+    "sizes": [
+      55,
+      65,
+      77,
+      83,
+      97
+    ],
+    "regions": [
+      "AE",
+      "AU",
+      "IN",
+      "NZ",
+      "SA"
     ],
     "variants": [
       {
@@ -20360,8 +23238,18 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "NZ",
+      "PT",
+      "SE",
       "UK"
     ],
     "variants": [
@@ -20380,12 +23268,15 @@ export default {
     "suffix": ".AEU",
     "sizes": [
       55,
+      65,
       77,
       83,
       97
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "HU"
     ],
     "variants": [
       {
@@ -20402,11 +23293,14 @@ export default {
     "suffix": ".AEU",
     "sizes": [
       55,
+      65,
       77,
       83
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "HU"
     ],
     "variants": [
       {
@@ -20423,10 +23317,13 @@ export default {
     "suffix": ".AEU",
     "sizes": [
       48,
-      55
+      55,
+      65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "HU"
     ],
     "variants": [
       {
@@ -20536,8 +23433,17 @@ export default {
     "regions": [
       "AU",
       "BR",
+      "CL",
+      "CO",
+      "ID",
+      "MX",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ],
     "variants": [
       {
@@ -20560,6 +23466,7 @@ export default {
       97
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ],
@@ -20659,7 +23566,14 @@ export default {
       97
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "FR",
+      "IT",
       "PL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -20676,8 +23590,15 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "PL",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -20690,12 +23611,16 @@ export default {
     "suffix": ".AEU",
     "sizes": [
       55,
+      65,
       77,
       83,
       97
     ],
     "regions": [
-      "DE"
+      "AT",
+      "BE",
+      "DE",
+      "NL"
     ]
   },
   "OLEDG68LW": {
@@ -20707,11 +23632,15 @@ export default {
     "suffix": ".AEU",
     "sizes": [
       55,
+      65,
       77,
       83
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES",
+      "NL"
     ]
   },
   "OLEDG69LS": {
@@ -20723,10 +23652,14 @@ export default {
     "suffix": ".AEU",
     "sizes": [
       48,
-      55
+      55,
+      65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "BE",
+      "DE",
+      "NL"
     ]
   },
   "OLEDG6K": {
@@ -20865,13 +23798,23 @@ export default {
       55,
       65,
       77,
+      83,
       97
     ],
     "regions": [
       "AU",
       "BR",
+      "CL",
+      "CO",
+      "ID",
+      "MX",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "OLEDG6PSB": {
@@ -20907,6 +23850,7 @@ export default {
       97
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -20939,7 +23883,8 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "SG"
     ]
   },
   "OLEDG6V": {
@@ -20954,9 +23899,23 @@ export default {
       77
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
+      "PH",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ]
@@ -21008,6 +23967,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -21019,11 +23979,17 @@ export default {
     "otaId": "HE_DTV_W17H_AFADABAA",
     "suffix": ".AAU",
     "sizes": [
-      65
+      65,
+      77
     ],
     "regions": [
       "AU",
-      "NZ"
+      "MY",
+      "NZ",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "OLEDG7V": {
@@ -21038,9 +24004,21 @@ export default {
       77
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
       "UK"
     ]
   },
@@ -21069,7 +24047,12 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "NL",
       "PL",
       "UK"
     ]
@@ -21087,6 +24070,8 @@ export default {
       77
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -21103,8 +24088,17 @@ export default {
       77
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -21121,7 +24115,10 @@ export default {
       77
     ],
     "regions": [
-      "DE"
+      "AT",
+      "BE",
+      "DE",
+      "NL"
     ]
   },
   "OLEDGXKNA": {
@@ -21183,6 +24180,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -21200,8 +24198,13 @@ export default {
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "OLEDGXPUA": {
@@ -21218,6 +24221,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -21233,8 +24237,10 @@ export default {
       77
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA"
     ]
   },
   "OLEDGXRLA": {
@@ -21250,6 +24256,7 @@ export default {
       77
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -21267,8 +24274,18 @@ export default {
       97
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -21355,11 +24372,14 @@ export default {
     "otaId": "HE_DTV_W23O_AFABATAA",
     "suffix": ".AAU",
     "sizes": [
+      77,
       97
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "SG",
+      "TW"
     ],
     "variants": [
       {
@@ -21424,8 +24444,19 @@ export default {
       97
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -21520,16 +24551,48 @@ export default {
     "otaId": "HE_DTV_W24O_AFABATAA",
     "suffix": ".AAU",
     "sizes": [
+      65,
+      77,
+      83,
       97
     ],
     "regions": [
-      "AU"
+      "AU",
+      "CL",
+      "CO",
+      "MX",
+      "SG",
+      "TH",
+      "VN"
     ],
     "variants": [
       {
         "codename": "ponytail",
         "swMajor": "33"
       },
+      {
+        "codename": "queue"
+      }
+    ]
+  },
+  "OLEDM56LA": {
+    "series": "OLEDM5",
+    "machine": "o24n",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25O_AFABATAA",
+    "suffix": ".AMVG",
+    "sizes": [
+      77,
+      83,
+      97
+    ],
+    "regions": [
+      "AE",
+      "AU",
+      "NZ",
+      "SA"
+    ],
+    "variants": [
       {
         "codename": "queue"
       }
@@ -21549,11 +24612,18 @@ export default {
       97
     ],
     "regions": [
+      "AT",
       "AU",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
       "NZ",
       "PL",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -21639,7 +24709,10 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ],
     "variants": [
       {
@@ -21677,7 +24750,12 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "FR",
+      "IT",
+      "NL",
       "PL",
       "RU",
       "UK"
@@ -21750,8 +24828,17 @@ export default {
       77
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
+      "PT",
       "UK"
     ],
     "variants": [
@@ -21809,7 +24896,8 @@ export default {
       77
     ],
     "regions": [
-      "AU"
+      "AU",
+      "MX"
     ],
     "variants": [
       {
@@ -21863,6 +24951,7 @@ export default {
     "regions": [
       "AU",
       "NZ",
+      "SA",
       "ZA"
     ]
   },
@@ -21878,10 +24967,20 @@ export default {
       83
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -21941,7 +25040,14 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "CL",
+      "CO",
+      "MX",
+      "NZ",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "OLEDW6PUA": {
@@ -21988,6 +25094,8 @@ export default {
     ],
     "regions": [
       "CA",
+      "CL",
+      "MX",
       "PE",
       "US"
     ],
@@ -22024,7 +25132,11 @@ export default {
     "regions": [
       "AU",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "OLEDW7V": {
@@ -22039,10 +25151,23 @@ export default {
       77
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -22073,10 +25198,21 @@ export default {
       77
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -22092,6 +25228,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -22108,8 +25245,13 @@ export default {
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "OLEDW8PUA": {
@@ -22125,6 +25267,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "PE",
       "US"
     ]
@@ -22199,9 +25342,21 @@ export default {
       77
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -22232,7 +25387,11 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "SG",
+      "VN"
     ]
   },
   "OLEDW9PUA": {
@@ -22248,6 +25407,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -22290,9 +25450,20 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -22366,10 +25537,21 @@ export default {
       88
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -22416,6 +25598,19 @@ export default {
       "JP"
     ]
   },
+  "OLEDZ1PSA": {
+    "series": "OLEDZ1",
+    "machine": "e60n",
+    "codename": "kisscurl",
+    "otaId": "HE_DTV_W21K_AFADATAA",
+    "suffix": ".ATT",
+    "sizes": [
+      88
+    ],
+    "regions": [
+      "TW"
+    ]
+  },
   "OLEDZ1PTA": {
     "series": "OLEDZ1",
     "broadcast": "dvb",
@@ -22429,7 +25624,11 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "OLEDZ1PTZ": {
@@ -22446,6 +25645,45 @@ export default {
       "IN"
     ]
   },
+  "OLEDZ1PVA": {
+    "series": "OLEDZ1",
+    "machine": "e60n",
+    "codename": "kisscurl",
+    "otaId": "HE_DTV_W21K_AFADATAA",
+    "suffix": ".AMV",
+    "sizes": [
+      88
+    ],
+    "regions": [
+      "AE",
+      "SA"
+    ]
+  },
+  "OLEDZ26LA": {
+    "series": "OLEDZ2",
+    "machine": "o228k",
+    "codename": "mullet",
+    "otaId": "HE_DTV_W22K_AFADATAA",
+    "suffix": ".AMI",
+    "sizes": [
+      88
+    ],
+    "regions": [
+      "AE",
+      "SA"
+    ],
+    "variants": [
+      {
+        "codename": "number1"
+      },
+      {
+        "codename": "ombre"
+      },
+      {
+        "codename": "ponytail"
+      }
+    ]
+  },
   "OLEDZ29LA": {
     "series": "OLEDZ2",
     "broadcast": "dvb",
@@ -22458,10 +25696,20 @@ export default {
       88
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -22558,9 +25806,16 @@ export default {
     ],
     "regions": [
       "AU",
+      "CL",
+      "CO",
       "IN",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "SG",
+      "TH",
+      "TW",
+      "VN"
     ],
     "variants": [
       {
@@ -22613,9 +25868,17 @@ export default {
       88
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "SE",
       "UK"
     ],
     "variants": [
@@ -22706,7 +25969,10 @@ export default {
       "AU",
       "BR",
       "IN",
-      "NZ"
+      "MX",
+      "NZ",
+      "TW",
+      "VN"
     ],
     "variants": [
       {
@@ -22783,8 +26049,17 @@ export default {
       88
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -22800,7 +26075,8 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "SG"
     ]
   },
   "OLEDZ9PUA": {
@@ -22814,6 +26090,7 @@ export default {
       88
     ],
     "regions": [
+      "MX",
       "US"
     ]
   },
@@ -22829,10 +26106,21 @@ export default {
       88
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -22893,7 +26181,10 @@ export default {
     "regions": [
       "AU",
       "IN",
-      "NZ"
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "OLEDZXPUA": {
@@ -23024,12 +26315,25 @@ export default {
       86
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "NZ",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ]
@@ -23122,11 +26426,20 @@ export default {
       50,
       55,
       65,
-      75
+      75,
+      86
     ],
     "regions": [
       "BR",
-      "PE"
+      "CL",
+      "CO",
+      "ID",
+      "MX",
+      "MY",
+      "PE",
+      "PH",
+      "TH",
+      "VN"
     ]
   },
   "QNED70ASC": {
@@ -23140,6 +26453,8 @@ export default {
       75
     ],
     "regions": [
+      "CL",
+      "MX",
       "PE"
     ]
   },
@@ -23183,6 +26498,22 @@ export default {
       "US"
     ]
   },
+  "QNED70B3C": {
+    "series": "QNED70",
+    "machine": "k25lpn",
+    "codename": "queue",
+    "otaId": "HE_DTV_W26P_AFADATAA",
+    "suffix": ".AEU",
+    "sizes": [
+      43,
+      50,
+      55,
+      65
+    ],
+    "regions": [
+      "HU"
+    ]
+  },
   "QNED70B6A": {
     "series": "QNED70",
     "broadcast": "dvb",
@@ -23195,12 +26526,22 @@ export default {
       85
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
       "NZ",
       "PL",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -23218,12 +26559,22 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
       "NZ",
       "PL",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -23240,6 +26591,8 @@ export default {
       85
     ],
     "regions": [
+      "AE",
+      "SA",
       "ZA"
     ]
   },
@@ -23327,8 +26680,17 @@ export default {
     "regions": [
       "AU",
       "BR",
+      "CL",
+      "CO",
+      "ID",
+      "MX",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "QNED70ERA": {
@@ -23432,8 +26794,32 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "NL",
+      "SE",
       "UK"
+    ]
+  },
+  "QNED71BSC": {
+    "series": "QNED71",
+    "machine": "k25lpn",
+    "codename": "queue",
+    "otaId": "HE_DTV_W26P_AFADATAA",
+    "suffix": ".AWM",
+    "sizes": [
+      43,
+      50,
+      55,
+      65
+    ],
+    "regions": [
+      "CL",
+      "MX"
     ]
   },
   "QNED72B6A": {
@@ -23448,8 +26834,15 @@ export default {
       85
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "NL",
       "PL",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -23468,9 +26861,17 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -23487,6 +26888,8 @@ export default {
       85
     ],
     "regions": [
+      "AE",
+      "SA",
       "ZA"
     ]
   },
@@ -23506,6 +26909,9 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
+      "CO",
+      "MX",
       "PE"
     ]
   },
@@ -23520,6 +26926,9 @@ export default {
       75
     ],
     "regions": [
+      "CL",
+      "CO",
+      "MX",
       "PE"
     ]
   },
@@ -23548,11 +26957,19 @@ export default {
     "machine": "k25lpn",
     "codename": "queue",
     "otaId": "HE_DTV_W26P_AFADATAA",
-    "suffix": ".AWF",
+    "suffix": ".AWH",
     "sizes": [
-      65
+      43,
+      50,
+      55,
+      65,
+      75,
+      85
     ],
     "regions": [
+      "CL",
+      "CO",
+      "MX",
       "PE"
     ]
   },
@@ -23590,6 +27007,8 @@ export default {
       75
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ],
     "variants": [
@@ -23618,12 +27037,21 @@ export default {
       75
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
       "NZ",
       "PL",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -23642,11 +27070,15 @@ export default {
     "machine": "m23",
     "codename": "number1",
     "otaId": "HE_DTV_W23M_AFADATAA",
-    "suffix": ".HFBFLWK",
+    "suffix": ".AMVE",
     "sizes": [
-      65
+      55,
+      65,
+      75
     ],
     "regions": [
+      "AE",
+      "SA",
       "ZA"
     ],
     "variants": [
@@ -23887,9 +27319,16 @@ export default {
     "regions": [
       "AU",
       "BR",
+      "CL",
+      "CO",
       "IN",
+      "MX",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "SG",
+      "TH",
+      "VN"
     ],
     "variants": [
       {
@@ -23946,7 +27385,14 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "PL",
       "UK"
     ]
@@ -23959,11 +27405,20 @@ export default {
     "otaId": "HE_DTV_W25P_AFADATAA",
     "suffix": ".AEU",
     "sizes": [
+      43,
+      50,
+      55,
+      65,
       75,
       86
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "FR",
+      "HU",
+      "PT",
+      "SE"
     ]
   },
   "QNED7EB3A": {
@@ -23978,7 +27433,17 @@ export default {
       85
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "PL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -23996,8 +27461,19 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -24009,9 +27485,11 @@ export default {
     "suffix": ".AFBE",
     "sizes": [
       65,
-      75
+      75,
+      85
     ],
     "regions": [
+      "SA",
       "ZA"
     ]
   },
@@ -24024,9 +27502,14 @@ export default {
     "suffix": ".AEU",
     "sizes": [
       50,
-      55
+      55,
+      65,
+      75
     ],
     "regions": [
+      "CZ",
+      "HU",
+      "IT",
       "PL"
     ]
   },
@@ -24044,7 +27527,11 @@ export default {
       75
     ],
     "regions": [
-      "KZ"
+      "AE",
+      "ES",
+      "KZ",
+      "SA",
+      "TR"
     ]
   },
   "QNED7S9QA": {
@@ -24061,6 +27548,7 @@ export default {
       75
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -24101,13 +27589,18 @@ export default {
     "otaId": "HE_DTV_W22P_AFADATAA",
     "suffix": ".AWZ",
     "sizes": [
+      50,
       55,
       65,
       75
     ],
     "regions": [
       "BR",
-      "PE"
+      "CL",
+      "CO",
+      "PE",
+      "TH",
+      "VN"
     ]
   },
   "QNED806QA": {
@@ -24125,10 +27618,30 @@ export default {
       86
     ],
     "regions": [
+      "AE",
       "AU",
       "NZ",
       "RU",
+      "SA",
       "ZA"
+    ]
+  },
+  "QNED80A3A": {
+    "series": "QNED80",
+    "machine": "k25lp",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25P_AFADATAA",
+    "suffix": ".AEU",
+    "sizes": [
+      43,
+      50,
+      55,
+      65,
+      75,
+      86
+    ],
+    "regions": [
+      "HU"
     ]
   },
   "QNED80A6A": {
@@ -24147,12 +27660,25 @@ export default {
       86
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "NZ",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ]
@@ -24246,6 +27772,7 @@ export default {
     "otaId": "HE_DTV_W25P_AFADATAA",
     "suffix": ".AWZ",
     "sizes": [
+      43,
       50,
       55,
       65,
@@ -24254,7 +27781,15 @@ export default {
     ],
     "regions": [
       "BR",
-      "PE"
+      "CL",
+      "CO",
+      "ID",
+      "MX",
+      "MY",
+      "PE",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "QNED80AUA": {
@@ -24294,10 +27829,15 @@ export default {
       85
     ],
     "regions": [
+      "AT",
       "AU",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
       "KZ",
       "NZ",
+      "PL",
       "RU"
     ]
   },
@@ -24315,12 +27855,19 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
       "NZ",
       "PL",
-      "RU"
+      "RU",
+      "SE"
     ]
   },
   "QNED80BCA": {
@@ -24372,7 +27919,13 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "QNED80BSG": {
@@ -24391,7 +27944,27 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
+      "CO",
       "PE"
+    ]
+  },
+  "QNED80BTA": {
+    "series": "QNED80",
+    "machine": "k25lpn",
+    "codename": "queue",
+    "otaId": "HE_DTV_W26P_AFADATAA",
+    "suffix": ".ATT",
+    "sizes": [
+      43,
+      50,
+      55,
+      65,
+      75,
+      85
+    ],
+    "regions": [
+      "TW"
     ]
   },
   "QNED80JQA": {
@@ -24520,6 +28093,7 @@ export default {
     "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".AAU",
     "sizes": [
+      50,
       55,
       65,
       75,
@@ -24528,8 +28102,16 @@ export default {
     "regions": [
       "AU",
       "BR",
+      "CL",
+      "CO",
+      "ID",
+      "MX",
       "NZ",
-      "PE"
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ],
     "variants": [
       {
@@ -24554,8 +28136,16 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
+      "CO",
+      "ID",
       "IN",
-      "PE"
+      "MX",
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ],
     "variants": [
       {
@@ -24584,12 +28174,23 @@ export default {
       86
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
       "NZ",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -24609,12 +28210,15 @@ export default {
     "otaId": "HE_DTV_W24P_AFADATAA",
     "suffix": ".AFFE",
     "sizes": [
+      50,
       55,
       65,
       75,
       86
     ],
     "regions": [
+      "AE",
+      "SA",
       "ZA"
     ],
     "variants": [
@@ -24699,6 +28303,7 @@ export default {
     "otaId": "HE_DTV_W24P_AFADATAA",
     "suffix": ".AWZ",
     "sizes": [
+      43,
       50,
       55,
       65,
@@ -24707,7 +28312,16 @@ export default {
     ],
     "regions": [
       "BR",
-      "PE"
+      "CL",
+      "CO",
+      "ID",
+      "MX",
+      "MY",
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ],
     "variants": [
       {
@@ -24811,7 +28425,10 @@ export default {
       86
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "HU",
       "PL"
     ],
     "variants": [
@@ -24836,6 +28453,8 @@ export default {
       86
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ],
     "variants": [
@@ -24864,9 +28483,19 @@ export default {
       86
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -24891,10 +28520,12 @@ export default {
       86
     ],
     "regions": [
+      "AE",
       "AU",
       "KZ",
       "NZ",
       "RU",
+      "SA",
       "ZA"
     ],
     "variants": [
@@ -24923,8 +28554,17 @@ export default {
       86
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -24953,6 +28593,8 @@ export default {
       86
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
       "PL"
     ],
@@ -24961,6 +28603,26 @@ export default {
         "codename": "ombre",
         "swMajor": "23"
       }
+    ]
+  },
+  "QNED81A6A": {
+    "series": "QNED81",
+    "machine": "k25lp",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25P_AFADATAA",
+    "suffix": ".AEU",
+    "sizes": [
+      43,
+      50,
+      55,
+      65,
+      75,
+      86
+    ],
+    "regions": [
+      "ES",
+      "FR",
+      "SE"
     ]
   },
   "QNED81ASA": {
@@ -24980,7 +28642,8 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "VN"
     ]
   },
   "QNED81B6A": {
@@ -24997,7 +28660,14 @@ export default {
       85
     ],
     "regions": [
-      "DE"
+      "AT",
+      "CZ",
+      "DE",
+      "ES",
+      "FR",
+      "PT",
+      "SE",
+      "TR"
     ]
   },
   "QNED81B6C": {
@@ -25012,7 +28682,13 @@ export default {
       50
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -25068,7 +28744,8 @@ export default {
       86
     ],
     "regions": [
-      "HK"
+      "HK",
+      "ID"
     ],
     "variants": [
       {
@@ -25091,10 +28768,14 @@ export default {
     "sizes": [
       55,
       65,
-      75
+      75,
+      86
     ],
     "regions": [
-      "IN"
+      "IN",
+      "MY",
+      "PH",
+      "TW"
     ],
     "variants": [
       {
@@ -25111,6 +28792,7 @@ export default {
     "otaId": "HE_DTV_W23H_AFADATAA",
     "suffix": ".AAU",
     "sizes": [
+      50,
       55,
       65,
       75,
@@ -25118,7 +28800,9 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "MY",
+      "NZ",
+      "TW"
     ],
     "variants": [
       {
@@ -25185,7 +28869,10 @@ export default {
       75
     ],
     "regions": [
-      "PL"
+      "CZ",
+      "HU",
+      "PL",
+      "SE"
     ],
     "variants": [
       {
@@ -25207,6 +28894,8 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ],
     "variants": [
@@ -25218,6 +28907,28 @@ export default {
         "codename": "ponytail",
         "swMajor": "33"
       }
+    ]
+  },
+  "QNED826QB": {
+    "series": "QNED82",
+    "machine": "k8hp",
+    "codename": "mullet",
+    "otaId": "HE_DTV_W22H_AFADATAA",
+    "suffix": ".AEU",
+    "sizes": [
+      50,
+      55,
+      65,
+      75
+    ],
+    "regions": [
+      "BE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PT",
+      "SE"
     ]
   },
   "QNED826RE": {
@@ -25234,7 +28945,16 @@ export default {
       75
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PT",
+      "SE",
       "UK"
     ],
     "variants": [
@@ -25262,6 +28982,7 @@ export default {
       75
     ],
     "regions": [
+      "AT",
       "DE",
       "RU"
     ],
@@ -25270,6 +28991,24 @@ export default {
         "codename": "ombre",
         "swMajor": "23"
       }
+    ]
+  },
+  "QNED82A3B": {
+    "series": "QNED82",
+    "machine": "k25lp",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25P_AFADATAA",
+    "suffix": ".AEU",
+    "sizes": [
+      43,
+      50,
+      55,
+      65,
+      75,
+      86
+    ],
+    "regions": [
+      "HU"
     ]
   },
   "QNED82A6A": {
@@ -25281,9 +29020,12 @@ export default {
     "sizes": [
       55,
       65,
-      75
+      75,
+      86
     ],
     "regions": [
+      "AE",
+      "SA",
       "ZA"
     ]
   },
@@ -25303,9 +29045,21 @@ export default {
       86
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -25381,6 +29135,30 @@ export default {
       "KR"
     ]
   },
+  "QNED82ASA": {
+    "series": "QNED82",
+    "machine": "k25lp",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25P_AFADATAA",
+    "suffix": ".ATC",
+    "sizes": [
+      43,
+      50,
+      55,
+      65,
+      75,
+      86
+    ],
+    "regions": [
+      "AE",
+      "ID",
+      "MY",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
+    ]
+  },
   "QNED82ASG": {
     "series": "QNED82",
     "broadcast": "isdb",
@@ -25398,6 +29176,9 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
+      "CO",
+      "MX",
       "PE"
     ]
   },
@@ -25439,7 +29220,14 @@ export default {
       85
     ],
     "regions": [
-      "DE"
+      "AT",
+      "BE",
+      "DE",
+      "ES",
+      "FR",
+      "NL",
+      "PT",
+      "SE"
     ]
   },
   "QNED82B6B": {
@@ -25454,7 +29242,14 @@ export default {
       65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "BE",
+      "DE",
+      "ES",
+      "FR",
+      "NL",
+      "PT",
+      "SE"
     ]
   },
   "QNED82BCA": {
@@ -25486,6 +29281,21 @@ export default {
       "KR"
     ]
   },
+  "QNED82BSA": {
+    "series": "QNED82",
+    "machine": "k26",
+    "codename": "queue",
+    "otaId": "HE_DTV_W26H_AFADATAA",
+    "suffix": ".ATC",
+    "sizes": [
+      65,
+      75,
+      85
+    ],
+    "regions": [
+      "SG"
+    ]
+  },
   "QNED82BUA": {
     "series": "QNED82",
     "broadcast": "atsc",
@@ -25503,6 +29313,22 @@ export default {
       "CA"
     ]
   },
+  "QNED83B3A": {
+    "series": "QNED83",
+    "machine": "k26",
+    "codename": "queue",
+    "otaId": "HE_DTV_W26H_AFADATAA",
+    "suffix": ".AEU",
+    "sizes": [
+      55,
+      65,
+      75,
+      85
+    ],
+    "regions": [
+      "HU"
+    ]
+  },
   "QNED83B6A": {
     "series": "QNED83",
     "broadcast": "dvb",
@@ -25517,9 +29343,17 @@ export default {
       85
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
       "KZ",
+      "NL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -25553,7 +29387,16 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
+      "PT",
       "UK"
     ]
   },
@@ -25566,9 +29409,12 @@ export default {
     "sizes": [
       55,
       65,
-      75
+      75,
+      85
     ],
     "regions": [
+      "AE",
+      "SA",
       "ZA"
     ]
   },
@@ -25635,6 +29481,8 @@ export default {
       86
     ],
     "regions": [
+      "AE",
+      "SA",
       "ZA"
     ]
   },
@@ -25646,10 +29494,15 @@ export default {
     "otaId": "HE_DTV_W25H_AFADATAA",
     "suffix": ".AEU",
     "sizes": [
-      75
+      55,
+      65,
+      75,
+      86
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "HU"
     ]
   },
   "QNED85A6C": {
@@ -25666,7 +29519,15 @@ export default {
       86
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "NL",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -25807,6 +29668,9 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
+      "CO",
+      "MX",
       "PE"
     ]
   },
@@ -25925,6 +29789,13 @@ export default {
       86
     ],
     "regions": [
+      "AE",
+      "BE",
+      "CZ",
+      "ES",
+      "FR",
+      "NL",
+      "SE",
       "UK"
     ]
   },
@@ -25959,6 +29830,8 @@ export default {
       86
     ],
     "regions": [
+      "AE",
+      "SA",
       "ZA"
     ]
   },
@@ -25972,6 +29845,8 @@ export default {
       100
     ],
     "regions": [
+      "AE",
+      "SA",
       "ZA"
     ]
   },
@@ -26019,6 +29894,9 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
+      "CO",
+      "MX",
       "PE"
     ]
   },
@@ -26032,9 +29910,12 @@ export default {
     "sizes": [
       55,
       65,
-      75
+      75,
+      86
     ],
     "regions": [
+      "CL",
+      "CO",
       "PE"
     ]
   },
@@ -26166,6 +30047,9 @@ export default {
     ],
     "regions": [
       "AU",
+      "CL",
+      "CO",
+      "MX",
       "NZ",
       "PE"
     ],
@@ -26185,10 +30069,14 @@ export default {
     "suffix": ".AWZ",
     "sizes": [
       65,
-      75
+      75,
+      86
     ],
     "regions": [
       "BR",
+      "CL",
+      "CO",
+      "MX",
       "PE"
     ],
     "variants": [
@@ -26213,7 +30101,9 @@ export default {
       50
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "HU"
     ],
     "variants": [
       {
@@ -26236,7 +30126,9 @@ export default {
       86
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "HU"
     ],
     "variants": [
       {
@@ -26256,8 +30148,16 @@ export default {
       50
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
-      "PL"
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PL",
+      "SE"
     ],
     "variants": [
       {
@@ -26280,8 +30180,17 @@ export default {
       86
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "PL",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -26370,6 +30279,9 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
+      "CO",
+      "MX",
       "PE"
     ],
     "variants": [
@@ -26464,6 +30376,8 @@ export default {
       86
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ],
     "variants": [
@@ -26487,6 +30401,8 @@ export default {
       86
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ],
     "variants": [
@@ -26514,9 +30430,18 @@ export default {
       86
     ],
     "regions": [
+      "AT",
       "AU",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "NZ",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -26540,9 +30465,18 @@ export default {
       86
     ],
     "regions": [
+      "AT",
       "AU",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "NZ",
+      "PT",
+      "SE",
       "UK"
     ],
     "variants": [
@@ -26570,6 +30504,7 @@ export default {
       86
     ],
     "regions": [
+      "AT",
       "DE"
     ],
     "variants": [
@@ -26590,13 +30525,26 @@ export default {
       100
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
       "IN",
+      "IT",
       "KZ",
+      "NL",
       "NZ",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ]
@@ -26615,12 +30563,25 @@ export default {
       86
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "NZ",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ]
@@ -26637,8 +30598,18 @@ export default {
       50
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -26714,8 +30685,16 @@ export default {
     ],
     "regions": [
       "AU",
+      "CL",
+      "CO",
+      "ID",
+      "MX",
       "NZ",
-      "PE"
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "QNED86ASA": {
@@ -26726,14 +30705,22 @@ export default {
     "otaId": "HE_DTV_W25H_AFADATAA",
     "suffix": ".AAU",
     "sizes": [
+      50,
       55,
       65,
       75,
       86
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "QNED86B6B": {
@@ -26752,8 +30739,17 @@ export default {
       86
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
       "UK"
     ],
     "variants": [
@@ -26817,7 +30813,13 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "QNED86BSA": {
@@ -26835,7 +30837,30 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
+    ]
+  },
+  "QNED86BTA": {
+    "series": "QNED86",
+    "machine": "k26",
+    "codename": "queue",
+    "otaId": "HE_DTV_W26H_AFADATAA",
+    "suffix": ".ATT",
+    "sizes": [
+      50,
+      55,
+      65,
+      75,
+      86
+    ],
+    "regions": [
+      "TW"
     ]
   },
   "QNED86CRA": {
@@ -26871,10 +30896,18 @@ export default {
     "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".ATRG",
     "sizes": [
-      75
+      55,
+      65,
+      75,
+      86
     ],
     "regions": [
-      "IN"
+      "ID",
+      "IN",
+      "SG",
+      "TH",
+      "TW",
+      "VN"
     ],
     "variants": [
       {
@@ -26897,7 +30930,11 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "MY",
+      "NZ",
+      "TH",
+      "TW",
+      "VN"
     ],
     "variants": [
       {
@@ -26918,9 +30955,13 @@ export default {
     "otaId": "HE_DTV_W24H_AFADATAA",
     "suffix": ".AEU",
     "sizes": [
-      55
+      50,
+      55,
+      65,
+      75
     ],
     "regions": [
+      "HU",
       "PL"
     ],
     "variants": [
@@ -26945,12 +30986,24 @@ export default {
       86
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
       "NZ",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ],
@@ -27000,7 +31053,13 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ],
     "variants": [
       {
@@ -27022,6 +31081,8 @@ export default {
       75
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ],
     "variants": [
@@ -27045,8 +31106,15 @@ export default {
       86
     ],
     "regions": [
+      "BE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
-      "PL"
+      "NL",
+      "PL",
+      "PT",
+      "SE"
     ],
     "variants": [
       {
@@ -27069,6 +31137,7 @@ export default {
       86
     ],
     "regions": [
+      "ID",
       "KZ",
       "RU"
     ],
@@ -27096,6 +31165,7 @@ export default {
       75
     ],
     "regions": [
+      "AT",
       "DE"
     ],
     "variants": [
@@ -27118,8 +31188,16 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "PL",
+      "SE",
       "UK"
     ]
   },
@@ -27135,7 +31213,16 @@ export default {
       50
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PL",
+      "SE",
       "UK"
     ]
   },
@@ -27150,10 +31237,20 @@ export default {
       100
     ],
     "regions": [
+      "AT",
       "AU",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "NZ",
       "PL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -27173,9 +31270,19 @@ export default {
       86
     ],
     "regions": [
+      "AT",
       "AU",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "NZ",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -27199,8 +31306,17 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
       "UK"
     ],
     "variants": [
@@ -27221,8 +31337,20 @@ export default {
       98
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SA",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -27264,8 +31392,16 @@ export default {
     "regions": [
       "AU",
       "BR",
+      "CL",
+      "CO",
+      "ID",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ],
     "variants": [
       {
@@ -27311,7 +31447,18 @@ export default {
       86
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -27327,7 +31474,13 @@ export default {
       85
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -27343,7 +31496,13 @@ export default {
       65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "CZ",
+      "DE",
+      "ES",
+      "FR",
+      "SE",
+      "TR"
     ]
   },
   "QNED8EB3F": {
@@ -27358,7 +31517,12 @@ export default {
       50
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "SE",
       "UK"
     ]
   },
@@ -27373,7 +31537,10 @@ export default {
       50
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "HU",
+      "IT"
     ]
   },
   "QNED90BSA": {
@@ -27390,7 +31557,8 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "TH"
     ]
   },
   "QNED90JPA": {
@@ -27473,6 +31641,9 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
+      "CO",
+      "MX",
       "PE"
     ]
   },
@@ -27490,7 +31661,10 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
+      "CO",
       "IN",
+      "MX",
       "PE"
     ],
     "variants": [
@@ -27557,6 +31731,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ],
     "variants": [
@@ -27619,6 +31794,8 @@ export default {
       86
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -27635,10 +31812,44 @@ export default {
       86
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
+    ]
+  },
+  "QNED916QA": {
+    "series": "QNED91",
+    "machine": "k8hp",
+    "codename": "mullet",
+    "otaId": "HE_DTV_W22H_AFADATAA",
+    "suffix": ".AEU",
+    "sizes": [
+      65,
+      75,
+      86
+    ],
+    "regions": [
+      "AE",
+      "AU",
+      "BE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "NZ",
+      "PT",
+      "SA",
+      "SE"
     ]
   },
   "QNED919PA": {
@@ -27654,6 +31865,7 @@ export default {
       86
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -27719,12 +31931,39 @@ export default {
     "regions": [
       "AU",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "PH",
+      "SG",
+      "TH",
+      "TW",
+      "VN"
     ],
     "variants": [
       {
         "codename": "ombre",
         "swMajor": "23"
+      }
+    ]
+  },
+  "QNED91T3A": {
+    "series": "QNED91",
+    "machine": "k24",
+    "codename": "ombre",
+    "otaId": "HE_DTV_W24H_AFADATAA",
+    "suffix": ".AEU",
+    "sizes": [
+      65,
+      75,
+      86
+    ],
+    "regions": [
+      "HU"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail",
+        "swMajor": "33"
       }
     ]
   },
@@ -27741,12 +31980,22 @@ export default {
       86
     ],
     "regions": [
+      "AT",
       "AU",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
       "NZ",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -27790,7 +32039,12 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "QNED91TSA": {
@@ -27807,7 +32061,31 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "MY",
+      "NZ",
+      "TH",
+      "VN"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail",
+        "swMajor": "33"
+      }
+    ]
+  },
+  "QNED91TTA": {
+    "series": "QNED91",
+    "machine": "k24",
+    "codename": "ombre",
+    "otaId": "HE_DTV_W24H_AFADATAA",
+    "suffix": ".ATT",
+    "sizes": [
+      65,
+      75,
+      86
+    ],
+    "regions": [
+      "TW"
     ],
     "variants": [
       {
@@ -27830,7 +32108,12 @@ export default {
       85
     ],
     "regions": [
+      "ES",
+      "HU",
+      "IT",
       "KZ",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -27895,9 +32178,22 @@ export default {
       85
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -27965,7 +32261,14 @@ export default {
       115
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "PT",
       "UK"
     ]
   },
@@ -27983,8 +32286,15 @@ export default {
       85
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
+      "SA",
+      "SE",
       "UK"
     ]
   },
@@ -28038,6 +32348,8 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -28053,8 +32365,15 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
-      "RU"
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "RU",
+      "SE"
     ]
   },
   "QNED969QA": {
@@ -28068,7 +32387,35 @@ export default {
       65
     ],
     "regions": [
+      "AT",
       "DE"
+    ]
+  },
+  "QNED96SQA": {
+    "series": "QNED96",
+    "machine": "o228k",
+    "codename": "mullet",
+    "otaId": "HE_DTV_W22K_AFADATAA",
+    "suffix": ".ATT",
+    "sizes": [
+      65,
+      75
+    ],
+    "regions": [
+      "ID",
+      "SG",
+      "TW"
+    ],
+    "variants": [
+      {
+        "codename": "number1"
+      },
+      {
+        "codename": "ombre"
+      },
+      {
+        "codename": "ponytail"
+      }
     ]
   },
   "QNED96TPA": {
@@ -28084,6 +32431,7 @@ export default {
     ],
     "regions": [
       "AU",
+      "ID",
       "NZ"
     ]
   },
@@ -28100,9 +32448,18 @@ export default {
       86
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -28119,6 +32476,7 @@ export default {
       86
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -28204,6 +32562,9 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
+      "CO",
+      "MX",
       "PE"
     ]
   },
@@ -28221,7 +32582,12 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "PH",
+      "TH",
+      "VN"
     ],
     "variants": [
       {
@@ -28247,7 +32613,11 @@ export default {
       86
     ],
     "regions": [
+      "AT",
       "DE",
+      "ES",
+      "PT",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -28289,7 +32659,11 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "QNED99TPZ": {
@@ -28318,6 +32692,8 @@ export default {
       86
     ],
     "regions": [
+      "CO",
+      "MX",
       "PE"
     ]
   },
@@ -28368,9 +32744,15 @@ export default {
       86
     ],
     "regions": [
+      "AT",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
       "PL",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -28397,6 +32779,20 @@ export default {
       {
         "codename": "queue"
       }
+    ]
+  },
+  "QNED9MATA": {
+    "series": "QNED9M",
+    "machine": "o22n3",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W25G_AFABATAA",
+    "suffix": ".ATT",
+    "sizes": [
+      65,
+      75
+    ],
+    "regions": [
+      "TW"
     ]
   },
   "QNED9MAUA": {
@@ -28442,6 +32838,8 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
+      "MX",
       "PE",
       "US"
     ],
@@ -28478,8 +32876,15 @@ export default {
     ],
     "regions": [
       "AU",
+      "CO",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "SJ800V": {
@@ -28495,8 +32900,20 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SA",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -28513,7 +32930,9 @@ export default {
       65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES"
     ]
   },
   "SJ810V": {
@@ -28530,10 +32949,20 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -28550,6 +32979,8 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
+      "PH",
       "US"
     ],
     "variants": [
@@ -28589,7 +33020,9 @@ export default {
       65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES"
     ]
   },
   "SJ850A": {
@@ -28620,8 +33053,13 @@ export default {
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "SJ850V": {
@@ -28637,8 +33075,21 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SA",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -28654,6 +33105,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -28701,6 +33153,8 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
+      "MX",
       "PE",
       "US"
     ],
@@ -28726,7 +33180,9 @@ export default {
       65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES"
     ]
   },
   "SJ950V": {
@@ -28741,10 +33197,19 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
       "KZ",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -28774,6 +33239,8 @@ export default {
     ],
     "regions": [
       "AU",
+      "CO",
+      "MY",
       "NZ"
     ]
   },
@@ -28788,8 +33255,20 @@ export default {
       75
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SA",
+      "SE",
       "UK"
     ]
   },
@@ -28806,7 +33285,9 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "MX",
       "PE",
+      "PH",
       "US"
     ],
     "variants": [
@@ -28832,8 +33313,13 @@ export default {
     ],
     "regions": [
       "AU",
+      "CO",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "VN"
     ]
   },
   "SJ957V": {
@@ -28847,10 +33333,23 @@ export default {
       86
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ]
@@ -28869,10 +33368,21 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
-      "RU"
+      "PT",
+      "RU",
+      "SE",
+      "TR"
     ]
   },
   "SK8000AUB": {
@@ -28932,9 +33442,18 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -28952,6 +33471,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -28963,14 +33483,20 @@ export default {
     "otaId": "HE_DTV_W18H_AFADABAA",
     "suffix": ".AAU",
     "sizes": [
+      49,
       55,
       65,
       75
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "SK8000PUA": {
@@ -29032,6 +33558,8 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
       "PL"
     ]
@@ -29050,10 +33578,22 @@ export default {
       75
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -29070,7 +33610,10 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
       "PL"
     ]
   },
@@ -29119,10 +33662,21 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -29138,7 +33692,8 @@ export default {
       65
     ],
     "regions": [
-      "BR"
+      "BR",
+      "CL"
     ]
   },
   "SK8500PTA": {
@@ -29155,8 +33710,13 @@ export default {
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "SK8500PVA": {
@@ -29172,8 +33732,11 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "ID",
+      "NZ",
+      "SA"
     ]
   },
   "SK8900KNA": {
@@ -29217,6 +33780,8 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
       "PL"
     ]
@@ -29247,10 +33812,22 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -29280,7 +33857,10 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "SK9500PUA": {
@@ -29309,6 +33889,7 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
       "NZ",
       "ZA"
@@ -29323,10 +33904,12 @@ export default {
     "suffix": ".ARU",
     "sizes": [
       49,
-      55
+      55,
+      65
     ],
     "regions": [
-      "RU"
+      "RU",
+      "TR"
     ]
   },
   "SM8000PSA": {
@@ -29342,6 +33925,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -29358,10 +33942,20 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -29410,6 +34004,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -29427,8 +34022,13 @@ export default {
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "SM8100PVA": {
@@ -29444,8 +34044,10 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA"
     ]
   },
   "SM82007LA": {
@@ -29461,6 +34063,8 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
       "PL"
     ]
@@ -29478,10 +34082,22 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -29498,9 +34114,15 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "HU",
+      "IT",
       "PL",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -29517,6 +34139,7 @@ export default {
       65
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -29576,10 +34199,21 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -29596,6 +34230,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -29607,14 +34242,20 @@ export default {
     "otaId": "HE_DTV_W19H_AFADABAA",
     "suffix": ".AAU",
     "sizes": [
+      49,
       55,
       65,
       75
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "SM8600PUA": {
@@ -29631,6 +34272,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -29645,10 +34287,21 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -29692,6 +34345,7 @@ export default {
       49
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -29740,10 +34394,22 @@ export default {
       86
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -29759,7 +34425,8 @@ export default {
       65
     ],
     "regions": [
-      "BR"
+      "BR",
+      "CL"
     ]
   },
   "SM9000PUA": {
@@ -29775,6 +34442,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -29787,11 +34455,14 @@ export default {
     "suffix": ".ANR",
     "sizes": [
       55,
-      65
+      65,
+      75
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA"
     ]
   },
   "SM90107LA": {
@@ -29806,6 +34477,7 @@ export default {
       65
     ],
     "regions": [
+      "AT",
       "DE",
       "PL"
     ]
@@ -29822,10 +34494,21 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -29842,6 +34525,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -29858,6 +34542,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -29875,7 +34560,10 @@ export default {
     "regions": [
       "AU",
       "IN",
-      "NZ"
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "SM9450PTA": {
@@ -29904,6 +34592,7 @@ export default {
       65
     ],
     "regions": [
+      "CL",
       "PE"
     ]
   },
@@ -29919,6 +34608,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -29948,6 +34638,7 @@ export default {
       65
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -29963,9 +34654,19 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -29980,10 +34681,20 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -29999,7 +34710,8 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "VN"
     ]
   },
   "SM9970PUA": {
@@ -30014,6 +34726,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -30110,8 +34823,17 @@ export default {
       86
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -30131,8 +34853,18 @@ export default {
       86
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
       "UK",
       "ZA"
     ]
@@ -30153,6 +34885,7 @@ export default {
       86
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -30230,10 +34963,17 @@ export default {
       43,
       50,
       55,
-      65
+      60,
+      65,
+      75,
+      86
     ],
     "regions": [
-      "BR"
+      "BR",
+      "CL",
+      "CO",
+      "ID",
+      "MX"
     ]
   },
   "UA7500ZUA": {
@@ -30379,6 +35119,7 @@ export default {
       65
     ],
     "regions": [
+      "SA",
       "ZA"
     ]
   },
@@ -30390,11 +35131,16 @@ export default {
     "otaId": "HE_DTV_W25P_AFADATAA",
     "suffix": ".AWF",
     "sizes": [
+      43,
+      50,
       55,
       65,
       75
     ],
     "regions": [
+      "CL",
+      "CO",
+      "MX",
       "PE"
     ]
   },
@@ -30406,6 +35152,8 @@ export default {
     "otaId": "HE_DTV_W25P_AFADATAA",
     "suffix": ".AWF",
     "sizes": [
+      43,
+      50,
       55,
       60,
       65,
@@ -30413,6 +35161,9 @@ export default {
       86
     ],
     "regions": [
+      "CL",
+      "CO",
+      "MX",
       "PE"
     ]
   },
@@ -30424,12 +35175,20 @@ export default {
     "otaId": "HE_DTV_W25P_AFADATAA",
     "suffix": ".ANR",
     "sizes": [
+      43,
+      50,
       55,
-      65
+      65,
+      75
     ],
     "regions": [
       "AU",
-      "NZ"
+      "CO",
+      "MX",
+      "MY",
+      "NZ",
+      "SG",
+      "VN"
     ]
   },
   "UA8450PSA": {
@@ -30448,8 +35207,14 @@ export default {
       86
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "MY",
+      "NZ",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "UA85006LA": {
@@ -30462,9 +35227,14 @@ export default {
       43,
       50,
       55,
-      65
+      65,
+      75,
+      86
     ],
     "regions": [
+      "AE",
+      "SA",
+      "TR",
       "ZA"
     ]
   },
@@ -30475,9 +35245,11 @@ export default {
     "otaId": "HE_DTV_W25P_AFADATAA",
     "suffix": ".AFKE",
     "sizes": [
+      60,
       75
     ],
     "regions": [
+      "SA",
       "ZA"
     ]
   },
@@ -30543,7 +35315,9 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
       "KR",
+      "MX",
       "PE",
       "US"
     ],
@@ -30579,8 +35353,18 @@ export default {
       60
     ],
     "regions": [
+      "AE",
       "AU",
+      "CO",
+      "ID",
+      "MY",
       "NZ",
+      "PH",
+      "SA",
+      "SG",
+      "TH",
+      "TW",
+      "VN",
       "ZA"
     ]
   },
@@ -30597,10 +35381,22 @@ export default {
       60
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ]
@@ -30618,6 +35414,7 @@ export default {
       60
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -30648,7 +35445,12 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "NZ",
+      "PH",
+      "SG",
+      "TH",
+      "TW"
     ]
   },
   "UB9500": {
@@ -30665,6 +35467,8 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
+      "MX",
       "PE",
       "US"
     ],
@@ -30699,8 +35503,17 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
+      "CO",
+      "ID",
       "NZ",
+      "PH",
+      "SA",
+      "SG",
+      "TH",
+      "TW",
+      "VN",
       "ZA"
     ]
   },
@@ -30716,10 +35529,22 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -30738,7 +35563,9 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
       "KR",
+      "MX",
       "PE",
       "US"
     ],
@@ -30775,8 +35602,18 @@ export default {
       98
     ],
     "regions": [
+      "AE",
       "AU",
+      "CO",
+      "ID",
+      "MY",
       "NZ",
+      "PH",
+      "SA",
+      "SG",
+      "TH",
+      "TW",
+      "VN",
       "ZA"
     ]
   },
@@ -30794,10 +35631,22 @@ export default {
       98
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -30840,6 +35689,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "KR",
       "US"
     ],
@@ -30865,7 +35715,9 @@ export default {
       65
     ],
     "regions": [
-      "HK"
+      "CL",
+      "HK",
+      "MX"
     ],
     "variants": [
       {
@@ -30895,8 +35747,16 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "CO",
+      "ID",
+      "NZ",
+      "SA",
+      "SG",
+      "TH",
+      "TW",
+      "VN"
     ]
   },
   "UC970V": {
@@ -30911,10 +35771,22 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
-      "RU"
+      "PT",
+      "RU",
+      "SE",
+      "TR"
     ]
   },
   "UC9T": {
@@ -30928,8 +35800,13 @@ export default {
       105
     ],
     "regions": [
+      "AE",
       "AU",
       "NZ",
+      "SA",
+      "SG",
+      "TH",
+      "VN",
       "ZA"
     ]
   },
@@ -30944,9 +35821,16 @@ export default {
       105
     ],
     "regions": [
+      "AE",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "TR",
       "UK"
     ]
   },
@@ -30963,7 +35847,9 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
       "KR",
+      "MX",
       "PE",
       "US"
     ],
@@ -30990,7 +35876,11 @@ export default {
       49
     ],
     "regions": [
-      "PL"
+      "CZ",
+      "ES",
+      "IT",
+      "PL",
+      "TR"
     ]
   },
   "UF6409": {
@@ -31005,7 +35895,9 @@ export default {
       49
     ],
     "regions": [
-      "DE"
+      "CZ",
+      "DE",
+      "ES"
     ]
   },
   "UF640T": {
@@ -31020,9 +35912,18 @@ export default {
       49
     ],
     "regions": [
+      "AE",
       "AU",
+      "CO",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "PH",
+      "SA",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "UF640V": {
@@ -31037,10 +35938,19 @@ export default {
       49
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -31073,6 +35983,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -31106,6 +36017,7 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
       "KR",
       "PE",
       "US"
@@ -31135,8 +36047,13 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
-      "PL"
+      "ES",
+      "IT",
+      "PL",
+      "TR"
     ]
   },
   "UF6809": {
@@ -31153,7 +36070,9 @@ export default {
       65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES"
     ]
   },
   "UF680T": {
@@ -31170,9 +36089,18 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
+      "CO",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "PH",
+      "SA",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "UF680V": {
@@ -31189,9 +36117,19 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -31208,6 +36146,7 @@ export default {
       55
     ],
     "regions": [
+      "CZ",
       "PL"
     ]
   },
@@ -31222,7 +36161,9 @@ export default {
       55
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES"
     ]
   },
   "UF685V": {
@@ -31237,7 +36178,10 @@ export default {
       55
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES",
+      "FR"
     ]
   },
   "UF6900": {
@@ -31253,7 +36197,9 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
       "KR",
+      "MX",
       "PE"
     ],
     "variants": [
@@ -31279,8 +36225,12 @@ export default {
       49
     ],
     "regions": [
+      "CZ",
       "DE",
-      "PL"
+      "ES",
+      "HU",
+      "PL",
+      "PT"
     ]
   },
   "UF6909": {
@@ -31295,6 +36245,7 @@ export default {
       49
     ],
     "regions": [
+      "AT",
       "DE",
       "PL"
     ]
@@ -31307,10 +36258,18 @@ export default {
     "otaId": "HE_DTV_W15U_AFADABAA",
     "suffix": ".ATR",
     "sizes": [
-      43
+      43,
+      49
     ],
     "regions": [
-      "IN"
+      "AE",
+      "CO",
+      "ID",
+      "IN",
+      "MY",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "UF690V": {
@@ -31325,10 +36284,17 @@ export default {
       49
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK",
       "ZA"
     ]
@@ -31347,6 +36313,7 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "MX",
       "PE",
       "US"
     ]
@@ -31393,6 +36360,7 @@ export default {
       55
     ],
     "regions": [
+      "MX",
       "US"
     ]
   },
@@ -31445,9 +36413,13 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
       "KR",
+      "MX",
       "PE",
-      "US"
+      "PH",
+      "US",
+      "VN"
     ],
     "variants": [
       {
@@ -31488,8 +36460,13 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "HU",
       "PL",
+      "PT",
       "RU"
     ]
   },
@@ -31509,7 +36486,9 @@ export default {
       79
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES"
     ],
     "variants": [
       {
@@ -31526,6 +36505,7 @@ export default {
     "otaId": "HE_DTV_W15U_AFADABAA",
     "suffix": ".AAU",
     "sizes": [
+      40,
       43,
       49,
       55,
@@ -31535,9 +36515,18 @@ export default {
       79
     ],
     "regions": [
+      "AE",
       "AU",
+      "CO",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SA",
+      "SG",
+      "TH",
+      "TW",
+      "VN"
     ]
   },
   "UF770V": {
@@ -31557,8 +36546,17 @@ export default {
       79
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "HU",
+      "NL",
       "PL",
+      "PT",
+      "SE",
       "UK",
       "ZA"
     ],
@@ -31617,6 +36615,7 @@ export default {
       70
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ],
@@ -31642,7 +36641,11 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "HU",
       "PL"
     ],
     "variants": [
@@ -31669,7 +36672,9 @@ export default {
       70
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES"
     ],
     "variants": [
       {
@@ -31700,6 +36705,7 @@ export default {
     "otaId": "HE_DTV_W15A_AFADABAA",
     "suffix": ".AEK",
     "sizes": [
+      40,
       43,
       49,
       55,
@@ -31708,23 +36714,24 @@ export default {
       70
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "NL",
       "PL",
+      "PT",
+      "SE",
       "UK"
     ],
     "variants": [
       {
         "machine": "lm15u",
-        "otaId": "HE_DTV_W15U_AFADABAA",
-        "sizes": [
-          40,
-          43,
-          49,
-          55,
-          60,
-          65,
-          70
-        ]
+        "otaId": "HE_DTV_W15U_AFADABAA"
       }
     ]
   },
@@ -31742,6 +36749,8 @@ export default {
       55
     ],
     "regions": [
+      "CZ",
+      "IT",
       "PL"
     ],
     "variants": [
@@ -31767,7 +36776,9 @@ export default {
       65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES"
     ],
     "variants": [
       {
@@ -31792,8 +36803,15 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
-      "PL"
+      "ES",
+      "IT",
+      "NL",
+      "PL",
+      "PT"
     ],
     "variants": [
       {
@@ -31829,8 +36847,14 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
-      "PL"
+      "ES",
+      "HU",
+      "IT",
+      "PL",
+      "TR"
     ],
     "variants": [
       {
@@ -31850,6 +36874,7 @@ export default {
       49
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -31869,8 +36894,16 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "PL",
+      "PT",
+      "TR",
       "ZA"
     ],
     "variants": [
@@ -31906,7 +36939,11 @@ export default {
       55
     ],
     "regions": [
-      "PL"
+      "CZ",
+      "ES",
+      "HU",
+      "PL",
+      "PT"
     ]
   },
   "UF8009": {
@@ -31938,8 +36975,16 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
-      "PL"
+      "ES",
+      "HU",
+      "NL",
+      "PL",
+      "PT",
+      "SE"
     ]
   },
   "UF8300": {
@@ -31955,7 +37000,9 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
       "KR",
+      "MX",
       "PE",
       "US"
     ]
@@ -31972,7 +37019,10 @@ export default {
       58
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
       "PL"
     ]
   },
@@ -31988,8 +37038,14 @@ export default {
       58
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "ID",
+      "NZ",
+      "PH",
+      "SA",
+      "TH",
+      "VN"
     ]
   },
   "UF830V": {
@@ -32004,8 +37060,14 @@ export default {
       58
     ],
     "regions": [
+      "AT",
       "DE",
+      "ES",
+      "FR",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -32020,7 +37082,8 @@ export default {
       55
     ],
     "regions": [
-      "KR"
+      "KR",
+      "MX"
     ],
     "variants": [
       {
@@ -32041,9 +37104,11 @@ export default {
     "otaId": "HE_DTV_W15A_AFADABAA",
     "suffix": ".AEE",
     "sizes": [
-      49
+      49,
+      55
     ],
     "regions": [
+      "ES",
       "PL"
     ]
   },
@@ -32059,6 +37124,7 @@ export default {
       55
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -32077,7 +37143,9 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
       "KR",
+      "MX",
       "PE",
       "US"
     ],
@@ -32112,8 +37180,14 @@ export default {
       55
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "HU",
+      "IT",
       "PL",
-      "RU"
+      "PT",
+      "RU",
+      "TR"
     ]
   },
   "UF8509": {
@@ -32147,9 +37221,18 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
+      "CO",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "PH",
+      "SA",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "UF850V": {
@@ -32166,10 +37249,22 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ]
@@ -32186,7 +37281,11 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "HU",
       "PL"
     ]
   },
@@ -32204,7 +37303,9 @@ export default {
       65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES"
     ]
   },
   "UF851V": {
@@ -32221,8 +37322,16 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
-      "PL"
+      "ES",
+      "HU",
+      "NL",
+      "PL",
+      "PT",
+      "SE"
     ]
   },
   "UF8527": {
@@ -32237,6 +37346,9 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -32254,7 +37366,9 @@ export default {
       65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES"
     ]
   },
   "UF852V": {
@@ -32271,8 +37385,16 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
-      "PL"
+      "ES",
+      "HU",
+      "NL",
+      "PL",
+      "PT",
+      "SE"
     ]
   },
   "UF8537": {
@@ -32319,6 +37441,8 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "CZ",
       "PL"
     ]
   },
@@ -32336,6 +37460,7 @@ export default {
       65
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -32347,11 +37472,15 @@ export default {
     "otaId": "HE_DTV_W15U_AFADABAA",
     "suffix": ".AEE",
     "sizes": [
+      49,
+      55,
       60,
       65
     ],
     "regions": [
-      "PL"
+      "CZ",
+      "PL",
+      "SE"
     ]
   },
   "UF8567": {
@@ -32366,6 +37495,7 @@ export default {
       55
     ],
     "regions": [
+      "CZ",
       "PL"
     ]
   },
@@ -32383,6 +37513,7 @@ export default {
       65
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -32398,6 +37529,7 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
       "PL"
     ]
   },
@@ -32429,6 +37561,8 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "CZ",
       "PL"
     ]
   },
@@ -32446,6 +37580,8 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
       "PL"
     ]
@@ -32458,11 +37594,14 @@ export default {
     "otaId": "HE_DTV_W15U_AFADABAA",
     "suffix": ".AEE",
     "sizes": [
+      55,
       60,
       65
     ],
     "regions": [
-      "PL"
+      "CZ",
+      "PL",
+      "SE"
     ]
   },
   "UF8600": {
@@ -32491,6 +37630,8 @@ export default {
       55
     ],
     "regions": [
+      "CZ",
+      "ES",
       "PL"
     ]
   },
@@ -32524,10 +37665,20 @@ export default {
       79
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -32571,7 +37722,9 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
       "KR",
+      "MX",
       "PE",
       "US"
     ],
@@ -32641,9 +37794,18 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "PH",
+      "SA",
+      "SG",
+      "TH",
+      "TW",
+      "VN"
     ],
     "variants": [
       {
@@ -32667,10 +37829,22 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -32687,8 +37861,12 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
       "KR",
-      "PE"
+      "MX",
+      "PE",
+      "PH",
+      "VN"
     ]
   },
   "UG8709": {
@@ -32719,8 +37897,16 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "CO",
+      "ID",
+      "NZ",
+      "PH",
+      "SA",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "UG870V": {
@@ -32735,10 +37921,21 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ]
@@ -32755,7 +37952,9 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
       "KR",
+      "MX",
       "PE"
     ]
   },
@@ -32770,8 +37969,11 @@ export default {
       79
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "CO",
+      "NZ",
+      "VN"
     ]
   },
   "UG880V": {
@@ -32785,8 +37987,15 @@ export default {
       79
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
-      "PL"
+      "ES",
+      "IT",
+      "PL",
+      "PT",
+      "SE",
+      "TR"
     ]
   },
   "UH5500": {
@@ -32802,6 +38011,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -32842,12 +38052,19 @@ export default {
     "otaId": "HE_DTV_W15A_AFADABAA",
     "suffix": ".ANR",
     "sizes": [
+      49,
       55,
       65
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "UH600V": {
@@ -32863,8 +38080,19 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
+      "TR",
       "ZA"
     ]
   },
@@ -32898,6 +38126,8 @@ export default {
     ],
     "regions": [
       "CA",
+      "CL",
+      "MX",
       "PE",
       "US"
     ]
@@ -32925,12 +38155,26 @@ export default {
     "suffix": ".AEK",
     "sizes": [
       43,
-      49
+      49,
+      55,
+      65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
       "UK"
     ]
   },
@@ -32962,9 +38206,21 @@ export default {
       60
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -33026,7 +38282,10 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
+      "MX",
       "PE",
+      "PH",
       "US"
     ],
     "variants": [
@@ -33060,6 +38319,8 @@ export default {
       49
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -33075,7 +38336,9 @@ export default {
       49
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES"
     ]
   },
   "UH610A": {
@@ -33106,7 +38369,14 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "CO",
+      "ID",
+      "MY",
+      "NZ",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "UH610V": {
@@ -33121,10 +38391,22 @@ export default {
       49
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -33158,7 +38440,10 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
+      "MX",
       "PE",
+      "PH",
       "US"
     ],
     "variants": [
@@ -33185,7 +38470,10 @@ export default {
       65
     ],
     "regions": [
-      "PL"
+      "CZ",
+      "HU",
+      "PL",
+      "SE"
     ]
   },
   "UH6159": {
@@ -33200,7 +38488,9 @@ export default {
       65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES"
     ]
   },
   "UH615A": {
@@ -33233,7 +38523,12 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "CO",
+      "ID",
+      "MY",
+      "NZ",
+      "SG",
+      "TH"
     ]
   },
   "UH615V": {
@@ -33249,8 +38544,19 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -33263,10 +38569,15 @@ export default {
     "suffix": ".ATR",
     "sizes": [
       43,
-      55
+      49,
+      55,
+      60,
+      65
     ],
     "regions": [
-      "IN"
+      "IN",
+      "MY",
+      "VN"
     ]
   },
   "UH619V": {
@@ -33310,6 +38621,8 @@ export default {
       49
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -33328,10 +38641,17 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -33376,6 +38696,8 @@ export default {
       55
     ],
     "regions": [
+      "CL",
+      "MX",
       "PE"
     ]
   },
@@ -33407,6 +38729,9 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "HU",
       "PL"
     ]
   },
@@ -33423,7 +38748,14 @@ export default {
       65
     ],
     "regions": [
+      "AT",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -33440,6 +38772,8 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
+      "MX",
       "PE",
       "US"
     ]
@@ -33457,9 +38791,17 @@ export default {
       58
     ],
     "regions": [
+      "AE",
+      "AT",
+      "CZ",
       "DE",
+      "FR",
+      "HU",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
       "UK"
     ]
   },
@@ -33490,6 +38832,8 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
+      "MX",
       "PE",
       "US"
     ]
@@ -33506,7 +38850,10 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "CO",
+      "ID",
+      "NZ",
+      "VN"
     ]
   },
   "UH635V": {
@@ -33518,11 +38865,22 @@ export default {
     "suffix": ".AEK",
     "sizes": [
       50,
-      58
+      58,
+      70
     ],
     "regions": [
+      "AE",
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
       "PL",
+      "PT",
+      "SA",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -33543,7 +38901,10 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
+      "MX",
       "PE",
+      "PH",
       "US"
     ],
     "variants": [
@@ -33580,6 +38941,9 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "HU",
       "PL"
     ]
   },
@@ -33597,7 +38961,9 @@ export default {
       65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES"
     ]
   },
   "UH650T": {
@@ -33609,10 +38975,19 @@ export default {
     "suffix": ".ATR",
     "sizes": [
       43,
-      55
+      49,
+      55,
+      60,
+      65
     ],
     "regions": [
-      "IN"
+      "ID",
+      "IN",
+      "MY",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "UH650V": {
@@ -33630,8 +39005,18 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -33645,13 +39030,17 @@ export default {
     "sizes": [
       43,
       49,
-      55
+      55,
+      60,
+      65
     ],
     "regions": [
+      "AE",
       "AU",
       "KZ",
       "NZ",
-      "RU"
+      "RU",
+      "SA"
     ]
   },
   "UH652T": {
@@ -33706,6 +39095,8 @@ export default {
     ],
     "regions": [
       "CA",
+      "CL",
+      "MX",
       "US"
     ],
     "variants": [
@@ -33736,7 +39127,9 @@ export default {
     "regions": [
       "AU",
       "IN",
-      "NZ"
+      "NZ",
+      "SG",
+      "VN"
     ]
   },
   "UH656V": {
@@ -33783,9 +39176,18 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -33803,8 +39205,17 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
-      "PL"
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "PL",
+      "PT",
+      "SE",
+      "TR"
     ]
   },
   "UH6650": {
@@ -33834,8 +39245,18 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -33853,6 +39274,7 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "RU"
     ]
   },
@@ -33964,7 +39386,16 @@ export default {
       70
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "NL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -34022,11 +39453,15 @@ export default {
     "otaId": "HE_DTV_W16N_AFADABAA",
     "suffix": ".AEE",
     "sizes": [
+      43,
       49,
       55,
       65
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "HU",
       "PL"
     ]
   },
@@ -34044,7 +39479,10 @@ export default {
       65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "CZ",
+      "DE",
+      "ES"
     ]
   },
   "UH750T": {
@@ -34055,10 +39493,12 @@ export default {
     "otaId": "HE_DTV_W16N_AFADABAA",
     "suffix": ".ATR",
     "sizes": [
-      43
+      43,
+      55
     ],
     "regions": [
-      "IN"
+      "IN",
+      "VN"
     ]
   },
   "UH750V": {
@@ -34072,13 +39512,23 @@ export default {
       43,
       49,
       55,
+      60,
       65
     ],
     "regions": [
+      "AE",
+      "AT",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
       "UK"
     ]
   },
@@ -34096,7 +39546,9 @@ export default {
       65
     ],
     "regions": [
-      "RU"
+      "AE",
+      "RU",
+      "SA"
     ]
   },
   "UH7600": {
@@ -34131,6 +39583,8 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
+      "MX",
       "PE",
       "US"
     ]
@@ -34165,7 +39619,10 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
+      "MX",
       "PE",
+      "PH",
       "US"
     ],
     "variants": [
@@ -34201,6 +39658,8 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -34218,7 +39677,9 @@ export default {
       65
     ],
     "regions": [
+      "AT",
       "DE",
+      "ES",
       "PL"
     ]
   },
@@ -34237,8 +39698,14 @@ export default {
     ],
     "regions": [
       "AU",
+      "CO",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "UH770V": {
@@ -34255,10 +39722,22 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -34273,9 +39752,15 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "IT",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -34325,7 +39810,10 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
+      "MX",
       "PE",
+      "PH",
       "US"
     ],
     "variants": [
@@ -34366,6 +39854,8 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -34383,7 +39873,9 @@ export default {
       65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES"
     ]
   },
   "UH850T": {
@@ -34394,14 +39886,20 @@ export default {
     "otaId": "HE_DTV_W16M_AFADABAA",
     "suffix": ".AAU",
     "sizes": [
+      49,
       55,
       60,
       65
     ],
     "regions": [
       "AU",
+      "CO",
+      "ID",
       "IN",
-      "NZ"
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "UH850V": {
@@ -34418,10 +39916,23 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ]
@@ -34462,7 +39973,11 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "SG",
+      "TH"
     ]
   },
   "UH855V": {
@@ -34476,9 +39991,20 @@ export default {
       75
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -34580,6 +40106,8 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
+      "MX",
       "PE",
       "US"
     ],
@@ -34607,8 +40135,12 @@ export default {
     ],
     "regions": [
       "AU",
+      "CO",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "VN"
     ]
   },
   "UH950V": {
@@ -34623,10 +40155,22 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -34642,8 +40186,10 @@ export default {
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "NZ",
+      "SG"
     ]
   },
   "UH9550": {
@@ -34657,7 +40203,9 @@ export default {
       86
     ],
     "regions": [
-      "HK"
+      "CL",
+      "HK",
+      "PH"
     ],
     "variants": [
       {
@@ -34683,8 +40231,14 @@ export default {
     ],
     "regions": [
       "AU",
+      "CO",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "UH955V": {
@@ -34698,8 +40252,20 @@ export default {
       86
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SA",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -34787,7 +40353,9 @@ export default {
     ],
     "regions": [
       "CA",
+      "CL",
       "KR",
+      "MX",
       "PE",
       "US"
     ]
@@ -34806,8 +40374,15 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "PL",
+      "PT",
       "RU",
       "ZA"
     ]
@@ -34860,6 +40435,8 @@ export default {
     "regions": [
       "BR",
       "CA",
+      "CL",
+      "MX",
       "PE",
       "US"
     ],
@@ -34890,6 +40467,9 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "HU",
       "PL"
     ]
   },
@@ -34908,7 +40488,9 @@ export default {
       65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES"
     ]
   },
   "UJ630A": {
@@ -34943,10 +40525,22 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ]
@@ -34965,7 +40559,13 @@ export default {
       65
     ],
     "regions": [
-      "IN"
+      "ID",
+      "IN",
+      "MY",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "UJ634T": {
@@ -34999,12 +40599,24 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "NZ",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
       "UK",
       "ZA"
     ]
@@ -35022,8 +40634,18 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -35083,6 +40705,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ],
     "variants": [
@@ -35126,12 +40749,14 @@ export default {
     "otaId": "HE_DTV_W17M_AFADATAA",
     "suffix": ".AWF",
     "sizes": [
+      43,
       49,
       55,
       60,
       65
     ],
     "regions": [
+      "CL",
       "PE"
     ]
   },
@@ -35150,7 +40775,11 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "HU",
       "PL"
     ]
   },
@@ -35169,7 +40798,9 @@ export default {
       65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES"
     ]
   },
   "UJ651V": {
@@ -35188,10 +40819,23 @@ export default {
       75
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ]
@@ -35221,10 +40865,15 @@ export default {
     "sizes": [
       43,
       49,
-      55
+      55,
+      65
     ],
     "regions": [
-      "IN"
+      "ID",
+      "IN",
+      "MY",
+      "TH",
+      "VN"
     ]
   },
   "UJ6540": {
@@ -35276,7 +40925,8 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "TH"
     ]
   },
   "UJ654V": {
@@ -35295,7 +40945,8 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "SG"
     ]
   },
   "UJ655V": {
@@ -35326,6 +40977,8 @@ export default {
       49
     ],
     "regions": [
+      "CL",
+      "MX",
       "PE"
     ]
   },
@@ -35356,6 +41009,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "PH",
       "US"
     ],
     "variants": [
@@ -35385,6 +41039,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -35401,7 +41056,12 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "UJ6580": {
@@ -35413,11 +41073,14 @@ export default {
     "suffix": ".AWF",
     "sizes": [
       55,
+      60,
       65,
       70,
       75
     ],
     "regions": [
+      "CL",
+      "MX",
       "PE"
     ]
   },
@@ -35519,9 +41182,21 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
       "UK",
       "ZA"
     ]
@@ -35542,10 +41217,23 @@ export default {
       75
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SA",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ]
@@ -35564,8 +41252,19 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -35694,7 +41393,9 @@ export default {
       65
     ],
     "regions": [
-      "HK"
+      "CL",
+      "HK",
+      "PH"
     ],
     "variants": [
       {
@@ -35731,6 +41432,8 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -35747,7 +41450,9 @@ export default {
       65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES"
     ]
   },
   "UJ750V": {
@@ -35765,10 +41470,19 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -35819,6 +41533,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -35987,8 +41702,19 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
-      "PL"
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
+      "PL",
+      "PT",
+      "SE",
+      "TR"
     ]
   },
   "UK6100PTA": {
@@ -36004,7 +41730,12 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "PH",
+      "TH",
+      "VN"
     ]
   },
   "UK6190PUB": {
@@ -36126,10 +41857,20 @@ export default {
       60
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -36144,8 +41885,18 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -36164,6 +41915,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -36175,11 +41927,17 @@ export default {
     "otaId": "HE_DTV_W18A_AFADABAA",
     "suffix": ".AAU",
     "sizes": [
+      43,
+      49,
       60
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "TH",
+      "VN"
     ]
   },
   "UK6200PUA": {
@@ -36232,7 +41990,11 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
       "PL"
     ]
   },
@@ -36251,6 +42013,8 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -36302,10 +42066,21 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ]
@@ -36319,9 +42094,11 @@ export default {
     "suffix": ".AWF",
     "sizes": [
       43,
+      49,
       50
     ],
     "regions": [
+      "CL",
       "PE"
     ]
   },
@@ -36366,12 +42143,15 @@ export default {
     "otaId": "HE_DTV_W18A_AFADABAA",
     "suffix": ".AAU",
     "sizes": [
+      43,
+      49,
       55,
       65
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "VN"
     ]
   },
   "UK6350PSC": {
@@ -36386,6 +42166,7 @@ export default {
       65
     ],
     "regions": [
+      "CL",
       "PE"
     ]
   },
@@ -36463,8 +42244,18 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "SE",
+      "TR",
       "UK",
       "ZA"
     ]
@@ -36483,8 +42274,11 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA",
+      "SG"
     ]
   },
   "UK6410PLC": {
@@ -36498,6 +42292,7 @@ export default {
       50
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -36516,6 +42311,7 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -36535,8 +42331,19 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -36588,7 +42395,10 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
       "PL"
     ]
   },
@@ -36606,7 +42416,10 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "HU",
       "PL"
     ]
   },
@@ -36654,8 +42467,19 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -36679,8 +42503,14 @@ export default {
       70
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "PL",
+      "SE",
       "UK"
     ]
   },
@@ -36696,7 +42526,12 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ],
     "variants": [
       {
@@ -36716,10 +42551,17 @@ export default {
     "otaId": "HE_DTV_W18A_AFADABAA",
     "suffix": ".ATR",
     "sizes": [
-      55
+      43,
+      50,
+      55,
+      65
     ],
     "regions": [
-      "IN"
+      "ID",
+      "IN",
+      "MY",
+      "SG",
+      "TH"
     ]
   },
   "UK6510PLB": {
@@ -36835,7 +42677,12 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "UK6540PTD": {
@@ -36853,7 +42700,10 @@ export default {
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "NZ",
+      "TH",
+      "VN"
     ]
   },
   "UK6550PCD": {
@@ -36898,6 +42748,7 @@ export default {
       70
     ],
     "regions": [
+      "CL",
       "PE"
     ]
   },
@@ -36914,6 +42765,7 @@ export default {
       65
     ],
     "regions": [
+      "CL",
       "PE"
     ]
   },
@@ -36968,6 +42820,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -36982,6 +42835,7 @@ export default {
       75
     ],
     "regions": [
+      "CL",
       "PE"
     ],
     "variants": [
@@ -37006,6 +42860,7 @@ export default {
       75
     ],
     "regions": [
+      "MX",
       "US"
     ],
     "variants": [
@@ -37032,8 +42887,11 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA",
+      "SG"
     ]
   },
   "UK6710PLA": {
@@ -37065,6 +42923,7 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "RU"
     ]
   },
@@ -37079,6 +42938,7 @@ export default {
       75
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ],
@@ -37107,10 +42967,20 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -37210,8 +43080,19 @@ export default {
       70
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -37229,8 +43110,19 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -37357,6 +43249,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -37373,7 +43266,11 @@ export default {
       65
     ],
     "regions": [
-      "IN"
+      "IN",
+      "MY",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "UK7500PVA": {
@@ -37389,8 +43286,10 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA"
     ]
   },
   "UK7550LLA": {
@@ -37406,6 +43305,8 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
       "PL"
     ]
@@ -37423,6 +43324,8 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -37439,10 +43342,19 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -37536,6 +43448,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -37551,6 +43464,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -37616,8 +43530,18 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -37632,8 +43556,17 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "PL",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -37678,9 +43611,19 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -37695,9 +43638,17 @@ export default {
       55
     ],
     "regions": [
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -37714,9 +43665,19 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -37751,6 +43712,7 @@ export default {
       60
     ],
     "regions": [
+      "AT",
       "DE",
       "PL"
     ]
@@ -37823,9 +43785,20 @@ export default {
       70
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -37843,10 +43816,22 @@ export default {
       60
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -37865,6 +43850,7 @@ export default {
       75
     ],
     "regions": [
+      "CL",
       "PE"
     ]
   },
@@ -37879,10 +43865,20 @@ export default {
       75
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -37928,6 +43924,7 @@ export default {
       60
     ],
     "regions": [
+      "CL",
       "PE"
     ]
   },
@@ -37953,12 +43950,18 @@ export default {
     "otaId": "HE_DTV_W19P_AFADABAA",
     "suffix": ".ATR",
     "sizes": [
+      49,
       50,
       55,
       65
     ],
     "regions": [
-      "IN"
+      "ID",
+      "IN",
+      "MY",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "UM7290PTF": {
@@ -38026,6 +44029,7 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -38039,10 +44043,12 @@ export default {
     "suffix": ".AWZ",
     "sizes": [
       43,
-      49
+      49,
+      50
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -38063,8 +44069,13 @@ export default {
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "UM7300PUA": {
@@ -38094,11 +44105,16 @@ export default {
     "suffix": ".ANR",
     "sizes": [
       43,
-      50
+      49,
+      50,
+      55,
+      65
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA"
     ]
   },
   "UM7360PSA": {
@@ -38142,6 +44158,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -38185,8 +44202,10 @@ export default {
       70
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA"
     ]
   },
   "UM7390PLC": {
@@ -38201,9 +44220,17 @@ export default {
       49
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -38237,9 +44264,20 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -38255,6 +44293,7 @@ export default {
       65
     ],
     "regions": [
+      "CL",
       "PE"
     ]
   },
@@ -38266,12 +44305,14 @@ export default {
     "otaId": "HE_DTV_W19P_AFADABAA",
     "suffix": ".AAU",
     "sizes": [
+      49,
       55,
       65
     ],
     "regions": [
       "AU",
-      "NZ"
+      "NZ",
+      "VN"
     ]
   },
   "UM74507LA": {
@@ -38288,6 +44329,7 @@ export default {
       65
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -38307,10 +44349,22 @@ export default {
       70
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -38326,8 +44380,10 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA"
     ]
   },
   "UM7470PSA": {
@@ -38389,9 +44445,16 @@ export default {
       50
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "HU",
+      "IT",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -38408,6 +44471,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -38423,9 +44487,17 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -38470,6 +44542,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ],
     "variants": [
@@ -38507,8 +44580,10 @@ export default {
       75
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA"
     ],
     "variants": [
       {
@@ -38533,6 +44608,7 @@ export default {
       50
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -38567,9 +44643,20 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -38595,12 +44682,18 @@ export default {
       50,
       55,
       65,
-      75
+      75,
+      82
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ],
     "variants": [
       {
@@ -38639,6 +44732,7 @@ export default {
       65
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -38654,9 +44748,20 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -38672,6 +44777,7 @@ export default {
       50
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ],
@@ -38699,6 +44805,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -38714,10 +44821,19 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
       "KZ",
+      "NL",
       "PL",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -38733,8 +44849,10 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA"
     ]
   },
   "UM7700PTA": {
@@ -38988,7 +45106,8 @@ export default {
       65
     ],
     "regions": [
-      "CA"
+      "CA",
+      "MX"
     ]
   },
   "UN6951ZUD": {
@@ -39016,7 +45135,8 @@ export default {
       50
     ],
     "regions": [
-      "CA"
+      "CA",
+      "MX"
     ]
   },
   "UN6970PUD": {
@@ -39047,6 +45167,9 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "HU",
       "PL"
     ]
   },
@@ -39064,9 +45187,17 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -39128,6 +45259,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -39142,6 +45274,7 @@ export default {
       70
     ],
     "regions": [
+      "CZ",
       "PL"
     ]
   },
@@ -39156,6 +45289,7 @@ export default {
       75
     ],
     "regions": [
+      "CZ",
       "PL"
     ]
   },
@@ -39184,7 +45318,15 @@ export default {
       70
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "IT",
+      "NL",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -39213,7 +45355,13 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "IT",
+      "PT",
+      "SE",
       "UK"
     ]
   },
@@ -39257,6 +45405,8 @@ export default {
       70
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -39275,6 +45425,10 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "HU",
+      "IT",
       "PL"
     ]
   },
@@ -39289,6 +45443,8 @@ export default {
       75
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -39303,8 +45459,17 @@ export default {
       70
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -39323,9 +45488,18 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -39340,9 +45514,19 @@ export default {
       75
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -39408,6 +45592,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ]
   },
@@ -39422,6 +45607,7 @@ export default {
       75
     ],
     "regions": [
+      "CL",
       "PE"
     ]
   },
@@ -39449,10 +45635,12 @@ export default {
     "suffix": ".ATR",
     "sizes": [
       43,
+      49,
       55
     ],
     "regions": [
-      "IN"
+      "IN",
+      "VN"
     ]
   },
   "UN73003LA": {
@@ -39469,6 +45657,9 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "HU",
       "PL"
     ]
   },
@@ -39483,6 +45674,8 @@ export default {
       43
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -39500,8 +45693,17 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -39516,8 +45718,16 @@ export default {
       43
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "IT",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -39562,10 +45772,14 @@ export default {
     "otaId": "HE_DTV_W20P_AFADATAA",
     "suffix": ".AWZ",
     "sizes": [
-      43
+      43,
+      50,
+      55,
+      65
     ],
     "regions": [
-      "BR"
+      "BR",
+      "CL"
     ]
   },
   "UN7300PTC": {
@@ -39577,6 +45791,7 @@ export default {
     "suffix": ".AAU",
     "sizes": [
       43,
+      49,
       50,
       55,
       65,
@@ -39584,8 +45799,13 @@ export default {
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "UN7300PUB": {
@@ -39643,7 +45863,8 @@ export default {
       60
     ],
     "regions": [
-      "BR"
+      "BR",
+      "CL"
     ]
   },
   "UN7310PSC": {
@@ -39660,7 +45881,8 @@ export default {
       70
     ],
     "regions": [
-      "BR"
+      "BR",
+      "CL"
     ]
   },
   "UN7340PVC": {
@@ -39678,8 +45900,10 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA"
     ]
   },
   "UN73506LB": {
@@ -39697,6 +45921,7 @@ export default {
       70
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -39712,6 +45937,7 @@ export default {
       43
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -39725,12 +45951,15 @@ export default {
     "suffix": ".ATR",
     "sizes": [
       43,
+      49,
       50,
       55,
-      65
+      65,
+      70
     ],
     "regions": [
-      "IN"
+      "IN",
+      "VN"
     ]
   },
   "UN7370AUD": {
@@ -39787,6 +46016,7 @@ export default {
       70
     ],
     "regions": [
+      "MX",
       "US"
     ]
   },
@@ -39815,8 +46045,10 @@ export default {
       70
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA"
     ]
   },
   "UN73903LE": {
@@ -39831,6 +46063,10 @@ export default {
       49
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "HU",
+      "IT",
       "PL"
     ]
   },
@@ -39846,9 +46082,15 @@ export default {
       49
     ],
     "regions": [
+      "AT",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -39863,6 +46105,8 @@ export default {
       70
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -39881,6 +46125,10 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "HU",
+      "IT",
       "PL"
     ]
   },
@@ -39900,9 +46148,14 @@ export default {
       70
     ],
     "regions": [
+      "AE",
       "DE",
+      "ES",
+      "FR",
       "KZ",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -39921,8 +46174,17 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -39940,6 +46202,7 @@ export default {
       65
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -40189,6 +46452,8 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -40204,6 +46469,8 @@ export default {
       50
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -40219,8 +46486,12 @@ export default {
       65
     ],
     "regions": [
+      "AT",
       "DE",
+      "ES",
+      "IT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -40236,7 +46507,12 @@ export default {
       50
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "IT",
+      "NL",
       "RU",
       "UK"
     ]
@@ -40256,6 +46532,7 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
       "PE"
     ],
     "variants": [
@@ -40295,7 +46572,8 @@ export default {
       65
     ],
     "regions": [
-      "IN"
+      "IN",
+      "SG"
     ]
   },
   "UN8000PTB": {
@@ -40306,10 +46584,14 @@ export default {
     "otaId": "HE_DTV_W20P_AFADABAA",
     "suffix": ".ATR",
     "sizes": [
-      75
+      75,
+      82,
+      86
     ],
     "regions": [
-      "IN"
+      "IN",
+      "TH",
+      "VN"
     ]
   },
   "UN8080PVA": {
@@ -40323,8 +46605,10 @@ export default {
       75
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA"
     ],
     "variants": [
       {
@@ -40352,6 +46636,8 @@ export default {
       75
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -40370,9 +46656,19 @@ export default {
       75
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -40419,11 +46715,15 @@ export default {
     "otaId": "HE_DTV_W20P_AFADABAA",
     "suffix": ".AAU",
     "sizes": [
-      75
+      75,
+      82
     ],
     "regions": [
       "AU",
-      "NZ"
+      "ID",
+      "MY",
+      "NZ",
+      "SG"
     ],
     "variants": [
       {
@@ -40466,6 +46766,8 @@ export default {
       86
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -40483,9 +46785,19 @@ export default {
       86
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -40621,6 +46933,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -40695,6 +47008,8 @@ export default {
       75
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -40712,7 +47027,13 @@ export default {
       65
     ],
     "regions": [
-      "PL"
+      "BE",
+      "CZ",
+      "HU",
+      "IT",
+      "NL",
+      "PL",
+      "PT"
     ]
   },
   "UP75006LC": {
@@ -40727,8 +47048,18 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -40746,9 +47077,20 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -40763,6 +47105,7 @@ export default {
       75
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -40780,7 +47123,11 @@ export default {
       65
     ],
     "regions": [
-      "DE"
+      "AT",
+      "CZ",
+      "DE",
+      "HU",
+      "PT"
     ]
   },
   "UP7500KNA": {
@@ -40804,9 +47151,12 @@ export default {
     "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AWF",
     "sizes": [
-      70
+      70,
+      75
     ],
     "regions": [
+      "CL",
+      "CO",
       "PE"
     ]
   },
@@ -40818,11 +47168,36 @@ export default {
     "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".AWZ",
     "sizes": [
-      43
+      43,
+      50,
+      55,
+      65
     ],
     "regions": [
       "BR",
+      "CL",
+      "CO",
+      "MX",
       "PE"
+    ]
+  },
+  "UP7500PTC": {
+    "series": "UP75",
+    "machine": "lm21a",
+    "codename": "kisscurl",
+    "otaId": "HE_DTV_W21A_AFADATAA",
+    "suffix": ".ATM",
+    "sizes": [
+      43,
+      50,
+      55,
+      65,
+      70
+    ],
+    "regions": [
+      "ID",
+      "TH",
+      "VN"
     ]
   },
   "UP7500PTZ": {
@@ -40856,6 +47231,8 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "SA",
       "ZA"
     ]
   },
@@ -40867,12 +47244,35 @@ export default {
     "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".BWZ",
     "sizes": [
+      43,
       50,
       55,
       65
     ],
     "regions": [
-      "BR"
+      "BR",
+      "PH"
+    ]
+  },
+  "UP7550PTC": {
+    "series": "UP75",
+    "machine": "lm21a",
+    "codename": "kisscurl",
+    "otaId": "HE_DTV_W21A_AFADATAA",
+    "suffix": ".ATA",
+    "sizes": [
+      43,
+      50,
+      55,
+      65,
+      70,
+      75
+    ],
+    "regions": [
+      "ID",
+      "MY",
+      "SG",
+      "VN"
     ]
   },
   "UP7550PTZ": {
@@ -40903,8 +47303,10 @@ export default {
       75
     ],
     "regions": [
+      "AE",
       "AU",
       "NZ",
+      "SA",
       "ZA"
     ]
   },
@@ -40919,8 +47321,10 @@ export default {
       70
     ],
     "regions": [
+      "AE",
       "AU",
       "NZ",
+      "SA",
       "ZA"
     ]
   },
@@ -40938,8 +47342,10 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
       "NZ",
+      "SA",
       "ZA"
     ]
   },
@@ -41004,6 +47410,7 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -41033,9 +47440,18 @@ export default {
     "otaId": "HE_DTV_W21P_AFADATAA",
     "suffix": ".AEK",
     "sizes": [
-      70
+      43,
+      50,
+      55,
+      65,
+      70,
+      75
     ],
     "regions": [
+      "BE",
+      "ES",
+      "IT",
+      "NL",
       "UK"
     ]
   },
@@ -41054,6 +47470,7 @@ export default {
       75
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -41101,6 +47518,8 @@ export default {
       43
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -41115,9 +47534,16 @@ export default {
       43
     ],
     "regions": [
+      "AT",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -41132,6 +47558,7 @@ export default {
       43
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -41151,8 +47578,12 @@ export default {
       75
     ],
     "regions": [
+      "CZ",
       "DE",
-      "PL"
+      "ES",
+      "HU",
+      "PL",
+      "PT"
     ]
   },
   "UP77006LB": {
@@ -41172,9 +47603,20 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -41193,8 +47635,14 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
-      "PL"
+      "HU",
+      "NL",
+      "PL",
+      "PT"
     ]
   },
   "UP7700PJB": {
@@ -41220,9 +47668,15 @@ export default {
     "otaId": "HE_DTV_W21P_AFADATAA",
     "suffix": ".AWF",
     "sizes": [
-      43
+      43,
+      50,
+      55,
+      60,
+      65
     ],
     "regions": [
+      "CL",
+      "MX",
       "PE"
     ]
   },
@@ -41260,6 +47714,40 @@ export default {
     ],
     "regions": [
       "RU"
+    ]
+  },
+  "UP77109LC": {
+    "series": "UP77",
+    "machine": "k7lp",
+    "codename": "kisscurl",
+    "otaId": "HE_DTV_W21P_AFADATAA",
+    "suffix": ".AEU",
+    "sizes": [
+      75
+    ],
+    "regions": [
+      "AT",
+      "DE",
+      "ES",
+      "FR",
+      "SE",
+      "TR"
+    ]
+  },
+  "UP7720PTC": {
+    "series": "UP77",
+    "machine": "k7lp",
+    "codename": "kisscurl",
+    "otaId": "HE_DTV_W21P_AFADATAA",
+    "suffix": ".ATV",
+    "sizes": [
+      43,
+      50,
+      55,
+      65
+    ],
+    "regions": [
+      "VN"
     ]
   },
   "UP7720PTY": {
@@ -41311,6 +47799,7 @@ export default {
       75
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -41323,6 +47812,7 @@ export default {
     "otaId": "HE_DTV_W21P_AFADATAA",
     "suffix": ".AWZ",
     "sizes": [
+      43,
       50,
       55,
       60,
@@ -41332,7 +47822,35 @@ export default {
     ],
     "regions": [
       "BR",
-      "PE"
+      "CL",
+      "CO",
+      "MX",
+      "PE",
+      "PH",
+      "TW"
+    ]
+  },
+  "UP7750PTB": {
+    "series": "UP77",
+    "machine": "k7lp",
+    "codename": "kisscurl",
+    "otaId": "HE_DTV_W21P_AFADATAA",
+    "suffix": ".ATM",
+    "sizes": [
+      43,
+      50,
+      55,
+      60,
+      65,
+      70,
+      75
+    ],
+    "regions": [
+      "ID",
+      "MY",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "UP7750PTZ": {
@@ -41367,12 +47885,33 @@ export default {
       50,
       55,
       65,
+      70,
       75
     ],
     "regions": [
+      "AE",
       "AU",
       "NZ",
+      "SA",
       "ZA"
+    ]
+  },
+  "UP7760PSB": {
+    "series": "UP77",
+    "machine": "k7lp",
+    "codename": "kisscurl",
+    "otaId": "HE_DTV_W21P_AFADATAA",
+    "suffix": ".AWH",
+    "sizes": [
+      55,
+      65,
+      75
+    ],
+    "regions": [
+      "CL",
+      "CO",
+      "MX",
+      "PE"
     ]
   },
   "UP7770PUB": {
@@ -41405,6 +47944,9 @@ export default {
       75
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "HU",
       "PL"
     ]
   },
@@ -41423,8 +47965,18 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -41443,6 +47995,7 @@ export default {
       75
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -41462,6 +48015,7 @@ export default {
       75
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -41482,6 +48036,24 @@ export default {
       "HK"
     ]
   },
+  "UP7800PTB": {
+    "series": "UP78",
+    "machine": "k7lp",
+    "codename": "kisscurl",
+    "otaId": "HE_DTV_W21P_AFADATAA",
+    "suffix": ".ATV",
+    "sizes": [
+      43,
+      50,
+      55,
+      65,
+      70,
+      75
+    ],
+    "regions": [
+      "VN"
+    ]
+  },
   "UP80003LA": {
     "series": "UP80",
     "broadcast": "dvb",
@@ -41498,7 +48070,11 @@ export default {
       75
     ],
     "regions": [
-      "PL"
+      "CZ",
+      "ES",
+      "HU",
+      "PL",
+      "PT"
     ],
     "variants": [
       {
@@ -41527,6 +48103,8 @@ export default {
       75
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -41546,9 +48124,20 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -41578,7 +48167,11 @@ export default {
       75
     ],
     "regions": [
+      "AT",
       "DE",
+      "ES",
+      "FR",
+      "SE",
       "UK"
     ]
   },
@@ -41597,6 +48190,8 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
       "PL"
     ],
@@ -41626,6 +48221,7 @@ export default {
       75
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -41657,19 +48253,31 @@ export default {
       43,
       50,
       55,
+      60,
       65,
+      70,
       75
     ],
     "regions": [
       "AU",
-      "NZ"
+      "MY",
+      "NZ",
+      "SG",
+      "TH",
+      "VN"
     ],
     "variants": [
       {
         "machine": "lm21u",
         "otaId": "HE_DTV_W21U_AFADATAA",
         "sizes": [
+          82,
           86
+        ],
+        "regions": [
+          "AU",
+          "ID",
+          "NZ"
         ]
       }
     ]
@@ -41730,10 +48338,19 @@ export default {
     "otaId": "HE_DTV_W21A_AFADATAA",
     "suffix": ".BWZ",
     "sizes": [
+      43,
+      50,
+      55,
+      60,
+      65,
       75
     ],
     "regions": [
-      "BR"
+      "BR",
+      "CL",
+      "MX",
+      "PH",
+      "TW"
     ],
     "variants": [
       {
@@ -41763,8 +48380,10 @@ export default {
       75
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA"
     ],
     "variants": [
       {
@@ -41829,7 +48448,10 @@ export default {
       75
     ],
     "regions": [
-      "PL"
+      "CZ",
+      "HU",
+      "PL",
+      "PT"
     ]
   },
   "UP81003LR": {
@@ -41848,6 +48470,8 @@ export default {
       75
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -41867,9 +48491,17 @@ export default {
       75
     ],
     "regions": [
+      "AT",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -41900,7 +48532,12 @@ export default {
       75
     ],
     "regions": [
+      "AT",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "PT",
       "UK"
     ]
   },
@@ -41920,6 +48557,7 @@ export default {
       75
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -41939,6 +48577,7 @@ export default {
       75
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -41974,8 +48613,10 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
-      "NZ"
+      "NZ",
+      "SA"
     ]
   },
   "UP8200KNA": {
@@ -42177,6 +48818,8 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -42194,7 +48837,17 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PT",
+      "SA",
+      "SE",
       "UK"
     ]
   },
@@ -42292,6 +48945,7 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "RU",
       "ZA"
     ]
@@ -42310,6 +48964,10 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "HU",
+      "IT",
       "PL"
     ]
   },
@@ -42327,10 +48985,19 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "AU",
+      "BE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
       "NZ",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -42347,6 +49014,8 @@ export default {
       65
     ],
     "regions": [
+      "AE",
+      "SA",
       "ZA"
     ]
   },
@@ -42364,6 +49033,8 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
       "PL"
     ]
@@ -42383,8 +49054,14 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
+      "CO",
+      "ID",
       "IN",
-      "PE"
+      "PE",
+      "PH",
+      "TH",
+      "VN"
     ]
   },
   "UQ7550PSF": {
@@ -42396,11 +49073,17 @@ export default {
     "suffix": ".ATR",
     "sizes": [
       43,
+      50,
       55,
       65
     ],
     "regions": [
-      "IN"
+      "ID",
+      "IN",
+      "MY",
+      "PH",
+      "SG",
+      "VN"
     ]
   },
   "UQ7570PUJ": {
@@ -42417,6 +49100,7 @@ export default {
     ],
     "regions": [
       "CA",
+      "MX",
       "US"
     ]
   },
@@ -42474,6 +49158,7 @@ export default {
       65
     ],
     "regions": [
+      "AE",
       "KZ",
       "RU"
     ]
@@ -42505,6 +49190,8 @@ export default {
       43
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -42519,8 +49206,14 @@ export default {
       43
     ],
     "regions": [
+      "AE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ]
   },
@@ -42535,6 +49228,7 @@ export default {
       43
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -42546,9 +49240,14 @@ export default {
     "otaId": "HE_DTV_W22A_AFADATAA",
     "suffix": ".AEU",
     "sizes": [
-      50
+      50,
+      55,
+      65
     ],
     "regions": [
+      "CZ",
+      "HU",
+      "IT",
       "PL"
     ]
   },
@@ -42564,6 +49263,7 @@ export default {
       65
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -42577,10 +49277,13 @@ export default {
     "sizes": [
       50,
       55,
+      60,
       65
     ],
     "regions": [
       "BR",
+      "CL",
+      "CO",
       "PE"
     ]
   },
@@ -42599,6 +49302,7 @@ export default {
       75
     ],
     "regions": [
+      "AE",
       "RU"
     ]
   },
@@ -42617,6 +49321,10 @@ export default {
       75
     ],
     "regions": [
+      "AE",
+      "CZ",
+      "ES",
+      "HU",
       "PL"
     ],
     "variants": [
@@ -42655,9 +49363,16 @@ export default {
     ],
     "regions": [
       "AU",
+      "BE",
+      "ES",
+      "FR",
       "KZ",
+      "NL",
       "NZ",
+      "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ],
     "variants": [
@@ -42689,9 +49404,12 @@ export default {
       50,
       55,
       65,
+      70,
       75
     ],
     "regions": [
+      "AE",
+      "SA",
       "ZA"
     ]
   },
@@ -42710,7 +49428,9 @@ export default {
       75
     ],
     "regions": [
-      "DE"
+      "AT",
+      "DE",
+      "ES"
     ],
     "variants": [
       {
@@ -42785,6 +49505,46 @@ export default {
       "JP"
     ]
   },
+  "UQ8000PSB": {
+    "series": "UQ80",
+    "machine": "lm21an",
+    "codename": "mullet",
+    "otaId": "HE_DTV_W22A_AFADATAA",
+    "suffix": ".AWC",
+    "sizes": [
+      43,
+      50,
+      55,
+      60,
+      65
+    ],
+    "regions": [
+      "CO",
+      "MX"
+    ]
+  },
+  "UQ8000PSC": {
+    "series": "UQ80",
+    "machine": "lm21an",
+    "codename": "mullet",
+    "otaId": "HE_DTV_W22A_AFADATAA",
+    "suffix": ".ATV",
+    "sizes": [
+      43,
+      50,
+      55,
+      60,
+      65,
+      70,
+      75
+    ],
+    "regions": [
+      "ID",
+      "PH",
+      "TH",
+      "VN"
+    ]
+  },
   "UQ8020PSB": {
     "series": "UQ80",
     "broadcast": "dvb",
@@ -42838,8 +49598,17 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
+      "CO",
+      "ID",
       "IN",
-      "PE"
+      "MX",
+      "MY",
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ]
   },
   "UQ81003LA": {
@@ -42878,6 +49647,10 @@ export default {
       75
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "HU",
+      "IT",
       "PL"
     ]
   },
@@ -42898,7 +49671,16 @@ export default {
       75
     ],
     "regions": [
+      "AE",
+      "BE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ]
   },
@@ -42918,6 +49700,8 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "CZ",
       "DE",
       "PL"
     ]
@@ -42956,6 +49740,24 @@ export default {
     ],
     "regions": [
       "HK"
+    ]
+  },
+  "UQ8150PSB": {
+    "series": "UQ81",
+    "machine": "lm21an",
+    "codename": "mullet",
+    "otaId": "HE_DTV_W22A_AFADATAA",
+    "suffix": ".APH",
+    "sizes": [
+      50,
+      55,
+      60,
+      65,
+      70
+    ],
+    "regions": [
+      "PH",
+      "VN"
     ]
   },
   "UQ8200KNF": {
@@ -43073,6 +49875,8 @@ export default {
       75
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -43084,9 +49888,16 @@ export default {
     "otaId": "HE_DTV_W22A_AFADATAA",
     "suffix": ".AEK",
     "sizes": [
-      60
+      43,
+      50,
+      55,
+      60,
+      65,
+      75
     ],
     "regions": [
+      "ES",
+      "SE",
       "UK"
     ]
   },
@@ -43097,9 +49908,12 @@ export default {
     "otaId": "HE_DTV_W22A_AFADATAA",
     "suffix": ".HFBFLWK",
     "sizes": [
+      70,
       75
     ],
     "regions": [
+      "AE",
+      "SA",
       "ZA"
     ],
     "variants": [
@@ -43157,6 +49971,7 @@ export default {
       75
     ],
     "regions": [
+      "AT",
       "DE"
     ]
   },
@@ -43171,13 +49986,20 @@ export default {
       43,
       50,
       55,
+      60,
       65,
+      70,
       75
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "PH",
+      "SG",
+      "TH"
     ],
     "variants": [
       {
@@ -43225,9 +50047,15 @@ export default {
     "otaId": "HE_DTV_W22H_AFADATAA",
     "suffix": ".AWH",
     "sizes": [
+      50,
+      55,
+      65,
+      75,
       86
     ],
     "regions": [
+      "CL",
+      "MX",
       "PE"
     ],
     "variants": [
@@ -43252,6 +50080,9 @@ export default {
       75
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "HU",
       "PL"
     ],
     "variants": [
@@ -43287,8 +50118,16 @@ export default {
       75
     ],
     "regions": [
+      "AT",
       "AU",
+      "BE",
+      "ES",
+      "FR",
+      "NL",
       "NZ",
+      "PT",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -43333,6 +50172,7 @@ export default {
       75
     ],
     "regions": [
+      "AT",
       "DE"
     ],
     "variants": [
@@ -43517,6 +50357,9 @@ export default {
       65
     ],
     "regions": [
+      "CZ",
+      "HU",
+      "IT",
       "PL"
     ],
     "variants": [
@@ -43544,8 +50387,18 @@ export default {
       65
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "PL",
+      "PT",
+      "SA",
+      "SE",
       "UK",
       "ZA"
     ],
@@ -43568,11 +50421,14 @@ export default {
     "otaId": "HE_DTV_W23P_AFADATAA",
     "suffix": ".AWFQ",
     "sizes": [
+      43,
       50,
       55,
       65
     ],
     "regions": [
+      "CL",
+      "CO",
       "PE"
     ],
     "variants": [
@@ -43598,6 +50454,8 @@ export default {
       55
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -43613,8 +50471,49 @@ export default {
       55
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PT",
+      "SE",
       "UK"
+    ]
+  },
+  "UR7410PSA": {
+    "series": "UR74",
+    "machine": "k8lpn",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W23P_AFADATAA",
+    "suffix": ".AWC",
+    "sizes": [
+      50,
+      55,
+      65,
+      70
+    ],
+    "regions": [
+      "CO"
+    ]
+  },
+  "UR75003LK": {
+    "series": "UR75",
+    "machine": "m23",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W23M_AFADATAA",
+    "suffix": ".AEU",
+    "sizes": [
+      43,
+      50,
+      55,
+      65,
+      75
+    ],
+    "regions": [
+      "HU"
     ]
   },
   "UR75006LB": {
@@ -43628,7 +50527,11 @@ export default {
       86
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "FR",
+      "NL",
       "UK"
     ]
   },
@@ -43663,7 +50566,14 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "SE",
       "UK"
     ],
     "variants": [
@@ -43721,7 +50631,9 @@ export default {
       65
     ],
     "regions": [
-      "IN"
+      "ID",
+      "IN",
+      "PH"
     ],
     "variants": [
       {
@@ -43762,10 +50674,18 @@ export default {
       43,
       50,
       55,
-      65
+      65,
+      70,
+      75
     ],
     "regions": [
-      "IN"
+      "ID",
+      "IN",
+      "MY",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ],
     "variants": [
       {
@@ -43790,6 +50710,8 @@ export default {
       75
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ]
   },
@@ -43804,7 +50726,15 @@ export default {
       86
     ],
     "regions": [
-      "DE"
+      "AT",
+      "BE",
+      "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PT",
+      "SE"
     ],
     "variants": [
       {
@@ -43829,7 +50759,15 @@ export default {
       75
     ],
     "regions": [
-      "DE"
+      "AT",
+      "BE",
+      "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PT",
+      "SE"
     ]
   },
   "UR7790PSA": {
@@ -43895,6 +50833,8 @@ export default {
       86
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ],
     "variants": [
@@ -43923,6 +50863,9 @@ export default {
       75
     ],
     "regions": [
+      "CZ",
+      "ES",
+      "HU",
       "PL"
     ],
     "variants": [
@@ -43947,9 +50890,42 @@ export default {
       86
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PT",
       "RU",
+      "SE",
       "UK"
+    ],
+    "variants": [
+      {
+        "codename": "ombre",
+        "swMajor": "23"
+      },
+      {
+        "codename": "ponytail",
+        "swMajor": "33"
+      }
+    ]
+  },
+  "UR78006LC": {
+    "series": "UR78",
+    "machine": "k8lpn",
+    "codename": "number1",
+    "otaId": "HE_DTV_W23P_AFADATAA",
+    "suffix": ".AMVE",
+    "sizes": [
+      86
+    ],
+    "regions": [
+      "AE",
+      "SA"
     ],
     "variants": [
       {
@@ -43977,10 +50953,21 @@ export default {
       75
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
+      "PT",
       "RU",
+      "SE",
       "UK"
     ],
     "variants": [
@@ -44009,19 +50996,21 @@ export default {
       75
     ],
     "regions": [
+      "AE",
       "AU",
       "NZ",
+      "SA",
       "ZA"
     ],
     "variants": [
       {
         "codename": "number1",
-        "suffix": ".AFKE",
+        "suffix": ".AMVE",
         "swMajor": "03"
       },
       {
         "codename": "ombre",
-        "suffix": ".AFKE",
+        "suffix": ".AMVE",
         "swMajor": "23"
       }
     ]
@@ -44088,9 +51077,14 @@ export default {
     "suffix": ".AWH",
     "sizes": [
       43,
-      50
+      50,
+      55,
+      65,
+      75
     ],
     "regions": [
+      "CO",
+      "MX",
       "PE"
     ],
     "variants": [
@@ -44133,6 +51127,8 @@ export default {
       70
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ],
     "variants": [
@@ -44156,8 +51152,10 @@ export default {
       86
     ],
     "regions": [
+      "AE",
       "AU",
       "NZ",
+      "SA",
       "ZA"
     ],
     "variants": [
@@ -44187,9 +51185,19 @@ export default {
       75
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
       "NZ",
+      "PT",
+      "SA",
+      "SE",
       "UK",
       "ZA"
     ],
@@ -44339,6 +51347,21 @@ export default {
       }
     ]
   },
+  "UR80506LK": {
+    "series": "UR80",
+    "machine": "lm21ann",
+    "codename": "ponytail",
+    "otaId": "HE_DTV_W23A_AFADATAA",
+    "suffix": ".AMVE",
+    "sizes": [
+      55,
+      65,
+      75
+    ],
+    "regions": [
+      "SA"
+    ]
+  },
   "UR8050PCB": {
     "series": "UR80",
     "broadcast": "dvb",
@@ -44384,8 +51407,14 @@ export default {
     ],
     "regions": [
       "AU",
+      "ID",
       "IN",
-      "NZ"
+      "MY",
+      "NZ",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ],
     "variants": [
       {
@@ -44434,6 +51463,8 @@ export default {
       86
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ],
     "variants": [
@@ -44462,6 +51493,9 @@ export default {
       75
     ],
     "regions": [
+      "CZ",
+      "HU",
+      "IT",
       "PL"
     ],
     "variants": [
@@ -44486,11 +51520,21 @@ export default {
       86
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "NL",
       "NZ",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -44520,11 +51564,22 @@ export default {
       75
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "ID",
+      "IT",
       "KZ",
+      "NL",
       "NZ",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -44554,6 +51609,35 @@ export default {
     ],
     "regions": [
       "RU"
+    ],
+    "variants": [
+      {
+        "codename": "ombre",
+        "swMajor": "23"
+      },
+      {
+        "codename": "ponytail",
+        "swMajor": "33"
+      }
+    ]
+  },
+  "UR8150PSB": {
+    "series": "UR81",
+    "machine": "k8lpn",
+    "codename": "number1",
+    "otaId": "HE_DTV_W23P_AFADATAA",
+    "suffix": ".ATV",
+    "sizes": [
+      50,
+      55,
+      65,
+      75,
+      86
+    ],
+    "regions": [
+      "MY",
+      "PH",
+      "VN"
     ],
     "variants": [
       {
@@ -44737,6 +51821,9 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
+      "CO",
+      "MX",
       "PE"
     ],
     "variants": [
@@ -44790,6 +51877,9 @@ export default {
     ],
     "regions": [
       "BR",
+      "CL",
+      "CO",
+      "MX",
       "PE"
     ],
     "variants": [
@@ -44818,7 +51908,12 @@ export default {
       75
     ],
     "regions": [
-      "IN"
+      "ID",
+      "IN",
+      "MY",
+      "TH",
+      "TW",
+      "VN"
     ],
     "variants": [
       {
@@ -44846,6 +51941,8 @@ export default {
       75
     ],
     "regions": [
+      "CZ",
+      "HU",
       "PL"
     ],
     "variants": [
@@ -44874,9 +51971,20 @@ export default {
       75
     ],
     "regions": [
+      "AE",
+      "AT",
+      "BE",
       "DE",
+      "ES",
+      "FR",
+      "ID",
+      "IT",
       "KZ",
+      "NL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -44932,6 +52040,7 @@ export default {
       75
     ],
     "regions": [
+      "ID",
       "KR"
     ],
     "variants": [
@@ -45224,13 +52333,22 @@ export default {
       50,
       55,
       65,
+      70,
       75,
       86
     ],
     "regions": [
+      "AE",
+      "AT",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
+      "PT",
       "RU",
+      "SA",
+      "SE",
       "UK",
       "ZA"
     ],
@@ -45253,9 +52371,13 @@ export default {
     "sizes": [
       50,
       55,
-      65
+      65,
+      75,
+      86
     ],
     "regions": [
+      "AE",
+      "SA",
       "ZA"
     ]
   },
@@ -45408,13 +52530,23 @@ export default {
       50,
       55,
       65,
+      70,
       75,
       86
     ],
     "regions": [
       "AU",
+      "CL",
+      "CO",
+      "ID",
+      "MX",
+      "MY",
       "NZ",
-      "PE"
+      "PE",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
     ],
     "variants": [
       {
@@ -45439,12 +52571,21 @@ export default {
       86
     ],
     "regions": [
+      "AE",
+      "AT",
       "AU",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "IT",
       "KZ",
       "NZ",
       "PL",
+      "PT",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -45626,6 +52767,9 @@ export default {
     "regions": [
       "AU",
       "BR",
+      "CL",
+      "CO",
+      "ID",
       "NZ",
       "PE"
     ],
@@ -45640,6 +52784,11 @@ export default {
           55,
           65
         ],
+        "regions": [
+          "BR",
+          "MX",
+          "PE"
+        ],
         "swMajor": "03"
       },
       {
@@ -45650,6 +52799,11 @@ export default {
         "sizes": [
           55,
           65
+        ],
+        "regions": [
+          "BR",
+          "MX",
+          "PE"
         ]
       },
       {
@@ -45657,6 +52811,31 @@ export default {
         "codename": "ombre",
         "suffix": ".AWFQ",
         "swMajor": "03"
+      }
+    ]
+  },
+  "UT9050PSB": {
+    "series": "UT90",
+    "machine": "k8lpn2",
+    "codename": "ombre",
+    "otaId": "HE_DTV_W24P_AFADATAA",
+    "suffix": ".ATI",
+    "sizes": [
+      50,
+      55,
+      65,
+      75
+    ],
+    "regions": [
+      "ID",
+      "MY",
+      "TH",
+      "VN"
+    ],
+    "variants": [
+      {
+        "codename": "ponytail",
+        "swMajor": "33"
       }
     ]
   },
@@ -45675,10 +52854,20 @@ export default {
       75
     ],
     "regions": [
+      "AT",
+      "BE",
+      "CZ",
       "DE",
+      "ES",
+      "FR",
+      "HU",
+      "IT",
       "KZ",
+      "NL",
       "PL",
       "RU",
+      "SE",
+      "TR",
       "UK"
     ],
     "variants": [
@@ -45695,6 +52884,11 @@ export default {
         "suffix": ".AEKQ",
         "sizes": [
           98
+        ],
+        "regions": [
+          "DE",
+          "PT",
+          "UK"
         ]
       },
       {
@@ -45704,6 +52898,11 @@ export default {
         "suffix": ".AEKQ",
         "sizes": [
           98
+        ],
+        "regions": [
+          "DE",
+          "PT",
+          "UK"
         ],
         "swMajor": "33"
       }
