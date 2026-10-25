@@ -151,6 +151,7 @@ export const machineOtaIdPrefix = {
   'lm24f': ['HE_DTV_W26L_AFAA'],
   'o26': ['HE_DTV_W26O_AFAB'],
   'k26': ['HE_DTV_W26H_AFAD'],
+  'k26t': ['HE_DTV_N26D_AFAD'],
   'k25lpn': ['HE_DTV_W26P_AFAD'],
 };
 

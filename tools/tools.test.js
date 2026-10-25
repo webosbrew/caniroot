@@ -5,6 +5,7 @@ import {minorMajor, regionBroadcasts} from "./mappings.js";
 import assert from "node:assert";
 import {parseDeviceModel} from "./device-model.js";
 import models from "../src/models.gen.js";
+import {DeviceModelName} from "../src/library.js";
 
 describe('mappings', () => {
   it('should map all minor releases', () => {
@@ -44,4 +45,9 @@ describe('mappings', () => {
     }
   });
 
+  it('should infer the OTA ID for k26t firmware', {only: true}, () => {
+    const model = DeviceModelName.parse('32LX6BEGA');
+    const epk = 'starfish-global-secured-k26t-qianshan-3701-43.11.31_prodkey_usb_V3_SECURED.epk';
+    assert.strictEqual(parseDeviceModel(model, epk, 'KR')?.otaId, 'HE_DTV_N26D_AFADATAA');
+  });
 });
