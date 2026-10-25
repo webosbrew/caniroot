@@ -153,6 +153,7 @@ export const machineOtaIdPrefix = {
   'k26': ['HE_DTV_W26H_AFAD'],
   'k26t': ['HE_DTV_N26D_AFAD'],
   'k25lpn': ['HE_DTV_W26P_AFAD'],
+  'k25lpnlm': ['HE_DTV_W26N_AFAD'],
 };
 
 /**

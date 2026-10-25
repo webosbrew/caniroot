@@ -50,4 +50,10 @@ describe('mappings', () => {
     const epk = 'starfish-global-secured-k26t-qianshan-3701-43.11.31_prodkey_usb_V3_SECURED.epk';
     assert.strictEqual(parseDeviceModel(model, epk, 'KR')?.otaId, 'HE_DTV_N26D_AFADATAA');
   });
+
+  it('should infer the OTA ID for k25lpnlm firmware', {only: true}, () => {
+    const model = DeviceModelName.parse('50NU700BPUA.ACC');
+    const epk = 'lib32-starfish-global-secured-k25lpnlm-qausui-6212-43.02.86_prodkey_usb_V3_SECURED.epk';
+    assert.strictEqual(parseDeviceModel(model, epk, 'CA')?.otaId, 'HE_DTV_W26N_AFADATAA');
+  });
 });
