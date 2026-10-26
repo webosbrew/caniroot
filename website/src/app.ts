@@ -2,7 +2,7 @@ import {Component, html, render} from 'htm/preact';
 import {DeviceExploitAvailabilities, DeviceExploitType, DeviceModel, DeviceModelName} from "@webosbrew/caniroot";
 import debounce from 'lodash-es/debounce';
 import {RenderableProps} from "preact";
-import {ExploitCard} from "./exploit";
+import {ExploitCard, RootingGuideReference} from "./exploit";
 import {SearchHint, webOSReleaseName} from "./hint";
 
 interface AppProps {
@@ -207,6 +207,7 @@ class App extends Component<AppProps, AppState> {
                     No known rooting methods are available for this model. <br/>
                     <a href="https://discord.gg/xWqRVEm">Contact us</a> to help us find a way to root!
                   </div>
+                  <${RootingGuideReference}/>
                 </div>
               `}
 
@@ -223,6 +224,7 @@ class App extends Component<AppProps, AppState> {
                     method.
                     <br/>
                   </div>
+                  <${RootingGuideReference}/>
                 </div>
 
                 <div class="card p-3 mt-3 bg-info-subtle">
@@ -236,6 +238,7 @@ class App extends Component<AppProps, AppState> {
                     Alternatively, you can modify contents on NVRAM chip in the TV to enable root access. <br/>
                     <i class="bi bi-exclamation-triangle-fill me-2"/>This method requires expert knowledge.
                   </div>
+                  <${RootingGuideReference}/>
                 </div>
               `
               }
