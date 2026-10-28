@@ -239,17 +239,6 @@ class App extends Component<AppProps, AppState> {
                 </div>
               `
               }
-
-              ${(model || state.availability) && html`
-                <div class="card p-3 mt-3 bg-info-subtle">
-                  <h3>
-                    <i class="bi bi-book me-2"></i>
-                    <a class="stretched-link text-decoration-none" href="https://tv.slada.sk/guides/rooting-guide"
-                       target="_blank" rel="noopener noreferrer">Third-party rooting guide</a>
-                  </h3>
-                  <div>Additional rooting reference from tv.slada.sk.</div>
-                </div>
-              `}
           </div>
         `;
     }
