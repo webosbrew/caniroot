@@ -5,6 +5,8 @@
  * @property {string} region
  * @property {string} [epk]
  * @property {string} [ota_id]
+ * @property {string} [inferred_from] Reviewed reference from the database export.
+ * @property {string[]} [inferredFrom] References used by automatic inference.
  */
 
 /**
@@ -21,6 +23,7 @@ import {DeviceModelName} from "../src/library.js";
 import {chain, concat, filter, groupBy, isEqual, sortBy, sortedUniq, uniqBy, without} from "lodash-es";
 import {epkNameRegex, parseDeviceModel} from "./device-model.js";
 import * as rfc6902 from "rfc6902";
+import {inferModelFallbacks} from './model-fallbacks.js';
 
 /**
  * @type {Record<string, DeviceModelData>}
@@ -32,7 +35,7 @@ const knownRegions = Object.keys(regionBroadcasts);
 /** @typedef {Omit<ModelItem, 'model'> & {model: DeviceModelName}} GroupedModelItem */
 
 /** @type {Record<string, GroupedModelItem[]>} */
-const dumpGrouped = groupBy(dump.map(item => {
+const dumpGrouped = inferModelFallbacks(groupBy(dump.map(item => {
   let modelRaw = item.model;
   if (item.region === 'KR' && modelRaw.match(/-N[A-Z]$/)) {
     // -N? models seems to be duplicates of the same model, so we can ignore them
@@ -45,7 +48,7 @@ const dumpGrouped = groupBy(dump.map(item => {
     return null;
   }
   return {...item, ota_id, model};
-}).filter(v => v), (item) => item.model.simple);
+}).filter(v => v), (item) => item.model.simple));
 
 /** @type {Record<string, DumpItem[]>} */
 const updatesGrouped = groupBy(updates, item => {
@@ -113,6 +116,7 @@ function modelsProps(model, epk, otaId, items, getter) {
 }
 
 for (let [model, group] of Object.entries(dumpGrouped)) {
+  if (!group.some(item => item.epk)) continue;
   group = group.filter(v => !isMismatch(v));
   // Sort by otaId, region, codename and size
   group = sortBy(group, v => {
@@ -150,6 +154,8 @@ for (let [model, group] of Object.entries(dumpGrouped)) {
 
   base.sizes = modelsProps(parsedName, epk, ota_id, items, x => x.model.size);
   base.regions = modelsProps(parsedName, epk, ota_id, items, x => x.region);
+  const inferredFrom = [...new Set(items.flatMap(item => item.inferredFrom || []))].sort();
+  if (inferredFrom.length) base.inferredFrom = inferredFrom;
   /** @type {DeviceModelData[]} */
   let variants = filter(groupBy(items.slice(1).flatMap(({model, epk, region, ota_id}) => {
     /** @type {DeviceModelVariantData | undefined} */

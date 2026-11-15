@@ -108,6 +108,8 @@ export class DeviceModelName {
 }
 
 export interface DeviceModelData {
+    /** Source model/region pairs when the mapping was inferred from neighbors. */
+    inferredFrom?: string[];
     series: string;
     broadcast: string;
     machine: string;
@@ -122,6 +124,7 @@ export interface DeviceModelData {
 export type DeviceModelVariantData = Partial<Omit<DeviceModelData, 'variants'> & { swMajor: string }>;
 
 export class DeviceModel implements DeviceModelData {
+    readonly inferredFrom?: string[];
     readonly model: string;
     readonly series: string;
     readonly broadcast: string;
