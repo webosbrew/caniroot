@@ -40291,15 +40291,14 @@ export default {
       "ES",
       "FR",
       "HU",
-      "IN",
       "IT",
-      "KZ",
       "NL",
       "PT",
-      "RU",
-      "SA",
       "SE",
       "UK"
+    ],
+    "inferredFrom": [
+      "43UA75006LA.AEU/DE"
     ]
   },
   "UA7300PSB": {
@@ -40318,8 +40317,10 @@ export default {
     "regions": [
       "CL",
       "CO",
-      "MX",
       "PE"
+    ],
+    "inferredFrom": [
+      "43UA7500PSA.AWR/BR"
     ]
   },
   "UA74003LB": {
@@ -40764,6 +40765,9 @@ export default {
     "regions": [
       "CA",
       "US"
+    ],
+    "inferredFrom": [
+      "43UA7000PUB.ACC/CA"
     ]
   },
   "UA7900YUA": {

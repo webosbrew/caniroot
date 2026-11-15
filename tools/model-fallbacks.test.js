@@ -65,3 +65,56 @@ test('unparseable neighboring firmware blocks inference', () => {
 });
 
 });
+
+describe('reviewed model fallbacks', {only: true}, () => {
+  const fixtures = [
+    ['43UA73006LA.AEU', 'UK', '43UA75006LA.AEU', 'DE', 'panna-35-33.11.10'],
+    ['43UA7700PUB.AUS', 'US', '43UA7000PUB.ACC', 'CA', 'papikonda-3001-33.31.61'],
+    ['43UA7300PSB.AWH', 'PE', '43UA7500PSA.AWR', 'BR', 'paparoa-5504-33.22.69'],
+  ];
+  function reference(fixture) {
+    return row(fixture[2], fixture[3], true, {
+      epk: `lib32-starfish-global-secured-k25lp-${fixture[4]}_prodkey_usb_V3_SECURED.epk`,
+      ota_id: 'HE_DTV_W25P_AFADATAA',
+    });
+  }
+
+  test('preserves all three exceptions and records source provenance', () => {
+    for (const fixture of fixtures) {
+      const target = row(fixture[0], fixture[1]);
+      const donor = reference(fixture);
+      const result = infer([target, donor])[target.model.simple];
+      assert.equal(result.length, 1);
+      assert.equal(result[0].ota_id, donor.ota_id);
+      assert.equal(result[0].epk, donor.epk);
+      assert.deepEqual(result[0].inferredFrom, [`${fixture[2]}/${fixture[3]}`]);
+    }
+  });
+
+  test('keeps Mexico outside the reviewed ISDB fallback', () => {
+    const fixture = fixtures[2];
+    const result = infer([row(fixture[0], 'PE'), row(fixture[0], 'MX'), reference(fixture)]);
+    assert.deepEqual(result.UA7300PSB.map(r => r.region), ['PE']);
+  });
+
+  test('requires the exact directly linked reference', () => {
+    const fixture = fixtures[0];
+    const target = row(fixture[0], fixture[1]);
+    for (const patch of [{epk: epk}, {ota_id: 'OTHER'}, {inferredFrom: ['source']}]) {
+      assert.throws(() => infer([target, {...reference(fixture), ...patch}]),
+        /Fallback reference firmware is not linked/);
+    }
+  });
+
+  test('a direct target mapping supersedes the reviewed exception', () => {
+    const fixture = fixtures[0];
+    const direct = row(fixture[0], fixture[1], true);
+    assert.equal(infer([direct])[direct.model.simple][0], direct);
+  });
+
+  test('reviewed mappings cannot become automatic donors', () => {
+    const fixture = fixtures[0];
+    const result = infer([row(fixture[0], fixture[1]), reference(fixture), row('43UA73003LA.AEU', 'UK')]);
+    assert.equal(result.UA73003LA[0].epk, null);
+  });
+});
